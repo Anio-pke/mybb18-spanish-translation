@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tasks version="1400" exported="">
+	<task>
+		<title>Limpieza cada hora</title>
+		<description><![CDATA[Limpia búsquedas antiguas, imágenes captcha y redirecciones caducadas.]]></description>
+		<file>hourlycleanup</file>
+		<minute>0</minute>
+		<hour>*</hour>
+		<day>*</day>
+		<weekday>*</weekday>
+		<month>*</month>
+		<enabled>1</enabled>
+		<logging>1</logging>
+	</task>
+	<task>
+		<title>Limpieza diaria</title>
+		<description><![CDATA[Limpia sesiones antíguas y temas leídos.]]></description>
+		<file>dailycleanup</file>
+		<minute>0</minute>
+		<hour>0</hour>
+		<day>*</day>
+		<weekday>*</weekday>
+		<month>*</month>
+		<enabled>1</enabled>
+		<logging>1</logging>
+	</task>
+	<task>
+		<title>Limpieza de usuarios cada media hora</title>
+		<description><![CDATA[Levanta suspensiones, advertencias y suspensiones de escritura de los usuarios.]]></description>
+		<file>usercleanup</file>
+		<minute>30,59</minute>
+		<hour>*</hour>
+		<day>*</day>
+		<weekday>*</weekday>
+		<month>*</month>
+		<enabled>1</enabled>
+		<logging>1</logging>
+	</task>
+	<task>
+		<title>Copia de seguridad semanal</title>
+		<description><![CDATA[Realiza automáticamente copias de seguridad de la base de datos de MyBB en el directorio backups.]]></description>
+		<file>backupdb</file>
+		<minute>0</minute>
+		<hour>0</hour>
+		<day>*</day>
+		<weekday>0</weekday>
+		<month>*</month>
+		<enabled>0</enabled>
+		<logging>1</logging>
+	</task>
+	<task>
+		<title>Sistema de promociones</title>
+		<description><![CDATA[Ejecuta automáticamente el sistema de promociones cada 20 minutos.]]></description>
+		<file>promotions</file>
+		<minute>5,25,45</minute>
+		<hour>*</hour>
+		<day>*</day>
+		<weekday>*</weekday>
+		<month>*</month>
+		<enabled>1</enabled>
+		<logging>1</logging>
+	</task>
+	<task>
+		<title>Vistas de temas</title>
+		<description><![CDATA[Actualiza automáticamente las vistas de los temas cada 15 minutos. Esta tarea se activa o desactiva cuando cambias el ajuste 'Actualizar número de vistas con retraso'.]]></description>
+		<file>threadviews</file>
+		<minute>10,25,40,55</minute>
+		<hour>*</hour>
+		<day>*</day>
+		<weekday>*</weekday>
+		<month>*</month>
+		<enabled>0</enabled>
+		<logging>1</logging>
+	</task>
+	<task>
+		<title>Comprobación de las tablas</title>
+		<description><![CDATA[Ejecuta una comprobación automáticamente de las tablas e intenta reparar cualquier tabla corrupta.]]></description>
+		<file>checktables</file>
+		<minute>0</minute>
+		<hour>*</hour>
+		<day>*</day>
+		<weekday>*</weekday>
+		<month>*</month>
+		<enabled>0</enabled>
+		<logging>1</logging>
+	</task>
+	<task>
+		<title>Limpieza de historiales</title>
+		<description><![CDATA[Limpia automáticamente las entradas antiguas de los historiales de MyBB (administración, moderación, tareas, promociones y de correo.)]]></description>
+		<file>logcleanup</file>
+		<minute>21</minute>
+		<hour>5</hour>
+		<day>*</day>
+		<weekday>*</weekday>
+		<month>*</month>
+		<enabled>1</enabled>
+		<logging>1</logging>
+	</task>
+	<task>
+		<title>Envíos masivos</title>
+		<description><![CDATA[Automáticamente envía cualquier envío que este en cola cada 15 minutos.]]></description>
+		<file>massmail</file>
+		<minute>10,25,40,55</minute>
+		<hour>*</hour>
+		<day>*</day>
+		<weekday>*</weekday>
+		<month>*</month>
+		<enabled>1</enabled>
+		<logging>1</logging>
+	</task>
+	<task>
+		<title>Borrado de usuarios</title>
+		<description><![CDATA[Automáticamente borra usuarios basándose en un criterio configurado todos los días.]]></description>
+		<file>userpruning</file>
+		<minute>*</minute>
+		<hour>2</hour>
+		<day>*</day>
+		<weekday>*</weekday>
+		<month>*</month>
+		<enabled>1</enabled>
+		<logging>1</logging>
+	</task>
+	<task>
+		<title>Moderación retardada</title>
+		<description><![CDATA[Automáticamente ejecuta las acciones de moderación retardada cada 24 horas.]]></description>
+		<file>delayedmoderation</file>
+		<minute>0</minute>
+		<hour>0</hour>
+		<day>*</day>
+		<weekday>*</weekday>
+		<month>*</month>
+		<enabled>1</enabled>
+		<logging>1</logging>
+	</task>
+	<task>
+		<title>Comprobación de Versión</title>
+		<description><![CDATA[Automáticamente busca todos los días noticias o nuevas versiones de MyBB.]]></description>
+		<file>versioncheck</file>
+		<minute>0</minute>
+		<hour>0</hour>
+		<day>*</day>
+		<weekday>*</weekday>
+		<month>*</month>
+		<enabled>1</enabled>
+		<logging>1</logging>
+	</task>
+</tasks>
