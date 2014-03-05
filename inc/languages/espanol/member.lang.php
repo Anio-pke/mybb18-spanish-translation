@@ -45,7 +45,6 @@ $l['local_time_format'] = "{1} en {2}";
 $l['users_forum_info'] = "Información sobre {1}";
 $l['joined'] = "Ingresó:";
 $l['lastvisit'] = "Ultima visita:";
-$l['lastvisit_hidden'] = "N/A";
 $l['total_posts'] = "Mensajes totales:";
 $l['ppd_percent_total'] = "{1} por día | {2} &#37; del total";
 $l['find_posts'] = "Buscar sus mensajes";
@@ -153,7 +152,7 @@ $l['verification_note'] = "Escribe el texto que aparece en la imagen de la derec
 $l['verification_subnote'] = "(no distingue MAYÚSC/minúsc)";
 $l['registration_errors'] = "Los siguientes errores ocurrieron con tu registro:";
 $l['timeonline'] = "Tiempo en línea:";
-$l['timeonline_hidden'] = "N/A";
+$l['timeonline_hidden'] = "(Oculto)";
 $l['registrations_disabled'] = "Lo sentimos, pero no te puedes registrar por el momento debido a que los administradores han desactivado el registro de nuevas cuentas.";
 $l['error_username_length'] = "Tu nombre de usuario es inválido. Los nombres de usuario tienen que ser de {1} a {2} letras de largo.";
 
