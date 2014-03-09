@@ -3,7 +3,6 @@
  * MyBB 1.8 Spanish Language Pack
  * Copyright 2014 MyBB Group, All Rights Reserved
  *
-  * $Id: language.lang.php 5616 2014-02-24 13:56:33Z Anio_pke $
  */
 
 /* INSTALL LANGUAGE VARIABLES */
