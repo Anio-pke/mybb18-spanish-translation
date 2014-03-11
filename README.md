@@ -2,3 +2,4 @@
 ==========================
 
 Traducción al español para MyBB 1.8.x Alpha
+Spanish translation for MyBB 1.8.x Alpha
