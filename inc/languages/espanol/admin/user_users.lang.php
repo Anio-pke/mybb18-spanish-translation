@@ -3,6 +3,7 @@
  * MyBB 1.8 Spanish Language Pack
  * Copyright 2014 MyBB Group, All Rights Reserved
  *
+ * Translator: Anio_pke
  */
 
 $l['users'] = "Usuarios";
@@ -157,10 +158,11 @@ $l['optional_profile_info'] = "Información de perfil opcional";
 $l['custom_user_title'] = "Título de usuario personalizado";
 $l['custom_user_title_desc'] = "Si esta vacío, se usará el del grupo";
 $l['website'] = "Sitio web";
-$l['icq_number'] = "Número de ICQ";
-$l['aim_handle'] = "Nombre de AIM";
-$l['yahoo_messanger_handle'] = "ID de Yahoo!";
-$l['msn_messanger_handle'] = "ID de WLM";
+$l['icq_number'] = "Número ICQ";
+$l['aim_handle'] = "AIM";
+$l['yahoo_messanger_handle'] = "Yahoo!";
+$l['skype_handle'] = "Skype";
+$l['google_handle'] = "Google Talk";
 $l['birthday'] = "Fecha de nacimiento";
 
 $l['away_information'] = "Información de ausencia";
@@ -335,8 +337,9 @@ $l['is_member_of_groups'] = "Es miembro de uno o más de estos grupos";
 $l['website_contains'] = "El sitio web contiene";
 $l['icq_number_contains'] = "El número ICQ contiene";
 $l['aim_handle_contains'] = "El nombre de AIM contiene";
-$l['yahoo_contains'] = "La ID de Yahoo contiene";
-$l['msn_contains'] = "La cuenta del WLM contiene";
+$l['yahoo_contains'] = "La cuenta de Yahoo! contiene";
+$l['skype_contains'] = "La cuenta de Skype contiene";
+$l['google_contains'] = "La cuenta de Google Talk contiene";
 $l['signature_contains'] = "La firma contiene";
 $l['user_title_contains'] = "El título de usuario contiene";
 $l['greater_than'] = "Mayor que";
@@ -395,4 +398,8 @@ Podrás iniciar sesión con los datos con los que te has registrado.
 
 Gracias,
 El equipo de {2}";
+
+$l['ipaddress_misc_info'] = "Información de '{1}'";
+$l['ipaddress_host_name'] = "Nombre de Host";
+$l['ipaddress_location'] = "Localización GeoIP";
 ?>

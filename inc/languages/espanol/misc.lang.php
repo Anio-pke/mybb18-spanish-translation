@@ -3,6 +3,7 @@
  * MyBB 1.8 Spanish Language Pack
  * Copyright 2014 MyBB Group, All Rights Reserved
  *
+ * Translator: Anio_pke
  */
 
 $l['nav_helpdocs'] = "Documentos de ayuda";
@@ -10,10 +11,12 @@ $l['nav_smilies'] = "Lista de iconos gestuales";
 $l['nav_syndication'] = "Sindicación del ultimo tema (RSS)";
 
 $l['aol_im'] = "AOL IM";
-$l['msn'] = "WLMessenger";
-$l['yahoo_im'] = "Yahoo! IM";
-$l['msn_messenger_center'] = "Centro de WLMessenger";
-$l['msn_address_is'] = "La dirección de WLM de {1} es:";
+$l['skype'] = "Skype";
+$l['yahoo_im'] = "Yahoo!";
+$l['skype_center'] = "Centro Skype";
+$l['skype_status'] = "Estado Skype";
+$l['chat_on_skype'] = "Charlar con {1} en Skype";
+$l['call_on_skype'] = "Llamada a {1} en Skype";
 $l['yahoo_center'] = "Centro Yahoo!";
 $l['send_y_message'] = "Enviar a {1} un mensaje de Yahoo!.";
 $l['view_y_profile'] = "Ver el perfil Yahoo! de {1}.";

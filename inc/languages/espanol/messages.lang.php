@@ -3,6 +3,7 @@
  * MyBB 1.8 Spanish Language Pack
  * Copyright 2014 MyBB Group, All Rights Reserved
  *
+ * Translator: Anio_pke
  */
 
 $l['click_no_wait'] = "Haz clic aquí si no quieres esperar más.";
@@ -72,6 +73,7 @@ $l['error_too_many_images3'] = "<b>Nota:</b> La máxima cantidad de imágenes po
 $l['error_attach_file'] = "Error adjuntando archivo";
 $l['please_correct_errors'] = "Corrige los siguientes errores antes de continuar:";
 $l['error_reachedattachquota'] = "Lo sentimos, pero no puedes adjuntar este archivo porque ya has llegado a la cuota de {1}";
+$l['error_maxattachpost'] = "Lo sentimos, pero no puedes adjuntar este archivo porque has superado el número máximo de adjuntos permitidos por mensaje de {1}";
 $l['error_invaliduser'] = "El usuario especificado es inválido o no existe.";
 $l['error_invalidaction'] = "Acción inválida";
 $l['error_messagelength'] = "Lo sentimos, pero tu mensaje es muy largo y no puede publicarse. Por favor, intenta cortar tu mensaje e intenta de nuevo.";
@@ -79,6 +81,7 @@ $l['error_message_too_short'] = "Lo sentimos, tu mensaje es un corto y no puede 
 $l['failed_login_wait'] = "Ya has fallado el número de intentos requeridos para iniciar sesión. Debes esperar {1}h {2}m {3}s antes de volver a intentarlo.";
 $l['failed_login_again'] = "<br/>Tienes <strong>{1}</strong> intentos de inicio de sesión más.";
 $l['error_max_emails_day'] = "No puedes usar 'Enviar tema a un amigo' o 'Enviar email' porque ya has utilizado tu cuota de {1} mensajes en las últimas 24 horas.";
+$l['attachments_disabled'] = "No puedes usar el sistema de adjuntos por haber sido deshabilitado por el Administrador.";
 
 $l['emailsubject_lostpw'] = "Contraseña reiniciada {1}";
 $l['emailsubject_passwordreset'] = "Nueva contraseña en {1}";

@@ -3,6 +3,7 @@
  * MyBB 1.8 Spanish Language Pack
  * Copyright 2014 MyBB Group, All Rights Reserved
  *
+ * Translator: Anio_pke
  */
 
 $l['pmdata_too_long_subject'] = 'El título de tu mensaje privado es muy largo. Por favor, introduce en título más corto.';

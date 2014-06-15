@@ -3,6 +3,7 @@
  * MyBB 1.8 Spanish Language Pack
  * Copyright 2014 MyBB Group, All Rights Reserved
  *
+ * Translator: Anio_pke
  */
 
 $l['mass_mail'] = "Envíos masivos";
@@ -70,6 +71,7 @@ $l['subject'] = "Asunto";
 $l['message'] = "Mensaje";
 $l['text_based'] = "Versión texto plano";
 $l['preview'] = "Vista previa";
+$l['mass_mail_preview'] = "Vista previa email masivo";
 $l['html_based'] = "Versión HTML";
 $l['total_recipients'] = "Total de destinatarios";
 $l['change_recipient_conds'] = "Cambiar condiciones";

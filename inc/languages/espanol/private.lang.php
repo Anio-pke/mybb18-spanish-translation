@@ -3,6 +3,7 @@
  * MyBB 1.8 Spanish Language Pack
  * Copyright 2014 MyBB Group, All Rights Reserved
  *
+ * Translator: Anio_pke
  */
 
 $l['nav_pms'] = "Mensaje privado";
@@ -187,5 +188,13 @@ $l['redirect_pmsent'] = "Gracias, tu mensaje privado ha sido enviado correctamen
 $l['redirect_pmfoldersupdated'] = "Gracias, las carpetas de los mensajes privados han sido actualizadas.<br />Ahora serás llevado de regreso a la bandeja de entrada.";
 $l['redirect_pmfoldersemptied'] = "Se han vaciado exitosamente las carpetas de mensajes privados seleccionadas.<br /> Ahora volverás a la bandeja de entrada.";
 $l['redirect_searchresults'] = "Gracias, tu búsqueda se ha enviado y ahora se mostrará la lista de resultados.";
+
+$l['quick_reply'] = "Respuesta rápida";
+$l['message_note'] = "Escribe tu respuesta para este mensaje aquí.";
+$l['send_reply'] = "Enviar respuesta";
+$l['quickreply_signature'] = "Firma";
+$l['quickreply_disable_smilies'] = "Desactivar iconos gestuales";
+$l['quickreply_save_copy'] = "Guardar una copia";
+$l['quickreply_read_receipt'] = "<strong>Solicitar recibo de lectura</strong>";
 
 ?>

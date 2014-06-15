@@ -3,6 +3,7 @@
  * MyBB 1.8 Spanish Language Pack
  * Copyright 2014 MyBB Group, All Rights Reserved
  *
+ * Translator: Anio_pke
  */
 
 $l['custom_mycode'] = "MyCode personalizado";
@@ -30,7 +31,6 @@ $l['no_mycode'] = "Actualmente no hay ningún MyCode personalizado.";
 $l['save_mycode'] = "Guardar MyCode";
 $l['add_mycode'] = "Agregar MyCode";
 $l['changes_not_saved'] = "Tus cambios no se han guardado.";
-$l['deactivated'] = "Desactivado";
 
 $l['sandbox'] = "Banco de pruebas";
 $l['sandbox_desc'] = "Puedes usar este área para probar la expresión regular y el reemplazamiento antes de guardar los cambios.";
@@ -55,5 +55,5 @@ $l['success_activated_mycode'] = "El MyCode seleccionado se ha activado correcta
 
 $l['confirm_mycode_deletion'] = "¿Estás seguro de querer eliminar este MyCode?";
 
-
+$l['mycode_sandbox_test_error'] = 'Ha ocurrido un error al cargar los resultados del test.';
 ?>

@@ -3,6 +3,7 @@
  * MyBB 1.8 Spanish Language Pack
  * Copyright 2014 MyBB Group, All Rights Reserved
  *
+ * Translator: Anio_pke
  */
 
 $l['forum_management'] = "Configurar foro";
@@ -214,6 +215,7 @@ $l['save_permissions'] = "Guardar permisos";
 $l['error_missing_title'] = "No has introducido un título.";
 $l['error_no_parent'] = "No has seleccionado un foro padre.";
 $l['error_not_empty'] = "Los foros con temas no se pueden convertir en categorías.";
+$l['error_forum_link_not_empty'] = "Los foros con temas no se pueden redireccionar a otra web.";
 
 $l['success_forum_added'] = "El foro se ha agregado correctamente.";
 $l['success_moderator_added'] = "El moderador se ha agregado al foro correctamente.";
@@ -239,6 +241,7 @@ $l['viewing_field_candlattachments'] = "¿Puede descargar adjuntos?";
 
 $l['posting_rating_field_canpostthreads'] = "¿Puede crear temas?";
 $l['posting_rating_field_canpostreplys'] = "¿Puede enviar respuestas?";
+$l['posting_rating_field_canonlyreplyownthreads'] = "¿Solo se puede responder en sus propios temas?";
 $l['posting_rating_field_canpostattachments'] = "¿Puede adjuntar archivos?";
 $l['posting_rating_field_canratethreads'] = "¿Puede calificar temas?";
 

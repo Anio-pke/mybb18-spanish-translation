@@ -3,6 +3,7 @@
  * MyBB 1.8 Spanish Language Pack
  * Copyright 2014 MyBB Group, All Rights Reserved
  *
+ * Translator: Anio_pke
  */
 
 $l['nav_register'] = "Registrar";
@@ -55,10 +56,11 @@ $l['users_contact_details'] = "Detalles de contacto de {1}";
 $l['homepage'] = "Página web:";
 $l['pm'] = "Mensaje privado:";
 $l['send_pm'] = "Envíale un mensaje privado a {1}.";
-$l['icq_number'] = "Número de ICQ:";
-$l['aim_screenname'] = "Nombre de AIM:";
-$l['yahoo_id'] = "ID de Yahoo!:";
-$l['msn'] = "ID de WLM:";
+$l['icq_number'] = "Número ICQ:";
+$l['aim_screenname'] = "AIM:";
+$l['yahoo_id'] = "Yahoo! Messenger:";
+$l['skype_id'] = "Skype:";
+$l['google_id'] = "Google Talk:";
 $l['avatar']  = "Avatar:";
 $l['warning_level'] = "Nivel de advertencia:";
 $l['warn'] = "Advertencia";

@@ -1,9 +1,9 @@
 <?php
 /**
- * MyBB 1.6 Spanish Language Pack
- * Copyright 2010 MyBB Group, All Rights Reserved
- * 
- * $Id: tools_tasks.lang.php 5017 2013-04-29 15:54:30Z Anio_pke $
+ * MyBB 1.8 Spanish Language Pack
+ * Copyright 2014 MyBB Group, All Rights Reserved
+ *
+ * Translator: Anio_pke
  */
 
 $l['task_manager'] = "Tareas programadas";
@@ -53,8 +53,6 @@ $l['disable_task'] = "Desactivar tarea";
 $l['run_task'] = "Ejecutar tarea";
 $l['enable_task'] = "Activar tarea";
 $l['delete_task'] = "Eliminar tarea";
-$l['alt_enabled'] = "Activada";
-$l['alt_disabled'] = "Desactivada";
 
 $l['error_invalid_task'] = "La tarea especificada no existe.";
 $l['error_missing_title'] = "No has introducido un título para esta tarea programada";

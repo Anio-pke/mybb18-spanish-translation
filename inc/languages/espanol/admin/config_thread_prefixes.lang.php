@@ -3,6 +3,7 @@
  * MyBB 1.8 Spanish Language Pack
  * Copyright 2014 MyBB Group, All Rights Reserved
  *
+ * Translator: Anio_pke
  */
 
 $l['thread_prefixes'] = "Prefijos de tema";
@@ -25,11 +26,6 @@ $l['display_style'] = "Estilo de muestra";
 $l['display_style_desc'] = "Este es el prefijo que se muestra al lado del título del tema. Puedes introducir HTML o simplemente usar lo mismo que en la versión de texto plano.";
 $l['available_in_forums'] = "Disponible en los foros";
 $l['available_to_groups'] = "Disponible para los grupos";
-$l['all_forums'] = "Todos los foros";
-$l['all_groups'] = "Todos los grupos";
-$l['select_forums'] = "Seleccionar foros";
-$l['select_groups'] = "Seleccionar grupos";
-$l['groups_colon'] = "Grupos:";
 
 $l['no_thread_prefixes'] = "Actualmente no hay prefijos configurados en tu foro.";
 

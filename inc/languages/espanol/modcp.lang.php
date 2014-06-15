@@ -3,6 +3,7 @@
  * MyBB 1.8 Spanish Language Pack
  * Copyright 2014 MyBB Group, All Rights Reserved
  *
+ * Translator: Anio_pke
  */
 
 $l['nav_width'] = "180";
@@ -125,9 +126,10 @@ $l['profile_optional'] = "Campos opcionales";
 $l['website_url'] = "URL del sitio web:";
 $l['birthdate'] = "Cumpleaños:";
 $l['icq_number'] = "Número ICQ:";
-$l['aim_screenname'] = "Nombre AIM:";
-$l['yahoo_id'] = "Yahoo ID:";
-$l['msn'] = "Skype:";
+$l['aim_screenname'] = "AIM:";
+$l['yahoo_id'] = "Yahoo!:";
+$l['skype_id'] = "Skype:";
+$l['google_id'] = "Google Talk:";
 $l['away_notice'] = "Esta opción te permite selecionar si estás ausente o no";
 $l['additional_information'] = "Información adicional";
 $l['update_profile'] = "Actualizar perfil";
@@ -214,6 +216,8 @@ $l['edited_user_info'] = "<strong>Usuario:</strong> <a href=\"{2}\">{1}</a>";
 $l['edited_user_ban'] = "Suspensión editada.";
 $l['banned_user'] = "Usuario baneado";
 $l['lifted_ban'] = "Suspensión levantada";
+$l['no_bans_ending'] = "No terminará ninguna suspensión proximamente.";
+$l['close_window'] = "Cerrar ventana";
 
 $l['warning_logs'] = "Historial de advertencias";
 $l['warned_user'] = "Usuario";

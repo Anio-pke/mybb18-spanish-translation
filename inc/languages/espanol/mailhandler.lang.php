@@ -3,6 +3,7 @@
  * MyBB 1.8 Spanish Language Pack
  * Copyright 2014 MyBB Group, All Rights Reserved
  *
+ * Translator: Anio_pke
  */
  
 $l['error_no_connection'] = 'Se ha producido un error al establecer una conexión con el servidor: ';

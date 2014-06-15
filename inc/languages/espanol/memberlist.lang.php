@@ -3,6 +3,7 @@
  * MyBB 1.8 Spanish Language Pack
  * Copyright 2014 MyBB Group, All Rights Reserved
  *
+ * Translator: Anio_pke
  */
 
 $l['nav_memberlist'] = "Lista de miembros";
@@ -35,9 +36,10 @@ $l['search_criteria'] = "Criterios de búsqueda";
 $l['begins_with'] = "empieza por";
 $l['username_contains'] = "contiene";
 $l['search_website'] = "URL sitio web";
-$l['search_aim'] = "Nombre del AIM";
-$l['search_msn'] = "Cuenta WLM";
-$l['search_yahoo'] = "Nombre Yahoo! Messenger";
+$l['search_aim'] = "AIM";
+$l['search_skype'] = "Skype";
+$l['search_google'] = "Google Talk";
+$l['search_yahoo'] = "Yahoo! Messenger";
 $l['search_icq'] = "Número ICQ";
 $l['search_options'] = "Opciones de búsqueda";
 $l['per_page'] = "Resultados por página";

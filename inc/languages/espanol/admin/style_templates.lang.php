@@ -3,6 +3,7 @@
  * MyBB 1.8 Spanish Language Pack
  * Copyright 2014 MyBB Group, All Rights Reserved
  *
+ * Translator: Anio_pke
  */
 
 $l['template_sets'] = "Sets de plantillas";
@@ -103,7 +104,7 @@ $l['group_header'] = "Cabecera -";
 $l['group_managegroup'] = "Configurar grupo -";
 $l['group_misc'] = "Misceláneos -";
 $l['group_modcp'] = "Panel de control del moderador -";
-$l['group_php'] = "PHP -";
+$l['group_announcement'] = "Anuncio -";
 $l['group_polls'] = "Encuesta -";
 $l['group_post'] = "Mensaje -";
 $l['group_printthread'] = "Imprimir tema -";
@@ -112,6 +113,7 @@ $l['group_smilieinsert'] = "Insertar iconos gestuales -";
 $l['group_stats'] = "Estadísticas -";
 $l['group_xmlhttp'] = "XMLHTTP -";
 $l['group_footer'] = "Pie -";
+$l['group_video'] = "MyCode Video -";
 
 $l['expand'] = "Expandir";
 $l['collapse'] = "Colapsar";

@@ -3,6 +3,7 @@
  * MyBB 1.8 Spanish Language Pack
  * Copyright 2014 MyBB Group, All Rights Reserved
  *
+ * Translator: Anio_pke
  */
 
 $l['attachment_types'] = "Tipos de adjuntos";
@@ -17,6 +18,8 @@ $l['extension'] = "Extensión";
 $l['maximum_size'] = "Máximo tamaño";
 $l['no_attachment_types'] = "No hay ningún tipo de archivo adjunto en tu foro.";
 
+$l['name'] = "Nombre";
+$l['name_desc'] = "Introduce el nombre para el tipo de adjunto.";
 $l['file_extension'] = "Extensión";
 $l['file_extension_desc'] = "Introducir la extensión que quieres permitir subir aquí (No incluir nada más que la extensión sin punto) (Ejemplo: txt)";
 $l['mime_type'] = "Clase MIME";

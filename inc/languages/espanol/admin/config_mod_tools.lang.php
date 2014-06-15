@@ -3,6 +3,7 @@
  * MyBB 1.8 Spanish Language Pack
  * Copyright 2014 MyBB Group, All Rights Reserved
  *
+ * Translator: Anio_pke
  */
 
 $l['mod_tools'] = "Herramientas de moderación";
@@ -41,8 +42,6 @@ $l['error_invalid_thread_tool'] = "La herramienta de moderación de tema especif
 $l['general_options'] = "Opciones generales";
 $l['short_description'] = "Descripción corta";
 $l['available_in_forums'] = "Disponible en los foros";
-$l['all_forums'] = "Todos los foros";
-$l['select_forums'] = "Foros seleccionados";
 $l['save_thread_tool'] = "Guardar herramienta de tema";
 
 $l['title'] = "Título";

@@ -3,6 +3,7 @@
  * MyBB 1.8 Spanish Language Pack
  * Copyright 2014 MyBB Group, All Rights Reserved
  *
+ * Translator: Anio_pke
  */
 
 $l['logindata_invalidpwordusername'] = "Has introducido una combinación de usuario/contraseña inválida. <br /><br />Si has olvidado tu contraseña por favor <a href=\"member.php?action=lostpw\">pide una nueva</a>.";

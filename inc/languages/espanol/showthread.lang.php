@@ -3,6 +3,7 @@
  * MyBB 1.8 Spanish Language Pack
  * Copyright 2014 MyBB Group, All Rights Reserved
  *
+ * Translator: Anio_pke
  */
 
 $l['delete_poll'] = "Borrar encuesta";
@@ -20,6 +21,7 @@ $l['view_printable'] = "Ver la versión para impresión";
 $l['send_thread'] = "Enviar tema a un amigo";
 $l['subscribe_thread'] = "Suscribirse a este tema";
 $l['unsubscribe_thread'] = "Quitar suscripción de este tema";
+$l['add_poll_to_thread'] = "Añadir una encuesta a este tema";
 $l['moderation_options'] = "Opciones de moderación:";
 $l['delayed_moderation'] = "Moderación retardada";
 $l['thread_notes'] = "Editar / Ver las notas del tema";
@@ -96,4 +98,12 @@ $l['image_verification'] = "Verificación de la imagen";
 $l['verification_note'] = "Escribe el texto que aparece en la imagen de la derecha, en el campo que esta abajo. Este proceso se usa para evitar mensajes automáticos.";
 $l['verification_subnote'] = "(No distingue MAYÚSC/minúsc)";
 $l['view_thread_notes'] = "Notas del tema";
+
+$l['save_changes'] = 'Guardar cambios';
+$l['cancel_edit'] = 'Cancelar edición';
+$l['quick_edit_update_error'] = 'Ha ocurrido un error al editar tu respuesta:';
+$l['quick_reply_post_error'] = 'Ha ocurrido un error al enviar tu respuesta:';
+$l['quick_delete_error'] = 'Ha ocurrido un error al eliminar tu respuesta:';
+$l['quick_delete_success'] = 'El mensaje se ha eliminado correctamente.';
+
 ?>

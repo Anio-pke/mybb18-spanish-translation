@@ -3,6 +3,7 @@
  * MyBB 1.8 Spanish Language Pack
  * Copyright 2014 MyBB Group, All Rights Reserved
  *
+ * Translator: Anio_pke
  */
 
 $l['themes'] = "Estilos";
@@ -212,4 +213,8 @@ $l['success_stylesheet_order_updated'] = "El orden de las hojas de estilo se ha 
 $l['confirm_theme_deletion'] = "¿Estás seguro de querer eliminar este estilo?";
 $l['confirm_stylesheet_deletion'] = "¿Estás seguro de querer eliminar / revertir esta hoja de estilo?";
 $l['confirm_theme_forced'] = "¿Estás seguro de querer forzar este estilo a todos los usuarios?";
+
+$l['theme_info_fetch_error'] = 'Ha ocurrido un error al cargar la información del estilo.';
+$l['theme_info_save_error'] = 'Ha ocurrido un error al guardar la información del estilo.';
+
 ?>

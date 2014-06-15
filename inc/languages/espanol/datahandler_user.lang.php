@@ -3,6 +3,7 @@
  * MyBB 1.8 Spanish Language Pack
  * Copyright 2014 MyBB Group, All Rights Reserved
  *
+ * Translator: Anio_pke
  */
 
 $l['userdata_missing_username'] = 'No has introducido un nombre de usuario. Por favor, introduce uno';
@@ -26,7 +27,6 @@ $l['userdata_email_already_in_use'] = "La dirección de email que has introducid
 $l['userdata_dob_required'] = "No has seleccionado tu fecha de nacimiento. Por favor, selecciónala para continuar. De todas formas, después podrás ocultar tu cumpleaños y tu edad a otros usuarios.";
 $l['userdata_invalid_website'] = 'La dirección de la página web que has introducido es inválida. Por favor, introduce una dirección válida o deja el campo vacío.';
 $l['userdata_invalid_icq_number'] = 'El número de ICQ que has introducido es inválido. Por favor, introduce un número de ICQ válido o deja el campo vacío.';
-$l['userdata_invalid_msn_address'] = 'La dirección de MSN que has introducido es inválida. Por favor, introduce una dirección de MSN válida o deja el campo vacío';
 $l['userdata_invalid_birthday'] = 'El cumpleaños que has introducido es inválido. Por favor, introduce un cumpleaños válido o deja el campo vacío';
 $l['userdata_invalid_birthday_coppa'] = 'Para verificar tu edad, introduce el año en que naciste. Puedes ocultar tu edad y fecha de nacimiento en las opciones de tu perfil.';
 $l['userdata_invalid_birthday_coppa2'] = 'Debes tener más de 13 años para ser miembro de este foro. Por favor, contacta con un administrador.';

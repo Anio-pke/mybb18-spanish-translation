@@ -3,18 +3,19 @@
  * MyBB 1.8 Spanish Language Pack
  * Copyright 2014 MyBB Group, All Rights Reserved
  *
+ * Translator: Anio_pke
  */
 
 $l['nav_showteam'] = "El equipo del foro";
 $l['forum_team'] = "Equipo del foro";
 $l['moderators'] = "Moderadores";
-$l['mod_username'] = "Nombre de usuario";
-$l['mod_forums'] = "Foro(s)";
-$l['mod_email'] = "Email";
-$l['mod_pm'] = "MP";
-$l['uname'] = "Nombre de usuario";
+$l['username'] = "Nombre de usuario";
+$l['lastvisit'] = "Última visita";
 $l['email'] = "Email";
 $l['pm'] = "MP";
+$l['mod_forums'] = "Foro(s)";
+$l['online'] = "En línea";
+$l['offline'] = "Desconectado";
 
 $l['group_leaders'] = "Líder(es)";
 $l['group_members'] = "Miembro(s)";

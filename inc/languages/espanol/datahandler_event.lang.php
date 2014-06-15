@@ -3,6 +3,7 @@
  * MyBB 1.8 Spanish Language Pack
  * Copyright 2014 MyBB Group, All Rights Reserved
  *
+ * Translator: Anio_pke
  */
 
 $l['eventdata_missing_name'] = 'No has introducido un nombre para este evento. Por favor, introduce un nombre.';

@@ -3,6 +3,7 @@
  * MyBB 1.8 Spanish Language Pack
  * Copyright 2014 MyBB Group, All Rights Reserved
  *
+ * Translator: Anio_pke
  */
 
 $l['redirect_width'] = "50%";
@@ -49,6 +50,7 @@ $l['new_posts'] = "Foro que contiene nuevos mensajes";
 $l['no_new_posts'] = "Foro que no contiene nuevos mensajes";
 $l['click_mark_read'] = "Clic para marcar este foro como leído";
 $l['forum_locked'] = "Foro cerrado";
+$l['forum_redirect'] = "Redireccionar Foro";
 $l['lastpost_never'] = "Nunca";
 $l['viewing_one'] = " (1 usuario navegando)";
 $l['viewing_multiple'] = " ({1} usuarios navegando)";
@@ -257,6 +259,7 @@ $l['forumjump_home'] = "Índice";
 
 $l['redirect'] = "Ahora serás redireccionado";
 $l['unknown_error'] = "Ha ocurrido un error desconocido.";
+$l['post_fetch_error'] = 'Ha ocurrido un problema al recuperar los mensajes.';
 
 $l['smilieinsert'] = "Iconos gestuales";
 $l['smilieinsert_getmore'] = "aquí hay más";
@@ -299,9 +302,11 @@ $l['seconds_short'] = "s";
 $l['rel_in'] = "En ";
 $l['rel_ago'] = "";
 $l['rel_less_than'] = "Menos de ";
-$l['rel_minute'] = "{1}{2} {3} {4}";
+$l['rel_time'] = "{1}{2} {3} {4}";
 $l['rel_minutes_single'] = "minuto";
 $l['rel_minutes_plural'] = "minutos";
+$l['rel_hours_single'] = "hora";
+$l['rel_hours_plural'] = "horas";
 
 $l['permanent'] = "Permanente";
 $l['save_draft'] = "Guardar como borrador";
@@ -367,11 +372,14 @@ $l['ajax_loading'] = "Cargando<br />Por favor, espere..";
 $l['saving_changes'] = "Guardando cambios..";
 $l['refresh'] = "Actualizar";
 $l['select_language'] = "Seleccion de idioma rápido";
+$l['select_theme'] = "Estilo rápido";
 
 $l['invalid_post_code'] = "El código de autorización no coincide. ¿Estás accediendo correctamente a esta función? Por favor, vuelve atrás e inténtalo de nuevo.";
 $l['invalid_captcha'] = "Por favor, rellena el código de verificación de imagen para continuar. Por favor, introduce el código exactamente como aparece en la imagen.";
 $l['invalid_captcha_verify'] = "El código de imagen de verificación que has introducido es incorrecto. Por favor, introduce el código exactamente como aparece en la imagen.";
 $l['invalid_captcha_transmit'] = "Ha ocurrido un error con la imagen de verificación. Por favor, inténtalo de nuevo.";
+$l['captcha_fetch_failure'] = 'Ha ocurrido un error al cargar el nuevo captcha.';
+$l['invalid_ayah_result'] = "El juego 'Are You a Human' no se ha completado. Por favor, inténtalo de nuevo.";
 
 $l['timezone_gmt_minus_1200'] = "(GMT -12:00) Enitwetok, Kwajalien";
 $l['timezone_gmt_minus_1100'] = "(GMT -11:00) Nome, Midway Island, Samoa";

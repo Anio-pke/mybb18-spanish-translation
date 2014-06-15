@@ -3,13 +3,14 @@
  * MyBB 1.8 Spanish Language Pack
  * Copyright 2014 MyBB Group, All Rights Reserved
  *
+ * Translator: Anio_pke
  */
 
 // The friendly name of the language
 $langinfo['name'] = "Español (Internacional)";
 
 // The author of the language
-$langinfo['author'] = "Anio_pke, Omar, Evilito, alv4, nodba";
+$langinfo['author'] = "Anio_pke";
 
 // The language authors website
 $langinfo['website'] = "";

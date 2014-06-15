@@ -3,6 +3,7 @@
  * MyBB 1.8 Spanish Language Pack
  * Copyright 2014 MyBB Group, All Rights Reserved
  *
+ * Translator: Anio_pke
  */
 
 
@@ -43,7 +44,6 @@ $l['days'] = "días";
 
 $l['prune_moderator_logs'] = "Limpiar entradas del historial de moderación";
 $l['date_range'] = "Rango de fecha:";
-$l['all_forums'] = "Todos los foros";
 
 $l['success_pruned_mod_logs'] = "El historial se ha limpiado correctamente.";
 $l['note_logs_locked'] = "Por razones de seguridad, no se puede limpiar las entradas con menos de 24 horas.";

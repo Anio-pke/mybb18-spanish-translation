@@ -3,6 +3,7 @@
  * MyBB 1.8 Spanish Language Pack
  * Copyright 2014 MyBB Group, All Rights Reserved
  *
+ * Translator: Anio_pke
  */
 
 $l['nav_usercp'] = "Panel de control del usuario";
@@ -205,9 +206,10 @@ $l['profile_optional'] = "Campos opcionales";
 $l['website_url'] = "URL de tu sitio web:";
 $l['birthdate'] = "Cumpleaños:";
 $l['icq_number'] = "Número ICQ:";
-$l['aim_screenname'] = "Nombre de AIM:";
-$l['yahoo_id'] = "ID de Yahoo:";
-$l['msn'] = "Cuenta del WLM:";
+$l['aim_screenname'] = "AIM:";
+$l['yahoo_id'] = "Yahoo!:";
+$l['skype_id'] = "Skype:";
+$l['google_id'] = "Google Talk:";
 $l['additional_information'] = "Información adicional";
 $l['update_profile'] = "Actualizar perfil";
 $l['away_information'] = "Información de ausencia";
@@ -377,4 +379,6 @@ $l['icon_no_new'] = "Sin mensajes nuevos.";
 $l['icon_new'] = "Mensajes nuevos.";
 $l['icon_hot'] = " Tema caliente.";
 $l['icon_lock'] = " Tema cerrado.";
+
+$l['buddylist_error'] = 'Ha ocurrido un error al cargar tu lista de amigos. ';
 ?>

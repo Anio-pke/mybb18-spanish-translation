@@ -3,6 +3,7 @@
  * MyBB 1.8 Spanish Language Pack
  * Copyright 2014 MyBB Group, All Rights Reserved
  *
+ * Translator: Anio_pke
  */
 
 $l['nav_postpoll'] = "Crear encuesta";
@@ -51,6 +52,7 @@ $l['error_alreadyvoted'] = "Ya has votado en esta encuesta.";
 $l['error_notvoted'] = "No has votado en esta encuesta.";
 $l['error_invalidpoll'] = "La encuesta especificada es inválida o no existe.";
 $l['error_pollclosed'] = "No puedes votar en una encuesta que ya ha sido cerrada.";
+$l['poll_time_limit'] = "No puedes añadir una encuesta a tu tema. El administrador ha establecido que solo se pueden añadir durante las primeras {1} horas de crear el tema.";
 
 $l['poll_deleted'] = "Encuesta borrada";
 $l['poll_edited'] = "Encuesta editada";

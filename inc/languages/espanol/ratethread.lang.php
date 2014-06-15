@@ -3,6 +3,7 @@
  * MyBB 1.8 Spanish Language Pack
  * Copyright 2014 MyBB Group, All Rights Reserved
  *
+ * Translator: Anio_pke
  */
 
 $l['redirect_threadrated'] = "Gracias, este tema se ha calificado correctamente. Ahora serás redirigido al tema.";

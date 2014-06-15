@@ -3,6 +3,7 @@
  * MyBB 1.8 Spanish Language Pack
  * Copyright 2014 MyBB Group, All Rights Reserved
  *
+ * Translator: Anio_pke
  */
 
 $l['post_thread'] = "Publicar tema";
@@ -91,4 +92,7 @@ $l['select_all'] = "Seleccionar los <strong>{1}</strong> temas de este foro.";
 $l['clear_selection'] = "Limpiar selección.";
 
 $l['error_containsnoforums'] = "Lo sentimos, pero el foro que estás viendo no contiene ningún subforo.";
+
+$l['inline_edit_description'] = '(Click y mantén para editar)';
+
 ?>

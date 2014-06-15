@@ -3,6 +3,7 @@
  * MyBB 1.8 Spanish Language Pack
  * Copyright 2014 MyBB Group, All Rights Reserved
  *
+ * Translator: Anio_pke
  */
 
 $l['today'] = "Hoy";
@@ -112,6 +113,12 @@ $l['seconds'] = "Segundos";
 $l['seconds_short'] = "s";
 $l['permanent'] = "Permanente";
 $l['all_forums'] = "Todos los foros";
+$l['all_groups'] = "Todos los grupos";
+$l['select_forums'] = "Seleccionar foros";
+$l['select_groups'] = "Seleccionar grupos";
+$l['forums_colon'] = "Foros:";
+$l['groups_colon'] = "Grupos:";
+$l['none'] = "Ninguno";
 $l['mybb_acp'] = "MyBB PA";
 $l['pages'] = "Páginas";
 $l['previous'] = "Anterior";
@@ -122,13 +129,18 @@ $l['reset'] = "Restablecer";
 $l['and'] = "y";
 $l['on'] = "On";
 $l['off'] = "Off";
+$l['alt_enabled'] = "Activado";
+$l['alt_disabled'] = "Desactivado";
+$l['saved'] = 'Guardado';
 
 $l['rel_in'] = "En ";
 $l['rel_ago'] = "";
 $l['rel_less_than'] = "Menos de ";
-$l['rel_minute'] = "{1}{2} {3} {4}";
+$l['rel_time'] = "{1}{2} {3} {4}";
 $l['rel_minutes_single'] = "minuto";
 $l['rel_minutes_plural'] = "minutos";
+$l['rel_hours_single'] = "hora";
+$l['rel_hours_plural'] = "horas";
 
 // Parser bits
 $l['quote'] = "Cita:";
@@ -207,7 +219,7 @@ $l['delete_all'] = "Eliminar todos los filtrados";
 $l['encountered_errors'] = "Han ocurrido los siguientes errores:";
 $l['invalid_post_verify_key'] = "El código de autorización no coincide. Por favor, confirma que deseas realizar la acción de abajo.";
 $l['invalid_post_verify_key2'] = "El código de autorización no coincide. Por favor, asegúrate de que estás accediendo correctamente a la página.";
-$l['forums_colon'] = "Foros:";
+$l['unknown_error'] = "Ha ocurrido un error desconocido.";
 
 // Code buttons editor language strings
 $l['editor_title_bold'] = "Insertar texto en negrita";
@@ -306,4 +318,5 @@ $l['comma'] = ", ";
 // If the language string for "Username" is too cramped in the ACP Login box
 // then use this to define how much larger you want the gap to be (in px)
 // $l['login_field_width'] = "0";
+
 ?>

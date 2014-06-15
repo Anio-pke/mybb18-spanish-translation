@@ -3,6 +3,7 @@
  * MyBB 1.8 Spanish Language Pack
  * Copyright 2014 MyBB Group, All Rights Reserved
  *
+ * Translator: Anio_pke
  */
 
 $l['postdata_invalid_user_id'] = 'El id de usuario no existe. Por favor, proporciona un id de usuario válido.';

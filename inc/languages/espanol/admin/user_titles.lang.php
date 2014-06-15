@@ -3,6 +3,7 @@
  * MyBB 1.8 Spanish Language Pack
  * Copyright 2014 MyBB Group, All Rights Reserved
  *
+ * Translator: Anio_pke
  */
 
 $l['user_titles'] = "Títulos de usuario";
@@ -12,6 +13,7 @@ $l['add_new_user_title_desc'] = "Esta sección te permite agregar un nuevo títu
 
 $l['error_missing_title'] = "No has introducido un título para este título de usuario";
 $l['error_missing_posts'] = "No has introducido un número mínimo de mensajes para este título de usuario";
+$l['error_cannot_have_same_posts'] = "Este título de usuario no puede tener el mismo número mínimo de mensaje que otro título";
 $l['error_invalid_user_title'] = "El título de usuario especificado es inválido";
 
 $l['success_user_title_created'] = "El título de usuario se ha agregado correctamente";

@@ -3,6 +3,7 @@
  * MyBB 1.8 Spanish Language Pack
  * Copyright 2014 MyBB Group, All Rights Reserved
  *
+ * Translator: Anio_pke
  */
 
 $l['nav_editpost'] = "Editar mensaje";
@@ -44,4 +45,6 @@ $l['thread_deleted'] = "Tema borrado permanentemente";
 $l['post_deleted'] = "Mensaje borrado permanentemente";
 $l['thread_soft_deleted'] = "Tema borrado de forma suave";
 $l['post_soft_deleted'] = "Mensaje borrado de forma suave";
+
+$l['error_already_deleted'] = 'El mensaje seleccionado se ha eliminado correctamente.';
 ?>
