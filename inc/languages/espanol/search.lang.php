@@ -91,6 +91,7 @@ $l['page_selected'] = "Los <strong>{1}</strong> resultados de esta página está
 $l['all_selected'] = "Los <strong>{1}</strong> resultados (Todos) de esta búsqueda están seleccionados.";
 $l['select_all'] = "Seleccionar los <strong>{1}</strong> (Todos) resultados de esta búsqueda.";
 $l['clear_selection'] = "Limpiar selección.";
+$l['search_user'] = "Buscar usuario";
 
 $l['results'] = "resultados";
 $l['mod_options'] = "Opciones de moderador";

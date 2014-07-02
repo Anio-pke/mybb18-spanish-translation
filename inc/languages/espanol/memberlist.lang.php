@@ -16,6 +16,7 @@ $l['username'] = "Nombre de usuario";
 $l['joined'] ="Ingresó";
 $l['lastvisit'] = "Última visita";
 $l['posts'] = "Mensajes";
+$l['threads'] = "Temas";
 $l['referrals'] = "Recomendados";
 $l['search_members'] = "Buscar en la lista de miembros";
 $l['website'] = "Sitio web";
@@ -25,6 +26,7 @@ $l['sort_by_username'] = "Nombre de usuario";
 $l['sort_by_regdate'] = "Fecha de registro";
 $l['sort_by_lastvisit'] = "Última visita";
 $l['sort_by_posts'] = "Número de mensajes";
+$l['sort_by_threads'] = "Número de temas";
 $l['sort_by_referrals'] = "Miembros recomendados";
 $l['order_asc'] = "orden ascendente";
 $l['order_desc'] = "orden descendente";
@@ -44,6 +46,7 @@ $l['search_icq'] = "Número ICQ";
 $l['search_options'] = "Opciones de búsqueda";
 $l['per_page'] = "Resultados por página";
 $l['search'] = "Buscar";
+$l['search_user'] = "Buscar usuario";
 
 $l['error_no_members'] = "<p>No se han encontrado miembros con los criterios introducidos.</p><p>Por favor, introduce una búsqueda diferente.</p>";
 

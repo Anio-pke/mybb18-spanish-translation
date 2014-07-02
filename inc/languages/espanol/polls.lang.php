@@ -35,7 +35,7 @@ $l['post_new_poll'] = "Crear nueva encuesta";
 $l['days'] = "días";
 $l['poll_results'] = "Resultados de la encuesta";
 $l['poll_total'] = "Total:";
-$l['poll_votes'] = "votos";
+$l['poll_votes'] = "voto(s)";
 
 $l['redirect_pollposted'] = "Tu encuesta ha sido enviada.<br />Ahora serás llevado de regreso al tema.";
 $l['redirect_pollpostedmoderated'] = "Tu encuesta ha sido enviada, pero el tema esta pendiente de moderación.<br />Ahora serás regresado al foro.";

@@ -349,9 +349,17 @@ $l['upgrade_template_reversion'] = "Advertencia revertir plantillas";
 $l['upgrade_template_reversion_success'] = "<p>Todas las modificaciones necesarias para actualizar tu foro se han realizado correctamente.</p><p>Esta actualización necesita que las plantillas regresen a las originales contenidas en este paquete, así que por favor copia cualquier plantilla personalizada antes de continuar.";
 $l['upgrade_send_stats'] = "<p><input type=\"checkbox\" name=\"allow_anonymous_info\" value=\"1\" id=\"allow_anonymous\" checked=\"checked\" /> <label for=\"allow_anonymous\"> Enviar estadísticas anónimas de las especificaciones de tu servidor al grupo MyBB</label> (<a href=\"http://docs.mybb.com/Anonymous_Statistics.html\" style=\"color: #555;\" target=\"_blank\"><small>¿Qué infomación se envía?</small></a>)</p>";
 
+$l['please_login'] = "Por favor, inicia sesión";
+$l['login'] = "Iniciar sesión";
+$l['login_desc'] = "Por favor, introduce tu nombre de usuario y contraseña para iniciar el proceso de actualización. Debes ser un administrador válido para realizar esta acción.";
+$l['login_username'] = "Nombre de usuario";
+$l['login_password'] = "Contraseña";
+$l['login_password_desc'] = "Por favor, ten en cuenta que las contraseñas distinguen mayúsculas y minúsculas.";
+
 /* Error messages */
-$l['development_preview'] = "<div class=\"error\"><h2 class=\"fail\">Advertencia</h2><p>Esta versión de MyBB es de desarrollo y debe usarse únicamente para pruebas.</p><p>No se proporcionará soporte oficial, exceptuando para el desarrollo de plugins y de estilos para esta versión. Si continúas esta instalación/actualización es bajo tu responsabilidad.</div>";
+$l['development_preview'] = "<div class=\"error\"><h2 class=\"fail\">Advertencia</h2><p>Esta versión de MyBB es de desarrollo y debe usarse únicamente para pruebas.</p><p>No se proporcionará soporte oficial, exceptuando para el desarrollo de plugins y de estilos para esta versión. Si continúas esta instalación/actualización es bajo tu responsabilidad.</p></div>";
 $l['locked'] = 'El instalador está bloqueado, por favor, elimina el archivo \'lock\' de la carpeta \'install\' para continuar';
+$l['no_permision'] = "No tienes permisos para ejecutar este proceso. Necesitas permisos de administrador para realizar el proceso de actualización.<br /><br />Si necesitas cerrar sesión, por favor, haz click <a href=\"upgrade.php?action=logout&amp;logoutkey={1}\">aquí</a>. Después podrás iniciar sesión de nuevo con tu cuenta de administrador.";
 
 $l['task_versioncheck_ran'] = "La tarea de comprobación de la versión se ejecutó correctamente.";
 ?>

@@ -23,6 +23,8 @@ $l['post_count'] = "Mensajes";
 $l['remove_selected'] = "Quitar a los usuarios seleccionados del grupo";
 $l['add_member'] = "Agregar miembro a \"{1}\"";
 $l['add_member_submit'] = "Agregar miembro al grupo";
+$l['invite_member'] = "Invitar miembro a \"{1}\"";
+$l['invite_member_submit'] = "Invitar miembro a un grupo";
 $l['join_requests'] = "Solicitudes de ingreso";
 $l['join_requests_title'] = "Solicitudes de ingreso a \"{1}\"";
 $l['leader'] = "(Líder)";
@@ -39,10 +41,24 @@ $l['users_removed'] = "Los usuarios seleccionados han sido quitados de este grup
 $l['group_no_members'] = "Actualmente no hay usuarios en este grupo.<br />Para seguir manejando este grupo, haz clic <a href=\"usercp.php?action=usergroups\">aquí</a>.";
 $l['group_public_moderated'] = "Este grupo de usuarios es público, cualquiera puede unirse. Todas las solicitudes de ingreso serán moderadas por el líder de grupo.";
 $l['group_public_not_moderated'] = "Este grupo de usuarios es público, cualquiera puede unirse.";
+$l['group_public_invite'] = "Este grupo de usuarios público requiere una invitación del lider de grupo para unirse.";
 $l['group_private'] = "Este grupo de usuarios es privado. Solo usuarios agregados por el líder del grupo pueden formar parte de este.";
 $l['group_default'] = "Este grupo de usuarios es un grupo principal.";
 $l['group_leaders'] = "Líderes de grupo";
+$l['search_user'] = "Buscar usuario";
 $l['no_users_selected'] = "Lo siento, pero parece que no se han seleccionado usuarios para quitar.<br />Por favor, regresa y selecciona los usuarios que quieres quitar de este grupo.";
 
 $l['error_alreadyingroup'] = "Este usuario ya forma parte de este grupo de usuarios.";
+$l['error_alreadyinvited'] = "El usuario especificado ya ha sido invitado.";
+
+$l['user_invited'] = "Este usuario ha sido invitado para unirse al grupo.";
+$l['invite_expires'] = "Esta invitación caducará en {1} días.";
+$l['does_not_expire'] = "Esta invitación no caduca.";
+$l['invite_pm_subject'] = "Has sido invitado a unirte al grupo \"{1}\"";
+$l['invite_pm_message'] = "Has recibido una invitación para unirte al grupo de usuarios \"{1}\".
+
+Para unirte, por favor, ve a tu página [url={2}/usercp.php?action=usergroups]Membresías de grupos[/url] y haz click en 'Accept Invite'.
+
+{3}";
+
 ?>

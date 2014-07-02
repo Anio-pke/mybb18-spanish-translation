@@ -15,6 +15,7 @@ $l['delete_2'] = "<b>Nota:</b> Si este mensaje es el primero de este tema al eli
 $l['subject'] = "Título";
 $l['your_message'] = "Tu mensaje";
 $l['post_options'] = "Opciones del mensaje:";
+$l['editreason'] = "Razón de la edición:";
 $l['options_sig'] = "<strong>Firma:</strong> Incluye tu firma. (Sólo usuarios registrados)";
 $l['options_emailnotify'] = "<strong>Notificación por email:</strong> Recibe un mensaje de email cada vez que alguien responda en este tema. (Sólo usuarios registrados)";
 $l['options_disablesmilies'] = "<strong>Desactivar iconos gestuales:</strong> Para que no se muestren iconos en este tema.";
@@ -30,12 +31,15 @@ $l['edit_time_limit'] = "Lo sentimos, pero no puedes editar tu mensaje. Los admi
 $l['no_prefix'] = "Sin prefijo";
 
 $l['redirect_nodelete'] = "El mensaje no se ha eliminado porque no has marcado el cuadradito \"Borrar\".";
+$l['redirect_norestore'] = "El mensaje no se ha eliminado porque no has marcado el cuadradito \"Restaurar\".";
 $l['redirect_postedited'] = "Gracias, este mensaje se ha editado.<br />";
 $l['redirect_postedited_redirect'] = "Ahora serás redirigido al tema.";
 $l['redirect_postedited_poll'] = "Gracias, este mensaje se ha editado.<br />Como has optado por publicar una encuesta, ahora serás redirigido a la página de creación.";
 $l['error_invalidpost'] = "Lo sentimos, pero al parecer buscas una dirección no valida. Por favor asegurate de que el mensaje especificado aún existe.";
 $l['redirect_threaddeleted'] = "Gracias, el tema se ha eliminado.<br />Ahora serás redirigido al foro.";
 $l['redirect_postdeleted'] = "Gracias, el mensaje se ha eliminado.<br />Ahora serás redirigido al tema.";
+$l['redirect_threadrestored'] = "Gracias, el tema se ha restaurado.<br />Ahora serás redirigido al foro.";
+$l['redirect_postrestored'] = "Gracias, el mensaje se ha restaurado.<br />Ahora serás redirigido al tema.";
 $l['redirect_threadclosed'] = "No puedes editar mensajes en este tema porque ha sido cerrado por un moderador.";
 $l['redirect_post_moderation'] = "El administrador ha especificado que todas las ediciones de mensajes, necesitan moderación. Ahora serás redirigido al tema.";
 $l['redirect_thread_moderation'] = "El administrador ha especificado que todas las ediciones de temas, necesitan moderación. Ahora serás redirigido al inicio del foro.";
@@ -45,6 +49,8 @@ $l['thread_deleted'] = "Tema borrado permanentemente";
 $l['post_deleted'] = "Mensaje borrado permanentemente";
 $l['thread_soft_deleted'] = "Tema borrado de forma suave";
 $l['post_soft_deleted'] = "Mensaje borrado de forma suave";
+$l['thread_restored'] = "Tema restaurado";
+$l['post_restored'] = "Mensaje restaurado";
 
 $l['error_already_deleted'] = 'El mensaje seleccionado se ha eliminado correctamente.';
 ?>

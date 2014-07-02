@@ -217,7 +217,6 @@ $l['edited_user_ban'] = "Suspensión editada.";
 $l['banned_user'] = "Usuario baneado";
 $l['lifted_ban'] = "Suspensión levantada";
 $l['no_bans_ending'] = "No terminará ninguna suspensión proximamente.";
-$l['close_window'] = "Cerrar ventana";
 
 $l['warning_logs'] = "Historial de advertencias";
 $l['warned_user'] = "Usuario";
@@ -311,5 +310,20 @@ $l['error_invalid_end_date'] = "La fecha de finalización del anuncio es inváli
 $l['error_end_before_start'] = "La fecha de finalización debe ser posterior a la de inicio.";
 $l['error_invalid_announcement'] = "El anuncio especificado es inválido.";
 
+$l['announcement_added'] = "Anuncio creado";
+$l['announcement_edited'] = "Anuncio editado";
+$l['announcement_deleted'] = "Anuncio eliminado";
+
 $l['preview'] = 'Previsualizar';
+
+$l['you_cannot_view_mod_logs'] = "No tienes permiso suficiente para ver el historial de moderación.";
+$l['you_cannot_view_reported_posts'] = "No tienes permiso suficiente para ver los mensajes reportados.";
+$l['you_cannot_manage_announcements'] = "No tienes permiso suficiente para configurar los anuncios.";
+$l['you_cannot_moderate_threads'] = "No tienes permiso suficiente para moderar temas.";
+$l['you_cannot_moderate_posts'] = "No tienes permiso suficiente para moderar mensajes.";
+$l['you_cannot_moderate_attachments'] = "No tienes permiso suficiente para moderar archivos adjuntos.";
+$l['you_cannot_use_mod_queue'] = "No tienes permiso suficiente para usar la cola de moderación.";
+
+$l['post'] = 'Mensaje';
+$l['search_user'] = "Buscar usuario";
 ?>

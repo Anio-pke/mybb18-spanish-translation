@@ -24,6 +24,7 @@ $l['forum'] = "Foro:";
 $l['thread'] = "Tema:";
 $l['post'] = "Mensaje:";
 $l['user_info'] = "Usuario:";
+$l['announcement'] = "Anuncio:";
 
 $l['filter_moderator_logs'] = "Filtrar historial de moderación";
 $l['forum_moderator'] = "Moderador:";

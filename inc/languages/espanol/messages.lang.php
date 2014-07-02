@@ -302,7 +302,7 @@ El equipo de {2}.";
 
 $l['email_subscription'] = "{1},
 
-{2} ha respondido a un tema al que estas suscrito en {3}. El tema está titulado {4}.
+{2} ha respondido a un tema al que estás suscrito en {3}. El tema está titulado {4}.
 
 Aquí esta un párrafo del mensaje:
 ------------------------------------------
@@ -439,4 +439,33 @@ Para aceptar o denegar esta petición, debes ir a
 
 Gracias,
 El equipo de {4}";
+
+$l['email_contact_subject'] = "Contacto: {1}";
+$l['email_contact'] = "Perfil: {1}
+IP Address: {2}
+Mensaje:
+{3}";
+
+$l['pmsubject_subscription'] = "Nueva respuesta a {1}";
+$l['pm_subscription'] = "{1},
+
+{2} ha respondido a un tema al que estás suscrito. El tema está titulado {3}.
+
+Aquí esta un párrafo del mensaje:
+------------------------------------------
+{4}
+------------------------------------------
+
+Para ver el tema, visita la siguiente dirección:
+[url]{5}/{6}[/url]
+
+Tal vez haya más respuestas a este tema pero no recibirás más notificaciones hasta que visites el tema de nuevo.
+
+------------------------------------------
+Información para borrar la suscripción:
+
+Si ya no quieres recibir más notificaciones de respuestas a este tema, visita la siguiente dirección en tu navegador:
+[url]{5}/usercp2.php?action=removesubscription&tid={7}&key={8}&my_post_key={9}[/url]
+
+------------------------------------------";
 ?>

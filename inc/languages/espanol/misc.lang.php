@@ -42,6 +42,19 @@ $l['no_buddies'] = "<em>Tu lista de amigos está vacía. Usa tu panel de control
 
 $l['help_docs'] = "Documentos de ayuda";
 
+$l['search_help_documents'] = "Buscar documentos de ayuda";
+$l['search_by_name'] = "Buscar por nombre";
+$l['search_by_document'] = "Buscar por documento";
+$l['enter_keywords'] = "Introducir palabras clave";
+$l['search'] = "Buscar";
+$l['redirect_searchresults'] = "Gracias, tu búsqueda ha sido enviada y ahora serás llevado a la lista de resultados.";
+$l['search_results'] = "Resultados";
+$l['help_doc_results'] = "Resultados de los documentos de ayuda";
+$l['document'] = "Documento";
+$l['error_nosearchresults'] = "No se encontraron resultados sobre lo que estas buscando con la información proporcionada. Por favor, modifica tu búsqueda e inténtalo de nuevo.";
+$l['no_help_results'] = "No se encontraron resultados sobre lo que estas buscando con la información proporcionada.
+$l['error_helpsearchdisabled'] = "La función de buscar documentos de ayuda ha sido deshabilitada por un administrador.";
+
 $l['smilies_listing'] = "Lista de iconos gestuales";
 $l['name'] = "Nombre";
 $l['abbreviation'] = "Abreviatura";

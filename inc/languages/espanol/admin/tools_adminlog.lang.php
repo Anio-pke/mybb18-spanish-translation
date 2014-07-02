@@ -101,6 +101,12 @@ $l['admin_log_config_profile_fields_add'] = "Agregar campo de perfil personaliza
 $l['admin_log_config_profile_fields_edit'] = "Editar campo de perfil personalizado #{1} ({2})";
 $l['admin_log_config_profile_fields_delete'] = "Eliminar campo de perfil personalizado #{1} ({2})";
 
+$l['admin_log_config_questions_add'] = "Agregar pregunta #{1} ({2})";
+$l['admin_log_config_questions_edit'] = "Editar pregunta #{1} ({2})";
+$l['admin_log_config_questions_delete'] = "Eliminar pregunta #{1} ({2})";
+$l['admin_log_config_questions_enable'] = "Activar pregunta #{1} ({2})";
+$l['admin_log_config_questions_disable'] = "Desactivar pregunta #{1} ({2})";
+
 $l['admin_log_config_settings_delete_duplicates'] = "Eliminar ajustes duplicados y grupos de ajustes";
 $l['admin_log_config_settings_addgroup'] = "Agregar grupo de ajustes #{1} ({2}) ";
 $l['admin_log_config_settings_editgroup'] = "Editar grupo de ajustes #{1} ({2}) ";
@@ -214,14 +220,18 @@ $l['admin_log_tools_optimizedb_'] = "Optimizar tablas de la base de datos: {1}";
 $l['admin_log_tools_php_info_phpinfo'] = "Ver información PHP";
 
 $l['admin_log_tools_recount_rebuild_'] = "Recontar y reconstruir ({1})";
-$l['admin_log_tools_recount_rebuild_stats'] = "Recontar y reconstruir estadísticas";
-$l['admin_log_tools_recount_rebuild_forum'] = "Recontar y reconstruir contadores del foro";
-$l['admin_log_tools_recount_rebuild_thread'] = "Recontar y reconstruir contadores de los temas";
-$l['admin_log_tools_recount_rebuild_userposts'] = "Recontar y reconstruir contadores de los usuarios";
-$l['admin_log_tools_recount_rebuild_attachmentthumbs'] = "Recontar y reconstruir miniaturas de los archivos adjuntos"; 
+$l['admin_log_tools_recount_rebuild_stats'] = "Recontar y reconstruir las estadísticas";
+$l['admin_log_tools_recount_rebuild_forum'] = "Recontar y reconstruir los contadores del foro";
+$l['admin_log_tools_recount_rebuild_thread'] = "Recontar y reconstruir los contadores de los temas";
+$l['admin_log_tools_recount_rebuild_poll'] = "Recontar y reconstruir los contadores de votos de las encuestas";
+$l['admin_log_tools_recount_rebuild_userposts'] = "Recontar y reconstruir los contadores de mensajes de los usuarios";
+$l['admin_log_tools_recount_rebuild_userthreads'] = "Recontar y reconstruir los contadores de temas de los usuarios";
+$l['admin_log_tools_recount_rebuild_attachmentthumbs'] = "Recontar y reconstruir las miniaturas de los archivos adjuntos"; 
 $l['admin_log_tools_recount_rebuild_reputation'] = "Recontar y recontruir las reputaciones de los usuarios";
 $l['admin_log_tools_recount_rebuild_warning'] = "Recontar y recontruir las advertencias de los usuarios";
 $l['admin_log_tools_recount_rebuild_privatemessages'] = "Recontar y recontruir los mensajes privados";
+$l['admin_log_tools_recount_rebuild_referral'] = "Recontar y reconstruir los contadores de recomendaciones de los usuarios";
+$l['admin_log_tools_recount_rebuild_threadrating'] = "Recontar y reconstruir las puntuaciones de los temas";
 
 $l['admin_log_tools_tasks_add'] = "Agregar tarea #{1} ({2})";
 $l['admin_log_tools_tasks_edit'] = "Editar tarea #{1} ({2})";
@@ -230,7 +240,8 @@ $l['admin_log_tools_tasks_enable'] = "Activar tarea #{1} ({2})";
 $l['admin_log_tools_tasks_disable'] = "Desactivar tarea #{1} ({2})";
 $l['admin_log_tools_tasks_run'] = "Ejecutar tarea #{1} ({2})";
 
-$l['admin_log_user_admin_permissions_delete'] = "Eliminar permisos de administrador al usuario #{1} ({2})";
+$l['admin_log_user_admin_permissions_delete_user'] = "Eliminar permisos de administrador al usuario #{1} ({2})";
+$l['admin_log_user_admin_permissions_delete_group'] = "Eliminar permisos de administrador al grupo #{1} ({2})";
 $l['admin_log_user_admin_permissions_edit_user'] = "Editar permisos de administrador al usuario #{1} ({2})";
 $l['admin_log_user_admin_permissions_edit_group'] = "Editar permisos de administrador de grupos para el grupos #{1} ({2})";
 $l['admin_log_user_admin_permissions_edit'] = "Editar permisos de administrador predefinidos";

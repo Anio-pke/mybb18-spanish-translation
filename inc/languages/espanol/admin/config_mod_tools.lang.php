@@ -42,6 +42,8 @@ $l['error_invalid_thread_tool'] = "La herramienta de moderación de tema especif
 $l['general_options'] = "Opciones generales";
 $l['short_description'] = "Descripción corta";
 $l['available_in_forums'] = "Disponible en los foros";
+$l['available_to_groups'] = "Disponible para los grupos";
+$l['show_confirmation'] = "Mostrar página de confirmación";
 $l['save_thread_tool'] = "Guardar herramienta de tema";
 
 $l['title'] = "Título";
@@ -82,6 +84,7 @@ $l['merge_thread_desc'] = "Solo se usa en 'Moderación del tema'.";
 $l['delete_poll'] = "¿Eliminar encuesta?";
 $l['delete_redirects'] = "¿Limpiar redirecciones?";
 $l['remove_subscriptions'] = "¿Eliminar suscripciones?";
+$l['recount_rebuild'] = "¿Recontar y reconstruir?";
 $l['apply_thread_prefix'] = "¿Aplicar prefijo al tema?";
 $l['new_subject'] = "¿Nuevo título?";
 $l['new_subject_desc'] = "{subject} representa el título original. {username} representa el nombre de usuario del moderador.";
@@ -125,5 +128,6 @@ $l['private_message_subject_desc'] = 'Introduce el asunto del mensaje privado.';
 $l['error_missing_title'] = "Por favor, introduce un nombre para esta herramienta.";
 $l['error_missing_description'] = "Por favor, introduce una descripción corta para esta herramienta.";
 $l['error_no_forums_selected'] = "Por favor, selecciona los foros en los que esta herramienta estará disponible.";
+$l['error_no_groups_selected'] = "Por favor, selecciona los grupos para los que esta herramienta estará disponible.";
 $l['error_forum_is_category'] = "No puedes seleccionar una categoría como un foro destinatario.";
 ?>

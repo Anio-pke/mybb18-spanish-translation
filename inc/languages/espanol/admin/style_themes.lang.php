@@ -217,4 +217,6 @@ $l['confirm_theme_forced'] = "¿Estás seguro de querer forzar este estilo a tod
 $l['theme_info_fetch_error'] = 'Ha ocurrido un error al cargar la información del estilo.';
 $l['theme_info_save_error'] = 'Ha ocurrido un error al guardar la información del estilo.';
 
+$l['saving'] = 'Guardando...';
+
 ?>

@@ -7,7 +7,6 @@
  */
 
 $l['contact'] = 'Contáctanos';
-$l['nav_contact'] = 'Contáctanos';
 $l['contact_no_message'] = 'Debes introducir un mensaje.';
 $l['contact_no_subject'] = 'Debes introducir un asunto.';
 $l['contact_no_email'] = 'Debes introducir un email válido.';
@@ -21,4 +20,7 @@ $l['image_verification'] = "Verificación de la imagen";
 $l['verification_note'] = "Escribe el texto que aparece en la imagen, en el campo que está abajo. Este proceso se usa para evitar mensajes automáticos.";
 $l['verification_subnote'] = "(no distingue MAYÚSC/minúsc)";
 $l['invalid_captcha'] = "El código de imagen de verificación que has introducido es incorrecto. Por favor, introduce el código exactamente como aparece en la imagen.";
+$l['subject_too_long'] = 'El asunto es demasiado largo. Por favor, introduce un asunto con menos de {1} caracteres (actualmente {2}).';
+$l['message_too_short'] = 'El mensaje es demasiado corto. Por favor, introduce un mensaje con más de {1} caracteres (actualmente {2}).';
+$l['message_too_long'] = 'El mensaje es demasiado largo. Por favor, introduce un mensaje con menos de {1} caracteres (actualmente {2}).';
 ?>

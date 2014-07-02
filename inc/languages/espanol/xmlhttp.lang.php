@@ -16,6 +16,7 @@ $l['thread_closed_edit_message'] = "Este tema esta cerrado y tu no puede editar 
 $l['no_permission_edit_post'] = "No tienes permiso para editar este mensaje.";
 $l['edit_time_limit'] = "Solo puede editar mensajes {1} minutos después de ser publicados.";
 $l['postbit_edited'] = "Este mensaje fue modificado por última vez: {1} por";
+$l['postbit_editreason'] = "Razón de la edición:";
 $l['save_changes'] = "Guardar cambios";
 $l['cancel_edit'] = "Cancelar edición";
 $l['captcha_not_exists'] = "La imagen de verificación que intentas actualizar no existe.";

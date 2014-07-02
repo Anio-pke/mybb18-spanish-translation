@@ -18,7 +18,8 @@ $l['members'] = "Miembros:";
 $l['ppd'] = "Mensajes por día:";
 $l['tpd'] = "Temas por día:";
 $l['mpd'] = "Miembros por día:";
-$l['ppm'] = "Mensajes por miembros:";
+$l['ppm'] = "Mensajes por miembro:";
+$l['tpm'] = "Temas por miembro:";
 $l['rpt'] = "Respuestas por tema:";
 $l['no_posts'] = "No";
 $l['general'] = "General";
@@ -32,5 +33,6 @@ $l['most_viewed_threads'] = "Temas más vistos";
 $l['not_enough_info_stats'] = "Lo sentimos, pero no hay suficiente información en este foro para generar estadísticas. Antes de que se puedan generar estadísticas este foro necesita tener al menos 1 miembro y 1 tema.";
 $l['replies'] = "respuestas";
 $l['views'] = "vistas";
+$l['top_referrer'] = "Top recomendaciones: <strong>{1}</strong> (<strong>{2}</strong> recomendacione(s))";
 
 ?>

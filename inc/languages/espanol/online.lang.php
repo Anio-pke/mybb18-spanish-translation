@@ -18,6 +18,7 @@ $l['viewing_event'] = "Viendo evento";
 $l['viewing_event2'] = "Viendo evento <a href=\"{1}\">{2}</a>";
 $l['adding_event'] = "<a href=\"calendar.php?action=addevent\">Agregando evento</a>";
 $l['editing_event'] = "Editando evento";
+$l['viewing_contact_us'] = "Viendo <a href=\"contact.php\">Contáctanos</a>";
 $l['editing_post'] = "Editando mensaje";
 $l['viewing_forum'] = "Viendo foro";
 $l['viewing_forum2'] = "Viendo foro <a href=\"{1}\">{2}</a>";

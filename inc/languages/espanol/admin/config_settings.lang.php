@@ -110,8 +110,8 @@ $l['setting_boardclosed_reason_desc'] = "Si tus foros están cerrados, puedes es
 /**************************************************************************************************************************************************/
 
 // Grupo 2 general
-$l['setting_group_general'] = "Ajustes generales";
-$l['setting_group_general_desc'] = "Esta sección contiene varios parámetros como el nombre y URL de tu foro y también nombre y URL de tu sitio web.";
+$l['setting_group_details'] = "Detalles del sitio";
+$l['setting_group_details_desc'] = "Esta sección contiene varios parámetros como el nombre y URL de tu foro y también nombre y URL de tu sitio web.";
 //Ajustes
 $l['setting_bbname'] = "Nombre del foro";
 $l['setting_bbname_desc'] = "El nombre de tu foro. Es recomendable no exceder de 75 caracteres.";
@@ -127,8 +127,6 @@ $l['setting_returnemail'] = "Email de respuesta";
 $l['setting_returnemail_desc'] = "Dirección de email para las respuestas de los usuarios para enviar emails desde el foro con cuentas  'No responder (no-reply)'. Dejar en blanco para usar el email de administrador.";
 $l['setting_contactlink'] = "Enlace contáctanos";
 $l['setting_contactlink_desc'] = "La dirección se utilizará en el enlace contáctanos al pie de todas las páginas del foro. Puedes usar una dirección de email (mailto:email@website.com) o un enlace.";
-$l['setting_bblanguage'] = "Idioma por defecto";
-$l['setting_bblanguage_desc'] = "El idioma por defecto de MyBB para invitados y usuarios que no han seleccionado un idioma en su panel de control.";
 $l['setting_cookiedomain'] = "Dominio de las cookies";
 $l['setting_cookiedomain_desc'] = "El dominio en el que las cookies se deben establecer. Se puede dejar en blanco. Puedes también iniciar con un . y así cubrir todos los subdominios.";
 $l['setting_cookiepath'] = "Ruta de las cookies";
@@ -137,6 +135,18 @@ $l['setting_cookieprefix'] = "Prefijo para cookie";
 $l['setting_cookieprefix_desc'] = "Añadir un prefijo a las cookies del MyBB. Esto es recomendable cuando deseas instalar múltiples copias de MyBB en un dominio o tienes otro software instalado que podría crear conflictos con los nombres de las cookies de MyBB. Si no se especifica uno, no se usará ningún prefijo.";
 $l['setting_showvernum'] = "Mostrar número de versión";
 $l['setting_showvernum_desc'] = "Te permite deshabilitar el número de versión que se muestra en el MyBB.";
+$l['setting_mailingaddress'] = "Dirección de correo";
+$l['setting_mailingaddress_desc'] = "Si tienes una dirección de correo ordinaria, introdúcela aquí. Esto se mostrará con el formulario COPPA.";
+$l['setting_faxno'] = "Número de fax";
+$l['setting_faxno_desc'] = "Si tienes un número de fax, introdúcelo aquí. Esto se mostrará con el formulario COPPA.";
+/**************************************************************************************************************************************************/
+
+// Grupo 3 general
+$l['setting_group_general'] = "Ajustes generales";
+$l['setting_group_general_desc'] = "Esta sección ter permite configurar los aspectos generales de tu foro.";
+//Ajustes
+$l['setting_bblanguage'] = "Idioma por defecto";
+$l['setting_bblanguage_desc'] = "El idioma por defecto de MyBB para invitados y usuarios que no han seleccionado un idioma en su panel de control.";
 $l['setting_captchaimage'] = "Imágenes CAPTCHA para registros y publicaciones";
 $l['setting_captchaimage_desc'] = "Para ayudar a prevenir registros y publicaciones automáticas, puedes elegir un tipo de verificación para el usuario que debe completar. Por favor, visita el Wiki de MyBB para más información sobre los CAPTCHAs";
 $l['setting_captchaimage_0'] = "Sin CAPTCHA";
@@ -158,6 +168,8 @@ $l['setting_reportmethod_pms'] = "Enviar un mensaje privado";
 $l['setting_reportmethod_email'] = "Enviar un email informando";
 $l['setting_statslimit'] = "Límite de estadísticas";
 $l['setting_statslimit_desc'] = "Número de temas que se mostrarán en la página de estadísticas para los de más respuestas y los más vistos.";
+$l['setting_statstopreferrer'] = "Mostrar top de recomendaciones en la página de estadísticas";
+$l['setting_statstopreferrer_desc'] = "Si quieres mostrar el top de recomendaciones en la página stats.php. Esto añade una consulta adicional.";
 $l['setting_decpoint'] = "Punto decimal";
 $l['setting_decpoint_desc'] = "El punto decimal que se usa en tu región (Por ejemplo, configurar ',' con el número 0,1 dará como resultado el número 0,1).";
 $l['setting_thousandssep'] = "Separador de miles";
@@ -168,19 +180,21 @@ $l['setting_showthemeselect'] = "Mostrar selección de estilo en el pie";
 $l['setting_showthemeselect_desc'] = "Establece como 'No' si no quieres que se muestre el selector de estilo en el pie de todas las páginas de tu foro.";
 $l['setting_maxmultipagelinks'] = "Enlaces máximos de paginación";
 $l['setting_maxmultipagelinks_desc'] = "Aquí puedes establecer el número de enlaces (Anterior o siguiente) que se mostrarán en la paginación de los temas con más de una página de resultados.";
-$l['setting_mailingaddress'] = "Dirección de correo";
-$l['setting_mailingaddress_desc'] = "Si tienes una dirección de correo ordinaria, introdúcela aquí. Esto se mostrará con el formulario COPPA.";
-$l['setting_faxno'] = "Número de fax";
-$l['setting_faxno_desc'] = "Si tienes un número de fax, introdúcelo aquí. Esto se mostrará con el formulario COPPA.";
 $l['setting_no_plugins'] = "Deshabilitar todos los plugins";
 $l['setting_no_plugins_desc'] = "Configurar esto a 'Sí' deshabilitará todos los plugins sin desactivarlos o desinstalarlos. Esto es equivalente a definir manualmente NO_PLUGINS al inicio de init.php.";
-$l['setting_contact_guests'] = "Desactivar la página de contacto a los invitados";
-$l['setting_contact_guests_desc'] = "Establece 'Sí' para no permitir el acceso a los invitados a la página de contacto.";
 $l['setting_soft_delete'] = "Activar borrado suave";
 $l['setting_soft_delete_desc'] = "Si lo activas permites restaurar los mensajes y temas eliminados por los usuarios. En otro caso se eliminarán permanentemente.";
+$l['setting_helpsearch'] = "Activar búsqueda de documentos de ayuda";
+$l['setting_helpsearch_desc'] = "Si lo activas permitirás a los usuarios buscar en los documentos de ayuda.";
+$l['setting_deleteinvites'] = "Caducidad de las invitaciones de grupos de usuario";
+$l['setting_deleteinvites_desc'] = "Número de días que se quedarán pendientes las invitaciones a los grupos de usuarios antes de caducar. Establece 0 para desactivar.";
+$l['setting_guestimages'] = "Mostrar imágenes publicadas a los invitados";
+$l['setting_guestimages_desc'] = "Establecer esto a 'Sí' permite a los invitados ver las imagenes publicadas.";
+$l['setting_guestvideos'] = "Mostrar videos publicados a los invitados";
+$l['setting_guestvideos_desc'] = "Establecer esto a 'Sí' permite a los invitados ver los videos publicados.";
 /**************************************************************************************************************************************************/
 
-//Grupo 3 server
+//Grupo 4 server
 $l['setting_group_server'] = "Servidor y opciones de optimización";
 $l['setting_group_server_desc'] = "Estas opciones permiten configurar varios parámetros del servidor y de optimización permitiendo reducir la carga de tu servidor y tener un mejor rendimiento en el foro.";
 //Ajustes
@@ -231,9 +245,15 @@ $l['setting_ip_forwarded_check'] = "¿Examinar la dirección IP del usuario?";
 $l['setting_ip_forwarded_check_desc'] = "¿Quieres comprobar la dirección IP de un usuario para las cabeceras HTTP_X_FORWARDED_FOR o HTTP_X_REAL_IP? Si no estás seguro, selecciona 'No'.";
 $l['setting_minifycss'] = "¿Minimizar las hojas de estilo?";
 $l['setting_minifycss_desc'] = "¿Quieres minimizar las hojas de estilo? Escogiendo 'Sí' podrás ahorrar ancho de banda y conseguir que las páginas carguen antes.";
+$l['setting_usecdn'] = "¿Usar CDN?";
+$l['setting_usecdn_desc'] = "¿Quieres utilizar CDN (Content Delivery Network) para reducir la descarga de archivos estáticos, como las hojas de estilo, JavaScript e imágenes?";
+$l['setting_cdnurl'] = "URL que se utilizará para los archivos estáticos";
+$l['setting_cdnurl_desc'] = "Si tienes activado CDN en la opción anterior, introduce la URL base desde la que se servirá el contenido estático. Esto debe ser una URL válida sin la barra inclinada final (/).";
+$l['setting_cdnpath'] = "Ruta en la que se almacenarán los archivos";
+$l['setting_cdnpath_desc'] = "Si tienes activado CDN en la opción anterior, introduce la ruta completa en la que se almacenarán los archivos estáticos. Esto solo es útil para CDNs de tipo 'Push' o para instalaciones locales en subdominios. Esta ruta no lleva la barra inclinada final (/).";
 /**************************************************************************************************************************************************/
 
-// Grupo 4 datetime
+// Grupo 5 datetime
 $l['setting_group_datetime'] = "Formato de fecha y hora";
 $l['setting_group_datetime_desc'] = "Aquí puedes especificar un formato diferente de fecha y hora para las fechas y horas mostradas en los foros.";
 //Ajustes
@@ -251,7 +271,7 @@ $l['setting_dstcorrection'] = "Corrección del horario de verano";
 $l['setting_dstcorrection_desc'] = "Si tienes una hora más y tu zona horaria está seleccionada correctamente, activa la corrección del horario de verano.";
 /**************************************************************************************************************************************************/
 
-// Grupo 5 forumhome
+// Grupo 6 forumhome
 $l['setting_group_forumhome'] = "Opciones de la página de inicio del foro";
 $l['setting_group_forumhome_desc'] = "Esta sección te permite configurar varios parámetros que se utilizan en la página de inicio (index.php) de tus foros activando y desactivando diferentes opciones.";
 //Ajustes
@@ -277,7 +297,7 @@ $l['setting_showforumviewing'] = "¿Mostrar usuarios visitando un foro?";
 $l['setting_showforumviewing_desc'] = "Muestra los usuarios activos viendo un foro en la página de inicio.";
 /**************************************************************************************************************************************************/
 
-// Grupo 6 forumdisplay
+// Grupo 7 forumdisplay
 $l['setting_group_forumdisplay'] = "Opciones de visualización del foro";
 $l['setting_group_forumdisplay_desc'] = "Esta sección permite configurar varios parámetros que se utilizan al visualizar el foro (forumdisplay.php) de tus foros activando y desactivando diferentes opciones.";
 //Ajustes
@@ -301,7 +321,7 @@ $l['setting_readparentforums'] = "Intentar marcar los foros padre como leídos";
 $l['setting_readparentforums_desc'] = "Cuando se activa esta opción, se intentará marcar los foros padre de un subforo como leído si no hay más mensajes sin leer. Ten en cuenta que esta opción puede disminuir el rendimiento al realizar algunas consultas extras a la base de datos, por lo tanto debes tratarlo como algo experimental. Visita el Wiki de MyBB para obtener más información acerca de este cambio.";
 /**************************************************************************************************************************************************/
 
-//Grupo 7 showthread
+//Grupo 8 showthread
 $l['setting_group_showthread'] = "Opciones de visualización de temas";
 $l['setting_group_showthread_desc'] = "Esta sección permite configurar varios parámetros que se utilizan al visualizar los temas (showthread.php) de tus foros activando y desactivando diferentes opciones.";
 //Ajustes
@@ -337,7 +357,7 @@ $l['setting_delayedthreadviews'] = "Actualizar número de vistas con Retraso";
 $l['setting_delayedthreadviews_desc'] = "Si este ajuste está activado, el número de veces que se ha visto un tema se actualizará en segundo plano por el sistema de tareas. Si no está activa, se actualizará instantáneamente.";
 /**************************************************************************************************************************************************/
 
-//Grupo 8 member
+//Grupo 9 member
 $l['setting_group_member'] = "Opciones de registro de usuario e inicio de sesión";
 $l['setting_group_member_desc'] = "Aquí controlas varios parámetros relacionados con el registro de usuarios y el mantenimiento de cuentas.";
 //Ajustes
@@ -349,6 +369,7 @@ $l['setting_regtype_instant'] = "Activación instantánea";
 $l['setting_regtype_verify'] = "Enviar email de verificación";
 $l['setting_regtype_randompass'] = "Enviar contraseña aleatoria";
 $l['setting_regtype_admin'] = "Activación por administración";
+$l['setting_regtype_both'] = "Enviar email de verificación y activación por administración";
 $l['setting_minnamelength'] = "Longitud mínima de nombre de usuario";
 $l['setting_minnamelength_desc'] = "Mínimo número de caracteres para un nombre de usuario.";
 $l['setting_maxnamelength'] = "Longitud máxima de nombre de usuario";
@@ -393,9 +414,11 @@ $l['setting_failedlogintext'] = "Mostrar número de fallos";
 $l['setting_failedlogintext_desc'] = "¿Quieres mostrar una línea de texto al usuario que diga cuántos intentos de inicio de sesión le quedan?";
 $l['setting_regtime'] = "Tiempo mínimo de registro";
 $l['setting_regtime_desc'] = "El mínimo tiempo de registro es el número de segundos que le debe llevar a un usuario rellenar el formulario de registro.  Se utiliza para prevenir registros automáticos. Establece '0' para desactivar esta función.";
+$l['setting_securityquestion'] = "Mostrar pregunta de seguridad";
+$l['setting_securityquestion_desc'] = "¿Quieres mostrar la pregunta de seguridad que debe ser respondida cuando un usuario se registra?";
 /**************************************************************************************************************************************************/
 
-//Grupo 9 profile
+//Grupo 10 profile
 $l['setting_group_profile'] = "Opciones de perfil";
 $l['setting_group_profile_desc'] = "Estas opciones controlan los ajustes de los perfiles de los usuarios en el foro.";
 //Ajustes
@@ -445,7 +468,7 @@ $l['setting_allowbuddyonly'] = "¿Permitir mensajes privados solo entre amigos?"
 $l['setting_allowbuddyonly_desc'] = "¿Permitir a los usuarios recibir mensajes privados solo de usuarios que estén en su lista de amigos?";
 /**************************************************************************************************************************************************/
 
-//Grupo 10 posting
+//Grupo 11 posting
 $l['setting_group_posting'] = "Publicando mensajes";
 $l['setting_group_posting_desc'] = "Estas opciones controlan varios elementos relacionados con la publicación de mensajes en los foros.";
 //Ajustes
@@ -482,7 +505,6 @@ $l['setting_maxpostvideos'] = "Número máximo de vídeos por mensaje";
 $l['setting_maxpostvideos_desc'] = "Introduce el número máximo de vídeos que un miembro puede usar en sus mensajes. 0 para deshabilitar el límite.";
 $l['setting_subscribeexcerpt'] = "Número de caracteres para las vistas previas de las suscripciones";
 $l['setting_subscribeexcerpt_desc'] = "¿Cuantos caracteres de un mensaje quieres que se envíen en las notificaciones por email en una nueva respuesta?.";
-
 $l['setting_wordwrap'] = "Caracteres máximos por palabra";
 $l['setting_wordwrap_desc'] = "Número máximo de caracteres para una palabra antes de que se corte automáticamente (previene deformaciones en el foro). 0 para deshabilitar.";
 $l['setting_maxquotedepth'] = "Nivel máximo de citas";
@@ -495,9 +517,11 @@ $l['setting_polltimelimit'] = "Límite de tiempo para las encuestas";
 $l['setting_polltimelimit_desc'] = "Número de horas para usuarios normales a partir de las cuales no podrán añadir una encuesta a sus temas (si tienen permiso). Introduce 0 (cero) para no establecer un límite.";
 $l['setting_threadreview'] = "Mostrar resumen del tema";
 $l['setting_threadreview_desc'] = "¿Mostrar los mensajes más recientes al crear una nueva respuesta?";
+$l['setting_alloweditreason'] = "Permitir razón de edición";
+$l['setting_alloweditreason_desc'] = "¿Quieres permitir a tus usuarios la posibilidad de agregar una razón opcional de por qué editan sus mensajes?";
 /**************************************************************************************************************************************************/
 
-// Grupo 11 attachments
+// Grupo 12 attachments
 $l['setting_group_attachments'] = "Archivos adjuntos";
 $l['setting_group_attachments_desc'] = "Varias opciones relacionadas con el sistema de adjuntos que se configuran aquí.";
 //Ajustes
@@ -516,7 +540,7 @@ $l['setting_attachthumbw'] = "Ancho máximo de las miniaturas";
 $l['setting_attachthumbw_desc'] = "Introduce el ancho máximo con el que se generarán las miniaturas";
 /**************************************************************************************************************************************************/
 
-// Grupo 12 memberlist
+// Grupo 13 memberlist
 $l['setting_group_memberlist'] = "Lista de miembros";
 $l['setting_group_memberlist_desc'] = "Esta sección permite configurar varios aspectos en la lista de miembros (memberlist.php), como por ejemplo cuántos miembros se muestran por página y el orden en el que se muestran.";
 //Ajustes
@@ -538,7 +562,7 @@ $l['setting_memberlistmaxavatarsize'] = "Máxima dimensión de avatar";
 $l['setting_memberlistmaxavatarsize_desc'] = "Aquí puedes configurar el tamaño máximo para los avatares que se mostrarán en la lista de miembros. Si un avatar es muy grande, se redimensionará automáticamente.";
 /**************************************************************************************************************************************************/
 
-//Grupo 13 reputation
+//Grupo 14 reputation
 $l['setting_group_reputation'] = "Sistema de reputaciones";
 $l['setting_group_reputation_desc'] = "El sistema de reputación permite a tus usuarios calificar a otros y dejarles un comentario. Esta sección tiene ajustes para desactivar y cambiar otros aspectos de la página de reputación (reputation.php).";
 //Ajustes
@@ -562,9 +586,9 @@ $l['setting_minreplength'] = "Longitud mínima de la reputación";
 $l['setting_minreplength_desc'] = "Mínimo número de caracteres que se pueden usar en una reputación.";
 /**************************************************************************************************************************************************/
 
-//Grupo 14 warning
+//Grupo 15 warning
 $l['setting_group_warning'] = "Sistema de advertencias";
-$l['setting_group_warning_desc'] = "El sistema de advertencias permite al equipo del foro advertir a usuarios que violen las normas. Aquí puedes configurar los ajustes de control del sistema de advertencias.";
+$l['setting_group_warning_desc'] = "El sistema de advertencias permite al equipo del foro advertir a usuarios que violen las normas. Aquí puedes configurar los ajustes de control del sistema de advertencias. (warnings.php)";
 //Ajustes
 $l['setting_enablewarningsystem'] = "¿Activar sistema de advertencias?";
 $l['setting_enablewarningsystem_desc'] = "Establecer en 'No' para desactivar completamente el sistema de advertencias.";
@@ -576,7 +600,7 @@ $l['setting_maxwarningpoints'] = "Máximo número de advertencias";
 $l['setting_maxwarningpoints_desc'] = "El máximo número de advertencias necesarias antes de que un usuario tenga el nivel de advertencia al 100% (Ej: 10 puntos = 100% de advertencia)";
 /**************************************************************************************************************************************************/
 
-//Grupo 15 privatemessaging
+//Grupo 16 privatemessaging
 $l['setting_group_privatemessaging'] = "Mensajería privada";
 $l['setting_group_privatemessaging_desc'] = "Varias opciones relacionadas con el sistema de mensajería privada de MyBB (private.php) que se configuran desde aquí.";
 //Ajustes
@@ -601,19 +625,21 @@ $l['setting_showpmip_desc'] = "¿Quieres mostrar las direcciones IP de los usuar
 $l['setting_showpmip_no'] = "No mostrar IP";
 $l['setting_showpmip_hide'] = "Mostrar a administradores y moderadores";
 $l['setting_showpmip_show'] = "Mostrar a todos los usuarios";
+$l['setting_maxpmquotedepth'] = "Máximas etiquetas de cita";
+$l['setting_maxpmquotedepth_desc'] = "El nivel máximo de profundidad para las citas. Cuando responden con una cita en los MP, todas las citas que excedan el límite se eliminarán automaticamente. Ten en cuenta que este límite solo funciona al citar, con lo que es posible exceder este límite citando manualmente. Esto no afecta a los MPs ya enviados. Establece a 0 para desactivar.";
 /**************************************************************************************************************************************************/
 
-// Grupo 16 calendar
+// Grupo 17 calendar
 $l['setting_group_calendar'] = "Calendario";
-$l['setting_group_calendar_desc'] = "El calendario del foro permite listar eventos públicos o privados y los cumpleaños de los miembros. Esta sección permite configurar los parámetros para el Calendario.";
+$l['setting_group_calendar_desc'] = "El calendario del foro permite listar eventos públicos o privados y los cumpleaños de los miembros. Esta sección permite configurar los parámetros para el Calendario. (calendar.php)";
 //Ajustes
 $l['setting_enablecalendar'] = "Activar calendario";
 $l['setting_enablecalendar_desc'] = "Si quieres desactivar el calendario en tu foro, establece esta opción a no.";
 /**************************************************************************************************************************************************/
 
-//Grupo 17 whosonline
+//Grupo 18 whosonline
 $l['setting_group_whosonline'] = "Quién está en línea";
-$l['setting_group_whosonline_desc'] = "Esta sección permite configurar varios parámetros que afectan a la funcionalidad \"Quién está en línea\".";
+$l['setting_group_whosonline_desc'] = "Esta sección permite configurar varios parámetros que afectan a la funcionalidad 'Quién está en línea'. (online.php)";
 //Ajustes
 $l['setting_wolcutoffmins'] = "Tiempo de desconexión (Minutos)";
 $l['setting_wolcutoffmins_desc'] = "Minutos que se esperan antes de marcar a un usuario como desconectado. Recomendado: 15 mins.";
@@ -625,7 +651,7 @@ $l['setting_refreshwol'] = "Actualizar quién está en línea (Minutos)";
 $l['setting_refreshwol_desc'] = "Tiempo entre actualizaciones de la página \"Quién está en línea\", en minutos. 0 para desactivar.";
 /**************************************************************************************************************************************************/
 
-//Grupo 18 userpruning
+//Grupo 19 userpruning
 $l['setting_group_userpruning'] = "Borrado de usuarios";
 $l['setting_group_userpruning_desc'] = "Borrado de usuarios te permite eliminar usuarios siguiendo un criterio. Aquí puedes configurar este criterio."; 
 //Ajustes
@@ -645,7 +671,7 @@ $l['setting_prunethreads'] = "Borras mensajes/temas";
 $l['setting_prunethreads_desc'] = "Para los usuarios eliminados, ¿quieres eliminar todos sus mensajes/temas?";
 /**************************************************************************************************************************************************/
 
-// Grupo 19 portal
+// Grupo 20 portal
 $l['setting_group_portal'] = "Opciones del portal";
 $l['setting_group_portal_desc'] = "La página del portal mezcla muchas piezas de información sobre el foro, incluyendo los últimos mensajes, quién está en línea, estadísticas del foro, anuncios y más. Esta sección tiene ajustes que controlan la página del portal (portal.php).";
 //Ajustes
@@ -669,7 +695,7 @@ $l['setting_portal_showdiscussionsnum'] = "Número de \"Últimos temas\" a mostr
 $l['setting_portal_showdiscussionsnum_desc'] = "Por favor, introduce el número de los últimos temas que se mostrarán en la página del portal.";
 /**************************************************************************************************************************************************/
 
-//Grupo 20 search
+//Grupo 21 search
 $l['setting_group_search'] = "Sistema de búsqueda";
 $l['setting_group_search_desc'] = "Esta sección permite configurar varios parámetros que modifican el mecanismo de búsqueda de temas y mensajes en el MyBB.";
 //Ajustes
@@ -685,9 +711,9 @@ $l['setting_searchhardlimit'] = "Límite máximo de resultados en una búsqueda"
 $l['setting_searchhardlimit_desc'] = "Introduce el máximo de resultados que se procesarán. En foros muy grandes (Más de 1 millón de mensajes) es recomendable establecer un máximo inferior a 1000 (0 para deshabilitar).";
 /**************************************************************************************************************************************************/
 
-// Grupo 21 clickablecode
+// Grupo 22 clickablecode
 $l['setting_group_clickablecode'] = "Iconos gestuales y código BB";
-$l['setting_group_clickablecode_desc'] = "Esta sección te permite cambiar cómo aparece la lista de los iconos gestuales.";
+$l['setting_group_clickablecode_desc'] = "Esta sección te permite cambiar cómo aparece la lista de los iconos gestuales y controla los MyCodes utilizables";
 //Ajustes
 $l['setting_bbcodeinserter'] = "Editor MyCode";
 $l['setting_bbcodeinserter_desc'] = "Establece esta opción como 'On' para mostrar el editor MyCode en las páginas de envío de mensajes. Si cambia esto a off también desactivarás 'Lista de iconos gestuales'.";
@@ -697,9 +723,31 @@ $l['setting_smilieinsertertot'] = "Nº. de iconos gestuales que se muestran";
 $l['setting_smilieinsertertot_desc'] = "Introduce el número total de iconos gestuales que se mostrarán en la Lista de iconos gestuales.";
 $l['setting_smilieinsertercols'] = "Nº. de columnas para los iconos gestuales";
 $l['setting_smilieinsertercols_desc'] = "Introduce el número de columnas que deseas para la lista de iconos gestuales.";
+$l['setting_allowbasicmycode'] = "Permitir MyCodes básicos";
+$l['setting_allowbasicmycode_desc'] = "Establecer 'Sí' permite a los usuarios usar los MyCodes básicos, como negrita, cursiva, subrayado, tachado y HR.";
+$l['setting_allowcolormycode'] = "Permitir MyCode color";
+$l['setting_allowcolormycode_desc'] = "Establecer 'Sí' permite a los usuarios usar el MyCode color.";
+$l['setting_allowsizemycode'] = "Permitir MyCode tamaño (size)";
+$l['setting_allowsizemycode_desc'] = "Establecer 'Sí' permite a los usuarios usar el MyCode para el tamaño de letra.";
+$l['setting_allowfontmycode'] = "Permitir MyCode fuente (font)";
+$l['setting_allowfontmycode_desc'] = "Establecer 'Sí' permite a los usuarios usar el MyCode para el tipo de letra.";
+$l['setting_allowlinkmycode'] = "Permitir MyCode enlace (link)";
+$l['setting_allowlinkmycode_desc'] = "Establecer 'Sí' permite a los usuarios usar el MyCode para insertar enlaces.";
+$l['setting_allowemailmycode'] = "Permitir MyCode email";
+$l['setting_allowemailmycode_desc'] = "Establecer 'Sí' permite a los usuarios usar el MyCode para insertar emails.";
+$l['setting_allowalignmycode'] = "Permitir MyCode alineación (align)";
+$l['setting_allowalignmycode_desc'] = "Establecer 'Sí' permite a los usuarios usar el MyCode para alinear el texto.";
+$l['setting_allowlistmycode'] = "Permitir MyCode lista (list)";
+$l['setting_allowlistmycode_desc'] = "Establecer 'Sí' permite a los usuarios usar el MyCode para generar listas.";
+$l['setting_allowcodemycode'] = "Permitir MyCode código (code)";
+$l['setting_allowcodemycode_desc'] = "Establecer 'Sí' permite a los usuarios usar el MyCodes para código code.";
+$l['setting_allowsymbolmycode'] = "Permitir MyCodes símbolos (Symbol)";
+$l['setting_allowsymbolmycode_desc'] = "Establecer 'Sí' permite a los usuarios usar los MyCodes (tm), (c) y (r).";
+$l['setting_allowmemycode'] = "Permitir MyCodes yo (me)";
+$l['setting_allowmemycode_desc'] = "Establecer 'Sí' permite a los usuarios usar los MyCodes /me y /slap.";
 /**************************************************************************************************************************************************/
 
-// Grupo 22 cpprefs
+// Grupo 23 cpprefs
 $l['setting_group_cpprefs'] = "Opciones del panel de control (Global)";
 $l['setting_group_cpprefs_desc'] = "Esta sección te permite configurar las preferencias globales del panel de administración.";
 //Ajustes
@@ -713,7 +761,7 @@ $l['setting_loginattemptstimeout'] = "Tiempo de espera tras fallar el número m�
 $l['setting_loginattemptstimeout_desc'] = "Si la persona excede el número máximo de intentos para iniciar sesión, ¿Cuanto tiempo tiene que esperar antes de poder intentarlo de nuevo? (En minutos)";
 /**************************************************************************************************************************************************/
 
-//Grupo 23 mailsettings
+//Grupo 24 mailsettings
 $l['setting_group_mailsettings'] = "Ajustes de correo (Mailing)";
 $l['setting_group_mailsettings_desc'] = "Esta sección te permite configurar varios aspectos del sistema de emails del MyBB, como enviar los emails con la función 'mail' del PHP o otro servidor SMTP.";
 //Ajustes
@@ -742,4 +790,39 @@ $l['setting_mail_logging_2'] = "Almacenar siempre";
 $l['setting_mail_message_id'] = "Agregar un ID al mensaje en las cabeceras del email";
 $l['setting_mail_message_id_desc'] = "Desactivando esta opción en muchos servidores compartidos resuelve problemas con los emails del foro que son marcados como spam.";
 /**************************************************************************************************************************************************/
+
+//Grupo 25 contactsettings
+$l['setting_group_contactsettings'] = "Ajustes de contacto";
+$l['setting_group_contactsettings_desc'] = "Esta sección te permite configurar varias opciones para cambiar el comportamiento de la página de contacto (contact.php).";
+//Ajustes
+$l['setting_contact'] = "Activar página de contacto";
+$l['setting_contact_desc'] = "Establecer 'Sí' permite acceder a la página de contacto.";
+$l['setting_contact_guests'] = "Desactivar la página de contacto a los invitados";
+$l['setting_contact_guests_desc'] = "Establece 'Sí' para no permitir el acceso a los invitados a la página de contacto.";
+$l['setting_contact_badwords'] = "Activar filtros de palabras";
+$l['setting_contact_badwords_desc'] = "Establece 'Sí' para pasar el asunto y el mensaje por el filtro de palabras antes de ser enviado.";
+$l['setting_contact_maxsubjectlength'] = "Longitud máxima del asunto";
+$l['setting_contact_maxsubjectlength_desc'] = "Número máximo de caracteres (bytes) que se permiten en el asunto. Establecer a 0 permite longitud ilimitada.";
+$l['setting_contact_minmessagelength'] = "Longitud mínima del mensaje";
+$l['setting_contact_minmessagelength_desc'] = "Número mínimo de caracteres (bytes) que se permiten en el mensaje. Establecer a 0 desactiva el mínimo.";
+$l['setting_contact_maxmessagelength'] = "Longitud máxima del mensaje";
+$l['setting_contact_maxmessagelength_desc'] = "Número máximo de caracteres (bytes) que se permiten en el mensaje. Establecer a 0 permite longitud ilimitada.";
+/**************************************************************************************************************************************************/
+
+//Grupo 26 purgespammer
+$l['setting_group_purgespammer'] = "Expulsar spammer";
+$l['setting_group_purgespammer_desc'] = "Esta sección te permite cambiar los ajustes de la función expulsar spammer.";
+//Ajustes
+$l['setting_purgespammergroups'] = "Grupos permitidos";
+$l['setting_purgespammergroups_desc'] = "Selecciona los grupos que tienen permitido usar 'Expulsar spammer'.";
+$l['setting_purgespammerpostlimit'] = "Límite de mensajes";
+$l['setting_purgespammerpostlimit_desc'] = "Este ajuste evita que esta herramienta se utilice en usuarios que tienen más de una cierta cantidad de mensajes, para que no se utilice en miembros activos. Establecer 0 desactivará el límite, sin embargo, esto no es recomendable.";
+$l['setting_purgespammerbandelete'] = "Suspender o eliminar spammers";
+$l['setting_purgespammerbandelete_desc'] = "¿Quieres suspender o eliminar a los spammers con esta herramienta?";
+$l['setting_purgespammerbandelete_ban'] = "Suspensión permanente";
+$l['setting_purgespammerbandelete_delete'] = "Eliminar completamente";
+$l['setting_purgespammerbangroup'] = "Grupo de usuarios para la suspensión";
+$l['setting_purgespammerbangroup_desc'] = "Introduce la ID del grupo de usuarios (no el nombre) al que se moverá a los usuarios cuando sean suspendidos. Por defecto 7, que es el grupo para las suspensiones por defecto. El ajuste anterior debe tener establecido 'Suspensión permanente' para que esto tenga efecto.";
+$l['setting_purgespammerapikey'] = "Clave API Stop Forum Spam";
+$l['setting_purgespammerapikey_desc'] = "Para poder enciar información sobre spammers a la base de datos Stop Forum Spam, necesitas una clave API. Puedes conseguir una <a href=\"http://stopforumspam.com/signup\" target=\"_blank\">aquí</a>. Cuando ya tengas la clave, pégala en la caja de abajo.";
 ?>

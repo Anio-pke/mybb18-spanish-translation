@@ -35,8 +35,11 @@ $l['userdata_invalid_referrer'] = 'El recomendante que has introducido no existe
 $l['userdata_invalid_language'] = 'El idioma que has seleccionado no existe. Por favor, selecciona un idioma existente.';
 $l['userdata_missing_returndate'] = 'En la fecha de regreso que has especificado faltan uno o más campos. Por favor, asegúrate que has rellenado los campos día, mes, y año.';
 $l['userdata_missing_required_profile_field'] = 'No has introducido una opción para el campo "{1}". Por favor, rellénalo o selecciona un valor para este campo.';
+$l['userdata_bad_profile_field_value'] = 'No has introducido un valor válido para el campo "{1}". Por favor, introduce un valor válido para continuar.';
 $l['userdata_bad_profile_field_values'] = 'No has seleccionado una opción para el campo "{1}". Por favor, selecciona un valor de los mostrados.';
 $l['userdata_max_limit_reached'] = 'Has introducido un número inválido de caracteres en el campo "{1}" . Por favor, rellénalo correctamente con menos de {2} caracteres.';
 $l['userdata_invalid_checkfield'] = "Se ha detectado que este formulario se ha enviado por un bot. Si esto es un error, por favor contacte con un administrador.";
 $l['userdata_invalid_postnum'] = "El número de mensaje introducido es inválido. Por favor, introduce un número válido o deja el campo vacío.";
+$l['userdata_invalid_threadnum'] = "El número de team introducido es inválido. Por favor, introduce un número válido o deja el campo vacío.";
+
 ?>

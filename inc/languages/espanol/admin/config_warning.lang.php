@@ -66,7 +66,7 @@ $l['error_invalid_warning_level'] = "El nivel de advertencia especificado no exi
 $l['error_invalid_warning_percentage'] = "No has introducido un porcentaje válido para este nivel de advertencia. El porcentaje debe estar entre 1 y 100.";
 $l['error_invalid_warning_type'] = "El tipo de advertencia especificado no existe.";
 $l['error_missing_type_title'] = "No has introducido un título para este tipo de advertencia";
-$l['error_missing_type_points'] = "No has introducido un número de puntos válido para agregar con esta advertencia. Debe ser mayor de 0 pero menor de {1}";
+$l['error_missing_type_points'] = "No has introducido un número de puntos válido para agregar con esta advertencia. Debe ser mayor de 0 pero no mayor de {1}";
 
 $l['success_warning_level_created'] = "El nivel de advertencia se ha creado correctamente.";
 $l['success_warning_level_updated'] = "El nivel de advertencia seleccionado se ha actualizado correctamente.";

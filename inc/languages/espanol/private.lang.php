@@ -159,6 +159,7 @@ $l['ascending_order'] = "Ascendente";
 $l['descending_order'] = "Descendente";
 $l['search_private_messages'] = "Buscar mensajes privados";
 $l['check_all'] = "Comprobar todo";
+$l['search_user'] = "Buscar usuario";
 
 $l['error_nopmsarchive'] = "Lo sentimos, pero no existe ningún mensaje privado que coincida con tus criterios de búsqueda.";
 $l['error_invalidpmfoldername'] = "Lo sentimos, pero el nombre que le diste a la carpeta contiene caracteres que no están permitidos.";
@@ -170,6 +171,7 @@ $l['error_recipientpmturnedoff'] = "{1} ha escogido no recibir mensajes privados
 $l['error_pmsturnedoff'] = "Actualmente tienes los mensajes privados desactivados en tu perfil.<br />Para poder usarlos necesitas activar esta opción.";
 $l['error_recipientignoring'] = "Lo sentimos, pero no puedes enviarle un MP a {1}. No tienes permiso para realizar esta acción.";
 $l['error_pm_already_submitted'] = "Ya has enviado este mensaje privado a este destinatario en los últimos 5 minutos.";
+$l['error_nopms'] = "Es necesario tener uno o más mensajes privados para acceder a esta función.";
 
 $l['error_minsearchlength'] = "Uno o más terminos son muy cortos. La longitud mínima por término es {1} caracteres.<br /><br />Si intentas buscar una frase entera, enciérrala con las comillas dobles. Por ejemplo \"El zorro marrón saltó sobre el lindo perro\".";
 $l['error_nosearchresults'] = "Lo sentimos, pero no se han producido resultados con esta infomación. Por favor, redefine la búsqueda e inténtalo de nuevo.";
