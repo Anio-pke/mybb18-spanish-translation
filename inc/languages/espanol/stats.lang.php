@@ -7,6 +7,7 @@
  */
 
 $l['nav_stats'] = "Estadísticas del foro";
+$l['stats_disabled'] = "No puedes usar la página de estadísticas porque ha sido desactivada por un administrador.";
 
 $l['board_stats'] = "Estadísticas del foro";
 $l['none'] = "Ninguno";
@@ -35,4 +36,3 @@ $l['replies'] = "respuestas";
 $l['views'] = "vistas";
 $l['top_referrer'] = "Top recomendaciones: <strong>{1}</strong> (<strong>{2}</strong> recomendacione(s))";
 
-?>

@@ -54,4 +54,3 @@ $l['set_time'] = "Seleccionar fecha";
 
 $l['announcement_preview'] = 'Vista previa del anuncio';
 
-?>

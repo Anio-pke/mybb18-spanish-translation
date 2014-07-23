@@ -75,4 +75,3 @@ $l['confirm_task_deletion'] = "¿Estás seguro de querer eliminar esta tarea pro
 $l['confirm_task_enable'] = "<strong>ADVERTENCIA:</strong> Estás activando una tarea que solo se puede ejecutar a través de cron (Por favor, visita la <a href=\"http://docs.mybb.com/Help-Task_System.html\" target=\"_blank\">documentación de MyBB</a> para más información). ¿Continuar?";
 $l['no_tasks'] = "No hay tareas en tu foro en este momento.";
 
-?>

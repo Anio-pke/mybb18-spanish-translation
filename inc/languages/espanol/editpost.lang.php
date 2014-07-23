@@ -53,4 +53,3 @@ $l['thread_restored'] = "Tema restaurado";
 $l['post_restored'] = "Mensaje restaurado";
 
 $l['error_already_deleted'] = 'El mensaje seleccionado se ha eliminado correctamente.';
-?>

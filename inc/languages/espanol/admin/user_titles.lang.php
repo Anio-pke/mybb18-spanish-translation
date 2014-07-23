@@ -36,4 +36,3 @@ $l['manage_user_titles'] = "Configurar títulos";
 $l['user_title'] = "Título de usuario";
 $l['no_user_titles'] = "Actuamente no hay títulos de usuario definidos";
 
-?>

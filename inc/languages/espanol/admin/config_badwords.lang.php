@@ -34,4 +34,3 @@ $l['success_updated_bad_word'] = "El filtro se ha actualizado correctamente.";
 
 $l['confirm_bad_word_deletion'] = "¿Estás seguro de querer eliminar este filtro?";
 
-?>

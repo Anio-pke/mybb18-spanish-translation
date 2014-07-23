@@ -110,4 +110,3 @@ $l['quick_delete_thread_success'] = 'El tema se ha eliminado correctamente.';
 $l['quick_restore_error'] = 'Ha ocurrido un error al restaurar tu respuesta:';
 $l['quick_restore_success'] = 'El mensaje se ha restaurado correctamente.';
 
-?>

@@ -18,7 +18,7 @@ $l['manage_post_icons_desc'] = "Esta sección te permite editar, eliminar y conf
 
 $l['name_desc'] = "Este es el nombre para el icono de mensaje.";
 $l['image_path'] = "Ruta de imagen";
-$l['image_path_desc'] = "Esta es la ruta a la imagen del icono.";
+$l['image_path_desc'] = "Esta es la ruta a la imagen del icono. Si quieres usar diferentes iconos de mensajes en cada estilo, por favor, usa <strong>{theme}</strong> para representar el directorios de imágenes en cada estilo.";
 $l['save_post_icon'] = "Guarda icono de mensaje";
 $l['reset'] = "Limpiar";
 
@@ -45,4 +45,3 @@ $l['success_post_icon_updated'] = "El icono de mensaje se ha actualizado correct
 $l['success_post_icon_deleted'] = "El icono de mensaje se ha eliminado correctamente.";
 
 $l['confirm_post_icon_deletion'] = "¿Estás seguro de querer eliminar este icono de mensaje?";
-?>

@@ -59,4 +59,3 @@ $l['success_document_deleted'] = "El documento de ayuda se ha eliminado correcta
 $l['confirm_section_deletion'] = "¿Estás seguro de querer borrar esta sección?";
 $l['confirm_document_deletion'] = "¿Estás seguro de querer borrar este documento?";
 
-?>

@@ -74,4 +74,3 @@ $l['success_profile_field_saved'] = "El campo de perfil personalizado selecciona
 $l['success_profile_field_deleted'] = "El campo de perfil personalizado seleccionado se ha eliminado correctamente.";
 
 $l['confirm_profile_field_deletion'] = "¿Estás seguro de querer eliminar este campo de perfil?";
-?>

@@ -32,4 +32,3 @@ $l['ucp_nav_view_profile'] = "Ver perfil";
 $l['ucp_nav_home'] = "Panel de control";
 $l['ucp_nav_usergroups'] = "Membresías de grupos";
 $l['ucp_nav_attachments'] = "Archivos adjuntos";
-?>

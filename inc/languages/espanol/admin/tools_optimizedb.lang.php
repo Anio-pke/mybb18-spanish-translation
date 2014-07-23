@@ -19,4 +19,3 @@ $l['error_no_tables_selected'] = "No se ha seleccionado ninguna tabla para optim
 
 $l['success_tables_optimized'] = "Las tablas seleccionadas se han optimizado y analizado correctamente.";
 
-?>

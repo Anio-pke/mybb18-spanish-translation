@@ -41,4 +41,3 @@ $l['success_bot_deleted'] = "El bot se ha eliminado correctamente.";
 
 $l['confirm_bot_deletion'] = "¿Estás seguro de querer eliminar este bot?";
 
-?>

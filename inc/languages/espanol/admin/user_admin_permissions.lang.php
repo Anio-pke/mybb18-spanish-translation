@@ -36,7 +36,7 @@ $l['edit_group'] = "Editar grupo";
 $l['default'] = "Predeterminado";
 $l['group'] = "Grupo";
 
-$l['error_delete_super_admin'] = 'Lo siento, pero no puedes realizar esta acción porque el usuario especificado es un super administrador.<br /><br />Para realizar esta acción, debes añadir tu ID de usuario a la lista de super administradores en inc/config.php.';
+$l['error_super_admin'] = 'Lo siento, pero no puedes realizar esta acción porque el usuario especificado es un super administrador.<br /><br />Para realizar esta acción, debes añadir tu ID de usuario a la lista de super administradores en inc/config.php.';
 $l['error_delete_no_uid'] = 'No has introducido ninguna id de un permiso de administrador';
 $l['error_delete_invalid_uid'] = 'No has introducido una id válida de un permiso de administrador';
 
@@ -45,4 +45,3 @@ $l['success_perms_deleted'] = 'Los permisos de administrador se han restablecido
 $l['confirm_perms_deletion'] = "¿Estás seguro de querer restablecer estos permisos de administrador?";
 $l['confirm_perms_deletion2'] = "¿Estás seguro de querer restablecer los permisos de administrador a este usuario?";
 
-?>

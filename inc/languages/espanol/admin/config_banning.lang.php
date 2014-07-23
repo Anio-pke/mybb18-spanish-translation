@@ -45,4 +45,3 @@ $l['success_ban_deleted'] = "La suspensión especificada se ha eliminado correct
 
 $l['confirm_ban_deletion'] = "¿Estás seguro de eliminar esta suspensión?";
 
-?>

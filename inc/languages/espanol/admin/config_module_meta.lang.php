@@ -44,4 +44,3 @@ $l['can_manage_mod_tools'] = "¿Puede configurar las herramientas de moderación
 $l['can_manage_thread_prefixes'] = "¿Puede configurar prefijos de tema?";
 $l['can_manage_security_questions'] = "¿Puede configurar las preguntas de seguridad?";
 
-?>

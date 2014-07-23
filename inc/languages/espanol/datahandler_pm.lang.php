@@ -20,4 +20,3 @@ $l['pmdata_recipient_reached_quota'] = '{1} ha superado su cuota de mensajes, po
 
 $l['pmdata_pm_flooding'] = 'Estás intentando enviar un mensaje demasiado rápido después de enviar un mensaje. Por favor espera {1} segundos más.';
 $l['pmdata_pm_flooding_one_second'] = 'Estás intentando enviar un mensaje demasiado rápido después de enviar un mensaje. Por favor espera 1 segundo más.';
-?>

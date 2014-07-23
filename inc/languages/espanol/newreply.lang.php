@@ -45,4 +45,14 @@ $l['redirect_newreply_post'] = "<br />Ahora serás llevado a tu mensaje.";
 $l['redirect_newreplyerror'] = "Lo sentimos, pero tu respuesta fue rechazada por falta de contenido. <br />Ahora serás llevado de regreso al tema.";
 $l['redirect_threadclosed'] = "No puedes responder ni editar mensajes en este tema porque ha sido cerrado por un moderador.";
 $l['error_post_noperms'] = "No tienes permiso para editar este borrador.";
-?>
+
+
+$l['error_stop_forum_spam_spammer'] = 'Lo sentimos, tu nombre de usuario o tu IP coincide con un conocido spammer. Si crees que es un error, por favor, contacta con un administrador.';
+$l['error_stop_forum_spam_fetching'] = 'Lo sentimos, se ha producido algún problema al verificar tu mensaje en la base de datos de spammers. Parece que la base de datos no está accesible. Por favor, inténtalo de nuevo más tarde.';
+
+$l['error_suspendedposting'] = "Tus privilegios de publicación han sido suspendidos {1}.<br /><br />
+
+Fecha de suspensión: {2}";
+$l['error_suspendedposting_temporal'] = "hasta {1}";
+$l['error_suspendedposting_permanent'] = "permanentemente";
+

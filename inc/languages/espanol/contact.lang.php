@@ -23,4 +23,7 @@ $l['invalid_captcha'] = "El código de imagen de verificación que has introduci
 $l['subject_too_long'] = 'El asunto es demasiado largo. Por favor, introduce un asunto con menos de {1} caracteres (actualmente {2}).';
 $l['message_too_short'] = 'El mensaje es demasiado corto. Por favor, introduce un mensaje con más de {1} caracteres (actualmente {2}).';
 $l['message_too_long'] = 'El mensaje es demasiado largo. Por favor, introduce un mensaje con menos de {1} caracteres (actualmente {2}).';
-?>
+
+$l['error_stop_forum_spam_spammer'] = 'Lo sentimos, tu email o tu IP coincide con un conocido spammer y por lo tanto tu mensaje de contacto ha sido bloqueado.';
+$l['error_stop_forum_spam_fetching'] = 'Lo sentimos, se ha producido algún problema al verificar tu mensaje en la base de datos de spammers. Parece que la base de datos no está accesible. Por favor, inténtalo de nuevo más tarde.';
+

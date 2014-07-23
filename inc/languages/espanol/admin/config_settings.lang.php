@@ -109,7 +109,7 @@ $l['setting_boardclosed_reason'] = "Razón del cierre";
 $l['setting_boardclosed_reason_desc'] = "Si tus foros están cerrados, puedes escribir un mensaje aquí que se mostrará a los visitantes cuando entren a tus foros.";
 /**************************************************************************************************************************************************/
 
-// Grupo 2 general
+// Grupo 2 details
 $l['setting_group_details'] = "Detalles del sitio";
 $l['setting_group_details_desc'] = "Esta sección contiene varios parámetros como el nombre y URL de tu foro y también nombre y URL de tu sitio web.";
 //Ajustes
@@ -180,6 +180,8 @@ $l['setting_showthemeselect'] = "Mostrar selección de estilo en el pie";
 $l['setting_showthemeselect_desc'] = "Establece como 'No' si no quieres que se muestre el selector de estilo en el pie de todas las páginas de tu foro.";
 $l['setting_maxmultipagelinks'] = "Enlaces máximos de paginación";
 $l['setting_maxmultipagelinks_desc'] = "Aquí puedes establecer el número de enlaces (Anterior o siguiente) que se mostrarán en la paginación de los temas con más de una página de resultados.";
+$l['setting_jumptopagemultipage'] = "Mostrar 'Saltar a' en la paginación";
+$l['setting_jumptopagemultipage_desc'] = "Aquí puedes establecer que se muestre el formulario 'Saltar a' si el número de páginas de la paginación supera el máximo.";
 $l['setting_no_plugins'] = "Deshabilitar todos los plugins";
 $l['setting_no_plugins_desc'] = "Configurar esto a 'Sí' deshabilitará todos los plugins sin desactivarlos o desinstalarlos. Esto es equivalente a definir manualmente NO_PLUGINS al inicio de init.php.";
 $l['setting_soft_delete'] = "Activar borrado suave";
@@ -192,6 +194,10 @@ $l['setting_guestimages'] = "Mostrar imágenes publicadas a los invitados";
 $l['setting_guestimages_desc'] = "Establecer esto a 'Sí' permite a los invitados ver las imagenes publicadas.";
 $l['setting_guestvideos'] = "Mostrar videos publicados a los invitados";
 $l['setting_guestvideos_desc'] = "Establecer esto a 'Sí' permite a los invitados ver los videos publicados.";
+$l['setting_hidewebsite'] = "Ocultar los sitios web";
+$l['setting_hidewebsite_desc'] = "Selecciona los grupos de usuario a los que se les ocultarán los sitios web.";
+$l['setting_hidesignatures'] = "Ocultar las firmas";
+$l['setting_hidesignatures_desc'] = "Selecciona los grupos de usuario a los que se les ocultarán las firmas.";
 /**************************************************************************************************************************************************/
 
 //Grupo 4 server
@@ -370,6 +376,8 @@ $l['setting_regtype_verify'] = "Enviar email de verificación";
 $l['setting_regtype_randompass'] = "Enviar contraseña aleatoria";
 $l['setting_regtype_admin'] = "Activación por administración";
 $l['setting_regtype_both'] = "Enviar email de verificación y activación por administración";
+$l['setting_forcelogin'] = "Forzar usuarios a iniciar sesión";
+$l['setting_forcelogin_desc'] = "Establecer 'Sí' forzarás a los invitados a iniciar sesión o a registrarse para acceder al foro.";
 $l['setting_minnamelength'] = "Longitud mínima de nombre de usuario";
 $l['setting_minnamelength_desc'] = "Mínimo número de caracteres para un nombre de usuario.";
 $l['setting_maxnamelength'] = "Longitud máxima de nombre de usuario";
@@ -596,6 +604,8 @@ $l['setting_allowcustomwarnings'] = "¿Permitir advertencias personalizadas?";
 $l['setting_allowcustomwarnings_desc'] = "Permite personalizar la razón y el número de puntos que serán especificados por sus permisos para advertir a los usuarios.";
 $l['setting_canviewownwarning'] = "¿Permitir a los Usuarios ver sus advertencias?";
 $l['setting_canviewownwarning_desc'] = "Establcer este ajuste como 'Sí' permite a los usuarios ver en su panel de control las últimas advertencias y mostrar su nivel de advertencia en su perfil.";
+$l['setting_allowanonwarningpms'] = "Permitir MPs anónimos en las advertencias";
+$l['setting_allowanonwarningpms_desc'] = "Aquí configuras si permites o no a los moderadores enviar MPs anónimos cuando advierten a un usuario.";
 $l['setting_maxwarningpoints'] = "Máximo número de advertencias";
 $l['setting_maxwarningpoints_desc'] = "El máximo número de advertencias necesarias antes de que un usuario tenga el nivel de advertencia al 100% (Ej: 10 puntos = 100% de advertencia)";
 /**************************************************************************************************************************************************/
@@ -675,10 +685,12 @@ $l['setting_prunethreads_desc'] = "Para los usuarios eliminados, ¿quieres elimi
 $l['setting_group_portal'] = "Opciones del portal";
 $l['setting_group_portal_desc'] = "La página del portal mezcla muchas piezas de información sobre el foro, incluyendo los últimos mensajes, quién está en línea, estadísticas del foro, anuncios y más. Esta sección tiene ajustes que controlan la página del portal (portal.php).";
 //Ajustes
-$l['setting_portal_announcementsfid'] = "Mostrar los anuncios en los foros";
-$l['setting_portal_announcementsfid_desc'] = "Seleciona los foros en los que quieres mostrar los anuncios.";
+$l['setting_portal'] = "Activar portal";
+$l['setting_portal_desc'] = "Si quieres desactivar el portal en tu foro, establece esta opción a no.";
+$l['setting_portal_announcementsfid'] = "Mostrar los anuncios de los foros";
+$l['setting_portal_announcementsfid_desc'] = "Seleciona los foros de los que quieres mostrar los anuncios.";
 $l['setting_portal_numannouncements'] = "Número de anuncios a mostrar";
-$l['setting_portal_numannouncements_desc'] = "Por favor, introduce el número de anuncios que se mostarán en la página principal.";
+$l['setting_portal_numannouncements_desc'] = "Por favor, introduce el número de anuncios que se mostarán por página en la página principal.";
 $l['setting_portal_showwelcome'] = "Mostrar caja de bienvenida";
 $l['setting_portal_showwelcome_desc'] = "Muestra la caja de bienvenida a invitados / usuarios.";
 $l['setting_portal_showpms'] = "Mostrar el número de MPs a los usuarios";
@@ -693,6 +705,8 @@ $l['setting_portal_showdiscussions'] = "Mostrar \"Últimos temas\"";
 $l['setting_portal_showdiscussions_desc'] = "Muestra los últimos temas que se han discutido en el foro";
 $l['setting_portal_showdiscussionsnum'] = "Número de \"Últimos temas\" a mostrar";
 $l['setting_portal_showdiscussionsnum_desc'] = "Por favor, introduce el número de los últimos temas que se mostrarán en la página del portal.";
+$l['setting_portal_excludediscussion'] = "Foros que excluyes de la sección 'Últimos temas'";
+$l['setting_portal_excludediscussion_desc'] = "Por favor, selecciona los foros de los que quieres que sus temas no aparezcan en la sección 'Últimos temas'";
 /**************************************************************************************************************************************************/
 
 //Grupo 21 search
@@ -717,6 +731,8 @@ $l['setting_group_clickablecode_desc'] = "Esta sección te permite cambiar cómo
 //Ajustes
 $l['setting_bbcodeinserter'] = "Editor MyCode";
 $l['setting_bbcodeinserter_desc'] = "Establece esta opción como 'On' para mostrar el editor MyCode en las páginas de envío de mensajes. Si cambia esto a off también desactivarás 'Lista de iconos gestuales'.";
+$l['setting_partialmode'] = "Editor MyCode parcial";
+$l['setting_partialmode_desc'] = "El editor estará en modo parcial si estableces 'Sí'. Algunos MyCodes, como [quote] y [img], se insertarán como etiquetas de texto plano.";
 $l['setting_smilieinserter'] = "Lista de iconos gestuales";
 $l['setting_smilieinserter_desc'] = "La lista de iconos gestuales aparece en las webs de publicación de mensajes si esta opción se marca como 'On'.";
 $l['setting_smilieinsertertot'] = "Nº. de iconos gestuales que se muestran";
@@ -825,4 +841,55 @@ $l['setting_purgespammerbangroup'] = "Grupo de usuarios para la suspensión";
 $l['setting_purgespammerbangroup_desc'] = "Introduce la ID del grupo de usuarios (no el nombre) al que se moverá a los usuarios cuando sean suspendidos. Por defecto 7, que es el grupo para las suspensiones por defecto. El ajuste anterior debe tener establecido 'Suspensión permanente' para que esto tenga efecto.";
 $l['setting_purgespammerapikey'] = "Clave API Stop Forum Spam";
 $l['setting_purgespammerapikey_desc'] = "Para poder enciar información sobre spammers a la base de datos Stop Forum Spam, necesitas una clave API. Puedes conseguir una <a href=\"http://stopforumspam.com/signup\" target=\"_blank\">aquí</a>. Cuando ya tengas la clave, pégala en la caja de abajo.";
-?>
+/**************************************************************************************************************************************************/
+
+//Grupo 27 stopforumspam
+$l['setting_group_stopforumspam'] = "Detener spam";
+$l['setting_group_stopforumspam_desc'] = "Esta sección te permite cambiar los ajustes utilizados en la integración con StopForumSpam.com";
+//Ajustes
+$l['setting_enablestopforumspam_on_register'] = "¿Comprobar los registros?";
+$l['setting_enablestopforumspam_on_register_desc'] = "¿Quieres comprobar todos los nuevos registros con la base de datos de StopForumSpam.com?";
+$l['setting_stopforumspam_on_contact'] = "¿Comprobar los envíos de invitados en 'Contacto'?";
+$l['setting_stopforumspam_on_contact_desc'] = "¿Quieres comprobar el email y la IP de los usuarios invitados que usen el formulario de contacto con la base de datos de StopForumSpam.com?";
+$l['setting_stopforumspam_on_newreply'] = "¿Comprobar las respuestas de los invitados?";
+$l['setting_stopforumspam_on_newreply_desc'] = "¿Quieres comprobar el email y la IP de los usuarios invitados cuando creen nuevas respuestas con la base de datos de StopForumSpam.com?";
+$l['setting_stopforumspam_on_newthread'] = "¿Comprobar los temas de los invitados?";
+$l['setting_stopforumspam_on_newthread_desc'] = "¿Quieres comprobar el email y la IP de los usuarios invitados cuando creen nuevos temas con la base de datos de StopForumSpam.com?";
+$l['setting_stopforumspam_min_weighting_before_spam'] = "Ponderación mínima de StopForumSpam.com";
+$l['setting_stopforumspam_min_weighting_before_spam_desc'] = "Ponderación mínima recibida de StopForumSpam para considerar un usuario como spammer. Debe ser un número entre 0 y 100.";
+$l['setting_stopforumspam_check_usernames'] = "¿Comprobar nombres de usuario?";
+$l['setting_stopforumspam_check_usernames_desc'] = "¿Quieres comprobar los nombres de usuario con la base de datos de StopForumSpam.com?";
+$l['setting_stopforumspam_check_emails'] = "¿Comprobar emails?";
+$l['setting_stopforumspam_check_emails_desc'] = "¿Quieres comprobar los emails de los usuarios con la base de datos de StopForumSpam.com?";
+$l['setting_stopforumspam_check_ips'] = "¿Comprobar IPs?";
+$l['setting_stopforumspam_check_ips_desc'] = "¿Quieres comprobar las ips de los usuarios con la base de datos de StopForumSpam.com?";
+$l['setting_stopforumspam_block_on_error'] = "¿Bloquear si falla StopForumSpam.com?";
+$l['setting_stopforumspam_block_on_error_desc'] = "Si ocurre un error al recuperar la información de la API de StopForumSpam.com, ¿Se debe bloquear al usuario?";
+$l['setting_stopforumspam_log_blocks'] = "Historial de bloqueos";
+$l['setting_stopforumspam_log_blocks_desc'] = "Establece 'Sí' si quieres guardar el historial de bloqueos de StopForumSpam.com en tu foro.";
+/**************************************************************************************************************************************************/
+
+//Grupo 27 contactdetails
+$l['setting_group_contactdetails'] = "Detalles de contacto";
+$l['setting_group_contactdetails_desc'] = "Esta sección te permite cambiar los ajustes de los campos de contacto de los usuarios.";
+//Ajustes
+$l['setting_allowicqfield'] = "Permitir el campo Número ICQ";
+$l['setting_allowicqfield_desc'] = "Selecciona los grupos de usuarios que tienen permitido usar el campo de contacto Número ICQ.";
+$l['setting_allowaimfield'] = "Permitir  el campo AIM";
+$l['setting_allowaimfield_desc'] = "Selecciona los grupos de usuarios que tienen permitido usar el campo de contacto AIM.";
+$l['setting_allowyahoofield'] = "Permitir  el campo Yahoo!";
+$l['setting_allowyahoofield_desc'] = "Selecciona los grupos de usuarios que tienen permitido usar el campo de contacto Yahoo!.";
+$l['setting_allowskypefield'] = "Permitir  el campo Skype";
+$l['setting_allowskypefield_desc'] = "Selecciona los grupos de usuarios que tienen permitido usar el campo de contacto Skype.";
+$l['setting_allowgooglefield'] = "Permitir  el campo Google Talk";
+$l['setting_allowgooglefield_desc'] = "Selecciona los grupos de usuarios que tienen permitido usar el campo de contacto Google Talk.";
+/**************************************************************************************************************************************************/
+
+//Grupo 28 statspage
+$l['setting_group_statspage'] = "Estadísticas del foro";
+$l['setting_group_statspage_desc'] = "Esta sección te permite cambiar los ajustes de la página de estadísticas del foro.";
+//Ajustes
+$l['setting_statsenabled'] = "Activar página de estadísticas";
+$l['setting_statsenabled_desc'] = "Si quieres desactivar la página de estadísticas en tu foro, establece esta opción a no.";
+$l['setting_statscachetime'] = "Tiempo de la caché de estadísticas";
+$l['setting_statscachetime_desc'] = "Inserta el intervalo de tiempo en horas en el que se refrescará la caché de la página de estadísticas.";

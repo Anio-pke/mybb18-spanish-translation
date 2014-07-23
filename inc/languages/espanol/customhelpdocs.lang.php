@@ -14,4 +14,3 @@
  * $l['d{hid}_desc'] = "Descripción del documento";
  * $l['d{hid}_document'] = "Texto del documento";
  */
-?>

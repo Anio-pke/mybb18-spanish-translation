@@ -153,14 +153,16 @@ $l['tpp'] = "Temas por página:";
 $l['tpp_desc'] = "Te permite seleccionar la cantidad de temas que son mostrados por página en una lista de temas.";
 $l['reset_password'] = "Reiniciar contraseña";
 $l['send_password'] = "¡Enviar nueva contraseña!";
-$l['image_verification'] = "Verificación de la imagen";
-$l['verification_note'] = "Escribe el texto que aparece en la imagen de la derecha, en el campo que está abajo. Este proceso se usa para evitar registros automáticos.";
+$l['image_verification'] = "Imagen de verificación";
+$l['verification_note'] = "Escribe el texto que aparece en la imagen en el campo que está abajo. Este proceso se usa para evitar registros automáticos.";
 $l['verification_subnote'] = "(no distingue MAYÚSC/minúsc)";
-$l['registration_errors'] = "Los siguientes errores ocurrieron con tu registro:";
+$l['registration_errors'] = "Ocurrieron los siguientes errores con tu registro:";
 $l['timeonline'] = "Tiempo en línea:";
 $l['timeonline_hidden'] = "(Oculto)";
 $l['registrations_disabled'] = "Lo sentimos, pero no te puedes registrar por el momento debido a que los administradores han desactivado el registro de nuevas cuentas.";
 $l['error_username_length'] = "Tu nombre de usuario es inválido. Los nombres de usuario tienen que ser de {1} a {2} letras de largo.";
+$l['error_stop_forum_spam_spammer'] = 'Lo sentimos, tu nombre de usuario o tu email coincide con un conocido spammer. Si crees que es un error, por favor, contacta con un administrador.';
+$l['error_stop_forum_spam_fetching'] = 'Lo sentimos, se ha producido algún problema al verificar tu cuenta en la base de datos de spammers. Parece que la base de datos no está accesible. Por favor, inténtalo de nuevo más tarde.';
 
 $l['none_registered'] = "Ningún registrado";
 $l['not_specified'] = "No especificado";
@@ -215,6 +217,7 @@ $l['js_validator_no_username'] = "Debes introducir un nombre de usuario";
 $l['js_validator_invalid_email'] = "Debes introducir un email válido";
 $l['js_validator_email_match'] = "Debes introducir el mismo email de nuevo";
 $l['js_validator_no_image_text'] = "Debes introducir el texto de la imagen de abajo";
+$l['js_validator_no_security_question'] = "Debes responder a la pregunta de seguridad";
 $l['js_validator_password_matches'] = "Las contraseñas introducidas no coinciden";
 $l['js_validator_password_complexity'] = "Las contraseñas deben contener uno o más símbolos";
 $l['js_validator_password_length'] = "Tu contraseña debe tener más de {1} caracteres";
@@ -239,4 +242,13 @@ $l['add_to_buddy_list'] = "Agregar a mi lista de amigos";
 $l['remove_from_ignore_list'] = "Quitar de mi lista de ignorados";
 $l['add_to_ignore_list'] = "Agregar a mi lista de ignorados";
 $l['report_user'] = "Reportar usuario";
-?>
+
+$l['newregistration_subject'] = "Nuevo registo en {1}";
+$l['newregistration_message'] = "{1},
+
+Hay un nuevo usuario en {2} pendiente de ser activado por un administrador.
+
+Nombre de usuario: {3}
+
+Gracias,
+El equipo de {2}";

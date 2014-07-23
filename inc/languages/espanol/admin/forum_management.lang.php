@@ -153,11 +153,6 @@ $l['copy_settings_and_properties_desc'] = "Solo se aplica si existe el foro dest
 $l['copy_user_group_permissions'] = "Copiar permisos de los grupos de usuarios";
 $l['copy_user_group_permissions_desc'] = "Usar CTRL para seleccionar múltiples grupos.";
 
-$l['moderation_options'] = "Opciones de moderación";
-$l['mod_new_posts'] = "Si, moderar nuevos mensajes";
-$l['mod_new_threads'] = "Si, moderar nuevos temas";
-$l['mod_new_attachments'] = "Si, moderar nuevos archivos adjuntos";
-$l['mod_after_edit'] = "Si, moderar los mensajes antes de ser editados";
 $l['override_user_style'] = "Si, ignorar el estilo seleccionado por el usuario en este foro";
 $l['style_options'] = "Opciones de estilo";
 $l['forum_specific_style'] = "Estilo específico:";
@@ -208,16 +203,17 @@ $l['sort_order_asc'] = "Ascendente";
 $l['sort_order_desc'] = "Descendente";
 
 $l['misc_options'] = "Opciones misceláneas";
-$l['allow_html'] = "Si, permitir HTML en los mensajes";
-$l['allow_mycode'] = "Si, permitir MyCode en los mensajes";
-$l['allow_smilies'] = "Si, permitir iconos gestuales en los mensajes";
-$l['allow_img_code'] = "Si, permitir código [img] en los mensajes (MyCode debe estar activado)";
-$l['allow_video_code'] = "Si, permitir código [videos] en los mensajes (MyCode debe estar activado)";
-$l['allow_post_icons'] = "Si, permitir seleccionar iconos para los mensajes";
-$l['allow_thread_ratings'] = "Si, permitir que los temas sean calificados";
-$l['show_forum_jump'] = "Si, mostrar en este foro el menú 'Salto de foro'";
-$l['use_postcounts'] = "Si, los mensajes enviados a este foro incrementan el contador de mensajes";
-$l['use_threadcounts'] = "Si, los temas enviados a este foro incrementan el contador de mensajes";
+$l['allow_html'] = "Sí, permitir HTML en los mensajes";
+$l['allow_mycode'] = "Sí, permitir MyCode en los mensajes";
+$l['allow_smilies'] = "Sí, permitir iconos gestuales en los mensajes";
+$l['allow_img_code'] = "Sí, permitir código [img] en los mensajes (MyCode debe estar activado)";
+$l['allow_video_code'] = "Sí, permitir código [videos] en los mensajes (MyCode debe estar activado)";
+$l['allow_post_icons'] = "Sí, permitir seleccionar iconos para los mensajes";
+$l['allow_thread_ratings'] = "Sí, permitir que los temas sean calificados";
+$l['show_forum_jump'] = "Sí, mostrar en este foro el menú 'Salto de foro'";
+$l['use_postcounts'] = "Sí, los mensajes enviados a este foro incrementan el contador de mensajes";
+$l['use_threadcounts'] = "Sí, los temas enviados a este foro incrementan el contador de mensajes";
+$l['require_thread_prefix'] = "Sí, requerir un prefijo en todos los temas";
 
 $l['use_permissions'] = "Usar permisos";
 $l['use_permissions_desc'] = "Selecciona los permisos que quieres para este grupo de usuario - permisos heredados (eliminará los permisos personalizados) o permisos personalizados.";
@@ -249,6 +245,7 @@ $l['error_invalid_destination_forum'] = "El foro destino es inválido.";
 $l['group_viewing'] = "Ver";
 $l['group_posting_rating'] = "Escribir / Calificar";
 $l['group_editing'] = "Ediciones";
+$l['group_moderate'] = "Moderación";
 $l['group_polls'] = "Encuestas";
 $l['group_misc'] = "Misceláneos";
 
@@ -268,9 +265,13 @@ $l['editing_field_candeleteposts'] = "¿Puede eliminar sus mensajes?";
 $l['editing_field_candeletethreads'] = "¿Puede eliminar sus temas?";
 $l['editing_field_caneditattachments'] = "¿Puede editar sus adjuntos?";
 
+$l['moderate_field_modposts'] = "¿Moderar nuevos mensajes?";
+$l['moderate_field_modthreads'] = "¿Moderar nuevos temas?";
+$l['moderate_field_modattachments'] = "¿Moderar nuevos archivos adjuntos?";
+$l['moderate_field_mod_edit_posts'] = "¿Moderar los mensajes antes de ser editados?";
+
 $l['polls_field_canpostpolls'] = "¿Puede crear encuestas?";
 $l['polls_field_canvotepolls'] = "¿Puede votar en las encuestas?";
 
 $l['misc_field_cansearch'] = "¿Puede buscar en el foro?";
 
-?>

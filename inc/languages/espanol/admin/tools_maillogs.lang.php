@@ -26,6 +26,7 @@ $l['find_emails_by_user'] = "Buscar todos los emails enviados por este usuario";
 $l['find'] = "Buscar";
 $l['deleted_user'] = "Usuario eliminado";
 $l['email_sent_to_user'] = "Email enviado a un usuario";
+$l['email_sent_using_contact_form'] = "Email enviado usando el formulario de contacto";
 $l['no_logs'] = "No hay historiales con los criterios seleccionados.";
 $l['filter_user_email_log'] = "Filtrar historiales";
 $l['username_is'] = "El nombre de usuario es";
@@ -35,4 +36,3 @@ $l['find_emails_to_user'] = "Buscar todos los emails enviados a este usuario";
 
 $l['error_invalid_user'] = "El nombre de usuario introducido no existe.";
 
-?>

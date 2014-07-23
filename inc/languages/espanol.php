@@ -16,7 +16,7 @@ $langinfo['author'] = "Anio_pke";
 $langinfo['website'] = "";
 
 // Compatible version of MyBB
-$langinfo['version'] = "1700";
+$langinfo['version'] = "1702";
 
 // Sets if the translation includes the Admin CP (1 = yes, 0 = no)
 $langinfo['admin'] = 1;

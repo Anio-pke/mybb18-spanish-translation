@@ -95,4 +95,3 @@ $l['error_invalidhelpdoc'] = "El documento de ayuda especificado parece que no e
 $l['error_invalidkey'] = "No estás verificado para limpiar cookies. Esto puede ser causado por algún javascript malicioso intentando limpiar tus cookies automaticamente. Si estás intentando limpiar tus cookies, por favor, visita el documento de ayuda \"Uso de cookies en MyBB\".";
 
 $l['dst_settings_updated'] = "Tu horario de verano se ha configurado automáticamente.<br /><br />Ahora regresarás a la página de inicio";
-?>

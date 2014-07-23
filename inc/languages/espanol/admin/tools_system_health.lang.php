@@ -89,4 +89,3 @@ $l['success_templates_checked'] = "Las plantillas han sido revisadas correctamen
 $l['success_all_tables_already_converted'] = "Todas las tablas se han convertido o ya están en el formato UTF-8.";
 $l['success_table_converted'] = "La tabla seleccionada \"{1}\" se ha convertido a UTF-8 correctamente.";
 $l['success_chmod'] = "Todos los archivos y directorios necesarios tienen los ajustes CHMOD correctos.";
-?>

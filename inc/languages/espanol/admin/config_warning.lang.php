@@ -78,4 +78,3 @@ $l['success_warning_type_deleted'] = "El nivel de advertencia seleccionado se ha
 $l['confirm_warning_level_deletion'] = "¿Estás seguro de querer eliminar este nivel de advertencia?";
 $l['confirm_warning_type_deletion'] = "¿Estás seguro de querer eliminar este tipo de advertencia?";
 
-?>

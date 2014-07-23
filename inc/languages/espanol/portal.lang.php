@@ -8,6 +8,7 @@
 
 $l['nav_portal'] = "Portal";
 $l['posted_by'] = "Enviado por:";
+$l['forum'] = "Foro:";
 $l['replies'] = "Respuestas";
 $l['no_replies'] = "Sin respuestas";
 $l['latest_threads'] = "Últimos temas";
@@ -48,4 +49,5 @@ $l['online_users'] = "Actualmente hay <b>{1}</b> usuarios en línea.";
 $l['online_counts'] = "<b>{1}</b> miembro(s) | <b>{2}</b> invitado(s)";
 $l['print_this_item'] = "Imprimir";
 $l['send_to_friend'] = "Enviar a un amigo";
-?>
+$l['latest_announcements'] = "Últimos anuncios";
+$l['portal_disabled'] = "No puedes usar el portal porque ha sido desactivado por un administrador.";

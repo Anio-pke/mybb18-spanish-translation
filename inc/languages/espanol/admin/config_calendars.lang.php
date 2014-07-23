@@ -67,4 +67,3 @@ $l['success_calendar_orders_updated'] = "El orden de muestra de los calendarios 
 
 $l['confirm_calendar_deletion'] = "¿Estás seguro de querer eliminar este calendario?";
 
-?>

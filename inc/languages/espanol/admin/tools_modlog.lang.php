@@ -49,4 +49,3 @@ $l['date_range'] = "Rango de fecha:";
 $l['success_pruned_mod_logs'] = "El historial se ha limpiado correctamente.";
 $l['note_logs_locked'] = "Por razones de seguridad, no se puede limpiar las entradas con menos de 24 horas.";
 
-?>

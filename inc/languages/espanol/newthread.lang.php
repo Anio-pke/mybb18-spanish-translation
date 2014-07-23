@@ -46,4 +46,13 @@ $l['redirect_newthread_poll'] = "<br />Ahora serás llevado a la página de opci
 $l['redirect_newthread_moderation'] = "<br />El administrador ha indicado que todos los nuevos temas requieren moderación. Ahora serás llevado de regreso a la lista de temas.";
 $l['redirect_newthread_thread'] = "<br />Ahora serás llevado de regreso al nuevo tema.";
 $l['invalidthread'] = "El borrador especificado no existe o no tienes permiso para verlo.";
-?>
+
+$l['error_stop_forum_spam_spammer'] = 'Lo sentimos, tu nombre de usuario o tu IP coincide con un conocido spammer. Si crees que es un error, por favor, contacta con un administrador.';
+$l['error_stop_forum_spam_fetching'] = 'Lo sentimos, se ha producido algún problema al verificar tu mensaje en la base de datos de spammers. Parece que la base de datos no está accesible. Por favor, inténtalo de nuevo más tarde.';
+
+$l['error_suspendedposting'] = "Tus privilegios de publicación han sido suspendidos {1}.<br /><br />
+
+Fecha de suspensión: {2}";
+$l['error_suspendedposting_temporal'] = "hasta {1}";
+$l['error_suspendedposting_permanent'] = "permanentemente";
+

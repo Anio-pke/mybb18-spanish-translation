@@ -46,26 +46,21 @@ Has recibido una advertencia del equipo de {2}.
 --
 
 --";
+$l['send_pm_options'] = "Opciones:";
+$l['send_pm_options_anonymous'] = "<strong>MP anónimo</strong>: enviar este mensaje privado como un usuario anónimo.";
 $l['expiration_never'] = "permanentemente";
 $l['expiration_hours'] = "horas";
 $l['expiration_days'] = "días";
 $l['expiration_weeks'] = "semanas";
 $l['expiration_months'] = "meses";
-$l['redirect_warned_banned'] = "El usuario se ha movido al grupo {1} {2}.";
-$l['redirect_warned_suspended'] = "Los privilegios de escritura serás suspendidos {1}.";
-$l['redirect_warned_moderate'] = "Todos los mensajes de este usuario ahora tendrán que ser moderados {1}.";
+$l['redirect_warned_banned'] = "<br /><br />El usuario se ha movido al grupo {1} {2}.";
+$l['redirect_warned_suspended'] = "<br /><br />Los privilegios de escritura serás suspendidos {1}.";
+$l['redirect_warned_moderate'] = "<br /><br />Todos los mensajes de este usuario ahora tendrán que ser moderados {1}.";
+$l['redirect_warned_pmerror'] = "<br /><br />Por favor, tenga en cuenta que este Mp no se ha enviado.";
 $l['redirect_warned'] = "El nivel de advertencia de {1} ha aumentado a {2}%.{3}<br /><br />Ahora regresarás al sitio del que viniste.";
 $l['error_warning_system_disabled'] = "No puedes usar el sistema de advertencias porque lo ha deshabilitado el administrador.";
-$l['reached_max_warnings_day'] = "No puedes advertit a nadie porque has gastado el límite de advertencias diarias.<br /><br />El máximo número de advertencias que puedes dar al día es de {1}.";
-$l['user_reached_max_warning'] = "Este usuario no puede ser advertido porque ya tiene el nivel máximo de advertencia.";
 $l['error_cant_warn_group'] = "No tienes permisos para advertir usuarios de este grupo.";
-$l['error_no_note'] = "No has introducido notas administrativas para esta advertencia.";
-$l['error_invalid_type'] = "Has seleccionado un tipo de advertencia inválido.";
 $l['error_invalid_user'] = "El usuario seleccionado no existe.";
-$l['error_invalid_post'] = "El mensaje seleccionado no existe.";
-$l['error_cant_custom_warn'] = "No tienes permisos para usar advertencias personalizadas.";
-$l['error_no_custom_reason'] = "No has introducido una razón para la advertencia personalizada.";
-$l['error_invalid_custom_points'] = "No has introducido un número válido de puntos para añadir nivel de advertencia. Debes introducir un número mayor que 0 pero no mayor que {1}.";
 $l['details'] = "Detalles";
 $l['view'] = "Ver";
 $l['current_warning_level'] = "Nivel de advertencia actual: <strong>{1}%</strong> ({2}/{3})";
@@ -89,7 +84,5 @@ $l['week_or_weeks'] = "Semana(s)";
 $l['month_or_months'] = "Meses(s)";
 $l['expires'] = "Caducidad:";
 $l['new_warning_level'] = "Nuevo nivel de advertencia:";
-$l['cannot_warn_self'] = "No puedes añadir advertencias a ti mismo.";
 $l['error_cant_warn_user'] = "No tienes permisos para advertir a este usuario.";
 $l['existing_post_warnings'] = "Advertencias existentes para este mensaje";
-?>

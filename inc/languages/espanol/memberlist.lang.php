@@ -30,6 +30,8 @@ $l['sort_by_threads'] = "Número de temas";
 $l['sort_by_referrals'] = "Miembros recomendados";
 $l['order_asc'] = "orden ascendente";
 $l['order_desc'] = "orden descendente";
+$l['asc'] = "asc";
+$l['desc'] = "desc";
 $l['forumteam'] = "El equipo del foro";
 $l['advanced_search'] = "Búsqueda avanzada";
 $l['nav_memberlist_search'] = "Buscar";
@@ -77,4 +79,3 @@ $l['x'] = 'X';
 $l['y'] = 'Y';
 $l['z'] = 'Z';
 
-?>

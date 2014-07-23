@@ -16,6 +16,8 @@ $l['replies'] = "Respuestas";
 $l['views'] = "Vistas";
 $l['lastpost'] = "Último mensaje";
 $l['rating'] = "Puntuación";
+$l['prefix'] = "Prefijo:";
+$l['prefix_all'] = "Prefijo: Todos";
 $l['markforum_read'] = "Marcar este foro como leído";
 $l['subscribe_forum'] = "Suscribirse a este foro";
 $l['unsubscribe_forum'] = "Desuscribirse a este foro";
@@ -95,4 +97,3 @@ $l['error_containsnoforums'] = "Lo sentimos, pero el foro que estás viendo no c
 
 $l['inline_edit_description'] = '(Click y mantén para editar)';
 
-?>

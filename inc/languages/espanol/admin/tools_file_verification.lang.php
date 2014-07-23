@@ -19,4 +19,3 @@ $l['changed'] = "Cambiado";
 $l['missing'] = "Ausente";
 $l['status'] = "Estado";
 
-?>

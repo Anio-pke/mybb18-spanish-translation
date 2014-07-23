@@ -130,4 +130,3 @@ $l['error_missing_description'] = "Por favor, introduce una descripción corta p
 $l['error_no_forums_selected'] = "Por favor, selecciona los foros en los que esta herramienta estará disponible.";
 $l['error_no_groups_selected'] = "Por favor, selecciona los grupos para los que esta herramienta estará disponible.";
 $l['error_forum_is_category'] = "No puedes seleccionar una categoría como un foro destinatario.";
-?>

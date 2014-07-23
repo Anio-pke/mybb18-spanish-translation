@@ -26,4 +26,3 @@ $l['decrease'] = "Disminuye";
 
 $l['error_no_results_found_for_criteria'] = "No se han encontrado resultadps en el rango seleccionado. Por favor, intenta con un rango diferente.";
 $l['error_no_statistics_available_yet'] = "Lo sentimos, actualmente aún no hay datos estadísticos disponibles para tu foro.";
-?>

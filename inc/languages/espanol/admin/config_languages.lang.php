@@ -56,4 +56,3 @@ $l['success_langfile_updated'] = "El archivo de idioma ha sido actualizado corre
 $l['success_langprops_updated'] = "Las propiedades de idioma han sido actualizadas correctamente.";
 $l['success_quickphrases_updated'] = "Las frases de idioma rápidas se han actualizado correctamente.";
 
-?>

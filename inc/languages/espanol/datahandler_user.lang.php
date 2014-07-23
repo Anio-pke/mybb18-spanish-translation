@@ -42,4 +42,3 @@ $l['userdata_invalid_checkfield'] = "Se ha detectado que este formulario se ha e
 $l['userdata_invalid_postnum'] = "El número de mensaje introducido es inválido. Por favor, introduce un número válido o deja el campo vacío.";
 $l['userdata_invalid_threadnum'] = "El número de team introducido es inválido. Por favor, introduce un número válido o deja el campo vacío.";
 
-?>

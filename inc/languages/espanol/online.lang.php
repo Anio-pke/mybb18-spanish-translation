@@ -134,4 +134,3 @@ $l['changing_dst'] = "Cambiando DST";
 $l['printing_thread'] = "Imprimiendo un tema";
 $l['printing_thread2'] = "Imprimiendo el tema <a href=\"{1}\">{2}</a>";
 $l['managing_buddyignorelist'] = "Configurando listas de amigos/ignorados";
-?>

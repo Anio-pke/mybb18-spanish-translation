@@ -135,6 +135,7 @@ $l['you_forwarded'] = "Has respondido este mensaje {1}";
 $l['select_from_buddies'] = "Seleccionar amigos";
 $l['no_readmessages'] = "No tienes ningún mensaje que haya sido leído en rastreo.";
 $l['no_unreadmessages'] = "No tienes ningún mensaje que no haya sido leído en rastreo.";
+$l['stop_tracking_all'] = "Dejar de rastrear todos los mensajes";
 
 $l['enter_keywords'] = "Introducir palabra clave";
 $l['advanced_search'] = "Búsqueda avanzada";
@@ -183,7 +184,8 @@ $l['error_invalidsearch'] = "Se ha especificado una búsqueda inválida. Por fav
 
 $l['redirect_pmsaved'] = "El mensaje privado ha sido guardado en tu carpeta de borradores.";
 $l['redirect_pmstrackingstopped'] = "El rastreo de los mensajes privados seleccionados ha terminado.";
-$l['redirect_pmstrackingcancelled'] = "El rastreo de los mensajes privados seleccionados ha sido cancelado.";
+$l['redirect_pmstrackingcanceled'] = "El rastreo de los mensajes privados seleccionados ha sido cancelado.";
+$l['redirect_allpmstrackingstopped'] = "Se han detenido todos los restreos de los MPs leídos.";
 $l['redirect_pmsmoved'] = "Los mensajes privados seleccionados han sido movidos.";
 $l['redirect_pmsdeleted'] = "Los mensajes privados seleccionados han sido borrados.";
 $l['redirect_pmsent'] = "Gracias, tu mensaje privado ha sido enviado correctamente.<br />Ahora serás llevado de regreso a la bandeja de entrada.";

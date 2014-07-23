@@ -23,4 +23,3 @@ $l['use_codemirror_desc'] = "Esta preferencia te permite desactivar el resaltado
 
 $l['success_preferences_updated'] = "Las preferencias se han actualizado correctamente.";
 
-?>

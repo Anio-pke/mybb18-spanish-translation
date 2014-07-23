@@ -30,4 +30,3 @@ $l['to_address_contains'] = "El destinatario contiene";
 $l['from_address_contains'] = "El remitente contiene";
 $l['find_emails_to_addr'] = "Buscar todos los emails con este destinatario";
 
-?>

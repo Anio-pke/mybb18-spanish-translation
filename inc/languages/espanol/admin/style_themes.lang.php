@@ -219,4 +219,3 @@ $l['theme_info_save_error'] = 'Ha ocurrido un error al guardar la información d
 
 $l['saving'] = 'Guardando...';
 
-?>

@@ -80,4 +80,3 @@ $l['delete_reputation_confirm'] = "¿Estás seguro de eliminar esta reputación?
 $l['delete_reputation_log'] = "Reputación eliminada por {1} (UID: {2})";
 $l['reputations_disabled_group'] = "El sistema de reputación esta deshabilitado para los usuarios de este grupo.";
 $l['rate_user'] = "Calificar usuario";
-?>

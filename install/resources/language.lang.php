@@ -225,7 +225,7 @@ $l['config_step_table'] = '<p>Ahora es el momento de configurar los ajustes bás
 				</tr>
 				<tr class="alt_row last">
 					<td class="first"><label for="bburl">URL del foro (Sin / al final):</label></td>
-					<td class="last alt_col"><input type="text" class="text_input" name="bburl" id="bburl" value="{2}" /></td>
+					<td class="last alt_col"><input type="text" class="text_input" name="bburl" id="bburl" value="{2}" onkeyup="warnUser(this, \'Esta opción se configura automáticamente. No lo cambies si no estás seguro de lo que haces, en otro caso los enlaces de tu foro pueden fallar.\')" onchange="warnUser(this, \'Esta opción se configura automáticamente. No lo cambies si no estás seguro de lo que haces, en otro caso los enlaces de tu foro pueden fallar.\')" /></td>
 				</tr>
 				<tr>
 					<th colspan="2" class="first last">Detalles del sitio web</th>
@@ -243,11 +243,11 @@ $l['config_step_table'] = '<p>Ahora es el momento de configurar los ajustes bás
 				</tr>
 				<tr>
 					<td class="first"><label for="cookiedomain">Dominio de cookie:</label></td>
-					<td class="last alt_col"><input type="text" class="text_input" name="cookiedomain" id="cookiedomain" value="{5}" /></td>
+					<td class="last alt_col"><input type="text" class="text_input" name="cookiedomain" id="cookiedomain" value="{5}" onkeyup="warnUser(this, \'Esta opción se configura automáticamente. No lo cambies si no estás seguro de lo que haces, en otro caso el inicio de sesión de tu foro puede fallar.\')" onchange="warnUser(this, \'Esta opción se configura automáticamente. No lo cambies si no estás seguro de lo que haces, en otro caso el inicio de sesión de tu foro puede fallar.\')" /></td>/></td>
 				</tr>
 				<tr class="alt_row last">
 					<td class="first"><label for="cookiepath">Ruta de cookie:</label></td>
-					<td class="last alt_col"><input type="text" class="text_input" name="cookiepath" id="cookiepath" value="{6}" /></td>
+					<td class="last alt_col"><input type="text" class="text_input" name="cookiepath" id="cookiepath" value="{6}" onkeyup="warnUser(this, \'Esta opción se configura automáticamente. No lo cambies si no estás seguro de lo que haces, en otro caso el inicio de sesión de tu foro puede fallar.\')" onchange="warnUser(this, \'Esta opción se configura automáticamente. No lo cambies si no estás seguro de lo que haces, en otro caso el inicio de sesión de tu foro puede fallar.\')" /></td>
 				</tr>
 				<tr>
 					<th colspan="2" class="first last">Detalles de contacto</th>
@@ -270,6 +270,7 @@ $l['config_step_error_config'] = '<div class="error">
 </div>';
 $l['config_step_error_url'] = 'No has introducido la URL a tus foros.';
 $l['config_step_error_name'] = 'No has introducido un nombre para tu copia de MyBB.';
+$l['config_step_revert'] = 'Haz click para regresar a los valores originales.';
 
 
 $l['admin_step_setupsettings'] = '<p>Guardando ajustes básicos de tu foro...</p>';
@@ -293,11 +294,11 @@ $l['admin_step_admintable'] = '<div class="border_wrapper">
 		</tr>
 		<tr class="alt_row">
 			<td class="first"><label for="adminpass">Contraseña:</label></td>
-			<td class="alt_col last"><input type="password" class="text_input" name="adminpass" id="adminpass" value="" autocomplete="off"  /></td>
+			<td class="alt_col last"><input type="password" class="text_input" name="adminpass" id="adminpass" value="" autocomplete="off" onchange="comparePass()" /></td>
 		</tr>
 		<tr class="last">
 			<td class="first"><label for="adminpass2">Repetir contraseña:</label></td>
-			<td class="alt_col last"><input type="password" class="text_input" name="adminpass2" id="adminpass2" value="" autocomplete="off"  /></td>
+			<td class="alt_col last"><input type="password" class="text_input" name="adminpass2" id="adminpass2" value="" autocomplete="off" onchange="comparePass()"  /></td>
 		</tr>
 		<tr>
 			<th colspan="2" class="first last">Detalles de contacto</th>
@@ -321,6 +322,7 @@ $l['admin_step_error_nouser'] = 'No has introducido un nombre de usuario para la
 $l['admin_step_error_nopassword'] = 'No has introducido una contraseña para la cuenta de administrador.';
 $l['admin_step_error_nomatch'] = 'Las contraseñas introducidas no coinciden.';
 $l['admin_step_error_noemail'] = 'No has introducido un email para la cuenta de administrador.';
+$l['admin_step_nomatch'] = 'Las contraseñas no coinciden. Por favor, introduce correctamente las contraseñas antes de continuar.';
 
 $l['done_step_usergroupsinserted'] = "<p>Importando grupos de usuarios...";
 $l['done_step_admincreated'] = '<p>Creando cuenta de administrador...';
@@ -362,4 +364,4 @@ $l['locked'] = 'El instalador está bloqueado, por favor, elimina el archivo \'l
 $l['no_permision'] = "No tienes permisos para ejecutar este proceso. Necesitas permisos de administrador para realizar el proceso de actualización.<br /><br />Si necesitas cerrar sesión, por favor, haz click <a href=\"upgrade.php?action=logout&amp;logoutkey={1}\">aquí</a>. Después podrás iniciar sesión de nuevo con tu cuenta de administrador.";
 
 $l['task_versioncheck_ran'] = "La tarea de comprobación de la versión se ejecutó correctamente.";
-?>
+

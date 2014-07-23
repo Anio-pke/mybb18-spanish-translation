@@ -15,4 +15,3 @@ $l['error_status_missmatch'] = 'El estado del servidor ha devuelto el siguiente 
 $l['error_data_not_sent'] = 'Esta información no se ha podido enviar al servidor: ';
 
 $l['error_occurred'] = 'Se han producido uno o más errores. Por favor, corríje los siguientes errores antes de continuar.<br />';
-?>

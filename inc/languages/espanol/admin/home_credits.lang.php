@@ -13,4 +13,3 @@ $l['check_for_updates'] = "Comprobar actualizaciones";
 $l['error_communication'] = "Ha ocurrido un problema al descargar los últimos créditos. Por favor, inténtalo de nuevo en unos minutos.";
 $l['no_credits'] = "No hay créditos almacenados. <a href=\"index.php?module=home-credits&amp;fetch_new=1\">Comprobar actualizaciones</a>.";
 
-?>

@@ -126,7 +126,7 @@ $l['delayed_moderation'] = "Moderación retardada";
 $l['delayed_moderation_desc'] = "Aquí puedes configurar una acción de moderación retardada en los días seleccionados.";
 $l['threads'] = "Temas:";
 $l['threads_selected'] = "{1} tema(s) seleccionado(s)";
-$l['delay_moderation_for'] = "Moderación retardada:";
+$l['run_moderation_time'] = "Fecha de ejecución:";
 $l['days'] = "día(s)";
 $l['moderation_action'] = "Acción:";
 $l['open_close_thread'] = "Abrir/Cerrar tema";
@@ -198,7 +198,9 @@ $l['error_mergewithself'] = "Los temas no pueden ser combinados con ellos mismos
 $l['error_movetoself'] = "Los mensajes no se pueden mover al tema en el que están.<br />Por favor, regresa e introduce una URL válida.";
 $l['error_delayedmoderation_unsupported_type'] = "Lo sentimos, pero no has seleccionado un tipo de acción válida para esta moderación retardada.";
 $l['error_delayedmoderation_unsupported_method'] = "Lo sentimos, pero no has seleccionado un método de movimiento válido para esta moderación retardada.";
-$l['error_delayedmoderation_invalid_delay'] = "Lo sentimos, pero no has seleccionado un tiempo de retardo válido para esta moderación retardada.";
+$l['error_delayedmoderation_invalid_date_day'] = "Lo sentimos, pero no has seleccionado un día de retardo válido para esta moderación retardada.";
+$l['error_delayedmoderation_invalid_date_month'] = "Lo sentimos, pero no has seleccionado un mes de retardo válido para esta moderación retardada.";
+$l['error_delayedmoderation_invalid_date_year'] = "Lo sentimos, pero no has seleccionado un año de retardo válido para esta moderación retardada.";
 
 $l['redirect_pollnotdeleted'] = "La encuesta no se ha eliminado porque no has seleccionado el cuadradito \"Borrar\".";
 $l['redirect_polldeleted'] = "Gracias, la encuesta se ha eliminado correctamente del tema.<br />Ahora serás redirigido al tema.";
@@ -242,4 +244,4 @@ $l['redirect_delayed_moderation_thread'] = "La herramienta de moderación selecc
 $l['redirect_delayed_moderation_forum'] = "La herramienta de moderación seleccionada se ha guardado y retardado por {1} días(s).<br />Ahora serás llevado de regreso al foro.";
 $l['redirect_delayed_moderation_search'] = "La herramienta de moderación seleccionada se ha guardado y retardado por {1} días(s).<br />Ahora serás llevado de regreso a la búsqueda.";
 $l['redirect_delayed_moderation_cancelled'] = "La herramienta de moderación seleccionada se ha cancelado.<br />Ahora serás llevado de regreso a la página de moderación retardada.";
-?>
+

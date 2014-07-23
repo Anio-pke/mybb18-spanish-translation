@@ -14,4 +14,3 @@ $l['templates'] = "Plantillas";
 $l['can_manage_themes'] = "¿Puede configurar estilos?";
 $l['can_manage_templates'] = "¿Puede configurar plantillas?";
 
-?>

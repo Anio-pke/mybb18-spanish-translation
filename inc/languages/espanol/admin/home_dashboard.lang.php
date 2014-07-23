@@ -26,6 +26,8 @@ $l['awaiting_activation'] = "Esperando activación";
 $l['server_load'] = "Carga de servidor";
 $l['attachments'] = "Archivos adjuntos";
 $l['used'] = "Utilizado";
+$l['reported_posts'] = "Mensajes reportados";
+$l['unread_reports'] = "Reportes sin leer";
 
 $l['version_check'] = "Comprobar actualizaciones";
 $l['last_update_check_two_weeks'] = "Tu última <a href=\"{1}\">comprobación de la versión de MyBB</a> fue hace más de dos semanas.";
@@ -52,4 +54,3 @@ $l['save_notes'] = "Guardar notas";
 
 $l['success_notes_updated'] = "Las notas de administrador se han actualizado correctamente.";
 
-?>

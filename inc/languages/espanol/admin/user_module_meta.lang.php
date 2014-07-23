@@ -24,4 +24,3 @@ $l['can_manage_admin_permissions'] = "¿Puede configurar permisos de admins?";
 $l['can_send_mass_mail'] = "¿Puede enviar emails masivos?";
 $l['can_manage_group_promotions'] = "¿Puede configurar promociones de grupo?";
 
-?>

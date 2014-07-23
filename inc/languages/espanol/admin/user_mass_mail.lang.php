@@ -119,4 +119,3 @@ $l['success_mass_mail_canceled'] = "El envío masivo se ha cancelado correctamen
 
 $l['mass_mail_deletion_confirmation'] = "¿Estás seguro de querer eliminar este envío masivo?";
 
-?>

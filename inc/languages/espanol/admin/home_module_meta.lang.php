@@ -23,4 +23,3 @@ $l['online_admins'] = "Administradores en línea";
 $l['ipaddress'] = "Dirección IP:";
 $l['mybb_documentation'] = "Documentación MyBB";
 
-?>

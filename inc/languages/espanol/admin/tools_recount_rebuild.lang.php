@@ -51,4 +51,3 @@ $l['success_rebuilt_thread_ratings'] = "Las puntuaciones de los temas se han rec
 $l['confirm_proceed_rebuild'] = "Haz clic en \"Proceder\" para continuar el proceso de recontar y reconstruir.";
 $l['automatically_redirecting'] = "Redireccionando automáticamente ...";
 
-?>

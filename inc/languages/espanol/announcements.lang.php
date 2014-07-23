@@ -15,4 +15,3 @@ $l['announcement_edit'] = "Editar este anuncio";
 $l['announcement_qdelete'] = "Eliminar este anuncio";
 $l['announcement_quickdelete_confirm'] = "¿Estás seguro de querer eliminar este anuncio?";
 
-?>

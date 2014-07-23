@@ -407,4 +407,3 @@ El equipo de {2}";
 $l['ipaddress_misc_info'] = "Información de '{1}'";
 $l['ipaddress_host_name'] = "Nombre de Host";
 $l['ipaddress_location'] = "Localización GeoIP";
-?>

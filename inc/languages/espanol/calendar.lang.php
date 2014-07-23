@@ -142,4 +142,3 @@ $l['redirect_eventadded_moderation'] = "Tu evento se ha agregado correctamente p
 $l['redirect_eventunapproved'] = "El evento se ha rechazado correctamente.<br />Ahora ya puedes verlo.";
 $l['redirect_eventapproved'] = "El evento se ha aceptado correctamente.<br />Ahora ya puedes verlo.";
 $l['redirect_eventmoved'] = "El evento se ha movido correctamente.<br />Ahora serás redirigido a él.";
-?>

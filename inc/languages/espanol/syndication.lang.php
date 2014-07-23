@@ -9,6 +9,6 @@
 $l['all_forums'] = "Todos los foros";
 $l['forum'] = "Foro:";
 $l['posted_by'] = "Publicado por:";
-$l['on'] = "on";
+$l['on'] = "en";
+$l['portal'] = "Portal";
 
-?>

@@ -18,10 +18,10 @@ $l['postdata_post_flooding_one_second'] = 'Estás tratando de enviar un mensaje 
 $l['postdata_too_many_images'] = 'El mensaje que has introducido contiene {1} imagenes y solo se permiten {2} imagenes por mensaje. Por favor, quita algunas imágenes de tu mensaje.';
 $l['postdata_too_many_videos'] = 'El mensaje que has introducido contiene {1} videos y solo se permiten {2} videos por mensaje. Por favor, quita algunos videos de tu mensaje.';
 $l['postdata_invalid_prefix'] = 'El prefijo seleccionado es inválido. Por favor, selecciona uno válido.';
+$l['postdata_require_prefix'] = 'Este foro requiere que los mensajes lleven prefijo. Por favor, selecciona un prefijo válido.';
 
 $l['thread_closed'] = "Tema cerrado";
 $l['thread_opened'] = "Tema abierto";
 $l['thread_stuck'] = "Tema importante";
 $l['thread_unstuck'] = "Tema no importante";
 
-?>

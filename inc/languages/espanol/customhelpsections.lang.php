@@ -13,4 +13,3 @@
  * $l['s{sid}_name'] = "Nombre de la sección";
  * $l['s{sid}_desc'] = "Descripción de la sección";
  */
-?>

@@ -12,4 +12,3 @@ $l['logindata_invalidpwordusernamecombo'] = "Has introducido una combinación de
 
 $l['logindata_regimageinvalid'] = "El código de imagen de verificación que has introducido es incorrecto. Por favor, introduce el código exactamente como aparece en la imagen.";
 $l['logindata_regimagerequired'] = "Por favor, introduce el código de la imagen de verificación para iniciar sesión. Por favor, introduce el código exactamente como aparece en la imagen.";
-?>

@@ -21,4 +21,3 @@ $l['error_no_cache_specified'] = "No has especificado una caché para verla.";
 $l['success_cache_rebuilt'] = "La caché se ha reconstruído correctamente.";
 $l['success_cache_reloaded'] = "La caché se ha recargado correctamente.";
 
-?>

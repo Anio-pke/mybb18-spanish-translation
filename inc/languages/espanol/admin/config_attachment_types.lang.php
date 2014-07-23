@@ -43,4 +43,3 @@ $l['success_attachment_type_deleted'] = "El tipo de archivo adjunto se ha elimin
 
 $l['confirm_attachment_type_deletion'] = "¿Estás seguro de querer borrar este tipo de archivo adjunto?";
 
-?>

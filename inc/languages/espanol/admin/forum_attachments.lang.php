@@ -106,4 +106,3 @@ $l['button_delete_orphans'] = "Eliminar huérfanos seleccionados";
 $l['button_delete_attachments'] = "Eliminar adjuntos seleccionados";
 $l['button_find_attachments'] = "Buscar adjuntos";
 
-?>

@@ -29,4 +29,3 @@ $l['error_report_length'] = "Por favor, proporciona una razón detallada para tu
 $l['error_invalid_report'] = "Este contenido no existe o no puede ser reportado.";
 $l['error_report_duplicate'] = "Este contenido ya ha sido reportado por otro miembro.<br />También puedes reportar este contenido abajo.";
 $l['report_reason_other_description'] = "Si seleccionas 'Otro' por favor, proporciona una razón para reportar este contenido.";
-?>

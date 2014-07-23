@@ -48,4 +48,3 @@ $l['mark_as_deleted'] = "Eliminar todos";
 $l['mark_as_approved'] = "Aceptar todos";
 $l['perform_action'] = "Realizar acciones";
 
-?>

@@ -18,4 +18,3 @@ $l['can_manage_forum_announcements'] = "¿Puede configurar anuncios del foro?";
 $l['can_moderate'] = "¿Puede moderar mensajes, temas y adjuntos?";
 $l['can_manage_attachments'] = "¿Puede configurar adjuntos?";
 
-?>

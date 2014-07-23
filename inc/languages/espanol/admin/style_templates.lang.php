@@ -175,4 +175,3 @@ $l['success_template_set_saved'] = "El set de plantillas seleccionado se ha guar
 $l['success_template_set_deleted'] = "El set de plantillas seleccionado se ha eliminado correctamente.";
 $l['success_template_group_saved'] = "El grupo de plantillas seleccionado se ha guardado correctamente.";
 $l['success_template_group_deleted'] = "El grupo de plantillas seleccionado se ha eliminado correctamente.";
-?>

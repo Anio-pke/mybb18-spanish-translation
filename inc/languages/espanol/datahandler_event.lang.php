@@ -33,4 +33,3 @@ $l['eventdata_invalid_repeat_year_interval'] = "Has introducido un intevalo de r
 $l['eventdata_event_wont_occur'] = "Si usas una hora de inicio y finalización posterior a la del evento, el evento no ocurrirá.";
 
 $l['eventdata_no_permission_private_event'] = "No tienes permisos para crear eventos privados.";
-?>

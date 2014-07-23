@@ -39,7 +39,7 @@ $l['in'] = "en orden";
 $l['order'] = "";
 
 $l['success_pruned_admin_logs'] = "El historial se ha limpiado correctamente.";
-$l['note_logs_locked'] = "Por razones de seguridad, no se puede limpiar las entradas con menos de 24 horas.";
+$l['note_logs_locked'] = "Por razones de seguridad, no se pueden limpiar las entradas con menos de 24 horas.";
 
 $l['admin_log_config_attachment_types_add'] = "Agregar extensión de arch. adjuntos #{1} ({2})";
 $l['admin_log_config_attachment_types_edit'] = "Editar extensión de arch. adjuntos #{1} ({2})";
@@ -289,4 +289,6 @@ $l['admin_log_user_users_inline_lift'] = "Levantar {1} suspensiones";
 
 $l['admin_log_user_mass_mail_delete'] = "Eliminar envío masivo #{1} ({2})"; 
 
-?>
+$l['admin_log_admin_locked_out'] = 'Inicio de sesión de administrador del usuario #{1} ({2}) bloqueado.';
+
+

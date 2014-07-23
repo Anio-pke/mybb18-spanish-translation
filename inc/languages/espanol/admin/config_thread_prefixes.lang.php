@@ -40,4 +40,4 @@ $l['error_missing_display_style'] = "Por favor, introduce el estilo de muestra p
 $l['error_no_forums_selected'] = "Por favor, selecciona los foros en los que este prefijo estará disponible.";
 $l['error_no_groups_selected'] = "Por favor, selecciona los grupos para los que este prefijo estará disponible.";
 $l['error_invalid_prefix'] = "El prefijo especificado no existe.";
-?>
+

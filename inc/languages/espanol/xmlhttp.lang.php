@@ -19,10 +19,12 @@ $l['postbit_edited'] = "Este mensaje fue modificado por última vez: {1} por";
 $l['postbit_editreason'] = "Razón de la edición:";
 $l['save_changes'] = "Guardar cambios";
 $l['cancel_edit'] = "Cancelar edición";
+$l['answer_valid_not_exists'] = "La pregunta que intentas responder no existe.";
 $l['captcha_not_exists'] = "La imagen de verificación que intentas actualizar no existe.";
 $l['captcha_valid_not_exists'] = "La imagen de verificación que intentas comprobar no existe.";
 $l['captcha_does_not_match'] = "El código verificación que has introducido no es correcto. Por favor, introduce el código tal y como aparece en la imagen.";
 $l['captcha_matches'] = "El código verificación que has introducido es correcto.";
+$l['answer_does_not_match'] = "La respuesta introducida no es correcta.";
 $l['banned_username'] = "El nombre de usuario introducido está deshabilitado por un administrador";
 $l['banned_characters_username'] = "Tu nombre de usuario tiene uno o más caracteres inválidos";
 $l['complex_password_fails'] = "La contraseña necesita una mayúscula, una minúscula y un número";
@@ -41,4 +43,3 @@ $l['online'] = "En línea";
 $l['offline'] = "Desconectado";
 $l['edited_post'] = "Mensaje editado";
 $l['usergroup'] = "Grupo de usuarios";
-?>

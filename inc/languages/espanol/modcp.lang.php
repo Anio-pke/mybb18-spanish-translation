@@ -326,4 +326,3 @@ $l['you_cannot_use_mod_queue'] = "No tienes permiso suficiente para usar la cola
 
 $l['post'] = 'Mensaje';
 $l['search_user'] = "Buscar usuario";
-?>

@@ -208,11 +208,11 @@ $l['change_email_notice'] = "Para cambiar tu dirección de email, haz <a href=\"
 $l['profile_optional'] = "Campos opcionales";
 $l['website_url'] = "URL de tu sitio web:";
 $l['birthdate'] = "Cumpleaños:";
-$l['icq_number'] = "Número ICQ:";
-$l['aim_screenname'] = "AIM:";
-$l['yahoo_id'] = "Yahoo!:";
-$l['skype_id'] = "Skype:";
-$l['google_id'] = "Google Talk:";
+$l['contact_field_icq'] = "Número ICQ:";
+$l['contact_field_aim'] = "AIM:";
+$l['contact_field_yahoo'] = "Yahoo!:";
+$l['contact_field_skype'] = "Skype:";
+$l['contact_field_google'] = "Google Talk:";
 $l['additional_information'] = "Información adicional";
 $l['update_profile'] = "Actualizar perfil";
 $l['away_information'] = "Información de ausencia";
@@ -424,4 +424,3 @@ $l['buddyrequest_declined'] = 'La petición de amistad seleccionada se ha rechaz
 $l['user_doesnt_exist'] = 'El usuario ya no existe.';
 $l['buddyrequests_sent_success'] = 'Las peticiones de amistad se han enviado correctamente.';
 
-?>

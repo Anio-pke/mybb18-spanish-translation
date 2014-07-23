@@ -52,13 +52,15 @@ $l['error_alreadyingroup'] = "Este usuario ya forma parte de este grupo de usuar
 $l['error_alreadyinvited'] = "El usuario especificado ya ha sido invitado.";
 
 $l['user_invited'] = "Este usuario ha sido invitado para unirse al grupo.";
-$l['invite_expires'] = "Esta invitación caducará en {1} días.";
-$l['does_not_expire'] = "Esta invitación no caduca.";
 $l['invite_pm_subject'] = "Has sido invitado a unirte al grupo \"{1}\"";
 $l['invite_pm_message'] = "Has recibido una invitación para unirte al grupo de usuarios \"{1}\".
 
-Para unirte, por favor, ve a tu página [url={2}/usercp.php?action=usergroups]Membresías de grupos[/url] y haz click en 'Accept Invite'.
+Para unirte, por favor, ve a tu página [url={2}/usercp.php?action=usergroups]Membresías de grupos[/url] y haz click en 'Aceptar Invitación'.
 
-{3}";
+Esta invitación no caduca.";
+$l['invite_pm_message_expires'] = "Has recibido una invitación para unirte al grupo de usuarios \"{1}\".
 
-?>
+Para unirte, por favor, ve a tu página [url={2}/usercp.php?action=usergroups]Membresías de grupos[/url] y haz click en 'Aceptar Invitación'.
+
+Esta invitación caducará en {1} días.
+

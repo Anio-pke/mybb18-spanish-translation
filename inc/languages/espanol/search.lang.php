@@ -109,4 +109,3 @@ $l['error_nosearchterms'] = "No escribiste términos de búsqueda válidos. Como
 $l['error_searchflooding_1'] = "Lo sentimos, pero solo puedes realizar una búsqueda cada {1} segundos. Por favor, espera 1 segundo antes de intentar otra búsqueda.";
 $l['error_searchflooding'] = "Lo sentimos, pero solo puedes realizar una búsqueda cada {1} segundos. Por favor, espera otros {2} segundos antes de intentar otra búsqueda.";
 $l['error_invalidsearch'] = "Ha especificado una búsqueda inválida. Por favor, regresa e inténtalo de nuevo.";
-?>

@@ -50,4 +50,3 @@ $l['date_revoked'] = "Fecha:";
 $l['error_already_revoked'] = "Esta advertencia ya ha sido revocada.";
 $l['error_no_revoke_reason'] = "No has introducido una razón sobre porque se revoca esta advertencia.";
 $l['redirect_warning_revoked'] = "Esta advertencia se ha revocado correctamente y los puntos de advertencia de este usuario han decrecido.";
-?>

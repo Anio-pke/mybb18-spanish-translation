@@ -56,4 +56,3 @@ $l['poll_time_limit'] = "No puedes añadir una encuesta a tu tema. El administra
 
 $l['poll_deleted'] = "Encuesta borrada";
 $l['poll_edited'] = "Encuesta editada";
-?>

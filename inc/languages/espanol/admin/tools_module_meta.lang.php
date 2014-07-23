@@ -25,6 +25,7 @@ $l['moderator_log'] = "Moderación";
 $l['user_email_log'] = "Emails de usuarios";
 $l['system_mail_log'] = "Sistema de correo";
 $l['user_warning_log'] = "Advertencias";
+$l['spam_log'] = "Spam";
 $l['statistics'] = "Estadísticas";
 
 $l['can_access_system_health'] = "¿Puede acceder al estado del sistema?";
@@ -38,8 +39,9 @@ $l['can_manage_mod_logs'] = "¿Puede ver y configurar el historial de moderador?
 $l['can_manage_user_mail_log'] = "¿Puede ver y configurar el historial de emails de usuarios?";
 $l['can_manage_system_mail_log'] = "¿Puede ver y configurar el historial del sistema de correo?";
 $l['can_manage_user_warning_log'] = "¿Puede ver y configurar el historial del sistema de advertencias?";
+$l['can_manage_spam_log'] = "¿Puede ver y configurar el historial del sistema de spam?";
 $l['can_view_php_info'] = "¿Puede ver la información PHP?";
 $l['can_manage_file_verification'] = "¿Puede ver y configurar la verificación de archivos?";
 $l['can_view_statistics'] = "¿Puede ver las estadísticas?";
 
-?>
+

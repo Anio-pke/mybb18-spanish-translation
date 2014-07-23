@@ -57,4 +57,3 @@ $l['confirm_backup_deletion'] = "¿Estás seguro de querer eliminar esta copia?"
 $l['success_backup_deleted'] = "La copia de seguridad se ha eliminado correctamente.";
 $l['success_backup_created'] = "La copia de seguridad se ha creado correctamente.";
 
-?>

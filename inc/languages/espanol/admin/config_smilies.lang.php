@@ -24,7 +24,7 @@ $l['image'] = "Imagen";
 $l['name'] = "Nombre";
 $l['text_replace'] = "Texto a reemplazar";
 $l['image_path'] = "Ruta imagen";
-$l['image_path_desc'] = "Esta es la ruta a la imagen del icono gestual.";
+$l['image_path_desc'] = "Esta es la ruta a la imagen del icono gestual. Si quieres usar diferentes iconos gestuales en cada estilo, por favor, usa <strong>{theme}</strong> para representar el directorios de imágenes en cada estilo.";";
 $l['order'] = "Orden";
 $l['display_order'] = "Orden";
 $l['display_order_desc'] = "El orden en que aparecerá en la lista de iconos gestuales. Este número no debe ser igual al de otros iconos gestuales.";
@@ -40,16 +40,17 @@ $l['save_smilies'] = "Guardar iconos gestuales";
 $l['show_smilies'] = "Mostrar iconos gestuales";
 $l['reset'] = "Restablecer";
 
-$l['error_missing_name'] = "No has introducido un nombre para este icono gestual";
-$l['error_missing_text_replacement'] = "No has introducido un nombre para este icono gestual";
-$l['error_missing_path'] = "No has introducido una ruta para este icono gestual";
-$l['error_missing_path_multiple'] = "No has introducido una ruta";
-$l['error_missing_order'] = "No has introducido un orden para este icono gestual";
-$l['error_missing_clickable'] = "No has especificado Si o No en la opción \"¿Mostrar clicable?\"";
+$l['error_missing_name'] = "No has introducido un nombre para este icono gestual.";
+$l['error_missing_text_replacement'] = "No has introducido un nombre para este icono gestual.";
+$l['error_missing_path'] = "No has introducido una ruta para este icono gestual.";
+$l['error_missing_path_multiple'] = "No has introducido una ruta.";
+$l['error_missing_order'] = "No has introducido un orden para este icono gestual.";
+$l['error_duplicate_order'] = "No has introducido un orden válido para este icono gestual.";
+$l['error_missing_clickable'] = "No has especificado Si o No en la opción \"¿Mostrar clicable?\".";
 $l['error_no_smilies'] = "No hay iconos gestuales en la carpeta especificada o todos los iconos gestuales de la carpeta han sido agregados.";
-$l['error_no_images'] = "No hay imágenes en al carpeta especificada";
+$l['error_no_images'] = "No hay imágenes en al carpeta especificada.";
 $l['error_none_included'] = "No has seleccionado ningún icono gestual para agregar.";
-$l['error_invalid_path'] = "No has introducido una ruta válida";
+$l['error_invalid_path'] = "No has introducido una ruta válida.";
 $l['error_invalid_smilie'] = "El icono gestual especificado no existe.";
 
 $l['success_smilie_added'] = "El icono gestual se ha agregado correctamente.";
@@ -61,4 +62,3 @@ $l['success_mass_edit_updated'] = "Los iconos gestuales se han eliminado correct
 
 $l['confirm_smilie_deletion'] = "¿Estás seguro de querer eliminar este icono gestual?";
 
-?>

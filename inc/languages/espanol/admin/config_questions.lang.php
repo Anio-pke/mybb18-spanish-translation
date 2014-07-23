@@ -22,7 +22,7 @@ $l['no_security_questions'] = "Actualmente no hay preguntas de seguridad en tu f
 $l['question'] = "Pregunta";
 $l['question_desc'] = "Introduce la pregunta para ser respondida durante el registro.";
 $l['answers'] = "Respuesta(s)";
-$l['answers_desc'] = "Introduce la(s) respuesta(s) a la pregunta anterior. Separa las múltiples respuestas con una barra vertical (|).";
+$l['answers_desc'] = "Introduce la(s) respuesta(s) a la pregunta anterior. Por favor, introduce cada respuesta en una nueva línea.";
 $l['active'] = "Activar";
 $l['save_question'] = "Guardar pregunta";
 
@@ -38,4 +38,3 @@ $l['success_question_deleted'] = "La pregunta se ha eliminado correctamente.";
 
 $l['confirm_question_deletion'] = "¿Estás seguro de querer eliminar esta pregunta?";
 
-?>
