@@ -243,7 +243,7 @@ $l['config_step_table'] = '<p>Ahora es el momento de configurar los ajustes bás
 				</tr>
 				<tr>
 					<td class="first"><label for="cookiedomain">Dominio de cookie:</label></td>
-					<td class="last alt_col"><input type="text" class="text_input" name="cookiedomain" id="cookiedomain" value="{5}" onkeyup="warnUser(this, \'Esta opción se configura automáticamente. No lo cambies si no estás seguro de lo que haces, en otro caso el inicio de sesión de tu foro puede fallar.\')" onchange="warnUser(this, \'Esta opción se configura automáticamente. No lo cambies si no estás seguro de lo que haces, en otro caso el inicio de sesión de tu foro puede fallar.\')" /></td>/></td>
+					<td class="last alt_col"><input type="text" class="text_input" name="cookiedomain" id="cookiedomain" value="{5}" onkeyup="warnUser(this, \'Esta opción se configura automáticamente. No lo cambies si no estás seguro de lo que haces, en otro caso el inicio de sesión de tu foro puede fallar.\')" onchange="warnUser(this, \'Esta opción se configura automáticamente. No lo cambies si no estás seguro de lo que haces, en otro caso el inicio de sesión de tu foro puede fallar.\')" /></td>
 				</tr>
 				<tr class="alt_row last">
 					<td class="first"><label for="cookiepath">Ruta de cookie:</label></td>
