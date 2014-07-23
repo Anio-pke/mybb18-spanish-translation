@@ -270,7 +270,7 @@ $l['config_step_error_config'] = '<div class="error">
 </div>';
 $l['config_step_error_url'] = 'No has introducido la URL a tus foros.';
 $l['config_step_error_name'] = 'No has introducido un nombre para tu copia de MyBB.';
-$l['config_step_revert'] = 'Haz click para regresar a los valores originales.';
+$l['config_step_revert'] = 'Haz click para regresar al valor original.';
 
 
 $l['admin_step_setupsettings'] = '<p>Guardando ajustes básicos de tu foro...</p>';
