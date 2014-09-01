@@ -13,10 +13,10 @@ $langinfo['name'] = "Español (Internacional)";
 $langinfo['author'] = "Anio_pke";
 
 // The language authors website
-$langinfo['website'] = "";
+$langinfo['website'] = "https://github.com/Anio-pke/mybb18-spanish-translation";
 
 // Compatible version of MyBB
-$langinfo['version'] = "1702";
+$langinfo['version'] = "1800";
 
 // Sets if the translation includes the Admin CP (1 = yes, 0 = no)
 $langinfo['admin'] = 1;

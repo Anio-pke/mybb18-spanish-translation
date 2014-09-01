@@ -8,6 +8,7 @@
 
 $l['no_new_subject'] = "No has introducido un nuevo título.";
 $l['post_moderation'] = "Tu mensaje está siendo moderado.";
+$l['thread_moderation'] = "Tu tema está ahora bajo moderación.";
 $l['post_doesnt_exist'] = "El mensaje especificado no existe.";
 $l['thread_doesnt_exist'] = "El tema especificado no existe.";
 $l['thread_closed_edit_subjects'] = "Este tema esta cerrado y no puedes editar títulos.";

@@ -16,3 +16,4 @@ $l['warnings_error_invalid_type'] = "Has seleccionado un tipo de advertencia inv
 $l['warnings_error_cant_custom_warn'] = "No tienes permiso para utilizar las advertencias personalizadas.";
 $l['warnings_error_no_custom_reason'] = "No has introducido una razón para la advertencia personalizada.";
 $l['warnings_error_invalid_custom_points'] = "No has introducido un número válido de puntos para añadir nivel de advertencia. Debes introducir un número mayor que 0 pero no mayor que {1}.";
+$l['warnings_error_invalid_expires_period'] = "Has introducido un tipo de caducidad inválido.";

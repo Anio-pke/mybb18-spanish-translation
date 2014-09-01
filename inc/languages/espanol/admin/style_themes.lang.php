@@ -168,8 +168,8 @@ $l['created_by'] = "Creado por";
 $l['error_invalid_stylesheet'] = "La hoja de estilo seleccionada es inválida.";
 $l['error_invalid_theme'] = "El estilo seleccionado es inválido.";
 $l['error_missing_name'] = "Por favor, introduce un nombre para este estilo.";
-$l['error_missing_url'] = "Por favor, introduce un estilo para importar.";
-$l['error_theme_already_exists'] = "El estilo especificado ya existe. Por favor introduce un nuevo nombre para este estilo.";
+$l['error_missing_url'] = "Por favor, introduce una url válida para importar el estilo.";
+$l['error_theme_already_exists'] = "Ya existe un estilo con ese nombre. Por favor, introduce un nombre diferente.";
 $l['error_theme_security_problem'] = "Se encontró un problema potencial de seguridad en el estilo. No se pudo importar. Por favor contacta al autor o a MyBB Group para recibir ayuda.";
 
 $l['error_local_file'] = "No se pudo abrir el archivo local. ¿Estás seguro de que existe? Por favor revísalo e inténtalo de nuevo.";

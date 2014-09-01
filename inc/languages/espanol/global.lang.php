@@ -536,3 +536,15 @@ $l['moderation_forum_edits_quick'] = "Por favor, ten en cuenta que en este foro 
 $l['awaiting_message_single'] = "Hay 1 cuenta esperando activación. Por favor, ve a tu panel de administrador para activar el usuario.";
 $l['awaiting_message_plural'] = "Hay {1} cuentas esperando activación. Por favor, ve a tu panel de administrador para activar los usuarios.";
 
+$l['select2_match'] = "Hay un resultado disponible, presiona intro para selecionarlo.";
+$l['select2_matches'] = "Hay {1} resultados disponibles, usa las flechas arriba y abajo para navegar.";
+$l['select2_nomatches'] = "No se han encontrado coincidencias";
+$l['select2_inputtooshort_single'] = "Por favor, introduce uno o más caracteres";
+$l['select2_inputtooshort_plural'] = "Por favor, introduce {1} o más caracteres";
+$l['select2_inputtoolong_single'] = "Por favor, elimina un caracter";
+$l['select2_inputtoolong_plural'] = "Por favor, elimina {1} caracteres";
+$l['select2_selectiontoobig_single'] = "Solo puedes seleccionar un elemento";
+$l['select2_selectiontoobig_plural'] = "Solo puedes seleccionar {1} elementos";
+$l['select2_loadmore'] = "Cargando más resultados…";
+$l['select2_searching'] = "Buscando…";
+

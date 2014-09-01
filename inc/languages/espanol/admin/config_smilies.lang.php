@@ -23,6 +23,7 @@ $l['no_smilies'] = "Actualmente no hay iconos gestuales en tu foro.";
 $l['image'] = "Imagen";
 $l['name'] = "Nombre";
 $l['text_replace'] = "Texto a reemplazar";
+$l['text_replace_desc'] = "Este es el texto que se reemplazará con el icono gestual (introduce uno por línea).";
 $l['image_path'] = "Ruta imagen";
 $l['image_path_desc'] = "Esta es la ruta a la imagen del icono gestual. Si quieres usar diferentes iconos gestuales en cada estilo, por favor, usa <strong>{theme}</strong> para representar el directorios de imágenes en cada estilo.";
 $l['order'] = "Orden";

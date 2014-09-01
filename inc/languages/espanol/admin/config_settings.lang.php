@@ -181,19 +181,15 @@ $l['setting_showthemeselect_desc'] = "Establece como 'No' si no quieres que se m
 $l['setting_maxmultipagelinks'] = "Enlaces máximos de paginación";
 $l['setting_maxmultipagelinks_desc'] = "Aquí puedes establecer el número de enlaces (Anterior o siguiente) que se mostrarán en la paginación de los temas con más de una página de resultados.";
 $l['setting_jumptopagemultipage'] = "Mostrar 'Saltar a' en la paginación";
-$l['setting_jumptopagemultipage_desc'] = "Aquí puedes establecer que se muestre el formulario 'Saltar a' si el número de páginas de la paginación supera el máximo.";
+$l['setting_jumptopagemultipage_desc'] = "¿Quieres mostrar el formulario 'Saltar a' en la paginación si el número de páginas supera lo establecido en \"Enlaces máximos de paginación\"?";
 $l['setting_no_plugins'] = "Deshabilitar todos los plugins";
 $l['setting_no_plugins_desc'] = "Configurar esto a 'Sí' deshabilitará todos los plugins sin desactivarlos o desinstalarlos. Esto es equivalente a definir manualmente NO_PLUGINS al inicio de init.php.";
 $l['setting_soft_delete'] = "Activar borrado suave";
-$l['setting_soft_delete_desc'] = "Si lo activas permites restaurar los mensajes y temas eliminados por los usuarios. En otro caso se eliminarán permanentemente.";
+$l['setting_soft_delete_desc'] = "Si lo activas, esto te permitirá restaurar los mensajes y temas eliminados por los usuarios. En otro caso, se eliminarán permanentemente.";
 $l['setting_helpsearch'] = "Activar búsqueda de documentos de ayuda";
 $l['setting_helpsearch_desc'] = "Si lo activas permitirás a los usuarios buscar en los documentos de ayuda.";
 $l['setting_deleteinvites'] = "Caducidad de las invitaciones de grupos de usuario";
 $l['setting_deleteinvites_desc'] = "Número de días que se quedarán pendientes las invitaciones a los grupos de usuarios antes de caducar. Establece 0 para desactivar.";
-$l['setting_guestimages'] = "Mostrar imágenes publicadas a los invitados";
-$l['setting_guestimages_desc'] = "Establecer esto a 'Sí' permite a los invitados ver las imagenes publicadas.";
-$l['setting_guestvideos'] = "Mostrar videos publicados a los invitados";
-$l['setting_guestvideos_desc'] = "Establecer esto a 'Sí' permite a los invitados ver los videos publicados.";
 $l['setting_hidewebsite'] = "Ocultar los sitios web";
 $l['setting_hidewebsite_desc'] = "Selecciona los grupos de usuario a los que se les ocultarán los sitios web.";
 $l['setting_hidesignatures'] = "Ocultar las firmas";
@@ -605,7 +601,7 @@ $l['setting_allowcustomwarnings_desc'] = "Permite personalizar la razón y el n�
 $l['setting_canviewownwarning'] = "¿Permitir a los Usuarios ver sus advertencias?";
 $l['setting_canviewownwarning_desc'] = "Establcer este ajuste como 'Sí' permite a los usuarios ver en su panel de control las últimas advertencias y mostrar su nivel de advertencia en su perfil.";
 $l['setting_allowanonwarningpms'] = "Permitir MPs anónimos en las advertencias";
-$l['setting_allowanonwarningpms_desc'] = "Aquí configuras si permites o no a los moderadores enviar MPs anónimos cuando advierten a un usuario.";
+$l['setting_allowanonwarningpms_desc'] = "Permitir a los moderadores enviar MPs anónimos al advertir a un usuario.";
 $l['setting_maxwarningpoints'] = "Máximo número de advertencias";
 $l['setting_maxwarningpoints_desc'] = "El máximo número de advertencias necesarias antes de que un usuario tenga el nivel de advertencia al 100% (Ej: 10 puntos = 100% de advertencia)";
 /**************************************************************************************************************************************************/
@@ -761,6 +757,10 @@ $l['setting_allowsymbolmycode'] = "Permitir MyCodes símbolos (Symbol)";
 $l['setting_allowsymbolmycode_desc'] = "Establecer 'Sí' permite a los usuarios usar los MyCodes (tm), (c) y (r).";
 $l['setting_allowmemycode'] = "Permitir MyCodes yo (me)";
 $l['setting_allowmemycode_desc'] = "Establecer 'Sí' permite a los usuarios usar los MyCodes /me y /slap.";
+$l['setting_guestimages'] = "Parsear MyCode [img] a los invitados";
+$l['setting_guestimages_desc'] = "Establecer esto a 'Sí' permite a los invitados ver las imagenes publicadas, si no se mostrará un enlace.";
+$l['setting_guestvideos'] = "Parsear MyCode [video] a los invitados";
+$l['setting_guestvideos_desc'] = "Establecer esto a 'Sí' permite a los invitados ver los videos publicados, si no se mostrará un enlace.";
 /**************************************************************************************************************************************************/
 
 // Grupo 23 cpprefs
@@ -839,6 +839,8 @@ $l['setting_purgespammerbandelete_ban'] = "Suspensión permanente";
 $l['setting_purgespammerbandelete_delete'] = "Eliminar completamente";
 $l['setting_purgespammerbangroup'] = "Grupo de usuarios para la suspensión";
 $l['setting_purgespammerbangroup_desc'] = "Introduce la ID del grupo de usuarios (no el nombre) al que se moverá a los usuarios cuando sean suspendidos. Por defecto 7, que es el grupo para las suspensiones por defecto. El ajuste anterior debe tener establecido 'Suspensión permanente' para que esto tenga efecto.";
+$l['setting_purgespammerbanreason'] = "Razón de suspensión";
+$l['setting_purgespammerbanreason_desc'] = "Razón que se usará para suspender al usuario.";
 $l['setting_purgespammerapikey'] = "Clave API Stop Forum Spam";
 $l['setting_purgespammerapikey_desc'] = "Para poder enciar información sobre spammers a la base de datos Stop Forum Spam, necesitas una clave API. Puedes conseguir una <a href=\"http://stopforumspam.com/signup\" target=\"_blank\">aquí</a>. Cuando ya tengas la clave, pégala en la caja de abajo.";
 /**************************************************************************************************************************************************/
@@ -892,4 +894,4 @@ $l['setting_group_statspage_desc'] = "Esta sección te permite cambiar los ajust
 $l['setting_statsenabled'] = "Activar página de estadísticas";
 $l['setting_statsenabled_desc'] = "Si quieres desactivar la página de estadísticas en tu foro, establece esta opción a no.";
 $l['setting_statscachetime'] = "Tiempo de la caché de estadísticas";
-$l['setting_statscachetime_desc'] = "Inserta el intervalo de tiempo en horas en el que se refrescará la caché de la página de estadísticas.";
+$l['setting_statscachetime_desc'] = "Inserta el intervalo de tiempo en horas en el que se refrescará la caché de la página de estadísticas. (0 para desactivar caché)";

@@ -246,7 +246,7 @@ email=Sent via Email]]></optionscode>
 		</setting>
 		<setting name="jumptopagemultipage">
 			<title>Show Jump To Page form in Pagination</title>
-			<description><![CDATA[Whther if to show a Jump To Page form in pagination if number of pages exists Maximum Page Links in Pagination setting value.]]></description>
+			<description><![CDATA[Do you want to show a "jump to page" form in pagination if number of pages exceeds "Maximum Page Links in Pagination"?]]></description>
 			<disporder>15</disporder>
 			<optionscode><![CDATA[yesno]]></optionscode>
 			<settingvalue><![CDATA[1]]></settingvalue>
@@ -262,7 +262,7 @@ email=Sent via Email]]></optionscode>
 		</setting>
 		<setting name="soft_delete">
 			<title>Enable Soft Delete</title>
-			<description><![CDATA[If enabled it allows to restore posts and threads deleted by users. Otherwise these posts and threads will be destroyed permanently.]]></description>
+			<description><![CDATA[If enabled, it allows you to restore posts and threads deleted by users. Otherwise, these posts and threads will be deleted permanently.]]></description>
 			<disporder>17</disporder>
 			<optionscode><![CDATA[yesno]]></optionscode>
 			<settingvalue><![CDATA[1]]></settingvalue>
@@ -284,26 +284,10 @@ email=Sent via Email]]></optionscode>
 			<settingvalue><![CDATA[180]]></settingvalue>
 			<isdefault>1</isdefault>
 		</setting>
-		<setting name="guestimages">
-			<title>Show Posted Images To Guests</title>
-			<description><![CDATA[Setting this to yes will allow guests to see images that have been posted.]]></description>
-			<disporder>20</disporder>
-			<optionscode><![CDATA[yesno]]></optionscode>
-			<settingvalue><![CDATA[1]]></settingvalue>
-			<isdefault>1</isdefault>
-		</setting>
-		<setting name="guestvideos">
-			<title>Show Posted Videos To Guests</title>
-			<description><![CDATA[Setting this to yes will allow guests to see videos that have been posted.]]></description>
-			<disporder>21</disporder>
-			<optionscode><![CDATA[yesno]]></optionscode>
-			<settingvalue><![CDATA[1]]></settingvalue>
-			<isdefault>1</isdefault>
-		</setting>
 		<setting name="hidewebsite">
 			<title>Hide Websites To Groups</title>
 			<description><![CDATA[Select the usergroups you wish to hide websites from.]]></description>
-			<disporder>22</disporder>
+			<disporder>20</disporder>
 			<optionscode><![CDATA[groupselect]]></optionscode>
 			<settingvalue><![CDATA[]]></settingvalue>
 			<isdefault>1</isdefault>
@@ -311,7 +295,7 @@ email=Sent via Email]]></optionscode>
 		<setting name="hidesignatures">
 			<title>Hide Signatures To Groups</title>
 			<description><![CDATA[Select the usergroups you wish to hide signatures from.]]></description>
-			<disporder>23</disporder>
+			<disporder>21</disporder>
 			<optionscode><![CDATA[groupselect]]></optionscode>
 			<settingvalue><![CDATA[]]></settingvalue>
 			<isdefault>1</isdefault>
@@ -1597,7 +1581,7 @@ descending=Descending]]></optionscode>
 		</setting>
 		<setting name="allowanonwarningpms">
 			<title>Allow Anonymous Warning PMs</title>
-			<description><![CDATA[Whether or not if to allow moderators to send anonymous warning PMs.]]></description>
+			<description><![CDATA[Allow moderators to send anonymous warning PMs.]]></description>
 			<disporder>4</disporder>
 			<optionscode><![CDATA[yesno]]></optionscode>
 			<settingvalue><![CDATA[1]]></settingvalue>
@@ -2047,6 +2031,22 @@ activity=Order By Last Activity (DESC)]]></optionscode>
 			<settingvalue><![CDATA[1]]></settingvalue>
 			<isdefault>1</isdefault>
 		</setting>
+		<setting name="guestimages">
+			<title>Parse [img] MyCode To Guests</title>
+			<description><![CDATA[Setting this to yes will parse posted images to guests. If no, a link will be shown instead.]]></description>
+			<disporder>17</disporder>
+			<optionscode><![CDATA[yesno]]></optionscode>
+			<settingvalue><![CDATA[1]]></settingvalue>
+			<isdefault>1</isdefault>
+		</setting>
+		<setting name="guestvideos">
+			<title>Parse [video] MyCode To Guests</title>
+			<description><![CDATA[Setting this to yes will parse posted videos to guests. If no, a link will be shown instead.]]></description>
+			<disporder>18</disporder>
+			<optionscode><![CDATA[yesno]]></optionscode>
+			<settingvalue><![CDATA[1]]></settingvalue>
+			<isdefault>1</isdefault>
+		</setting>
 	</settinggroup>
 	<settinggroup name="cpprefs" title="Control Panel Preferences (Global)" description="This section allows you to set the global preferences for the Admin Control Panel." disporder="23" isdefault="1">
 		<setting name="cplanguage">
@@ -2235,7 +2235,7 @@ smtp=SMTP mail]]></optionscode>
 		</setting>
 		<setting name="purgespammerbandelete">
 			<title>Ban or Delete Spammers</title>
-			<description><![CDATA[Do you want to ban or delete spammers with this tool? It will still be optional on the Purge Spammer page.]]></description>
+			<description><![CDATA[Do you want to ban or delete spammers with this tool?]]></description>
 			<disporder>3</disporder>
 			<optionscode><![CDATA[radio
 ban=Ban (Permanent)
@@ -2253,10 +2253,19 @@ delete=Delete]]></optionscode>
 			<isdefault>1</isdefault>
 			<helpkey></helpkey>
 		</setting>
+		<setting name="purgespammerbanreason">
+			<title>Ban Reason</title>
+			<description><![CDATA[The reason which is used to ban the spammer]]></description>
+			<disporder>5</disporder>
+			<optionscode><![CDATA[text]]></optionscode>
+			<settingvalue><![CDATA[Spam]]></settingvalue>
+			<isdefault>1</isdefault>
+			<helpkey></helpkey>
+		</setting>
 		<setting name="purgespammerapikey">
 			<title>Stop Forum Spam API Key</title>
 			<description><![CDATA[In order to be able to submit information on a spammer to the Stop Forum Spam database, you need an API key. You can get one of these <a href="http://stopforumspam.com/signup" target="_blank">here</a>. When you have your key, paste it into the box below.]]></description>
-			<disporder>5</disporder>
+			<disporder>6</disporder>
 			<optionscode><![CDATA[text]]></optionscode>
 			<settingvalue><![CDATA[]]></settingvalue>
 			<isdefault>1</isdefault>
@@ -2405,7 +2414,7 @@ delete=Delete]]></optionscode>
 	<settinggroup name="statspage" title="Statistics Page" description="This section allows you to change the settings of the statistics page." disporder="28" isdefault="1">
 		<setting name="statsenabled">
 			<title>Enable Statistics Pages</title>
-			<description><![CDATA[If you wish to disable the statistics page on your board, set this option to no. 0 to disable caching.]]></description>
+			<description><![CDATA[If you wish to disable the statistics page on your board, set this option to no.]]></description>
 			<disporder>1</disporder>
 			<optionscode><![CDATA[yesno]]></optionscode>
 			<settingvalue><![CDATA[1]]></settingvalue>
@@ -2414,10 +2423,10 @@ delete=Delete]]></optionscode>
 		</setting>
 		<setting name="statscachetime">
 			<title>Statistics Cache Time</title>
-			<description><![CDATA[Inser the interval of time to refresh the statistics page cache in hours.]]></description>
+			<description><![CDATA[Insert the interval of time to refresh the statistics page cache in hours. 0 to disable caching.]]></description>
 			<disporder>2</disporder>
 			<optionscode><![CDATA[text]]></optionscode>
-			<settingvalue><![CDATA[24]]></settingvalue>
+			<settingvalue><![CDATA[0]]></settingvalue>
 			<isdefault>1</isdefault>
 			<helpkey></helpkey>
 		</setting>

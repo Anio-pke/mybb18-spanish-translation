@@ -256,6 +256,13 @@ $l['config_step_table'] = '<p>Ahora es el momento de configurar los ajustes bás
 					<td class="first"><label for="contactemail">Email de contacto:</label></td>
 					<td class="last alt_col"><input type="text" class="text_input" name="contactemail" id="contactemail" value="{7}" /></td>
 				</tr>
+				<tr>
+					<th colspan="2" class="first last">Ajustes de seguridad</th>
+				</tr>
+				<tr class="last">
+					<td class="first"><label for="acppin">Pin del panel de administración:</label><br />Déjalo en blanco si no quieres establecer uno</td>
+					<td class="last alt_col"><input type="password" class="text_input" name="pin" id="acppin" value="" /></td>
+				</tr>
 				</tbody>
 			</table>
 		</div>
@@ -290,7 +297,7 @@ $l['admin_step_admintable'] = '<div class="border_wrapper">
 		</thead>
 		<tr class="first">
 			<td class="first"><label for="adminuser">Nombre de usuario:</label></td>
-			<td class="alt_col last"><input type="text" class="text_input" name="adminuser" id="adminuser" value="{1}" autocomplete="off" /></td>
+			<td class="alt_col last"><input type="text" class="text_input" name="adminuser" id="adminuser" value="{1}" /></td>
 		</tr>
 		<tr class="alt_row">
 			<td class="first"><label for="adminpass">Contraseña:</label></td>

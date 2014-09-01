@@ -15,3 +15,4 @@ $l['archive_nopermission'] = "Lo sentimos, no tienes permiso para acceder a este
 $l['error_nothreads'] = "Actualmente no hay temas en este foro.";
 $l['error_unapproved_thread'] = "Este tema no está aprobado. Por favor <a href=\"{1}\">accede a la versión completa</a> para ver el contenido de este tema.";
 $l['archive_not_found'] = "La página solicitada no fue encontrada en este servidor.";
+$l['error_mustlogin'] = "Este foro requiere iniciar sesión para todos los usuarios.";

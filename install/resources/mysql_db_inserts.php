@@ -72,6 +72,8 @@ $inserts[] = "INSERT INTO mybb_profilefields (fid, name, description, disporder,
 $inserts[] = "INSERT INTO mybb_profilefields (fid, name, description, disporder, type, regex, length, maxlength, required, registration, profile, postbit, viewableby, editableby, postnum) VALUES (2, 'Biografía', 'Introduce una breve descripción sobre ti, la historia de tu vida etc.', 2, 'textarea', '', 0, 0, 0, 0, 1, 0, -1, -1, 0);";
 $inserts[] = "INSERT INTO mybb_profilefields (fid, name, description, disporder, type, regex, length, maxlength, required, registration, profile, postbit, viewableby, editableby, postnum) VALUES (3, 'Sexo', 'Por favor selecciona tu sexo de la lista de abajo.', 3, 'select\nSin seleccionar\nHombre\nMujer\nOtro', '', 0, 0, 0, 0, 1, 0, -1, -1, 0);";
 
+$inserts[] = "INSERT INTO mybb_questions (qid, question, answer, shown, correct, incorrect, active) VALUES(1, '¿Cuánto son 2 + 2?', '4\nCuatro', 0, 0, 0, 1);";
+
 $inserts[] = "INSERT INTO mybb_smilies (sid, name, find, image, disporder, showclickable) VALUES(1, 'Sonrisa', ':)', 'images/smilies/smile.png', 1, 1);";
 $inserts[] = "INSERT INTO mybb_smilies (sid, name, find, image, disporder, showclickable) VALUES(2, 'Guiño', ';)', 'images/smilies/wink.png', 2, 1);";
 $inserts[] = "INSERT INTO mybb_smilies (sid, name, find, image, disporder, showclickable) VALUES(3, 'Interesante', ':cool:', 'images/smilies/cool.png', 3, 1);";

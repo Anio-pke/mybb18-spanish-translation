@@ -111,6 +111,7 @@ $l['split_to_same_forum'] = "Dividir en el mismo foro";
 $l['close_split_thread'] = "¿Cerrar el tema dividido?";
 $l['stick_split_thread'] = "¿Marcar como importante el tema dividido?";
 $l['unapprove_split_thread'] = "¿Rechazar el tema dividido?";
+$l['split_thread_prefix'] = "Prefijo del tema dividido";
 $l['split_thread_subject'] = "Título del tema dividido";
 $l['split_thread_subject_desc'] = "{subject} representa el título original. Solo se necesita si se dividen mensajes.";
 $l['add_new_split_reply'] = "Agregar una respuesta el tema dividido";
