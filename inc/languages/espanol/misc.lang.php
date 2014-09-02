@@ -52,7 +52,7 @@ $l['search_results'] = "Resultados";
 $l['help_doc_results'] = "Resultados de los documentos de ayuda";
 $l['document'] = "Documento";
 $l['error_nosearchresults'] = "No se encontraron resultados sobre lo que estas buscando con la información proporcionada. Por favor, modifica tu búsqueda e inténtalo de nuevo.";
-$l['no_help_results'] = "No se encontraron resultados sobre lo que estas buscando con la información proporcionada.
+$l['no_help_results'] = "No se encontraron resultados sobre lo que estas buscando con la información proporcionada.";
 $l['error_helpsearchdisabled'] = "La función de buscar documentos de ayuda ha sido deshabilitada por un administrador.";
 
 $l['smilies_listing'] = "Lista de iconos gestuales";
