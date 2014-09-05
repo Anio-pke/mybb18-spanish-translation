@@ -19,7 +19,7 @@ $l['report_reason_reputation'] = "Reportar reputación";
 // Content reasons
 $l['report_reason_bad'] = "Contenido inapropriado";
 $l['report_reason_spam'] = "Contenido spam";
-$l['report_reason_rules'] = "Rompe las reglas del foro";
+$l['report_reason_rules'] = "Incumple las reglas del foro";
 $l['report_reason_wrong'] = "Foro incorrecto";
 $l['report_reason_other'] = "Otro";
 
