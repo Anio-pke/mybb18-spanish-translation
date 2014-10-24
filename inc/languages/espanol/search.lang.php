@@ -95,10 +95,10 @@ $l['search_user'] = "Buscar usuario";
 
 $l['results'] = "resultados";
 $l['mod_options'] = "Opciones de moderador";
-$l['find_all'] = "Buscar todos";
-$l['find_only_approved'] = "Buscar solo aprobados";
-$l['find_only_unapproved'] = "Buscar solo rechazados";
-$l['find_only_softdeleted'] = "Buscar solo borrados de forma suave";
+$l['display_all'] = "Mostrar todos";
+$l['display_only_approved'] = "Mostrar solo aprobados";
+$l['display_only_unapproved'] = "Mostrar solo rechazados";
+$l['display_only_softdeleted'] = "Mostrar solo borrados de forma suave";
 
 $l['redirect_searchresults'] = "Gracias, tu búsqueda ha sido enviada y ahora serás llevado a la lista de resultados.";
 

@@ -24,7 +24,7 @@ $l['d3_desc'] = "MyBB usa cookies para guardar cierta información sobre tu regi
 $l['d3_document'] = "MyBB (los foros que usamos aquí) usan cookies para guardar información de si estás registrado o de cuándo nos visitaste por última vez.
 <br /><br />Las cookies son pequeños ficheros de texto que se guardan en tu ordenador. Las cookies de estos foros solo pueden ser vistas en esta página web y no ofrecen ningún riesgo de seguridad.
 <br /><br />Nuestras cookies también llevan la cuenta de los temas que has leído y de cuándo los leíste por última vez.
-<br /><br />Para borrar todas las cookies de estos foros, puedes hacer clic <a href=\"misc.php?action=clearcookies&amp;key={1}\">aquí</a>.";
+<br /><br />Para borrar todas las cookies de estos foros, puedes hacer clic <a href=\"misc.php?action=clearcookies&amp;my_post_key={1}\">aquí</a>.";
 
 // Help Document 4
 $l['d4_name'] = "Conectarse y desconectarse";

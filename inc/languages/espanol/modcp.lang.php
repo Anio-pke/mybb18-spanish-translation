@@ -180,6 +180,7 @@ $l['ban_bannedby'] = "Suspendido por";
 $l['ban_movegroup'] = "Mover a:";
 $l['ban_liftafter'] = "Levantar suspensión en:";
 $l['no_banned'] = "Actualmente no hay usuarios suspendidos.";
+$l['no_banned_group'] = "Actualmente no hay ningún grupo de suspendidos.";
 $l['redirect_banuser'] = "El usuario ha sido suspendido correctamente.";
 $l['redirect_banuser_updated'] = "La suspensión se ha actualizado correctamente.";
 $l['invalid_username'] = "El nombre de usuario introducido no es válido. Por favor, asegúrate de que lo escribes bien.";

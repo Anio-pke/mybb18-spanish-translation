@@ -16,7 +16,7 @@ $langinfo['author'] = "Anio_pke";
 $langinfo['website'] = "https://github.com/Anio-pke/mybb18-spanish-translation";
 
 // Compatible version of MyBB
-$langinfo['version'] = "1800";
+$langinfo['version'] = "1801";
 
 // Sets if the translation includes the Admin CP (1 = yes, 0 = no)
 $langinfo['admin'] = 1;
@@ -29,4 +29,3 @@ $langinfo['htmllang'] = "es";
 
 // Sets the character set, blank uses the default.
 $langinfo['charset'] = "UTF-8";
-?>

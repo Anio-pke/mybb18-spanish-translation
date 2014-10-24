@@ -5,7 +5,7 @@
  *
  * Translator: Anio_pke
  */
- 
+
 $l['board_settings'] = "Ajustes del foro";
 $l['change_settings'] = "Cambiar ajuste";
 $l['change_settings_desc'] = "Esta sección te permite configurar algunos de los ajustes en relación a tu foro. Para empezar, selecciona un grupo de los de abajo para configurar sus posibles ajustes.";
@@ -26,6 +26,7 @@ $l['name'] = "Identificador";
 $l['name_desc'] = "Este identificador único se usa para referenciar este ajuste (En plugins, traducciones y plantillas).";
 $l['group_name_desc'] = "Este identificador único se usa para el sistema de traducción.";
 $l['text'] = "Texto";
+$l['numeric_text'] = "Texto numérico";
 $l['textarea'] = "Área de texto";
 $l['yesno'] = "Elección Sí / No";
 $l['onoff'] = "Elección On / Off";

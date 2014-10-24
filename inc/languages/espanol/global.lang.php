@@ -548,3 +548,5 @@ $l['select2_selectiontoobig_plural'] = "Solo puedes seleccionar {1} elementos";
 $l['select2_loadmore'] = "Cargando más resultados…";
 $l['select2_searching'] = "Buscando…";
 
+$l['stopforumspam_error_decoding'] = 'Error decodificando los datos de StopForumSpam.com.';
+$l['stopforumspam_error_retrieving'] = 'Error cargando los datos de StopForumSpam.com.';

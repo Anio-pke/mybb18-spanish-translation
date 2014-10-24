@@ -71,6 +71,10 @@ $l['away_reason'] = "Razón:";
 $l['away_since'] = "Ausente desde:";
 $l['away_returns'] = "Regresa en:";
 $l['away_no_reason'] = "No especificado.";
+$l['ban_note'] = "Esta cuenta está suspendida.";
+$l['ban_by'] = "Suspendida por";
+$l['ban_length'] = "Tiempo de suspensión";
+
 $l['users_additional_info'] = "Información adicional sobre {1}";
 $l['email'] = "Email:";
 $l['send_user_email'] = "Envíale un email a {1}.";

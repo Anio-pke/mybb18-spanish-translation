@@ -33,7 +33,7 @@ $l['duplicate_theme'] = "Duplicar estilo";
 $l['duplicate_theme_desc'] = "Aquí puedes duplicar tus estilos. Esto te ayudará a desarrollar una nueva versión a partir de ellos.";
 
 $l['colors_manage'] = "Configurar colores";
-$l['colors_attached_to'] = "ajuste color {1}";
+$l['colors_attached_to'] = "ajuste color";
 $l['colors_setting'] = "Color base";
 $l['colors_setting_desc'] = "Selecciona el color que este estilo usará como base. Se usará este color en las hojas de estilo en las que esté adjunto.";
 $l['colors_no_color_setting'] = "No hay colores disponibles. Por favor, crea una lista de colores debajo para usar esta opción.";

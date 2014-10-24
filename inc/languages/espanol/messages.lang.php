@@ -30,6 +30,7 @@ $l['error_invalidforum'] = "Foro inválido";
 $l['error_closedinvalidforum'] = "No puedes escribir mensajes en este foro porque el foro está cerrado, es una redirección a otra página web o es una categoría.";
 $l['error_attachtype'] = "El tipo de archivo que adjuntaste no está permitido. Quita ese archivo o escoge alguno otro de diferente tipo.";
 $l['error_attachsize'] = "El archivo que adjuntaste es demasiado grande. El tamaño máximo para ese tipo de archivos es de {1} kilobytes.";
+$l['error_uploadempty'] = "El archivo especificado está vacío.";
 $l['error_uploadsize'] = "El tamaño del archivo a subir es muy grande.";
 $l['error_uploadfailed'] = "La subida del archivo ha fallado. Escoge un archivo válido y trata de nuevo.";
 $l['error_uploadfailed_detail'] = "Detalles del error: ";
@@ -441,10 +442,11 @@ Gracias,
 El equipo de {4}";
 
 $l['email_contact_subject'] = "Contacto: {1}";
-$l['email_contact'] = "Perfil: {1}
-IP Address: {2}
+$l['email_contact'] = "Email: {1}
+Perfil: {2}
+IP Address: {3}
 Mensaje:
-{3}";
+{4}";
 
 $l['pmsubject_subscription'] = "Nueva respuesta a {1}";
 $l['pm_subscription'] = "{1},

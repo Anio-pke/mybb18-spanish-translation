@@ -49,6 +49,7 @@ $l['no_language_files_admin_cp'] = "No se han encontrado los archivos de idioma 
 $l['error_invalid_set'] = "El paquete de idioma especificado es inválido.";
 $l['error_invalid_file'] = "El archivo de idioma especificado es inválido.";
 $l['error_cannot_write_to_file'] = "No se puede escribir al archivo.  Comprueba los permisos del archivo de idioma e inténtalo de nuevo";
+$l['error_folders_fail'] = "Ha ocurrido un problema al acceder a la carpeta de idiomas. Por favor, asegúrate que existe y tiene permisos de escritura.";
 
 $l['alert_note_cannot_write'] = "Antes de editar un archivo de idioma, asegúrate que los archivos tienen el CHMOD correcto de escritura en el servidor.";
 
@@ -56,3 +57,8 @@ $l['success_langfile_updated'] = "El archivo de idioma ha sido actualizado corre
 $l['success_langprops_updated'] = "Las propiedades de idioma han sido actualizadas correctamente.";
 $l['success_quickphrases_updated'] = "Las frases de idioma rápidas se han actualizado correctamente.";
 
+$l['issues'] = "Problemas";
+$l['phrases'] = "Frases";
+$l['issues_ok'] = "Parece que todo está correcto aquí.";
+$l['issues_nothingtocompare'] = "No hay nada para comparar aquí.";
+$l['issues_warning'] = "Este archivo requiere tu atención.\nPor favor, compruébalo.";

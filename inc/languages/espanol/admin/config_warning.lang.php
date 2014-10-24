@@ -65,6 +65,7 @@ $l['expiration_permanent'] = "Permanentemente";
 $l['error_invalid_warning_level'] = "El nivel de advertencia especificado no existe.";
 $l['error_invalid_warning_percentage'] = "No has introducido un porcentaje válido para este nivel de advertencia. El porcentaje debe estar entre 1 y 100.";
 $l['error_invalid_warning_type'] = "El tipo de advertencia especificado no existe.";
+$l['error_missing_action_type'] = "Por favor, selecciona una de las acciones que se asignarán este nuevo nivel de advertencia.";
 $l['error_missing_type_title'] = "No has introducido un título para este tipo de advertencia";
 $l['error_missing_type_points'] = "No has introducido un número de puntos válido para agregar con esta advertencia. Debe ser mayor de 0 pero no mayor de {1}";
 
