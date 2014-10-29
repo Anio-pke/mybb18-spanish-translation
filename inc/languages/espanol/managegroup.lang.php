@@ -62,5 +62,5 @@ $l['invite_pm_message_expires'] = "Has recibido una invitación para unirte al g
 
 Para unirte, por favor, ve a tu página [url={2}/usercp.php?action=usergroups]Membresías de grupos[/url] y haz click en 'Aceptar Invitación'.
 
-Esta invitación caducará en {1} días.
+Esta invitación caducará en {1} días.";
 
