@@ -843,7 +843,7 @@ $l['setting_purgespammerbangroup_desc'] = "Introduce la ID del grupo de usuarios
 $l['setting_purgespammerbanreason'] = "Razón de suspensión";
 $l['setting_purgespammerbanreason_desc'] = "Razón que se usará para suspender al usuario.";
 $l['setting_purgespammerapikey'] = "Clave API Stop Forum Spam";
-$l['setting_purgespammerapikey_desc'] = "Para poder enciar información sobre spammers a la base de datos Stop Forum Spam, necesitas una clave API. Puedes conseguir una <a href=\"http://stopforumspam.com/signup\" target=\"_blank\">aquí</a>. Cuando ya tengas la clave, pégala en la caja de abajo.";
+$l['setting_purgespammerapikey_desc'] = "Para poder enviar información sobre spammers a la base de datos Stop Forum Spam, necesitas una clave API. Puedes conseguir una <a href=\"http://stopforumspam.com/signup\" target=\"_blank\">aquí</a>. Cuando ya tengas la clave, pégala en la caja de abajo.";
 /**************************************************************************************************************************************************/
 
 //Grupo 27 stopforumspam
