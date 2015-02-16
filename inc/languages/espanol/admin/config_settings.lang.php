@@ -107,7 +107,7 @@ $l['setting_group_onlineoffline_desc'] = "Estos parámetros permiten abrir o cer
 $l['setting_boardclosed'] = "Foro cerrado";
 $l['setting_boardclosed_desc'] = "Si necesitas cerrar tus foros para hacer cambios o realizar una actualización, este es un interruptor global. Los visitantes no podrán ver tus foros; sin embargo, verán un mensaje con la razón especificada debajo.<br /><br /><b>Los administradores podrán ver los foros.</b>";
 $l['setting_boardclosed_reason'] = "Razón del cierre";
-$l['setting_boardclosed_reason_desc'] = "Si tus foros están cerrados, puedes escribir un mensaje aquí que se mostrará a los visitantes cuando entren a tus foros.";
+$l['setting_boardclosed_reason_desc'] = "Si tus foros están cerrados, puedes escribir un mensaje aquí que se mostrará a los visitantes cuando entren a tus foros. Puedes dejarlo en blanco para usar el mensaje por defecto incluído en los archivos de idioma.";
 /**************************************************************************************************************************************************/
 
 // Grupo 2 details
@@ -154,6 +154,7 @@ $l['setting_captchaimage_0'] = "Sin CAPTCHA";
 $l['setting_captchaimage_1'] = "MyBB CAPTCHA";
 $l['setting_captchaimage_2'] = "reCAPTCHA";
 $l['setting_captchaimage_3'] = "Are You a Human";
+$l['setting_captchaimage_3'] = "NoCAPTCHA reCAPTCHA";
 $l['setting_captchapublickey'] = "Clave pública reCAPTCHA";
 $l['setting_captchapublickey_desc'] = "Tu clave pública reCAPTCHA.";
 $l['setting_captchaprivatekey'] = "Clave privada reCAPTCHA";
@@ -167,10 +168,6 @@ $l['setting_reportmethod_desc'] = "Por favor, selecciona de la lista el método 
 $l['setting_reportmethod_db'] = "Guardar en la base de datos";
 $l['setting_reportmethod_pms'] = "Enviar un mensaje privado";
 $l['setting_reportmethod_email'] = "Enviar un email informando";
-$l['setting_statslimit'] = "Límite de estadísticas";
-$l['setting_statslimit_desc'] = "Número de temas que se mostrarán en la página de estadísticas para los de más respuestas y los más vistos.";
-$l['setting_statstopreferrer'] = "Mostrar top de recomendaciones en la página de estadísticas";
-$l['setting_statstopreferrer_desc'] = "Si quieres mostrar el top de recomendaciones en la página stats.php. Esto añade una consulta adicional.";
 $l['setting_decpoint'] = "Punto decimal";
 $l['setting_decpoint_desc'] = "El punto decimal que se usa en tu región (Por ejemplo, configurar ',' con el número 0,1 dará como resultado el número 0,1).";
 $l['setting_thousandssep'] = "Separador de miles";
@@ -185,16 +182,12 @@ $l['setting_jumptopagemultipage'] = "Mostrar 'Saltar a' en la paginación";
 $l['setting_jumptopagemultipage_desc'] = "¿Quieres mostrar el formulario 'Saltar a' en la paginación si el número de páginas supera lo establecido en \"Enlaces máximos de paginación\"?";
 $l['setting_no_plugins'] = "Deshabilitar todos los plugins";
 $l['setting_no_plugins_desc'] = "Configurar esto a 'Sí' deshabilitará todos los plugins sin desactivarlos o desinstalarlos. Esto es equivalente a definir manualmente NO_PLUGINS al inicio de init.php.";
-$l['setting_soft_delete'] = "Activar borrado suave";
-$l['setting_soft_delete_desc'] = "Si lo activas, esto te permitirá restaurar los mensajes y temas eliminados por los usuarios. En otro caso, se eliminarán permanentemente.";
-$l['setting_helpsearch'] = "Activar búsqueda de documentos de ayuda";
-$l['setting_helpsearch_desc'] = "Si lo activas permitirás a los usuarios buscar en los documentos de ayuda.";
 $l['setting_deleteinvites'] = "Caducidad de las invitaciones de grupos de usuario";
 $l['setting_deleteinvites_desc'] = "Número de días que se quedarán pendientes las invitaciones a los grupos de usuarios antes de caducar. Establece 0 para desactivar.";
-$l['setting_hidewebsite'] = "Ocultar los sitios web";
-$l['setting_hidewebsite_desc'] = "Selecciona los grupos de usuario a los que se les ocultarán los sitios web.";
-$l['setting_hidesignatures'] = "Ocultar las firmas";
-$l['setting_hidesignatures_desc'] = "Selecciona los grupos de usuario a los que se les ocultarán las firmas.";
+$l['setting_redirects'] = "Páginas de redirección";
+$l['setting_redirects_desc'] = "Activando esta opción activas las páginas de redireccionamiento en vez de enviar al usuario directamente a la página.";
+$l['setting_enableforumjump'] = "¿Activar el menú salto de foro?";
+$l['setting_enableforumjump_desc'] = "El menú \"Salto de foro\" se muestra en las páginas de foros y mensajes. Añade una significativa carga a tus foros si tienes una cantidad considerable de foros. Selecciona 'No' para desactivarlo.";
 /**************************************************************************************************************************************************/
 
 //Grupo 4 server
@@ -214,8 +207,6 @@ $l['setting_gziplevel'] = "Nivel de compresión GZip";
 $l['setting_gziplevel_desc'] = "Establece el nivel  de compresión GZip en las páginas de 0-9. (0=sin compresión, 9=máxima compresión). Esto únicamente afecta si está activada la compresión GZip en las páginas y tu versión de PHP es 4.2 o superior. Si tu servidor usa una versión más antigua, se utilizará el nivel de compresión predeterminado en la librería zlib.";
 $l['setting_nocacheheaders'] = "Enviar cabeceras \"No cache\"";
 $l['setting_nocacheheaders_desc'] = "Con esta opción evitas que los navegadores guarden páginas en la cache (Archivos temporales).";
-$l['setting_redirects'] = "Páginas de redirección";
-$l['setting_redirects_desc'] = "Activando esta opción activas las páginas de redireccionamiento en vez de enviar al usuario directamente a la página.";
 $l['setting_load'] = "Límite de carga *NIX";
 $l['setting_load_desc'] = "Límite de carga máxima del servidor antes de que myBB rechace usuarios. 0 para desactivar. Límite recomendado 5.0.";
 $l['setting_tplhtmlcomments'] = "Mostrar comentarios de plantillas (Inicio/Fin)";
@@ -242,8 +233,6 @@ $l['setting_errortypemedium_both'] = "Advertencias y errores";
 $l['setting_errortypemedium_none'] = "Ocultar errores y advertencias";
 $l['setting_errorloglocation'] = "Archivo en el que se guardan los errores";
 $l['setting_errorloglocation_desc'] = "Localización del archivo en el que se guadarán, si se activa el sistema es necesario indicar el archivo que se utilizará.";
-$l['setting_enableforumjump'] = "¿Activar el menú salto de foro?";
-$l['setting_enableforumjump_desc'] = "El menú \"Salto de foro\" se muestra en las páginas de foros y mensajes. Añade una significativa carga a tus foros si tienes una cantidad considerable de foros. Selecciona 'No' para desactivarlo.";
 $l['setting_ip_forwarded_check'] = "¿Examinar la dirección IP del usuario?";
 $l['setting_ip_forwarded_check_desc'] = "¿Quieres comprobar la dirección IP de un usuario para las cabeceras HTTP_X_FORWARDED_FOR o HTTP_X_REAL_IP? Si no estás seguro, selecciona 'No'.";
 $l['setting_minifycss'] = "¿Minimizar las hojas de estilo?";
@@ -373,6 +362,8 @@ $l['setting_regtype_verify'] = "Enviar email de verificación";
 $l['setting_regtype_randompass'] = "Enviar contraseña aleatoria";
 $l['setting_regtype_admin'] = "Activación por administración";
 $l['setting_regtype_both'] = "Enviar email de verificación y activación por administración";
+$l['setting_awactialert'] = "Notificación de activación en espera";
+$l['setting_awactialert_desc'] = "¿Quieres mostrar a los administradores la notificación sobre los usuarios que están esperando activación?";
 $l['setting_forcelogin'] = "Forzar usuarios a iniciar sesión";
 $l['setting_forcelogin_desc'] = "Establecer 'Sí' forzarás a los invitados a iniciar sesión o a registrarse para acceder al foro.";
 $l['setting_minnamelength'] = "Longitud mínima de nombre de usuario";
@@ -386,7 +377,7 @@ $l['setting_maxpasswordlength_desc'] = "Máximo número de caracteres para una c
 $l['setting_requirecomplexpasswords'] = "¿Requerir contraseña compleja?";
 $l['setting_requirecomplexpasswords_desc'] = "¿Quieres que tus usuarios usen contraseñas complejas? Las contraseñas complejas requieren una letra mayúscula, una minúscula y un número.";
 $l['setting_betweenregstime'] = "Tiempo entre registros";
-$l['setting_betweenregstime_desc'] = "Tiempo (En horas) que deben esperar los usuarios para volver a registrarse desde la misma IP.";
+$l['setting_betweenregstime_desc'] = "Tiempo (En horas) que deben esperar los usuarios para volver a registrarse desde la misma IP. 0 para desactivar";
 $l['setting_maxregsbetweentime'] = "Máximos registros por IP";
 $l['setting_maxregsbetweentime_desc'] = "Esta opción te permite establecer el número máximo de registros desde una misma IP.";
 $l['setting_allowmultipleemails'] = "¿Permitir usar el mismo email varias veces?";
@@ -441,6 +432,10 @@ $l['setting_maxsigimages'] = "Máximo número de imágenes por firma";
 $l['setting_maxsigimages_desc'] = "Introduce el máximo número de imágenes (Incluidos iconos gestuales) que un usuario puede poner en su firma. Introduce 0 para no permitir ninguna imagen en las firmas.";
 $l['setting_siglength'] = "Longitud máxima de las firmas";
 $l['setting_siglength_desc'] = "Máximo número de caracteres que un usuario puede utilizar en su firma.";
+$l['setting_hidesignatures'] = "Ocultar las firmas";
+$l['setting_hidesignatures_desc'] = "Selecciona los grupos de usuario a los que se les ocultarán las firmas.";
+$l['setting_hidewebsite'] = "Ocultar los sitios web";
+$l['setting_hidewebsite_desc'] = "Selecciona los grupos de usuario a los que se les ocultarán los sitios web.";
 $l['setting_useravatar'] = "Avatar por defecto";
 $l['setting_useravatar_desc'] = "Si el usuario no establece un avatar se utilizará esta imagen en su lugar.";
 $l['setting_useravatardims'] = "Dimensiones del avatar por defecto";
@@ -510,8 +505,6 @@ $l['setting_maxpostvideos'] = "Número máximo de vídeos por mensaje";
 $l['setting_maxpostvideos_desc'] = "Introduce el número máximo de vídeos que un miembro puede usar en sus mensajes. 0 para deshabilitar el límite.";
 $l['setting_subscribeexcerpt'] = "Número de caracteres para las vistas previas de las suscripciones";
 $l['setting_subscribeexcerpt_desc'] = "¿Cuantos caracteres de un mensaje quieres que se envíen en las notificaciones por email en una nueva respuesta?.";
-$l['setting_wordwrap'] = "Caracteres máximos por palabra";
-$l['setting_wordwrap_desc'] = "Número máximo de caracteres para una palabra antes de que se corte automáticamente (previene deformaciones en el foro). 0 para deshabilitar.";
 $l['setting_maxquotedepth'] = "Nivel máximo de citas";
 $l['setting_maxquotedepth_desc'] = "Nivel máximo en las citas. Cuando citas un mensaje, todas las citas antiguas que superen este valor de nivel se eliminarán automáticamente. Este valor solo afecta cuando se cita con el botón ya que siempre esrá posible exceder este límite citando a mano, este valor no afecta a los mensajes enviados con anterioridad. 0 para deshabilitar.";
 $l['setting_polloptionlimit'] = "Longitud de una opción de una encuesta";
@@ -524,6 +517,8 @@ $l['setting_threadreview'] = "Mostrar resumen del tema";
 $l['setting_threadreview_desc'] = "¿Mostrar los mensajes más recientes al crear una nueva respuesta?";
 $l['setting_alloweditreason'] = "Permitir razón de edición";
 $l['setting_alloweditreason_desc'] = "¿Quieres permitir a tus usuarios la posibilidad de agregar una razón opcional de por qué editan sus mensajes?";
+$l['setting_soft_delete'] = "Activar borrado suave";
+$l['setting_soft_delete_desc'] = "Si lo activas, esto te permitirá restaurar los mensajes y temas eliminados por los usuarios. En otro caso, se eliminarán permanentemente.";
 /**************************************************************************************************************************************************/
 
 // Grupo 12 attachments
@@ -708,7 +703,7 @@ $l['setting_portal_excludediscussion_desc'] = "Por favor, selecciona los foros d
 
 //Grupo 21 search
 $l['setting_group_search'] = "Sistema de búsqueda";
-$l['setting_group_search_desc'] = "Esta sección permite configurar varios parámetros que modifican el mecanismo de búsqueda de temas y mensajes en el MyBB.";
+$l['setting_group_search_desc'] = "Esta sección permite configurar varios parámetros que modifican el mecanismo de búsqueda de temas, mensajes y documentos de ayuda en MyBB.";
 //Ajustes
 $l['setting_searchtype'] = "Tipo de búsqueda";
 $l['setting_searchtype_desc'] = "Por favor, selecciona el tipo de búsqueda que quieres utilizar. Puedes elegir entre \"Estándar\", o \"Completa\" (Dependiendo de tu base de datos). La búsqueda completa es más potente y más rápida que la búsqueda estándar de MyBB.";
@@ -720,6 +715,8 @@ $l['setting_minsearchword'] = "Longitud mínima para la búsqueda";
 $l['setting_minsearchword_desc'] = "Introduce el número de caracteres para una palabra individual en la búsqueda. 0 para desactivar (Y acepta un límite por defecto de 3 para la búsqueda estándar y 4 para la búsqueda completa MySQL). Si usas búsqueda completa de MySQL y estableces un límite inferior a la configuración MySQL - MySQL lo sobreescribirá.";
 $l['setting_searchhardlimit'] = "Límite máximo de resultados en una búsqueda";
 $l['setting_searchhardlimit_desc'] = "Introduce el máximo de resultados que se procesarán. En foros muy grandes (Más de 1 millón de mensajes) es recomendable establecer un máximo inferior a 1000 (0 para deshabilitar).";
+$l['setting_helpsearch'] = "Activar búsqueda de documentos de ayuda";
+$l['setting_helpsearch_desc'] = "Si lo activas permitirás a los usuarios buscar en los documentos de ayuda.";
 /**************************************************************************************************************************************************/
 
 // Grupo 22 clickablecode
@@ -896,3 +893,7 @@ $l['setting_statsenabled'] = "Activar página de estadísticas";
 $l['setting_statsenabled_desc'] = "Si quieres desactivar la página de estadísticas en tu foro, establece esta opción a no.";
 $l['setting_statscachetime'] = "Tiempo de la caché de estadísticas";
 $l['setting_statscachetime_desc'] = "Inserta el intervalo de tiempo en horas en el que se refrescará la caché de la página de estadísticas. (0 para desactivar caché)";
+$l['setting_statslimit'] = "Límite de estadísticas";
+$l['setting_statslimit_desc'] = "Número de temas que se mostrarán en la página de estadísticas para los de más respuestas y los más vistos.";
+$l['setting_statstopreferrer'] = "Mostrar top de recomendaciones en la página de estadísticas";
+$l['setting_statstopreferrer_desc'] = "Si quieres mostrar el top de recomendaciones en la página stats.php. Esto añade una consulta adicional.";
