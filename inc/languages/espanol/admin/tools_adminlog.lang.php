@@ -163,6 +163,9 @@ $l['admin_log_forum_moderation_queue_threads'] = "Moderar temas rechazados";
 $l['admin_log_forum_moderation_queue_posts'] = "Moderar mensajes rechazados";
 $l['admin_log_forum_moderation_queue_attachments'] = "Moderar adjuntos rechazados";
 
+$l['admin_log_home_preferences_enabled'] = "Activar verificación en dos pasos";
+$l['admin_log_home_preferences_disabled'] = "Desactivar verificación en dos pasos";
+
 $l['admin_log_style_templates_delete_set'] = "Eliminar set de plantillas #{1} ({2})";
 $l['admin_log_style_templates_delete_template'] = "Eliminar plantilla #{1} ({2}) del set de plantillas #{3} ({4})";
 $l['admin_log_style_templates_delete_template_global'] = "Eliminar plantilla #{1} ({2}) del set de plantillas global";

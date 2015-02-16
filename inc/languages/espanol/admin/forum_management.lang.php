@@ -167,6 +167,7 @@ $l['forum_rules'] = "Reglas del foro";
 $l['name'] = "Nombre";
 $l['username'] = "Nombre de usuario";
 $l['moderator_username_desc'] = "Nombre de usuario del moderador que quieres agregar";
+$l['search_user'] = "Buscar usuario";
 $l['add_user_as_moderator'] = "Agregar usuario como moderador";
 $l['usergroup'] = "Grupo de usuarios";
 $l['add_usergroup_as_moderator'] = "Agregar grupo de usuarios como moderadores";

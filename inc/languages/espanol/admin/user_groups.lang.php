@@ -147,6 +147,7 @@ $l['max_recipients'] = "Máximos destinatarios por mensaje:";
 $l['max_recipients_desc'] = "Máximo número de usuarios a los que se puede enviar un mismo mensaje privado a la vez. Si está vacío, los usuarios podrán enviar el mismo mensaje a ilimitados destinatarios.";
 $l['show_reputations'] = "¿Mostrar reputaciones para los usuarios de este grupo?";
 $l['can_give_reputation'] = "¿Puede dar reputaciones a otros usuarios?";
+$l['can_delete_own_reputation'] = "¿Puede eliminar las reputaciones dadas a otros usuarios?";
 $l['points_to_award_take'] = "Puntos a sumar/restar:";
 $l['points_to_award_take_desc'] = "Aquí debes introducir el número de puntos que se sumarán o restarán con las reputaciones que den los usuarios de este grupo.";
 $l['max_reputations_daily'] = "Máximas reputaciones permitidas al día:";

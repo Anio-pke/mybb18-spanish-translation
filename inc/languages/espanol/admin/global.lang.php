@@ -359,3 +359,8 @@ $l['comma'] = ", ";
 // then use this to define how much larger you want the gap to be (in px)
 // $l['login_field_width'] = "0";
 
+$l['my2fa'] = "Verificación en dos pasos";
+$l['my2fa_failed'] = "El código es incorrecto, ahora se cerrará sesión";
+$l['my2fa_code'] = "Por favor, introduce el código de verificación";
+$l['my2fa_label'] = "Código de verificación";
+$l['my2fa_no_codes'] = "Nota: ya has utilizado todos tus códigos de recuperación. Por favor, visita la página de <a href=\"index.php?module=home-preferences&amp;action=recovery_codes\">códigos de recuperación</a> para generar un nuevo grupo.";

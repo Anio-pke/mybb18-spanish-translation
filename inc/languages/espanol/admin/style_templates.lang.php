@@ -8,7 +8,7 @@
 
 $l['template_sets'] = "Sets de plantillas";
 $l['template_set'] = "Set de plantillas";
-$l['templates'] = "Plantillas";
+$l['templates'] = "Plantillas {1}";
 
 $l['manage_template_sets'] = "Configurar sets";
 $l['manage_template_sets_desc'] = "Aquí puedes configurar los sets de plantillas, ver las plantillas que usan y comenzar a modificar la visualización de tu foro.";

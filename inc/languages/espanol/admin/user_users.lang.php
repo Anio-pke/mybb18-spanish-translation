@@ -237,7 +237,7 @@ $l['suspend_sig_box'] = "Suspender la firma de este usuario";
 $l['suspend_sig_perm'] = "<small>Suspensión permanente.</small>";
 $l['suspend_sig_info'] = "Si se suspende una firma, el usuario no podrá editarla y no se mostrará ni en su perfil ni en sus mensajes";
 $l['suspend_sig_extend'] = "<small>Deselecciona esta opción para eliminarla, o abajo para cambiarla.</small>";
-$l['suspend_expire_info'] = "<small>Caduca {1}</small>";
+$l['suspend_expire_info'] = "<small>Restante: <span style=\"color: {2};\">{1}</span></small>";
 $l['suspend_never_expire'] = "<small>La suspensión de {1} nunca caducará (Suspensión permanente).</small>";
 $l['suspend_sig_error'] = "Has introducido un tiempo incorrecto para suspender la firma de este usuaior. Por favor, introduce un tiempo correcto.";
 
@@ -245,13 +245,13 @@ $l['moderate_posts'] = "Moderar mensajes";
 $l['moderate_posts_info'] = "Moderar los nuevos mensajes de {1}.";
 $l['moderate_for'] = "Moderar:";
 $l['moderated_perm'] = "<p><small>Moderado permanentemente.<br />Deselecciona esta opción para eliminarla, o abajo para cambiarla.</small></p>";
-$l['moderate_length'] = "<p><small>Moderado hasta {1}.<br />Deselecciona esta opción para eliminarla, o abajo para extenderla..</small></p>";
+$l['moderate_length'] = "<p><small>Moderación restante: <span style=\"color: {2};\">{1}</span>.<br />Deselecciona esta opción para eliminarla, o abajo para extenderla..</small></p>";
 
 $l['suspend_posts'] = "Suspender mensajes";
 $l['suspend_posts_info'] = "Suspender los privilegios de enviar mensajes a {1}.";
 $l['suspend_for'] = "Suspender:";
 $l['suspended_perm'] = "<p><small>Suspendido permanentemente.<br />Deselecciona esta opción para eliminarla, o abajo para cambiarla.</small></p>";
-$l['suspend_length'] = "<p><small>Suspendido hasta {1}.<br />Deselecciona esta opción para eliminarla, o abajo para extenderla..</small></p>";
+$l['suspend_length'] = "<p><small>Suspensión restante: <span style=\"color: {2};\">{1}</span>.<br />Deselecciona esta opción para eliminarla, o abajo para extenderla..</small></p>";
 
 $l['suspendsignature_error'] = "Has seleccionado suspender la firma de este usuario, pero no has introducido un periodo válido. Por favor, introduce un valor correcto o deselecciona la opción para cancelarla.";
 $l['moderateposting_error'] = "Has seleccionado moderar los mensajes de este usuario, pero no has introducido un periodo válido. Por favor, introduce un valor correcto o deselecciona la opción para cancelarla.";
