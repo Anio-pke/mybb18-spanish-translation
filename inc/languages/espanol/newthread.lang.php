@@ -26,10 +26,6 @@ $l['mod_options'] ="Opciones del moderador:";
 $l['close_thread'] = "<b>Cerrar tema:</b> evita futuros mensajes en este tema.";
 $l['stick_thread'] = "<b>Tema importante:</b> Ubica este tema al principio de la lista de temas (A la vista de todos).";
 $l['draft_saved'] = "El nuevo tema ha sido exitosamente guardado como borrador.<br />Ahora serás llevado a tu lista de borradores.";
-$l['image_verification'] = "Verificación de la imagen";
-$l['verification_note'] = "Escribe el texto contenido en la imagen en el campo que esta abajo. Este proceso se usa para evitar mensajes automáticos.";
-$l['verification_subnote'] = "(No distingue MAYÚSC/minúsc)";
-$l['invalid_captcha'] = "El código de verificación en la imagen fue escrito de manera incorrecta. Por favor escribe el código exactamente como aparece en la imagen.";
 $l['error_post_already_submitted'] = "Ya has publicado este tema en este foro. Por favor, visita el foro para ver tu tema.";
 $l['no_prefix'] = "Sin prefijo"; 
 $l['forum_rules'] = "{1} - Reglas";
@@ -47,7 +43,7 @@ $l['redirect_newthread_moderation'] = "<br />El administrador ha indicado que to
 $l['redirect_newthread_thread'] = "<br />Ahora serás llevado de regreso al nuevo tema.";
 $l['invalidthread'] = "El borrador especificado no existe o no tienes permiso para verlo.";
 
-$l['error_stop_forum_spam_spammer'] = 'Lo sentimos, tu nombre de usuario o tu IP coincide con un conocido spammer. Si crees que es un error, por favor, contacta con un administrador.';
+$l['error_stop_forum_spam_spammer'] = 'Lo sentimos, tu {1} coincide con un conocido spammer. Si crees que es un error, por favor, contacta con un administrador.';
 $l['error_stop_forum_spam_fetching'] = 'Lo sentimos, se ha producido algún problema al verificar tu mensaje en la base de datos de spammers. Parece que la base de datos no está accesible. Por favor, inténtalo de nuevo más tarde.';
 
 $l['error_suspendedposting'] = "Tus privilegios de publicación han sido suspendidos {1}.<br /><br />

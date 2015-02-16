@@ -289,7 +289,6 @@ $l['postbit_button_delete_pm'] = 'Borrar';
 $l['postbit_button_purgespammer'] = "Expulsar spammer";
 
 $l['forumjump'] = "Salto de foro:";
-$l['forumjump_select'] = "Selecciona uno:";
 $l['forumjump_pms'] = "Mensajes privados";
 $l['forumjump_usercp'] = "Panel de Control";
 $l['forumjump_wol'] = "Quién esta en línea";
@@ -416,8 +415,15 @@ $l['select_theme'] = "Estilo rápido";
 
 $l['invalid_post_code'] = "El código de autorización no coincide. ¿Estás accediendo correctamente a esta función? Por favor, vuelve atrás e inténtalo de nuevo.";
 $l['invalid_captcha'] = "Por favor, rellena el código de verificación de imagen para continuar. Por favor, introduce el código exactamente como aparece en la imagen.";
+$l['invalid_nocaptcha'] = "Por favor, resuelve el reCAPTCHA para verificar que no eres un robot.";
 $l['invalid_captcha_verify'] = "El código de imagen de verificación que has introducido es incorrecto. Por favor, introduce el código exactamente como aparece en la imagen.";
+$l['image_verification'] = "Verificación de la imagen";
+$l['human_verification'] = "Verificación humana";
+$l['verification_note'] = "Escribe el texto que aparece en la imagen, en el campo que está abajo. Este proceso se usa para evitar mensajes automáticos.";
+$l['verification_note_nocaptcha'] = "Por favor, haz clic en la caja de selección que ves abajo. Este proceso se usa para evitar mensajes automáticos.";
+$l['verification_subnote'] = "(no distingue MAYÚSC/minúsc)";
 $l['invalid_captcha_transmit'] = "Ha ocurrido un error con la imagen de verificación. Por favor, inténtalo de nuevo.";
+$l['invalid_nocaptcha_transmit'] = "Ha ocurrido un error con la verificación humana. Por favor, inténtalo de nuevo.";
 $l['captcha_fetch_failure'] = 'Ha ocurrido un error al cargar un nuevo captcha.';
 $l['question_fetch_failure'] = 'Ha ocurrido un error al cargar una nueva pregunta.';
 $l['invalid_ayah_result'] = "El juego 'Are You a Human' no se ha completado. Por favor, inténtalo de nuevo.";
@@ -533,6 +539,7 @@ $l['moderation_user_posts'] = "Por favor, ten en cuenta que tus nuevos mensajes 
 $l['moderation_forum_thread'] = "Por favor, ten en cuenta que en este foro los nuevos temas deben ser aceptados por un moderador antes de ser visibles.";
 $l['moderation_forum_edits'] = "Por favor, ten en cuenta que en este foro los mensajes editados deben ser aceptados por un moderador antes de ser visibles.";
 $l['moderation_forum_edits_quick'] = "Por favor, ten en cuenta que en este foro los mensajes editados deben ser aceptados por un moderador antes de ser visibles.";
+$l['awaiting_message_link'] = " <a href=\"{1}/{2}/index.php?module=user-users&amp;action=search&amp;results=1&amp;conditions=a%3A1%3A%7Bs%3A9%3A%22usergroup%22%3Bs%3A1%3A%225%22%3B%7D\">Ir al Panel de administración</a>.";
 $l['awaiting_message_single'] = "Hay 1 cuenta esperando activación. Por favor, ve a tu panel de administrador para activar el usuario.";
 $l['awaiting_message_plural'] = "Hay {1} cuentas esperando activación. Por favor, ve a tu panel de administrador para activar los usuarios.";
 
@@ -550,3 +557,10 @@ $l['select2_searching'] = "Buscando…";
 
 $l['stopforumspam_error_decoding'] = 'Error decodificando los datos de StopForumSpam.com.';
 $l['stopforumspam_error_retrieving'] = 'Error cargando los datos de StopForumSpam.com.';
+
+$l['sfs_error_username'] = 'Nombre de usuario';
+$l['sfs_error_ip'] = 'IP';
+$l['sfs_error_email'] = 'email';
+$l['sfs_error_or'] = 'o';
+
+$l['boardclosed_reason'] = 'Estos foros están cerrados por mantenimiento. Por favor, regresa más tarde';

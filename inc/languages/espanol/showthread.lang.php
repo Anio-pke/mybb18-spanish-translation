@@ -95,9 +95,6 @@ $l['or'] ="o";
 $l['quickreply_multiquote_deselect'] = "deseleccionarlos";
 $l['search_thread'] = "Buscar en el tema";
 $l['enter_keywords'] = "Introducir palabras";
-$l['image_verification'] = "Verificación de la imagen";
-$l['verification_note'] = "Escribe el texto que aparece en la imagen de la derecha, en el campo que esta abajo. Este proceso se usa para evitar mensajes automáticos.";
-$l['verification_subnote'] = "(No distingue MAYÚSC/minúsc)";
 $l['view_thread_notes'] = "Notas del tema";
 $l['view_all_notes'] = "Ver todas las notas";
 

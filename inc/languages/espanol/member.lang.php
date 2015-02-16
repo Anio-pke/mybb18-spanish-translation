@@ -157,15 +157,12 @@ $l['tpp'] = "Temas por página:";
 $l['tpp_desc'] = "Te permite seleccionar la cantidad de temas que son mostrados por página en una lista de temas.";
 $l['reset_password'] = "Reiniciar contraseña";
 $l['send_password'] = "¡Enviar nueva contraseña!";
-$l['image_verification'] = "Imagen de verificación";
-$l['verification_note'] = "Escribe el texto que aparece en la imagen en el campo que está abajo. Este proceso se usa para evitar registros automáticos.";
-$l['verification_subnote'] = "(no distingue MAYÚSC/minúsc)";
 $l['registration_errors'] = "Ocurrieron los siguientes errores con tu registro:";
 $l['timeonline'] = "Tiempo en línea:";
 $l['timeonline_hidden'] = "(Oculto)";
 $l['registrations_disabled'] = "Lo sentimos, pero no te puedes registrar por el momento debido a que los administradores han desactivado el registro de nuevas cuentas.";
 $l['error_username_length'] = "Tu nombre de usuario es inválido. Los nombres de usuario tienen que ser de {1} a {2} letras de largo.";
-$l['error_stop_forum_spam_spammer'] = 'Lo sentimos, tu nombre de usuario o tu email coincide con un conocido spammer. Si crees que es un error, por favor, contacta con un administrador.';
+$l['error_stop_forum_spam_spammer'] = 'Lo sentimos, tu {1} coincide con un conocido spammer. Si crees que es un error, por favor, contacta con un administrador.';
 $l['error_stop_forum_spam_fetching'] = 'Lo sentimos, se ha producido algún problema al verificar tu cuenta en la base de datos de spammers. Parece que la base de datos no está accesible. Por favor, inténtalo de nuevo más tarde.';
 
 $l['none_registered'] = "Ningún registrado";
