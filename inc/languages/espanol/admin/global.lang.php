@@ -355,6 +355,8 @@ El equipo de {2}";
 
 $l['comma'] = ", ";
 
+$l['search_for_a_user'] = "Buscar usuario";
+
 // If the language string for "Username" is too cramped in the ACP Login box
 // then use this to define how much larger you want the gap to be (in px)
 // $l['login_field_width'] = "0";
