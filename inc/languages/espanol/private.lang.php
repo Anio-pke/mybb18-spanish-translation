@@ -142,6 +142,7 @@ $l['advanced_search'] = "Búsqueda avanzada";
 $l['search_pms'] = "Buscar MPs";
 $l['advanced_private_message_search'] = "Búsqueda avanzada de mensajes privados";
 $l['search_criteria'] = "Criterio de búsqueda";
+$l['find_users'] = "Buscar usuario";
 $l['keywords'] = "Palabras clave";
 $l['search_in_subject'] = "Buscar solo en los títulos";
 $l['search_in_message'] = "Buscar en todo el mensaje";
@@ -171,7 +172,7 @@ $l['error_pmrecipientreachedquota'] = "No le puedes enviar un mensaje privado a 
 $l['error_recipientpmturnedoff'] = "{1} ha escogido no recibir mensajes privados ó tu no puedes estar permitido para enviarlos. Por lo cuál no podrás enviarle un mensaje privado a este usuario.";
 $l['error_pmsturnedoff'] = "Actualmente tienes los mensajes privados desactivados en tu perfil.<br />Para poder usarlos necesitas activar esta opción.";
 $l['error_recipientignoring'] = "Lo sentimos, pero no puedes enviarle un MP a {1}. No tienes permiso para realizar esta acción.";
-$l['error_pm_already_submitted'] = "Ya has enviado este mensaje privado a este destinatario en los últimos 5 minutos.";
+$l['error_pm_already_submitted'] = "Ya has enviado este mensaje privado a este mismo destinatario en los últimas 5 horas.";
 $l['error_nopms'] = "Es necesario tener uno o más mensajes privados para acceder a esta función.";
 
 $l['error_minsearchlength'] = "Uno o más terminos son muy cortos. La longitud mínima por término es {1} caracteres.<br /><br />Si intentas buscar una frase entera, enciérrala con las comillas dobles. Por ejemplo \"El zorro marrón saltó sobre el lindo perro\".";

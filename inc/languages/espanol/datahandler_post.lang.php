@@ -16,6 +16,7 @@ $l['postdata_subject_too_long'] = 'El asunto es muy largo. Por favor, introduce 
 $l['postdata_banned_username'] = 'El nombre de usuario introducido no se puede registrar. Por favor, introduce uno diferente.';
 $l['postdata_bad_characters_username'] = 'El nombre de usuario introducido contiene caracteres erróneos. Por favor, introduce uno diferente.';
 $l['postdata_invalid_username_length'] = 'El nombre de usuario introducido tiene una longitud inválida. Por favor, introduce un nombre de usuario entre {1} y {2} caracteres.';
+$l['postdata_username_exists'] = 'El nombre de usuario introducido ya existe. Por favor, introduce uno diferente.';
 $l['postdata_post_flooding'] = 'Estás tratando de enviar un mensaje después de enviar un mensaje previo. Por favor, espera {1} segundos más.';
 $l['postdata_post_flooding_one_second'] = 'Estás tratando de enviar un mensaje después de enviar un mensaje previo. Por favor, espera 1 segundo más.';
 $l['postdata_too_many_images'] = 'El mensaje que has introducido contiene {1} imagenes y solo se permiten {2} imagenes por mensaje. Por favor, quita algunas imágenes de tu mensaje.';

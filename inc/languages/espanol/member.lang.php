@@ -74,6 +74,7 @@ $l['away_no_reason'] = "No especificado.";
 $l['ban_note'] = "Esta cuenta está suspendida.";
 $l['ban_by'] = "Suspendida por";
 $l['ban_length'] = "Tiempo de suspensión";
+$l['ban_remaining'] = "restante";
 
 $l['users_additional_info'] = "Información adicional sobre {1}";
 $l['email'] = "Email:";

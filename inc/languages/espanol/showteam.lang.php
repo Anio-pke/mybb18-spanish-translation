@@ -16,6 +16,7 @@ $l['pm'] = "MP";
 $l['mod_forums'] = "Foro(s)";
 $l['online'] = "En línea";
 $l['offline'] = "Desconectado";
+$l['away'] = "Ausente";
 
 $l['group_leaders'] = "Líder(es)";
 $l['group_members'] = "Miembro(s)";

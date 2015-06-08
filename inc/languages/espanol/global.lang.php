@@ -232,6 +232,7 @@ $l['postbit_group'] = "Grupo:";
 $l['postbit_joined'] = "Registro en:";
 $l['postbit_status'] = "Estado:";
 $l['postbit_attachments'] = "Archivos adjuntos";
+$l['postbit_attachment_filename'] = "Nombre del fichero:";
 $l['postbit_attachment_size'] = "Tamaño:";
 $l['postbit_attachment_downloads'] = "Descargas:";
 $l['postbit_attachments_images'] = "Imagen(es)";
