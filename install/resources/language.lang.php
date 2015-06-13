@@ -351,7 +351,7 @@ $l['upgrade_settings_sync_success'] = "<p>Los ajustes de tu foro se han sincroni
 $l['upgrade_datacache_building'] = 'Construyendo caché de los datos';
 $l['upgrade_building_datacache'] = '<p>Contruyendo la caché de los datos...';
 $l['upgrade_continue'] = 'Por favor, pulsa siguiente para continuar';
-$l['upgrade_locked'] = "<p>El instalador ha sido bloqueado. Para desbloquear el instalador elimina el archivo 'lock' de este directorio.</p><p>Ahora puedes ver tu foro actualizado en <a href=\"../index.php\">MyBB</a> o entrar al <a href=\"../admin/index.php\">panel de administración</a>.</p>";
+$l['upgrade_locked'] = "<p>El instalador ha sido bloqueado. Para desbloquear el instalador elimina el archivo 'lock' de este directorio.</p><p>Ahora puedes ver tu foro actualizado en <a href=\"../index.php\">MyBB</a> o entrar al <a href=\"../{1}/index.php\">panel de administración</a>.</p>";
 $l['upgrade_removedir'] = 'Por favor, elimina este directorio antes de explorar tu foro actualizado de MyBB.';
 $l['upgrade_congrats'] = "<p>Enhorabuena, tu copia de MyBB se ha actualizado a {1}.</p>{2}<p><strong>¿Y ahora?</strong></p><ul><li>Por favor, usa la herramienta 'Buscar Actualizadas' en el panel de administración para buscar las plantillas personalizadas que se han actualizado. Edita las que contengan cambios o vuelve a las originales.</li><li>Asegúrate de que tu foro está totalmente funcional.</li></ul>";
 $l['upgrade_template_reversion'] = "Advertencia revertir plantillas";
