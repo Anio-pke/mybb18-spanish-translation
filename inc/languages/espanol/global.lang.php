@@ -339,9 +339,9 @@ $l['seconds'] = "Segundos";
 $l['seconds_short'] = "s";
 
 $l['rel_in'] = "En ";
-$l['rel_ago'] = "";
-$l['rel_less_than'] = "Menos de ";
-$l['rel_time'] = "{1}{2} {3} {4}";
+$l['rel_ago'] = "Hace";
+$l['rel_less_than'] = "menos de ";
+$l['rel_time'] = "{4} {1}{2} {3}";
 $l['rel_minutes_single'] = "minuto";
 $l['rel_minutes_plural'] = "minutos";
 $l['rel_hours_single'] = "hora";
