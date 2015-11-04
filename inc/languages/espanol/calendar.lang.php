@@ -91,6 +91,7 @@ $l['delete_q'] = "¿Borrar?";
 $l['delete_1'] = "Para borrar este evento, selecciona el cuadradito de la izquierda y haz clic en el botón de la derecha.";
 $l['delete_2'] = "<b>Nota:</b> Este proceso no se puede deshacer.";
 $l['delete_now'] = "Borrar ahora";
+$l['delete_no_checkbox'] = "El evento no se ha eliminado porque no seleccionaste el cuadradito de \"Borrar\".";
 $l['jump_to_calendar'] = "Ir al calendario:";
 $l['select_calendar'] = "Calendario:";
 $l['type_single'] = "Evento puntual";

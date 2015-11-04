@@ -33,6 +33,7 @@ $l['userdata_invalid_birthday_coppa2'] = 'Debes tener más de 13 años para ser 
 $l['userdata_invalid_birthday_privacy'] = 'Por favor, elige una opción de privacidad válida para tu cumpleaños.';
 $l['userdata_invalid_referrer'] = 'El recomendante que has introducido no existe. Por favor, introduce uno existente o déjalo en blanco.';
 $l['userdata_invalid_language'] = 'El idioma que has seleccionado no existe. Por favor, selecciona un idioma existente.';
+$l['userdata_invalid_style'] = 'El estilo seleccionado es inválido. Por favor, selecciona un estilo válido.';
 $l['userdata_missing_returndate'] = 'En la fecha de regreso que has especificado faltan uno o más campos. Por favor, asegúrate que has rellenado los campos día, mes, y año.';
 $l['userdata_missing_required_profile_field'] = 'No has introducido una opción para el campo "{1}". Por favor, rellénalo o selecciona un valor para este campo.';
 $l['userdata_bad_profile_field_value'] = 'No has introducido un valor válido para el campo "{1}". Por favor, introduce un valor válido para continuar.';

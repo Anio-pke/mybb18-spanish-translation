@@ -46,6 +46,7 @@ $l['redirect_unvoted'] = "Tu(s) voto(s) en este tema se han eliminado.<br />Ahor
 $l['redirect_polldeleted'] = "Gracias, la encuesta se ha borrado del tema.<br />Ahora serás llevado de regreso al tema.";
 
 $l['error_polloptiontoolong'] = "Una o más opciones que escribiste son demasiado largas. Regresa y acórtalas.";
+$l['error_polloptionsequence'] = "Una o más de las opciones de la encuesta que has introducido contienen una secuencia que no se puede utilizar: <strong>||~|~||</strong>. Por favor, eliminala y reinténtalo.";
 $l['error_noquestionoptions'] = "O no escribiste una pregunta para la encuesta o no pusiste suficientes opciones. El número mínimo de opciones que una encuesta debe de tener es de 2.<br />Regresa y corrige ese error.";
 $l['error_pollalready'] = "¡El tema ya tiene una encuesta!";
 $l['error_nopolloptions'] = "La opcion especificada de la encuesta no existe o es inválida.";
