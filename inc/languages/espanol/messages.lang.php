@@ -91,8 +91,6 @@ $l['emailsubject_randompassword'] = "Tu contraseña en {1}";
 $l['emailsubject_activateaccount'] = "Activación de cuenta en {1}";
 $l['emailsubject_forumsubscription'] = "Nuevo tema en {1}";
 $l['emailsubject_reportpost'] = "Mensaje reportado en {1}";
-$l['emailsubject_reportprofile'] = "Usuario reportado en {1}";
-$l['emailsubject_reportreputation'] = "Reputación reportada en {1}";
 $l['emailsubject_reachedpmquota'] = "Límite máximo de mensajes privados alcanzado en {1}";
 $l['emailsubject_changeemail'] = "Cambio de dirección de email en {1}";
 $l['emailsubject_newpm'] = "Mensaje privado nuevo en {1} - {2}";
@@ -150,41 +148,18 @@ Código de activación: {5}
 Gracias,
 El equipo de {2}.";
 
-$l['email_reportpost'] = "{1} de {2} ha reportado el siguiente mensaje:
+
+$l['email_reportpost'] = "{1} de {2} ha reportado este mensaje:
 
 {3}
 {4}/{5}
 
 Razón para reportar este mensaje:
-{6}
+{7}
 
 Este mensaje ha sido enviado a todos los moderadores o a todos los administradores y super moderadores si no hay moderadores.
 
 Por favor revisen este mensaje tan pronto como sea posible.";
-
-$l['email_reportprofile'] = "{1} de {2} ha reportado al siguiente usuario:
-
-{3}
-{4}/{5}
-
-Razón para reportar a este usuario:
-{6}
-
-Este mensaje ha sido enviado a todos los moderadores o a todos los administradores y super moderadores si no hay moderadores.
-
-Por favor revisen est3 usuario tan pronto como sea posible.";
-
-$l['email_reportreputation'] = "{1} de {2} ha reportado la siguiente reputación:
-
-{3}
-{4}/{5}
-
-Razón para reportar esta reputación:
-{6}
-
-Este mensaje ha sido enviado a todos los moderadores o a todos los administradores y super moderadores si no hay moderadores.
-
-Por favor revisen esta reputación tan pronto como sea posible.";
 
 $l['email_passwordreset'] = "{1},
 
