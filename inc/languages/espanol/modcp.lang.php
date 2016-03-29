@@ -327,4 +327,3 @@ $l['you_cannot_moderate_attachments'] = "No tienes permiso suficiente para moder
 $l['you_cannot_use_mod_queue'] = "No tienes permiso suficiente para usar la cola de moderación.";
 
 $l['post'] = 'Mensaje';
-$l['search_user'] = "Buscar usuario";

@@ -392,7 +392,6 @@ $l['icon_no_new'] = "Sin mensajes nuevos.";
 $l['icon_new'] = "Mensajes nuevos.";
 $l['icon_hot'] = " Tema caliente.";
 $l['icon_lock'] = " Tema cerrado.";
-$l['search_user'] = "Buscar usuario";
 
 $l['buddylist_error'] = 'Ha ocurrido un error al cargar tu lista de amigos. ';
 

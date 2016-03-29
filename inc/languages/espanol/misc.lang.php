@@ -14,7 +14,6 @@ $l['aol_im'] = "AOL IM";
 $l['skype'] = "Skype";
 $l['yahoo_im'] = "Yahoo!";
 $l['skype_center'] = "Centro Skype";
-$l['skype_status'] = "Estado Skype";
 $l['chat_on_skype'] = "Charlar con {1} en Skype";
 $l['call_on_skype'] = "Llamada a {1} en Skype";
 $l['yahoo_center'] = "Centro Yahoo!";
@@ -90,7 +89,12 @@ $l['redirect_markforumsread'] = "Todos los foros se han marcado como leídos.";
 $l['redirect_forumpasscleared'] = "La contraseña guardada para este foro se ha eliminado.";
 $l['redirect_cookiescleared'] = "Todas las cookies se han eliminado.";
 
-$l['error_invalidimtype'] = "Este usuario no tiene este tipo de cuenta de mensajería instántanea especificada en su perfil.";
+$l['error_invalidforum'] = "Foro inválido";
 $l['error_invalidhelpdoc'] = "El documento de ayuda especificado parece que no existe.";
+$l['error_invalidimtype'] = "Este usuario no tiene este tipo de cuenta de mensajería instántanea especificada en su perfil.";
+$l['error_invalidsearch'] = "Se ha especificado una búsqueda inválida.  Por favor, regresa e inténtalo de nuevo.";
+$l['error_no_search_support'] = "Este sistema base de datos no soporta búsqueda.";
+$l['error_searchflooding'] = "Lo siento, pero solo puedes realizar una búsqueda cada {1} segundos. Por favor, espera otros {2} segundos antes de buscar de nuevo.";
+$l['error_searchflooding_1'] = "Lo siento, pero solo puedes realizar una búsqueda cada {1} segundos. Por favor, espera un segundo antes de buscar de nuevo.";
 
 $l['dst_settings_updated'] = "Tu horario de verano se ha configurado automáticamente.<br /><br />Ahora regresarás a la página de inicio";

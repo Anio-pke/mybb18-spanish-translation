@@ -9,6 +9,7 @@
 $l['post_thread'] = "Publicar tema";
 $l['moderated_by'] = "Moderado por:";
 $l['nothreads'] = "Lo sentimos, pero actualmente no hay temas en este foro con la fecha y la hora especificadas.";
+$l['nopermission'] = "Lo siento, pero no tienes permiso para ver temas en este foro.";
 $l['search_forum'] = "Busca en este foro:";
 $l['thread'] = "Tema";
 $l['author'] = "Autor";

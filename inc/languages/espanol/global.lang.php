@@ -309,6 +309,8 @@ $l['unread_reports'] = "Noticia para el moderador: Hay {1} reportes sin leer.";
 $l['pending_joinrequest'] = "Aviso líder de grupo: Tienes 1 solicitud de ingreso a un grupo pendiente.";
 $l['pending_joinrequests'] = "Aviso líder de grupo: Tienes {1} solicitudes de ingreso a un grupo pendientes.";
 
+$l['search_user'] = "Buscar usuario";
+
 $l['year'] = "Año";
 $l['year_short'] = "a";
 $l['years'] = "Años";
@@ -427,7 +429,6 @@ $l['invalid_captcha_transmit'] = "Ha ocurrido un error con la imagen de verifica
 $l['invalid_nocaptcha_transmit'] = "Ha ocurrido un error con la verificación humana. Por favor, inténtalo de nuevo.";
 $l['captcha_fetch_failure'] = 'Ha ocurrido un error al cargar un nuevo captcha.';
 $l['question_fetch_failure'] = 'Ha ocurrido un error al cargar una nueva pregunta.';
-$l['invalid_ayah_result'] = "El juego 'Are You a Human' no se ha completado. Por favor, inténtalo de nuevo.";
 
 $l['timezone_gmt_minus_1200'] = "(GMT -12:00) Marshall Islands";
 $l['timezone_gmt_minus_1100'] = "(GMT -11:00) Nome, Midway Island";

@@ -61,5 +61,4 @@ $l['prune_threads_and_posts'] = "Borrar temas y mensajes";
 // Buttons
 $l['ban_user'] = "Suspender usuario";
 $l['update_ban'] = "Actualizar suspensión";
-$l['search_user'] = 'Buscar usuario';
 

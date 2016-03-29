@@ -142,7 +142,6 @@ $l['advanced_search'] = "Búsqueda avanzada";
 $l['search_pms'] = "Buscar MPs";
 $l['advanced_private_message_search'] = "Búsqueda avanzada de mensajes privados";
 $l['search_criteria'] = "Criterio de búsqueda";
-$l['find_users'] = "Buscar usuario";
 $l['keywords'] = "Palabras clave";
 $l['search_in_subject'] = "Buscar solo en los títulos";
 $l['search_in_message'] = "Buscar en todo el mensaje";
@@ -161,7 +160,6 @@ $l['ascending_order'] = "Ascendente";
 $l['descending_order'] = "Descendente";
 $l['search_private_messages'] = "Buscar mensajes privados";
 $l['check_all'] = "Comprobar todo";
-$l['search_user'] = "Buscar usuario";
 
 $l['error_nopmsarchive'] = "Lo sentimos, pero no existe ningún mensaje privado que coincida con tus criterios de búsqueda.";
 $l['error_invalidpmfoldername'] = "Lo sentimos, pero el nombre que le diste a la carpeta contiene caracteres que no están permitidos.";

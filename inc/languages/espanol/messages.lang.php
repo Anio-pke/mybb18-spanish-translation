@@ -347,7 +347,7 @@ El equipo de {3}.
 Información para borrar la suscripción:
 
 Si ya no quieres recibir más notificaciones de respuestas a este tema, visita la siguiente dirección en tu navegador:
-{6}/usercp2.php?action=removesubscription&tid={8}&key={9}&my_post_key={10}
+{6}/usercp2.php?action=removesubscription&tid={8}&my_post_key={9}
 
 ------------------------------------------";
 $l['email_reachedpmquota'] = "{1},
@@ -492,6 +492,13 @@ Tal vez haya más respuestas a este tema pero no recibirás más notificaciones 
 Información para borrar la suscripción:
 
 Si ya no quieres recibir más notificaciones de respuestas a este tema, visita la siguiente dirección en tu navegador:
-[url]{5}/usercp2.php?action=removesubscription&tid={7}&key={8}&my_post_key={9}[/url]
+[url]{5}/usercp2.php?action=removesubscription&tid={7}&my_post_key={8}[/url]
 
 ------------------------------------------";
+
+$l['email_broken_task_subject'] = "Error en una tarea MyBB en {1}";
+$l['email_broken_task'] = "Tu copia de MyBB de {1} ({2}) ha experimentado un error en el sistema de tareas.
+
+El archivo de tarea de {3} está perdido.
+
+Esta tarea se ha deshabilitado mientras se resuelve el problema.";

@@ -112,7 +112,7 @@
 		<title>Borrado de usuarios</title>
 		<description><![CDATA[Automáticamente borra usuarios basándose en un criterio configurado todos los días.]]></description>
 		<file>userpruning</file>
-		<minute>*</minute>
+		<minute>0</minute>
 		<hour>2</hour>
 		<day>*</day>
 		<weekday>*</weekday>

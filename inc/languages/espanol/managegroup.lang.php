@@ -45,7 +45,6 @@ $l['group_public_invite'] = "Este grupo de usuarios público requiere una invita
 $l['group_private'] = "Este grupo de usuarios es privado. Solo usuarios agregados por el líder del grupo pueden formar parte de este.";
 $l['group_default'] = "Este grupo de usuarios es un grupo principal.";
 $l['group_leaders'] = "Líderes de grupo";
-$l['search_user'] = "Buscar usuario";
 $l['no_users_selected'] = "Lo siento, pero parece que no se han seleccionado usuarios para quitar.<br />Por favor, regresa y selecciona los usuarios que quieres quitar de este grupo.";
 
 $l['error_alreadyingroup'] = "Este usuario ya forma parte de este grupo de usuarios.";

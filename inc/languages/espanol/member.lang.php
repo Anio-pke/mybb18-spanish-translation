@@ -149,7 +149,6 @@ $l['submit_registration'] = "¡Enviar registro!";
 $l['confirm_password'] = "Confirmar contraseña:";
 $l['referrer'] = "Recomendante:";
 $l['referrer_desc'] = "Si fuiste invitado a estos foros por algún miembro actual, puedes escribir su nombre abajo. Si no, simplemente deja este campo en blanco.";
-$l['search_user'] = "Buscar usuario";
 $l['resend_activation'] = "Reenviar activación de la cuenta";
 $l['request_activation'] = "Solicitar código de activación";
 $l['ppp'] = "Mensajes por página:";
