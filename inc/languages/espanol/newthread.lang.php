@@ -44,8 +44,8 @@ $l['redirect_newthread_unviewable'] = "<br />No tienes permiso para ver temas en
 $l['redirect_newthread_thread'] = "<br />Ahora serás llevado de regreso al nuevo tema.";
 $l['invalidthread'] = "El borrador especificado no existe o no tienes permiso para verlo.";
 
-$l['error_stop_forum_spam_spammer'] = 'Lo sentimos, tu {1} coincide con un conocido spammer. Si crees que es un error, por favor, contacta con un administrador.';
-$l['error_stop_forum_spam_fetching'] = 'Lo sentimos, se ha producido algún problema al verificar tu mensaje en la base de datos de spammers. Parece que la base de datos no está accesible. Por favor, inténtalo de nuevo más tarde.';
+$l['error_stop_forum_spam_spammer'] = "Lo sentimos, tu {1} coincide con un conocido spammer. Si crees que es un error, por favor, contacta con un administrador.";
+$l['error_stop_forum_spam_fetching'] = "Lo sentimos, se ha producido algún problema al verificar tu mensaje en la base de datos de spammers. Parece que la base de datos no está accesible. Por favor, inténtalo de nuevo más tarde.";
 
 $l['error_suspendedposting'] = "Tus privilegios de publicación han sido suspendidos {1}.<br /><br />
 
