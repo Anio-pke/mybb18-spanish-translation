@@ -40,7 +40,7 @@ $l['multiquote_external_quote'] = "Citar también estos mensajes";
 $l['redirect_newthread'] = "Gracias, el tema ha sido enviado.";
 $l['redirect_newthread_poll'] = "<br />Ahora serás llevado a la página de opciones y configuración de encuestas.";
 $l['redirect_newthread_moderation'] = "<br />El administrador ha indicado que todos los nuevos temas requieren moderación. Ahora serás llevado de regreso a la lista de temas.";
-$l['redirect_newthread_unviewable'] = "<br />No tienes permiso para ver temas en este foro. Ahora serás llevado de regreso al foro.
+$l['redirect_newthread_unviewable'] = "<br />No tienes permiso para ver temas en este foro. Ahora serás llevado de regreso al foro.";
 $l['redirect_newthread_thread'] = "<br />Ahora serás llevado de regreso al nuevo tema.";
 $l['invalidthread'] = "El borrador especificado no existe o no tienes permiso para verlo.";
 
