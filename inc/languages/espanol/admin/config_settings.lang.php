@@ -84,13 +84,16 @@ $l['error_cannot_edit_default'] = "Los ajustes y grupos de ajustes por defecto n
 $l['error_cannot_edit_php'] = "Este es un tipo de ajuste especial que no puede ser editado.";
 $l['error_ajax_search'] = "Ha ocurrido un error al buscar ajustes:";
 $l['error_ajax_unknown'] = "Ha ocurrido un error desconicido al buscar ajustes.";
-$l['error_chmod_settings_file'] = "El archivo de configuración \"./inc/settings.php\" no tiene permisos de escritura. Por favor configura el ajuste CHMOD a 777.<br />Para más información sobre los ajustes CHMOD, visita <a href=\"http://wiki.mybb.com/index.php/HowTo_Chmod\" target=\"_blank\">MyBB Wiki</a>.";
-$l['error_hidden_captcha_conflict'] = "El valor del captcha oculto no puede ser \"{1}\", ya que crea conflictos con otro campo de registro.";
+$l['error_chmod_settings_file'] = "El archivo de configuración \"./inc/settings.php\" no tiene permisos de escritura. Por favor configura el ajuste CHMOD a 777.<br />Para más información sobre los ajustes CHMOD, visita <a href=\"https://docs.mybb.com/1.8/administration/security/file-permissions\" target=\"_blank\">MyBB Docs</a>.";
 
 $l['success_setting_added'] = "El ajuste se ha creado correctamente.";
 $l['success_setting_updated'] = "El ajuste se ha actualizado correctamente.";
 $l['success_setting_deleted'] = "El ajuste se ha eliminado correctamente.";
 $l['success_settings_updated'] = "Los ajustes se han actualizado correctamente.";
+$l['success_settings_updated_hiddencaptchaimage'] = '<div class="smalltext" style="font-weight: normal;">Por favor, ten en cuenta que los ajustes del campo <strong>CAPTCHA oculto</strong> se han revertido a <strong>{1}</strong> por un conflicto con el campo <strong>{2}</strong> en el formulario de registro.</div>';
+$l['success_settings_updated_username_method'] = '<div class="smalltext" style="font-weight: normal;">Por favor, ten en cuenta que el ajuste <b>Métodos de inicio de sesión permitidos</b> no se ha actualizado debido a que varios usuarios están usando el mismo email en este momento.</div>';
+$l['success_settings_updated_allowmultipleemails'] = '<div class="smalltext" style="font-weight: normal;">Por favor, ten en cuenta que el ajuste <b>¿Permitir usar el mismo email varias veces?</b> no se puede activar porque el ajuste <b>Métodos de inicio de sesión permitidos</b> permite a los usuarios iniciar sesión con el email.</div>';
+$l['success_settings_updated_captchaimage'] = '<div class="smalltext" style="font-weight: normal;">Por favor, ten en cuenta que el ajuste <strong>Imágenes CAPTCHA para registros y publicaciones</strong> se ha revertido a <strong>MyBB Captcha</strong> debido a la falta de la(s) clave(s) pública/privada.</div>';
 $l['success_display_orders_updated'] = "El orden de muestra de los ajustes se ha actualizado correctamente.";
 $l['success_setting_group_added'] = "El grupo de ajustes se ha creado correctamente.";
 $l['success_setting_group_updated'] = "El grupo de ajustes se ha actulizado correctamente.";
@@ -194,7 +197,7 @@ $l['setting_group_server'] = "Servidor y opciones de optimización";
 $l['setting_group_server_desc'] = "Estas opciones permiten configurar varios parámetros del servidor y de optimización permitiendo reducir la carga de tu servidor y tener un mejor rendimiento en el foro.";
 //Ajustes
 $l['setting_seourls'] = "Activar sistema de URLs amigables (Engine friendly URLs)";
-$l['setting_seourls_desc'] = "El sistema de URLs amigables cambia los enlaces de MyBB por unos más cortos que los motores de búsqueda prefieren y que son más fáciles de escribir. showthread.php?tid=1 se convierte en thread1.html. <strong>Una vez activada esta opción, asegúrate que el archivo .htaccess está en tu directorio raíz de MyBB (O equivalente para tu servidor). La detección automática no funciona en todos los servidores.</strong> Por favor, visita <a href=\"http://wiki.mybboard.net/index.php/SEF_URLS\">El Wiki de MyBB</a> para más información.";
+$l['setting_seourls_desc'] = "El sistema de URLs amigables cambia los enlaces de MyBB por unos más cortos que los motores de búsqueda prefieren y que son más fáciles de escribir. showthread.php?tid=1 se convierte en thread1.html. <strong>Una vez activada esta opción, asegúrate que el archivo .htaccess está en tu directorio raíz de MyBB (O equivalente para tu servidor). La detección automática no funciona en todos los servidores.</strong> Por favor, visita <a href=\"https://docs.mybb.com/1.8/administration/configuring-search-engine-friendly-URLs\">MyBB Docs</a> para más información.";
 $l['setting_seourls_auto'] = "Detección automática";
 $l['setting_seourls_yes'] = "Activada";
 $l['setting_seourls_no'] = "Desactivada";
@@ -309,7 +312,7 @@ $l['setting_browsingthisforum_desc'] = "Aquí puedes desactivar la característi
 $l['setting_announcementlimit'] = "Límite de anuncios";
 $l['setting_announcementlimit_desc'] = "Número de anuncios que se mostrán en el foro en la lista de temas. Introduce 0 para desactivar el límite de anuncios.";
 $l['setting_readparentforums'] = "Intentar marcar los foros padre como leídos";
-$l['setting_readparentforums_desc'] = "Cuando se activa esta opción, se intentará marcar los foros padre de un subforo como leído si no hay más mensajes sin leer. Ten en cuenta que esta opción puede disminuir el rendimiento al realizar algunas consultas extras a la base de datos, por lo tanto debes tratarlo como algo experimental. Visita el Wiki de MyBB para obtener más información acerca de este cambio.";
+$l['setting_readparentforums_desc'] = "Cuando se activa esta opción, se intentará marcar los foros padre de un subforo como leído si no hay más mensajes sin leer. Ten en cuenta que esta opción puede disminuir el rendimiento al realizar algunas consultas extras a la base de datos, por lo tanto debes tratarlo como algo experimental. Visita <a href=\"https://docs.mybb.com/versions/1.6.5/\">MyBB Docs</a>  para obtener más información acerca de este cambio.";
 /**************************************************************************************************************************************************/
 
 //Grupo 8 showthread
@@ -395,7 +398,7 @@ $l['setting_coppa_enabled'] = "Activada";
 $l['setting_coppa_deny'] = "Denegar registros a menores de 13 años";
 $l['setting_coppa_disabled'] = "Desactivar esta función";
 $l['setting_username_method'] = "Métodos de inicio de sesión permitidos";
-$l['setting_username_method_desc'] = "Métodos de inicio de sesión que quieres permitir para el campo de nombre de usuario. Nombre de usuario, Email o permitir ambos.";
+$l['setting_username_method_desc'] = "Métodos de inicio de sesión que quieres permitir para el campo de nombre de usuario. Nombre de usuario, Email o permitir ambos.<br />Para permitir el email como un método válido para iniciar sesión, los usuarios no pueden usar el email en más de un usuario a la vez.";
 $l['setting_username_method_0'] = "Solo nombre de usuario";
 $l['setting_username_method_1'] = "Solo email";
 $l['setting_username_method_2'] = "Ambos (Nombre de usuario y email)";
@@ -436,7 +439,7 @@ $l['setting_hidesignatures_desc'] = "Selecciona los grupos de usuario a los que 
 $l['setting_hidewebsite'] = "Ocultar los sitios web";
 $l['setting_hidewebsite_desc'] = "Selecciona los grupos de usuario a los que se les ocultarán los sitios web.";
 $l['setting_useravatar'] = "Avatar por defecto";
-$l['setting_useravatar_desc'] = "Si el usuario no establece un avatar se utilizará esta imagen en su lugar.";
+$l['setting_useravatar_desc'] = "Si el usuario no establece un avatar se utilizará esta imagen en su lugar. Si quieres utilizar una imagen diferente para los distintos estilos, por favor, utiliza <strong>{theme}</strong> para representar el directorio de imágenes para cada estilo.";
 $l['setting_useravatardims'] = "Dimensiones del avatar por defecto";
 $l['setting_useravatardims_desc'] = "Las dimensiones deben seguir este formato: ancho x alto (ej. 40|40).]";
 $l['setting_useravatarrating'] = "Calificación de Gravatar";

@@ -9,27 +9,27 @@
  * Translator: Anio_pke
  */
 
-$inserts[] = "INSERT INTO mybb_attachtypes (atid, name, mimetype, extension, maxsize, icon) VALUES (1, 'Archivo comprimido ZIP', 'application/zip', 'zip', 1024, 'images/attachtypes/zip.png');";
-$inserts[] = "INSERT INTO mybb_attachtypes (atid, name, mimetype, extension, maxsize, icon) VALUES (2, 'Imagen JPG', 'image/jpeg', 'jpg', 500, 'images/attachtypes/image.png');";
-$inserts[] = "INSERT INTO mybb_attachtypes (atid, name, mimetype, extension, maxsize, icon) VALUES (3, 'Documento de texto', 'text/plain', 'txt', 200, 'images/attachtypes/txt.png');";
-$inserts[] = "INSERT INTO mybb_attachtypes (atid, name, mimetype, extension, maxsize, icon) VALUES (4, 'Imagen GIF', 'image/gif', 'gif', 500, 'images/attachtypes/image.png');";
-$inserts[] = "INSERT INTO mybb_attachtypes (atid, name, mimetype, extension, maxsize, icon) VALUES (5, 'Archivo Adobe Photoshop', 'application/x-photoshop', 'psd', 1024, 'images/attachtypes/psd.png');";
-$inserts[] = "INSERT INTO mybb_attachtypes (atid, name, mimetype, extension, maxsize, icon) VALUES (6, 'Archivo PHP', 'application/x-httpd-php', 'php', 500, 'images/attachtypes/php.png');";
-$inserts[] = "INSERT INTO mybb_attachtypes (atid, name, mimetype, extension, maxsize, icon) VALUES (7, 'Imagen PNG', 'image/png', 'png', 500, 'images/attachtypes/image.png');";
-$inserts[] = "INSERT INTO mybb_attachtypes (atid, name, mimetype, extension, maxsize, icon) VALUES (8, 'Documento de Microsoft Word', 'application/msword', 'doc', 1024, 'images/attachtypes/doc.png');";
-$inserts[] = "INSERT INTO mybb_attachtypes (atid, name, mimetype, extension, maxsize, icon) VALUES (9, 'Archivo HTM', 'text/html', 'htm', 100, 'images/attachtypes/html.png');";
-$inserts[] = "INSERT INTO mybb_attachtypes (atid, name, mimetype, extension, maxsize, icon) VALUES (10, 'Archivo HTML', 'text/html', 'html', 100, 'images/attachtypes/html.png');";
-$inserts[] = "INSERT INTO mybb_attachtypes (atid, name, mimetype, extension, maxsize, icon) VALUES (11, 'Imagen JPEG', 'image/jpeg', 'jpeg', 500, 'images/attachtypes/image.png');";
-$inserts[] = "INSERT INTO mybb_attachtypes (atid, name, mimetype, extension, maxsize, icon) VALUES (12, 'Archivo comprimido GZIP', 'application/x-gzip', 'gz', 1024, 'images/attachtypes/tar.png');";
-$inserts[] = "INSERT INTO mybb_attachtypes (atid, name, mimetype, extension, maxsize, icon) VALUES (13, 'Archivo comprimido TAR', 'application/x-tar', 'tar', 1024, 'images/attachtypes/tar.png');";
-$inserts[] = "INSERT INTO mybb_attachtypes (atid, name, mimetype, extension, maxsize, icon) VALUES (14, 'Hoja de estilo CSS', 'text/css', 'css', 100, 'images/attachtypes/css.png');";
-$inserts[] = "INSERT INTO mybb_attachtypes (atid, name, mimetype, extension, maxsize, icon) VALUES (15, 'Adobe Acrobat PDF', 'application/pdf', 'pdf', 2048, 'images/attachtypes/pdf.png');";
-$inserts[] = "INSERT INTO mybb_attachtypes (atid, name, mimetype, extension, maxsize, icon) VALUES (16, 'Imagen de mapa de bits', 'image/bmp', 'bmp', 500, 'images/attachtypes/image.png');";
-$inserts[] = "INSERT INTO mybb_attachtypes (atid, name, mimetype, extension, maxsize, icon) VALUES (17, 'Documento de Microsoft Word 2007', 'application/vnd.openxmlformats-officedocument.wordprocessingml.document', 'docx', 1024, 'images/attachtypes/doc.png');";
-$inserts[] = "INSERT INTO mybb_attachtypes (atid, name, mimetype, extension, maxsize, icon) VALUES (18, 'Documento de Microsoft Excel', 'application/vnd.ms-excel', 'xls', 1024, 'images/attachtypes/xls.png');";
-$inserts[] = "INSERT INTO mybb_attachtypes (atid, name, mimetype, extension, maxsize, icon) VALUES (19, 'Documento de Microsoft Excel 2007', 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet', 'xlsx', 1024, 'images/attachtypes/xls.png');";
-$inserts[] = "INSERT INTO mybb_attachtypes (atid, name, mimetype, extension, maxsize, icon) VALUES (20, 'Documento de Microsoft PowerPoint', 'application/vnd.ms-powerpoint', 'ppt', 1024, 'images/attachtypes/ppt.png');";
-$inserts[] = "INSERT INTO mybb_attachtypes (atid, name, mimetype, extension, maxsize, icon) VALUES (21, 'Documento de Microsoft PowerPoint 2007', 'application/vnd.openxmlformats-officedocument.presentationml.presentation', 'pptx', 1024, 'images/attachtypes/ppt.png');";
+$inserts[] = "INSERT INTO mybb_attachtypes (atid, name, mimetype, extension, maxsize, icon, enabled, groups, forums, avatarfile) VALUES (1, 'Archivo comprimido ZIP', 'application/zip', 'zip', 1024, 'images/attachtypes/zip.png', 1, '-1', '-1', 0);";
+$inserts[] = "INSERT INTO mybb_attachtypes (atid, name, mimetype, extension, maxsize, icon, enabled, groups, forums, avatarfile) VALUES (2, 'Imagen JPG', 'image/jpeg', 'jpg', 500, 'images/attachtypes/image.png', 1, '-1', '-1', 1);";
+$inserts[] = "INSERT INTO mybb_attachtypes (atid, name, mimetype, extension, maxsize, icon, enabled, groups, forums, avatarfile) VALUES (3, 'Documento de texto', 'text/plain', 'txt', 200, 'images/attachtypes/txt.png', 1, '-1', '-1', 0);";
+$inserts[] = "INSERT INTO mybb_attachtypes (atid, name, mimetype, extension, maxsize, icon, enabled, groups, forums, avatarfile) VALUES (4, 'Imagen GIF', 'image/gif', 'gif', 500, 'images/attachtypes/image.png', 1, '-1', '-1', 1);";
+$inserts[] = "INSERT INTO mybb_attachtypes (atid, name, mimetype, extension, maxsize, icon, enabled, groups, forums, avatarfile) VALUES (5, 'Archivo Adobe Photoshop', 'application/x-photoshop', 'psd', 1024, 'images/attachtypes/psd.png', 1, '-1', '-1', 0);";
+$inserts[] = "INSERT INTO mybb_attachtypes (atid, name, mimetype, extension, maxsize, icon, enabled, groups, forums, avatarfile) VALUES (6, 'Archivo PHP', 'application/x-httpd-php', 'php', 500, 'images/attachtypes/php.png', 1, '-1', '-1', 0);";
+$inserts[] = "INSERT INTO mybb_attachtypes (atid, name, mimetype, extension, maxsize, icon, enabled, groups, forums, avatarfile) VALUES (7, 'Imagen PNG', 'image/png', 'png', 500, 'images/attachtypes/image.png', 1, '-1', '-1', 1);";
+$inserts[] = "INSERT INTO mybb_attachtypes (atid, name, mimetype, extension, maxsize, icon, enabled, groups, forums, avatarfile) VALUES (8, 'Documento de Microsoft Word', 'application/msword', 'doc', 1024, 'images/attachtypes/doc.png', 1, '-1', '-1', 0);";
+$inserts[] = "INSERT INTO mybb_attachtypes (atid, name, mimetype, extension, maxsize, icon, enabled, groups, forums, avatarfile) VALUES (9, 'Archivo HTM', 'text/html', 'htm', 100, 'images/attachtypes/html.png', 1, '-1', '-1', 0);";
+$inserts[] = "INSERT INTO mybb_attachtypes (atid, name, mimetype, extension, maxsize, icon, enabled, groups, forums, avatarfile) VALUES (10, 'Archivo HTML', 'text/html', 'html', 100, 'images/attachtypes/html.png', 1, '-1', '-1', 0);";
+$inserts[] = "INSERT INTO mybb_attachtypes (atid, name, mimetype, extension, maxsize, icon, enabled, groups, forums, avatarfile) VALUES (11, 'Imagen JPEG', 'image/jpeg', 'jpeg', 500, 'images/attachtypes/image.png', 1, '-1', '-1', 1);";
+$inserts[] = "INSERT INTO mybb_attachtypes (atid, name, mimetype, extension, maxsize, icon, enabled, groups, forums, avatarfile) VALUES (12, 'Archivo comprimido GZIP', 'application/x-gzip', 'gz', 1024, 'images/attachtypes/tar.png', 1, '-1', '-1', 0);";
+$inserts[] = "INSERT INTO mybb_attachtypes (atid, name, mimetype, extension, maxsize, icon, enabled, groups, forums, avatarfile) VALUES (13, 'Archivo comprimido TAR', 'application/x-tar', 'tar', 1024, 'images/attachtypes/tar.png', 1, '-1', '-1', 0);";
+$inserts[] = "INSERT INTO mybb_attachtypes (atid, name, mimetype, extension, maxsize, icon, enabled, groups, forums, avatarfile) VALUES (14, 'Hoja de estilo CSS', 'text/css', 'css', 100, 'images/attachtypes/css.png', 1, '-1', '-1', 0);";
+$inserts[] = "INSERT INTO mybb_attachtypes (atid, name, mimetype, extension, maxsize, icon, enabled, groups, forums, avatarfile) VALUES (15, 'Adobe Acrobat PDF', 'application/pdf', 'pdf', 2048, 'images/attachtypes/pdf.png', 1, '-1', '-1', 0);";
+$inserts[] = "INSERT INTO mybb_attachtypes (atid, name, mimetype, extension, maxsize, icon, enabled, groups, forums, avatarfile) VALUES (16, 'Imagen de mapa de bits', 'image/bmp', 'bmp', 500, 'images/attachtypes/image.png', 1, '-1', '-1', 0);";
+$inserts[] = "INSERT INTO mybb_attachtypes (atid, name, mimetype, extension, maxsize, icon, enabled, groups, forums, avatarfile) VALUES (17, 'Documento de Microsoft Word 2007', 'application/vnd.openxmlformats-officedocument.wordprocessingml.document', 'docx', 1024, 'images/attachtypes/doc.png', 1, '-1', '-1', 0);";
+$inserts[] = "INSERT INTO mybb_attachtypes (atid, name, mimetype, extension, maxsize, icon, enabled, groups, forums, avatarfile) VALUES (18, 'Documento de Microsoft Excel', 'application/vnd.ms-excel', 'xls', 1024, 'images/attachtypes/xls.png', 1, '-1', '-1', 0);";
+$inserts[] = "INSERT INTO mybb_attachtypes (atid, name, mimetype, extension, maxsize, icon, enabled, groups, forums, avatarfile) VALUES (19, 'Documento de Microsoft Excel 2007', 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet', 'xlsx', 1024, 'images/attachtypes/xls.png', 1, '-1', '-1', 0);";
+$inserts[] = "INSERT INTO mybb_attachtypes (atid, name, mimetype, extension, maxsize, icon, enabled, groups, forums, avatarfile) VALUES (20, 'Documento de Microsoft PowerPoint', 'application/vnd.ms-powerpoint', 'ppt', 1024, 'images/attachtypes/ppt.png', 1, '-1', '-1', 0);";
+$inserts[] = "INSERT INTO mybb_attachtypes (atid, name, mimetype, extension, maxsize, icon, enabled, groups, forums, avatarfile) VALUES (21, 'Documento de Microsoft PowerPoint 2007', 'application/vnd.openxmlformats-officedocument.presentationml.presentation', 'pptx', 1024, 'images/attachtypes/ppt.png', 1, '-1', '-1', 0);";
 
 $inserts[] = "INSERT INTO mybb_calendars (name,disporder,startofweek,showbirthdays,eventlimit,moderation,allowhtml,allowmycode,allowimgcode,allowvideocode,allowsmilies) VALUES ('Calendario',1,0,1,4,0,0,1,1,1,1);";
 
@@ -73,6 +73,12 @@ $inserts[] = "INSERT INTO mybb_profilefields (fid, name, description, disporder,
 $inserts[] = "INSERT INTO mybb_profilefields (fid, name, description, disporder, type, regex, length, maxlength, required, registration, profile, postbit, viewableby, editableby, postnum) VALUES (3, 'Sexo', 'Por favor selecciona tu sexo de la lista de abajo.', 3, 'select\nSin seleccionar\nHombre\nMujer\nOtro', '', 0, 0, 0, 0, 1, 0, -1, -1, 0);";
 
 $inserts[] = "INSERT INTO mybb_questions (qid, question, answer, shown, correct, incorrect, active) VALUES(1, '¿Cuánto son 2 + 2?', '4\nCuatro', 0, 0, 0, 1);";
+
+$inserts[] = "INSERT INTO mybb_reportreasons (rid, title, appliesto, extra, disporder) VALUES(1, '<lang:report_reason_other>', 'all', 1, 99);";
+$inserts[] = "INSERT INTO mybb_reportreasons (rid, title, appliesto, extra, disporder) VALUES(2, '<lang:report_reason_rules>', 'all', 0, 1);";
+$inserts[] = "INSERT INTO mybb_reportreasons (rid, title, appliesto, extra, disporder) VALUES(3, '<lang:report_reason_bad>', 'all', 0, 2);";
+$inserts[] = "INSERT INTO mybb_reportreasons (rid, title, appliesto, extra, disporder) VALUES(4, '<lang:report_reason_spam>', 'all', 0, 3);";
+$inserts[] = "INSERT INTO mybb_reportreasons (rid, title, appliesto, extra, disporder) VALUES(5, '<lang:report_reason_wrong>', 'post', 0, 4);";
 
 $inserts[] = "INSERT INTO mybb_smilies (sid, name, find, image, disporder, showclickable) VALUES(1, 'Sonrisa', ':)', 'images/smilies/smile.png', 1, 1);";
 $inserts[] = "INSERT INTO mybb_smilies (sid, name, find, image, disporder, showclickable) VALUES(2, 'Guiño', ';)', 'images/smilies/wink.png', 2, 1);";
@@ -150,6 +156,8 @@ $inserts[] = "INSERT INTO mybb_templategroups (gid,prefix,title,isdefault) VALUE
 $inserts[] = "INSERT INTO mybb_templategroups (gid,prefix,title,isdefault) VALUES ('38','xmlhttp','<lang:group_xmlhttp>','1');";
 $inserts[] = "INSERT INTO mybb_templategroups (gid,prefix,title,isdefault) VALUES ('39','footer','<lang:group_footer>','1');";
 $inserts[] = "INSERT INTO mybb_templategroups (gid,prefix,title,isdefault) VALUES ('40','video','<lang:group_video>','1');";
+$inserts[] = "INSERT INTO mybb_templategroups (gid,prefix,title,isdefault) VALUES ('41','sendthread','<lang:group_sendthread>','1');";
+$inserts[] = "INSERT INTO mybb_templategroups (gid,prefix,title,isdefault) VALUES ('42','mycode','<lang:group_mycode>','1');";
 
 $inserts[] = "INSERT INTO mybb_usertitles (utid, posts, title, stars, starimage) VALUES (1, 0, 'Novato', 1, '');";
 $inserts[] = "INSERT INTO mybb_usertitles (utid, posts, title, stars, starimage) VALUES (2, 1, 'Miembro Junior', 2, '');";

@@ -23,7 +23,7 @@ $l['use_codemirror_desc'] = "Esta preferencia te permite desactivar el resaltado
 
 $l['success_preferences_updated'] = "Las preferencias se han actualizado correctamente.";
 
-$l['use_2fa_desc'] = "La verificación en dos pasos es un método de añadir seguridad a tu cuenta de admistrador. Tras activarlo se mostrará un código QR que se deberá escanear con una aplicación como <a href=\"http://docs.mybb.com/1.8/administration/security/2fa/\" target=\"_blank\">Google Authenticator o Authy</a>. Estas aplicaciones generarán un código que necesitarás introducir cada vez que inicies sesión en tu panel de admistración.";
+$l['use_2fa_desc'] = "La verificación en dos pasos es un método de añadir seguridad a tu cuenta de admistrador. Tras activarlo se mostrará un código QR que se deberá escanear con una aplicación como <a href=\"https://docs.mybb.com/1.8/administration/security/2fa/\" target=\"_blank\">Google Authenticator o Authy</a>. Estas aplicaciones generarán un código que necesitarás introducir cada vez que inicies sesión en tu panel de admistración.";
 $l['my2fa_qr'] = "Código de verificación en dos pasos";
 $l['recovery_codes_desc'] = "Viendo tus <a href=\"index.php?module=home-preferences&amp;action=recovery_codes\">códigos de recuperación</a>.";
 $l['recovery_codes'] = "Códigos de recuperación";

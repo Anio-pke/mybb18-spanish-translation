@@ -43,3 +43,12 @@ $l['success_attachment_type_deleted'] = "El tipo de archivo adjunto se ha elimin
 
 $l['confirm_attachment_type_deletion'] = "¿Estás seguro de querer borrar este tipo de archivo adjunto?";
 
+$l['success_activated_attachment_type'] = 'El tipo de archivo adjunto seleccionado se ha activado correctamente.';
+$l['success_deactivated_attachment_type'] = 'El tipo de archivo adjunto seleccionado se ha desactivado correctamente.';
+
+$l['enabled'] = "¿Activar?";
+$l['avatar_file'] = 'Archivo para avatar';
+$l['avatar_file_desc'] = '¿Quieres permitir este tipo de archivo adjunto se use para avatares?';
+
+$l['available_to_groups'] = 'Disponible para grupos';
+$l['available_in_forums'] = 'Disponible en foros';

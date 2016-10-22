@@ -239,11 +239,6 @@ $l['delete_drafts'] = "Borrar borradores seleccionados";
 $l['draft_options'] = "Opciones de borradores";
 $l['selected_drafts_deleted'] = "Los borradores seleccionados han sido borrados.<br />Ahora serás llevado de regreso a la lista de borradores.";
 $l['no_drafts_selected'] = "No seleccionaste ningún borrador para eliminar";
-$l['too_many_sig_images'] = "Lo sentimos, pero no podemos actualizar tu firma porque contiene demasiadas imágenes. Remueve algunas imágenes de tu firma para continuar.";
-$l['too_many_sig_images2'] = "<strong>Nota:</strong> La máxima cantidad de imagenes por firma es {1}.";
-$l['sig_too_long'] = "Lo sentimos, pero tu firma es demasiado larga. La longitud máxima para las firmas es {1} caracteres.";
-$l['sig_remove_chars_plural'] = "Por favor, elimina {1} caracteres y vuelve a intentarlo.";
-$l['sig_remove_chars_singular'] = "Por favor, elimina 1 carácter y vuelve a intentarlo.";
 $l['group_memberships'] = "Membresías de grupo";
 $l['not_member_of_group'] = "Lo sentimos, pero no podemos ejecutar esa acción ya que no eres miembro de ese grupo.";
 $l['cannot_set_displaygroup'] = "Este grupo no puede ser establecido como grupo a mostrar.";
@@ -423,4 +418,3 @@ $l['buddyrequest_accepted'] = 'La petición de amistad seleccionada se ha acepta
 $l['buddyrequest_declined'] = 'La petición de amistad seleccionada se ha rechazado.';
 $l['user_doesnt_exist'] = 'El usuario ya no existe.';
 $l['buddyrequests_sent_success'] = 'Las peticiones de amistad se han enviado correctamente.';
-

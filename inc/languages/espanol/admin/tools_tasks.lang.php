@@ -72,6 +72,6 @@ $l['success_task_disabled'] = "La tarea seleccionada se ha desactivado correctam
 $l['success_task_run'] = "La tarea seleccionada se ha ejecutado correctamente.";
 
 $l['confirm_task_deletion'] = "¿Estás seguro de querer eliminar esta tarea programada?";
-$l['confirm_task_enable'] = "<strong>ADVERTENCIA:</strong> Estás activando una tarea que solo se puede ejecutar a través de cron (Por favor, visita la <a href=\"http://docs.mybb.com/Help-Task_System.html\" target=\"_blank\">documentación de MyBB</a> para más información). ¿Continuar?";
+$l['confirm_task_enable'] = "<strong>ADVERTENCIA:</strong> Estás activando una tarea que solo se puede ejecutar a través de cron (Por favor, visita <a href=\"https://docs.mybb.com/1.8/administration/task-manager\" target=\"_blank\">MyBB Docs</a> para más información). ¿Continuar?";
 $l['no_tasks'] = "No hay tareas en tu foro en este momento.";
 

@@ -59,6 +59,7 @@ $l['name'] = "Nombre";
 $l['abbreviation'] = "Abreviatura";
 $l['click_to_add'] = "Haz clic en un icono gestual para insertarlo en tu mensaje";
 $l['close_window'] = "cerrar ventana";
+$l['no_smilies'] = "Actualmente no hay iconos gestuales disponibles.";
 
 $l['who_posted'] = "¿Quién participó?";
 $l['total_posts'] = "Total de mensajes:";

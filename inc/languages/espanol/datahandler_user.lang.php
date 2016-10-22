@@ -43,3 +43,8 @@ $l['userdata_invalid_checkfield'] = "Se ha detectado que este formulario se ha e
 $l['userdata_invalid_postnum'] = "El número de mensaje introducido es inválido. Por favor, introduce un número válido o deja el campo vacío.";
 $l['userdata_invalid_threadnum'] = "El número de team introducido es inválido. Por favor, introduce un número válido o deja el campo vacío.";
 
+$l['userdata_too_many_sig_images'] = "Lo sentimos, pero no puedes actualizar tu firma porque contiene demasiadas imágenes. Por favor, elimina algunas imágenes de tu firma para continuar.";
+$l['userdata_too_many_sig_images2'] = "<strong>Nota:</strong> La cantidad máxima de imágenes es para las firmas es {1}.";
+$l['userdata_sig_too_long'] = "No puedes actualizar tu forma porque es demasiado larga. La longitud máxima para las firmas es de {1} caracteres. ";
+$l['userdata_sig_remove_chars_plural'] = "Por favor, elimina {1} caracteres e inténtalo de nuevo.";
+$l['userdata_sig_remove_chars_singular'] = "Por favor, elimina 1 caracter e inténtalo de nuevo.";

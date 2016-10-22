@@ -25,6 +25,7 @@ $l['calendars'] = "Calendarios";
 $l['warning_system'] = "Sistema de advertencias";
 $l['thread_prefixes'] = "Prefijos de tema";
 $l['security_questions'] = "Preguntas de seguridad";
+$l['report_reasons'] = "Razones para reportar";
 
 $l['can_manage_settings'] = "¿Puede configurar ajustes?";
 $l['can_manage_banned_accounts'] = "¿Puede suspender cuentas?";
@@ -43,4 +44,5 @@ $l['can_manage_warning_system'] = "¿Puede configurar el sistema de advertencias
 $l['can_manage_mod_tools'] = "¿Puede configurar las herramientas de moderación?";
 $l['can_manage_thread_prefixes'] = "¿Puede configurar prefijos de tema?";
 $l['can_manage_security_questions'] = "¿Puede configurar las preguntas de seguridad?";
+$l['can_manage_report_reasons'] = "¿Puede configurar las razones para reportar?";
 

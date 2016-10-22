@@ -44,6 +44,7 @@ $l['note_logs_locked'] = "Por razones de seguridad, no se pueden limpiar las ent
 $l['admin_log_config_attachment_types_add'] = "Agregar extensión de arch. adjuntos #{1} ({2})";
 $l['admin_log_config_attachment_types_edit'] = "Editar extensión de arch. adjuntos #{1} ({2})";
 $l['admin_log_config_attachment_types_delete'] = "Eliminar extensión de arch. adjuntos #{1} ({2})";
+$l['admin_log_config_attachment_types_toggle_status'] = "Cambiar estado de arch. adjunto #{1} ({2})";
 
 $l['admin_log_config_badwords_add'] = "Agregar filtro de palabra #{1} ({2})";
 $l['admin_log_config_badwords_edit'] = "Editar filtro de palabra #{1} ({2})";
@@ -106,6 +107,10 @@ $l['admin_log_config_questions_edit'] = "Editar pregunta #{1} ({2})";
 $l['admin_log_config_questions_delete'] = "Eliminar pregunta #{1} ({2})";
 $l['admin_log_config_questions_enable'] = "Activar pregunta #{1} ({2})";
 $l['admin_log_config_questions_disable'] = "Desactivar pregunta #{1} ({2})";
+
+$l['admin_log_config_report_reasons_add'] = "Agregar razón para reportar #{1} ({2})";
+$l['admin_log_config_report_reasons_edit'] = "Editar razón para reportar #{1} ({2})";
+$l['admin_log_config_report_reasons_delete'] = "Eliminar razón para reportar #{1} ({2})";
 
 $l['admin_log_config_settings_delete_duplicates'] = "Eliminar ajustes duplicados y grupos de ajustes";
 $l['admin_log_config_settings_addgroup'] = "Agregar grupo de ajustes #{1} ({2}) ";

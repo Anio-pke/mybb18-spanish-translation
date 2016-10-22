@@ -115,6 +115,7 @@ $l['group_xmlhttp'] = "XMLHTTP -";
 $l['group_footer'] = "Pie -";
 $l['group_video'] = "MyCode Video -";
 $l['group_sendthread'] = "Enviar tema";
+$l['group_mycode'] = "MyCode";
 
 $l['expand'] = "Expandir";
 $l['collapse'] = "Colapsar";

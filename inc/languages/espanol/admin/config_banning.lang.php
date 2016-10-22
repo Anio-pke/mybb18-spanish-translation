@@ -17,7 +17,6 @@ $l['disallowed_email_addresses_desc'] = "Aquí puedes configurar una lista con e
 
 $l['banned_ip_addresses'] = "IPs suspendidas";
 $l['username'] = "Nombre de usuario";
-$l['search_user'] = "Buscar usuario";
 $l['date_disallowed'] = "Deshabilitado";
 $l['last_attempted_use'] = "Intento de registro";
 $l['email_address'] = "Email";
