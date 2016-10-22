@@ -7,24 +7,24 @@
  */
 
 $l['report_reasons'] = "Razones para reportar";
-$l['report_reasons_desc'] = "Aquí puedes crear y configurar razones que se podrán seleccionar cuando los usuarios reporten contenido.";
-$l['add_new_reason'] = "Agregar nueva razón";
-$l['add_new_reason_desc'] = "Agregar una nueva razón que los usuarios podrán seleccionar cuando reporten contenido.";
-$l['edit_reason'] = "Editar razón";
-$l['edit_reason_desc'] = "Editar una razón que los usuarios podrán seleccionar cuando reporten contenido.";
+$l['report_reasons_desc'] = "AquÃ­ puedes crear y configurar razones que se podrÃ¡n seleccionar cuando los usuarios reporten contenido.";
+$l['add_new_reason'] = "Agregar nueva razÃ³n";
+$l['add_new_reason_desc'] = "Agregar una nueva razÃ³n que los usuarios podrÃ¡n seleccionar cuando reporten contenido.";
+$l['edit_reason'] = "Editar razÃ³n";
+$l['edit_reason_desc'] = "Editar una razÃ³n que los usuarios podrÃ¡n seleccionar cuando reporten contenido.";
 
 $l['applies_to'] = "Se aplica a";
 $l['order'] = "Orden";
-$l['extra_comment'] = "¿Se requiere comentario?";
+$l['extra_comment'] = "Â¿Se requiere comentario?";
 $l['options'] = "Opciones";
-$l['delete_reason'] = "Eliminar razón";
+$l['delete_reason'] = "Eliminar razÃ³n";
 $l['no_report_reasons'] = "Actualmente no existen razones para reportar en tu foro.";
 
-$l['reason_title'] = "Título";
-$l['reason_title_desc'] = "Introduce un título para la razón para reportar contenido.";
-$l['requires_extra'] = "¿Se requiere un comentario extra?";
-$l['requires_extra_desc'] = "¿Se requiere al usuario introducir un comentario adicional cuando se selecciona esta razón?";
-$l['save_reason'] = "Guardar razón";
+$l['reason_title'] = "TÃ­tulo";
+$l['reason_title_desc'] = "Introduce un tÃ­tulo para la razÃ³n para reportar contenido.";
+$l['requires_extra'] = "Â¿Se requiere un comentario extra?";
+$l['requires_extra_desc'] = "Â¿Se requiere al usuario introducir un comentario adicional cuando se selecciona esta razÃ³n?";
+$l['save_reason'] = "Guardar razÃ³n";
 
 $l['content_colon'] = "Contenido:";
 
@@ -36,13 +36,13 @@ $l['report_content_'] = "Ninguno";
 $l['report_content_all'] = "Todo";
 $l['report_content_post'] = "Mensajes";
 $l['report_content_profile'] = "Perfil";
-$l['report_content_reputation'] = "Reputación";
+$l['report_content_reputation'] = "ReputaciÃ³n";
 
 // Content reasons
 $l['report_reason_rules'] = "Romper las reglas del foro";
 $l['report_reason_bad'] = "Contenido inapropriado";
 $l['report_reason_spam'] = "Contenido spam";
-$l['report_reason_wrong'] = "Foro erróneo";
+$l['report_reason_wrong'] = "Foro errÃ³neo";
 $l['report_reason_other'] = "Otro";
 
 $l['default_report_reason'] = "Predeterminado";
@@ -50,17 +50,17 @@ $l['custom_report_reason'] = "Personalizado";
 
 $l['update_reasons_order'] = "Actualizar orden de razones";
 
-$l['error_cannot_modify_reason'] = "No puedes modificar esta razón.";
-$l['error_cannot_delete_reason'] = "No puedes eliminar esta razón.";
-$l['error_invalid_reason'] = "Has seleccionado una razón inválida.";
-$l['error_missing_title'] = "No has introducido un título para esta razón.";
-$l['error_missing_applies_to'] = "No has introducido a que contenido se aplica esta razón.";
-$l['error_missing_extra'] = "No has seleccionado si quieres información extra para esta razón.";
+$l['error_cannot_modify_reason'] = "No puedes modificar esta razÃ³n.";
+$l['error_cannot_delete_reason'] = "No puedes eliminar esta razÃ³n.";
+$l['error_invalid_reason'] = "Has seleccionado una razÃ³n invÃ¡lida.";
+$l['error_missing_title'] = "No has introducido un tÃ­tulo para esta razÃ³n.";
+$l['error_missing_applies_to'] = "No has introducido a que contenido se aplica esta razÃ³n.";
+$l['error_missing_extra'] = "No has seleccionado si quieres informaciÃ³n extra para esta razÃ³n.";
 
 $l['success_reasons_disporder_updated'] = "El orden de muestra de las razones se ha actualizado correctamente.";
-$l['success_reason_created'] = "La razón se ha creado correctamente.";
-$l['success_reason_updated'] = "La razón se ha actualizado correctamente.";
-$l['success_reason_deleted'] = "La razón se ha eliminado correctamente.";
+$l['success_reason_created'] = "La razÃ³n se ha creado correctamente.";
+$l['success_reason_updated'] = "La razÃ³n se ha actualizado correctamente.";
+$l['success_reason_deleted'] = "La razÃ³n se ha eliminado correctamente.";
 
-$l['confirm_reason_deletion'] = "¿Estás seguro de querer eliminar esta razón?";
+$l['confirm_reason_deletion'] = "Â¿EstÃ¡s seguro de querer eliminar esta razÃ³n?";
 
