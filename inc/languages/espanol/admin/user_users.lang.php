@@ -89,6 +89,7 @@ $l['option_6'] = "Más de 2 años";
 
 $l['error_avatartoobig'] = "No se ha podido cambiar el avatar ya que el avatar especificado es muy grande. Las dimensiones máximas son {1}x{2} (ancho x alto)";
 $l['error_invalidavatarurl'] = "La URL introducida para el avatar no parece ser válida. Por favor, asegúrate que introduces una URL válida.";
+$l['error_remote_avatar_not_allowed'] = "Los avatares remotos has sido desactivados por la administración del foro.";
 $l['error_invalid_user'] = "El usuario seleccionado es inválido.";
 $l['error_no_perms_super_admin'] = "No tienes permiso para editar a este usuario porque tu no eres un super administrador.";
 $l['error_invalid_user_source'] = "El nombre de usuario introducido de la cuenta fuente no existe";
@@ -162,7 +163,7 @@ $l['icq_number'] = "Número ICQ";
 $l['aim_handle'] = "AIM";
 $l['yahoo_messanger_handle'] = "Yahoo!";
 $l['skype_handle'] = "Skype";
-$l['google_handle'] = "Google Talk";
+$l['google_handle'] = "Google Hangouts";
 $l['birthday'] = "Fecha de nacimiento";
 
 $l['away_information'] = "Información de ausencia";
@@ -345,7 +346,7 @@ $l['icq_number_contains'] = "El número ICQ contiene";
 $l['aim_handle_contains'] = "El nombre de AIM contiene";
 $l['yahoo_contains'] = "La cuenta de Yahoo! contiene";
 $l['skype_contains'] = "La cuenta de Skype contiene";
-$l['google_contains'] = "La cuenta de Google Talk contiene";
+$l['google_contains'] = "La cuenta de Google Hangouts contiene";
 $l['signature_contains'] = "La firma contiene";
 $l['user_title_contains'] = "El título de usuario contiene";
 $l['greater_than'] = "Mayor que";

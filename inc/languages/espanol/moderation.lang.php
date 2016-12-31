@@ -82,6 +82,7 @@ $l['post_separator'] = "Separador de mensajes";
 $l['new_line'] = "Nueva línea";
 $l['horizontal_rule'] = "Regla horizontal";
 $l['resolve_fail'] = "N/A (No resuelve)";
+$l['time'] = "Hora:";
 
 $l['opened'] = "Abierto";
 $l['closed'] = "Cerrado";

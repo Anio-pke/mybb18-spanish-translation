@@ -100,7 +100,7 @@ $l['no_forums'] = "Actualmente no hay foros.";
 $l['no_moderators'] = "Actualmente no hay moderadores.";
 
 $l['success_forum_disporder_updated'] = "El orden de muestra se ha actualizado correctamente.";
-$l['success_forum_deleted'] = "El foro especificado se ha eliminado correctamente.";
+$l['success_forum_deleted'] = 'El foro especificado se ha eliminado correctamente. Además deberías ejecutar las herramientas <a href="/index.php?module=tools-recount_rebuild">Recontar y reconstruir</a>.';
 $l['success_moderator_deleted'] = "El moderador especificado se ha eliminado correctamente.<br />Por favor, recuerda que esto no cambia los permisos de grupo del usuario, aún podría mantener poderes de moderación.";
 $l['success_forum_permissions_updated'] = "Los permisos del foro se han actualizado correctamente.";
 $l['success_forum_updated'] = "Los ajustes del foro se han actualizado correctamente.";
@@ -264,6 +264,7 @@ $l['editing_field_caneditposts'] = "¿Puede editar sus mensajes?";
 $l['editing_field_candeleteposts'] = "¿Puede eliminar sus mensajes?";
 $l['editing_field_candeletethreads'] = "¿Puede eliminar sus temas?";
 $l['editing_field_caneditattachments'] = "¿Puede editar sus adjuntos?";
+$l['editing_field_canviewdeletionnotice'] = "¿Puede ver los avisos de eliminaciones?";
 
 $l['moderate_field_modposts'] = "¿Moderar nuevos mensajes?";
 $l['moderate_field_modthreads'] = "¿Moderar nuevos temas?";
@@ -275,3 +276,5 @@ $l['polls_field_canvotepolls'] = "¿Puede votar en las encuestas?";
 
 $l['misc_field_cansearch'] = "¿Puede buscar en el foro?";
 
+$l['confirm_proceed_deletion'] = "Haz clic en \"Proceder\" para continuar con la eliminación del foro.";
+$l['automatically_redirecting'] = "Redirección automática...";

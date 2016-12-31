@@ -186,6 +186,8 @@ Este mensaje ha sido enviado a todos los moderadores o a todos los administrador
 
 Por favor revisen esta reputación tan pronto como sea posible.";
 
+$l['email_report_comment_extra'] = "{1}: {2}";
+
 $l['email_passwordreset'] = "{1},
 
 Tu contraseña en {2} ha sido reiniciada.

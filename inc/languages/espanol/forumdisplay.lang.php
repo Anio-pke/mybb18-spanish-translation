@@ -95,6 +95,7 @@ $l['page_selected'] = "Se han seleccionado los <strong>{1}</strong> temas de est
 $l['all_selected'] = "Se han seleccionado los <strong>{1}</strong> temas de este foro.";
 $l['select_all'] = "Seleccionar los <strong>{1}</strong> temas de este foro.";
 $l['clear_selection'] = "Limpiar selección.";
+$l['deleted_thread'] = "Tema eliminado";
 
 $l['error_containsnoforums'] = "Lo sentimos, pero el foro que estás viendo no contiene ningún subforo.";
 

@@ -165,6 +165,7 @@ $l['error_invalid_set'] = "Por favor, selecciona un set de plantillas válido.";
 $l['error_invalid_template_set'] = "La plantilla seleccionada es inválida.";
 $l['error_themes_attached_template_set'] = "Este set de plantillas no se puede eliminar porque hay estilos que la están utilizando.";
 $l['error_missing_group_prefix'] = "Por favor, introduce un prefijo para el grupo de plantillas.";
+$l['error_invalid_group_title'] = "Las barras bajas (_) están prohibidos como delimitadores como prefijos para los grupos de plantillas. Por favor, selecciona otro prefijo.";
 $l['error_missing_group_title'] = "Por favor, introduce un título para el grupo de plantillas.";
 $l['error_duplicate_group_prefix'] = "Ya existe un grupo con ese prefijo. Por favor, introduce otro prefijo distinto.";
 $l['error_missing_template_group'] = "El grupo de plantillas no ha sido encontrado.";

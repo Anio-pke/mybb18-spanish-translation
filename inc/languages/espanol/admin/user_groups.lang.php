@@ -123,6 +123,7 @@ $l['can_edit_posts'] = "¿Puede editar sus propios mensajes?";
 $l['can_delete_posts'] = "¿Puede eliminar sus propios mensajes?";
 $l['can_delete_threads'] = "¿Puede eliminar sus propios temas?";
 $l['can_edit_attachments'] = "¿Puede editar sus propios adjuntos?";
+$l['can_view_deletion_notices'] = "¿Puede ver los avisos de eliminaciones?";
 $l['account_management'] = "Configurar cuenta";
 $l['edit_time_limit'] = "Límite de tiempo para editar";
 $l['edit_time_limit_desc'] = "Tiempo en minutos en el que un usuario normal ya no podrá editar sus propios mensajes (si tiene permiso para hacerlo).  0 (cero) para desactivar el límite.";

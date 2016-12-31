@@ -208,6 +208,7 @@ $l['editor_metacafe'] = "MetaCafe";
 $l['editor_veoh'] = "Veoh";
 $l['editor_vimeo'] = "Vimeo";
 $l['editor_youtube'] = "Youtube";
+$l['editor_twitch'] = "Twitch";
 $l['editor_facebook'] = "Facebook";
 $l['editor_liveleak'] = "LiveLeak";
 $l['editor_insertvideo'] = "Insertar video";
@@ -269,6 +270,11 @@ $l['postbit_currently_ignoring_user'] = "El contenido de este mensaje está ocul
 $l['postbit_warning_level'] = "Nivel de advertencia:";
 $l['postbit_warn'] = "Advertir al autor de este mensaje";
 $l['postbit_purgespammer'] = "Expulsar spammer";
+$l['postbit_post_deleted'] = "Este mensaje ha sido eliminado.";
+$l['postbit_post_unapproved'] = "Este mensaje está en espera de ser aprobado.";
+$l['postbit_thread_deleted'] = "Este tema ha sido eliminado.";
+$l['postbit_thread_unapproved'] = "Este tema está en espera de ser aprobado.";
+$l['postbit_deleted_post_user'] = "Este mensaje de {1} ha sido eliminado.";
 
 $l['postbit_button_reputation_add'] = 'Reputación';
 $l['postbit_button_website'] = 'WWW';
@@ -304,6 +310,7 @@ $l['smilieinsert'] = "Iconos gestuales";
 $l['smilieinsert_getmore'] = "aquí hay más";
 $l['on'] = "Activado";
 $l['off'] = "Desactivado";
+$l['remote_avatar_disabled_default_avatar'] = "You are currently using a remote avatar, which has been disabled. The default avatar will be used instead.";
 $l['unread_report'] = "Noticia para el moderador: Hay 1 reporte sin leer.";
 $l['unread_reports'] = "Noticia para el moderador: Hay {1} reportes sin leer.";
 $l['pending_joinrequest'] = "Aviso líder de grupo: Tienes 1 solicitud de ingreso a un grupo pendiente.";
@@ -453,7 +460,7 @@ $l['timezone_gmt_350'] = "(GMT +3:30) Tehran";
 $l['timezone_gmt_400'] = "(GMT +4:00) Moscow, Abu Dhabi, Baku, Muscat, Tbilisi";
 $l['timezone_gmt_450'] = "(GMT +4:30) Kabul";
 $l['timezone_gmt_500'] = "(GMT +5:00) Islamabad, Karachi, Tashkent";
-$l['timezone_gmt_550'] = "(GMT +5:30) Mumbai, Calcutta, Madras, New Delhi";
+$l['timezone_gmt_550'] = "(GMT +5:30) Mumbai, Kolkata, Chennai, New Delhi";
 $l['timezone_gmt_575'] = "(GMT +5:45) Kathmandu";
 $l['timezone_gmt_600'] = "(GMT +6:00) Almaty, Dhakra, Yekaterinburg";
 $l['timezone_gmt_650'] = "(GMT +6:30) Yangon";
@@ -543,7 +550,7 @@ $l['moderation_user_posts'] = "Por favor, ten en cuenta que tus nuevos mensajes 
 $l['moderation_forum_thread'] = "Por favor, ten en cuenta que en este foro los nuevos temas deben ser aceptados por un moderador antes de ser visibles.";
 $l['moderation_forum_edits'] = "Por favor, ten en cuenta que en este foro los mensajes editados deben ser aceptados por un moderador antes de ser visibles.";
 $l['moderation_forum_edits_quick'] = "Por favor, ten en cuenta que en este foro los mensajes editados deben ser aceptados por un moderador antes de ser visibles.";
-$l['awaiting_message_link'] = " <a href=\"{1}/{2}/index.php?module=user-users&amp;action=search&amp;results=1&amp;conditions=a%3A1%3A%7Bs%3A9%3A%22usergroup%22%3Bs%3A1%3A%225%22%3B%7D\">Ir al Panel de administración</a>.";
+$l['awaiting_message_link'] = " <a href=\"{1}/{2}/index.php?module=user-awaiting_activation\">Ir al Panel de administración</a>.";
 $l['awaiting_message_single'] = "Hay 1 cuenta esperando activación. Por favor, ve a tu panel de administrador para activar el usuario.";
 $l['awaiting_message_plural'] = "Hay {1} cuentas esperando activación. Por favor, ve a tu panel de administrador para activar los usuarios.";
 

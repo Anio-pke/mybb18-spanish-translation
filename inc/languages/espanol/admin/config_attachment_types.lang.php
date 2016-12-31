@@ -23,7 +23,7 @@ $l['name_desc'] = "Introduce el nombre para el tipo de adjunto.";
 $l['file_extension'] = "Extensión";
 $l['file_extension_desc'] = "Introducir la extensión que quieres permitir subir aquí (No incluir nada más que la extensión sin punto) (Ejemplo: txt)";
 $l['mime_type'] = "Clase MIME";
-$l['mime_type_desc'] = "Introduce la clase MIME que se enviará al servidor cuando se descargan archivos de este tipo (<a href=\"http://www.webmaster-toolkit.com/mime-types.shtml\">Ver la lista aquí</a>)";
+$l['mime_type_desc'] = "Introduce la clase MIME que se enviará al servidor cuando se descargan archivos de este tipo (<a href=\"http://www.freeformatter.com/mime-types-list.html\">Ver la lista aquí</a>)";
 $l['maximum_file_size'] = "Tamaño máximo de archivo (Kilobytes)";
 $l['maximum_file_size_desc'] = "Tamaño máximo de archivo para las subidas de los tipos de archivos adjuntos en Kilobytes (1 MB = 1024 KB)";
 $l['limit_intro'] = "Asegúrate que el máximo tamaño de archivo sea inferior a los límites del PHP:";

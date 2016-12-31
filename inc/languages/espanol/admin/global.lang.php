@@ -51,7 +51,6 @@ $l['error_admin_session_expired'] = "Tu sesión de administración ha caducado."
 $l['error_invalid_ip'] = "Tu IP no es válida para esta sesión.";
 $l['error_mybb_admin_lockedout'] = "Esta cuenta ha sido bloqueada.";
 $l['error_mybb_admin_lockedout_message'] = "Tu cuenta está bloqueada tras fallar {1} veces el inicio de sesión. Se te ha enviado un email con las instrucciones para desbloquear tu cuenta.";
-$l['error_invalid_secret_pin'] = 'Has introducido un PIN secreto inválido.';
 
 $l['error_invalid_username'] = "El nombre de usuario introducido es inválido.";
 $l['error_invalid_uid'] = "El id de usuario introducido es inválido.";
@@ -202,7 +201,7 @@ $l['timezone_gmt_350'] = "(GMT +3:30) Tehran";
 $l['timezone_gmt_400'] = "(GMT +4:00) Moscow, Abu Dhabi, Baku, Muscat, Tbilisi";
 $l['timezone_gmt_450'] = "(GMT +4:30) Kabul";
 $l['timezone_gmt_500'] = "(GMT +5:00) Islamabad, Karachi, Tashkent";
-$l['timezone_gmt_550'] = "(GMT +5:30) Mumbai, Calcutta, Madras, New Delhi";
+$l['timezone_gmt_550'] = "(GMT +5:30) Mumbai, Kolkata, Chennai, New Delhi";
 $l['timezone_gmt_575'] = "(GMT +5:45) Kathmandu";
 $l['timezone_gmt_600'] = "(GMT +6:00) Almaty, Dhakra, Yekaterinburg";
 $l['timezone_gmt_650'] = "(GMT +6:30) Yangon";
