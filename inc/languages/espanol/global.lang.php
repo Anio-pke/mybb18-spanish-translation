@@ -20,6 +20,7 @@ $l['bottomlinks_contactus'] = "Contáctanos";
 $l['bottomlinks_returntop'] = "Volver arriba";
 $l['bottomlinks_syndication'] = "Sindicación RSS";
 $l['bottomlinks_litemode'] = "Archivo (Modo simple)";
+$l['bottomlinks_markread'] = "Marcar foros como leídos";
 
 $l['welcome_usercp'] = "Panel de control";
 $l['welcome_modcp'] = "Panel de moderación";

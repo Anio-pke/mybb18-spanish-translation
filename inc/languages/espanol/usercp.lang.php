@@ -141,7 +141,7 @@ $l['email_notify'] = "Suscribirme automáticamente a los temas en los que partic
 $l['email_notify_desc'] = "Seleccionar 'Sí' te suscribirá automáticamente al tema en el que participes.";
 $l['receive_pms'] = "Recibir mensajes privados de otros usuarios.";
 $l['receive_pms_desc'] = "Te permite que envíes y recibas mensajes privados.";
-$l['receive_from_buddy'] = "Solo recibir mensajes privados de los usuarios de mi <a href=\"#\" onclick=\"MyBB.popupWindow('/misc.php?action=buddypopup'); return false;\" target=\"_blank\">lista de amigos</a>.";
+$l['receive_from_buddy'] = "Solo recibir mensajes privados de los usuarios de mi <a href=\"#\" onclick=\"MyBB.popupWindow('/misc.php?action=buddypopup'); return false;\" target=\"_blank\">lista de amigos</a>. Este ajuste no tendrá efecto si no se tiene al menos un amigo en la lista.";
 $l['pm_notice'] = "Alertarme con un aviso cuando reciba un mensaje privado.";
 $l['pm_notify'] = "Notificarme por email cuando reciba un mensaje privado.";
 $l['show_codebuttons'] = "Mostrar las opciones de formateo de MyCode en las páginas de envío de mensajes.";
