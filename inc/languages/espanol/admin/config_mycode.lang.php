@@ -44,6 +44,7 @@ $l['test'] = "Probar MyCode";
 
 $l['error_missing_title'] = "No has introducido un título.";
 $l['error_missing_regex'] = "No has introducido una expresión regular.";
+$l['error_regex_already_available'] = "Has introducido una expresión regular que ya está definida en otro MyCode. Por favor, introduce una expresión regular diferente para este MyCode.";
 $l['error_missing_replacement'] = "No has introducido un reemplazamiento.";
 $l['error_invalid_mycode'] = "El MyCode especificado no existe.";
 

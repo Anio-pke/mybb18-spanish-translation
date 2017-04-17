@@ -29,6 +29,7 @@ $l['theme_install'] = 'Instalación de estilos';
 $l['board_config'] = 'Configuración del foro';
 $l['admin_user'] = 'Usuario administrador';
 $l['finish_setup'] = 'Fin de la instalación';
+$l['upgrade_complete'] = 'Actualización completa';
 
 $l['table_population'] = 'Inserción de datos';
 $l['theme_installation'] = 'Inserción de estilos';
@@ -339,7 +340,7 @@ $l['done_step_success'] = '<p class="success">Tu copia de MyBB se ha instalado y
 <p>El grupo de MyBB te agradece que hayas instalado nuestro software y esperamos que entres en los foros de la comunidad si necesitas ayuda o quieres ser parte de la <a href="https://community.mybb.com/" target="_blank">comunidad de MyBB</a>.</p>';
 $l['done_step_locked'] = '<p>El instalador se ha bloqueado. Para desbloquear el instalador elimina el archivo \'lock\' de este directorio.</p><p>Ahora puedes ver tu nueva copia de <a href="../index.php">MyBB</a> o entrar al <a href="../admin/index.php">panel de administración</a>.</p>';
 $l['done_step_dirdelete'] = '<p><strong><span style="color:red">Por favor, elimina este directorio antes de utilizar tu copia de MyBB.</span></strong></p>';
-$l['done_whats_next'] = '<div class="error"><p><strong>¿Migrando desde otro software de foros?</strong></p><p>MyBB ofrece un sistema llamado "merge system" para mezclar facilmente múltiples foros desde otros software de foros, permitiendo una conversión sencilla a MyBB. ¡Si estás interesado en cambiar a vas en la buena dirección! Revisa <a target="_blank" href="https://mybb.com/downloads/merge-system">Merge System</a> para más información.</p>';
+$l['done_whats_next'] = '<div class="error"><p><strong>¿Migrando desde otro software de foros?</strong></p><p>MyBB ofrece un sistema llamado "merge system" para mezclar facilmente múltiples foros desde otros software de foros, permitiendo una conversión sencilla a MyBB. ¡Si estás interesado en cambiar a vas en la buena dirección! Revisa <a target="_blank" href="https://mybb.com/download/merge-system">Merge System</a> para más información.</p>';
 
 /* UPGRADE LANGUAGE VARIABLES */
 $l['upgrade'] = "Actualización";

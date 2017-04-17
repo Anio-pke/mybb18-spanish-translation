@@ -223,6 +223,8 @@ $l['admin_log_tools_index_utf8_conversion'] = "Convertir tabla {1} a UTF-8.";
 
 $l['admin_log_tools_mailerrors_prune'] = "Limpiar historial del sistema de correo {1}";
 
+$l['admin_log_tools_maillogs_prune'] = "Limpiar historial del sistema de correo {1}";
+
 $l['admin_log_tools_optimizedb_'] = "Optimizar tablas de la base de datos: {1}";
 
 $l['admin_log_tools_php_info_phpinfo'] = "Ver información PHP";
@@ -240,6 +242,11 @@ $l['admin_log_tools_recount_rebuild_warning'] = "Recontar y recontruir las adver
 $l['admin_log_tools_recount_rebuild_privatemessages'] = "Recontar y recontruir los mensajes privados";
 $l['admin_log_tools_recount_rebuild_referral'] = "Recontar y reconstruir los contadores de recomendaciones de los usuarios";
 $l['admin_log_tools_recount_rebuild_threadrating'] = "Recontar y reconstruir las puntuaciones de los temas";
+
+$l['admin_log_tools_spamlog_prune'] = "Limpiar entradas del historial de spam {4} con más de {1} días";
+$l['admin_log_tools_spamlog_prune_user'] = "Limpiar entradas del historial de spam {4} con más de {1} días con el usuario {2}";
+$l['admin_log_tools_spamlog_prune_email'] = "Limpiar entradas del historial de spam {4} con más de {1} días con el email {3}";
+$l['admin_log_tools_spamlog_prune_user_email'] = "Limpiar entradas del historial de spam {4} con más de {1} días con el usuario {2} y el email {3}";
 
 $l['admin_log_tools_tasks_add'] = "Agregar tarea #{1} ({2})";
 $l['admin_log_tools_tasks_edit'] = "Editar tarea #{1} ({2})";

@@ -20,6 +20,7 @@ $l['attachment_stats_desc'] = "Abajo hay una estadística general de los archivo
 $l['error_nothing_selected'] = "Por favor, selecciona uno o más adjuntos para borrar.";
 $l['error_no_attachments'] = "Actualmente no hay adjuntos en tu foro. En cuanto se suba algún archivo podrás acceder a esta sección.";
 $l['error_not_all_removed'] = "Solo se han podido eliminar algunos adjuntos correctamente, los demás no se han eliminado de la carpeta 'uploads'.";
+$l['error_count'] = 'Imposible eliminar {1} adjunto(s).';
 $l['error_invalid_username'] = "El nombre de usuario introducido es inválido.";
 $l['error_invalid_forums'] = "Uno o más de los foros seleccionados son inválidos.";
 $l['error_no_results'] = "No se han encontrado adjuntos con los criterios de búsqueda especificados.";
@@ -30,6 +31,7 @@ $l['error_does_not_exist'] = "El tema o el mensaje de este adjuntos no existe.";
 // Success
 $l['success_deleted'] = "Los adjuntos seleccionados se han eliminado correctamente";
 $l['success_orphan_deleted'] = "Los adjuntos huérfanos seleccionados se han eliminado correctamente";
+$l['success_count'] = '{1} adjunto(s) eliminados correctamente.';
 $l['success_no_orphans'] = "Actualmente no hay ningún adjunto huérfano en tu foro";
 
 // Confirm

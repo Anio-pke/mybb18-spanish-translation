@@ -72,7 +72,7 @@ $l['error_invalid_limit'] = "El límite para las señales que has introducido es
 
 $l['syndication'] = "Último tema sindicado";
 $l['syndication_generated_url'] = "Sindicación generada (URL):";
-$l['syndication_note'] = "Abajo puedes generar links a especificas señales RSS sindicadas. Los enlaces pueden ser generados para todos los foros, para cada foro o para un número específico de foros. Obtendrás un enlace que podrás copiar en algún lector RSS. <i><a href=\"http://es.wikipedia.org/wiki/RSS\" target=\"_blank\">¿Qué es RSS?</a></i>";
+$l['syndication_note'] = "Abajo puedes generar links a especificas señales RSS sindicadas. Los enlaces pueden ser generados para todos los foros, para cada foro o para un número específico de foros. Obtendrás un enlace que podrás copiar en algún lector RSS. <i><a href=\"https://es.wikipedia.org/wiki/RSS\" target=\"_blank\">¿Qué es RSS?</a></i>";
 $l['syndication_forum'] = "Foro a sindicar:";
 $l['syndication_forum_desc'] = "Selecciona un foro de la derecha. Usa la tecla CTRL para seleccionar varios foros.";
 $l['syndication_version'] = "Version de la señal:";
