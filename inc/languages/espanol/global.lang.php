@@ -133,8 +133,8 @@ $l['no_subscribe_notification'] = "Suscribir sin recibir notificaciones de las n
 $l['instant_email_subscribe'] = "Suscribir y recibir un email con las nuevas respuestas";
 $l['instant_pm_subscribe'] = "Suscribir y recibir un MP con las nuevas respuestas";
 
-$l['today'] = "Hoy";
-$l['yesterday'] = "Ayer";
+$l['today'] = "<span title=\"{1}\">Hoy</span>";
+$l['yesterday'] = "<span title=\"{1}\">Ayer</span>";
 $l['error'] = "Mensaje del foro";
 
 $l['multipage_pages'] = "Páginas ({1}):";
@@ -351,7 +351,7 @@ $l['seconds_short'] = "s";
 $l['rel_in'] = "En ";
 $l['rel_ago'] = "Hace";
 $l['rel_less_than'] = "menos de ";
-$l['rel_time'] = "{4} {1}{2} {3}";
+$l['rel_time'] = "<span title=\"{5}{6}\">{1}{2} {3} {4}</span>";
 $l['rel_minutes_single'] = "minuto";
 $l['rel_minutes_plural'] = "minutos";
 $l['rel_hours_single'] = "hora";

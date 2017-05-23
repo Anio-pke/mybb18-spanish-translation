@@ -24,7 +24,7 @@ $l['close_thread'] = "<strong>Cerrar tema:</strong> Evita futuros mensajes en es
 $l['stick_thread'] = "<strong>Tema importante:</strong> Ubica este tema al principio de la lista de temas (A la vista de todos).";
 $l['forum_rules'] = "{1} - Reglas";
 $l['thread_review'] = "Resumen del tema (Mensajes más nuevos primero)";
-$l['thread_review_more'] = "Este tema tiene más de {1} respuestas. <a href=\"{2}\">Leer todo el tema</a>";
+$l['thread_review_more'] = "Este tema tiene más de {1} respuestas. <a href=\"{2}\" target=\"_blank\">Leer todo el tema</a>";
 $l['posted_by'] = "Enviado por";
 $l['draft_saved'] = "El nuevo mensaje ha sido exitosamente guardado como borrador.<br />Ahora serás llevado a tu lista de borradores.";
 $l['error_post_already_submitted'] = "Ya has publicado esta respuesta en el tema especificado. Por favor, visita el tema para ver tu respuesta.";

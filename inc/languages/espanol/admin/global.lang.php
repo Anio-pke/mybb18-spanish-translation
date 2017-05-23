@@ -6,8 +6,8 @@
  * Translator: Anio_pke
  */
 
-$l['today'] = "Hoy";
-$l['yesterday'] = "Ayer";
+$l['today'] = "<span title=\"{1}\">Hoy</span>";
+$l['yesterday'] = "<span title=\"{1}\">Ayer</span>";
 
 $l['size_yb'] = "YB";
 $l['size_zb'] = "ZB";
@@ -140,7 +140,7 @@ $l['saved'] = 'Guardado';
 $l['rel_in'] = "En ";
 $l['rel_ago'] = "";
 $l['rel_less_than'] = "Menos de ";
-$l['rel_time'] = "{1}{2} {3} {4}";
+$l['rel_time'] = "<span title=\"{5}{6}\">{1}{2} {3} {4}</span>";
 $l['rel_minutes_single'] = "minuto";
 $l['rel_minutes_plural'] = "minutos";
 $l['rel_hours_single'] = "hora";

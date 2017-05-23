@@ -28,3 +28,4 @@ $l['my2fa_qr'] = "Código de verificación en dos pasos";
 $l['recovery_codes_desc'] = "Viendo tus <a href=\"index.php?module=home-preferences&amp;action=recovery_codes\">códigos de recuperación</a>.";
 $l['recovery_codes'] = "Códigos de recuperación";
 $l['recovery_codes_warning'] = "<b>Nota:</b> estos códigos se regenerarán cada vez que visites la página y solo se pueden utilizar una vez.";
+$l['print_recovery_codes'] = "Imprimir códigos de recuperación";

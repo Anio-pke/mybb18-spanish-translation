@@ -17,8 +17,6 @@ $l['skype_center'] = "Centro Skype";
 $l['chat_on_skype'] = "Charlar con {1} en Skype";
 $l['call_on_skype'] = "Llamada a {1} en Skype";
 $l['yahoo_center'] = "Centro Yahoo!";
-$l['send_y_message'] = "Enviar a {1} un mensaje de Yahoo!.";
-$l['view_y_profile'] = "Ver el perfil Yahoo! de {1}.";
 $l['aim_center'] = "Centro de AOL IM";
 
 $l['download_aim'] = "Descargar AIM";
@@ -81,7 +79,7 @@ $l['syndication_version_atom1'] = "Atom 1.0";
 $l['syndication_version_rss2'] = "RSS 2.00 (Por defecto)";
 $l['syndication_generate'] = "Generar la URL de sindicación";
 $l['syndication_limit'] = "Límite:";
-$l['syndication_limit_desc'] = "La cantidad recomendada para descargar a la vez. No se recomienda que sean más de 50.";
+$l['syndication_limit_desc'] = "La cantidad recomendada para descargar a la vez. 50 a la vez es el límite máximo.";
 $l['syndication_threads_time'] = "temas al mismo tiempo";
 $l['syndicate_all_forums'] = "Sindicar todos los foros";
 
