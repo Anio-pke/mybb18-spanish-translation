@@ -58,8 +58,8 @@ $l['d7_document'] = "En tus posts puedes usar MyCode, una variante simplificada 
 <p>[email=example@example.com?subject=spam]Email con tema[/email]<br />&nbsp;&nbsp;&nbsp;<a href=\"mailto:example@example.com?subject=spam\">Email con tema</a>
 <p><br />[quote]El texto citado irá aquí[/quote]<br />&nbsp;&nbsp;&nbsp;<blockquote>El texto citado irá aquí</blockquote>
 <p>[code]Texto formateado[/code]<br />&nbsp;&nbsp;&nbsp;<code>Texto formateado</code>
-<p><br />[img]http://www.php.net/images/php.gif[/img]<br />&nbsp;&nbsp;&nbsp;<img alt=\"[Imagen: php.gif]\" src=\"http://www.php.net/images/php.gif\">
-<p>[img=50x50]http://www.php.net/images/php.gif[/img]<br />&nbsp;&nbsp;&nbsp;<img alt=\"[Imagen: php.gif]\" src=\"http://www.php.net/images/php.gif\" width=\"50\" height=\"50\">
+<p><br />[img]https://secure.php.net/images/php.gif[/img]<br />&nbsp;&nbsp;&nbsp;<img src=\"https://secure.php.net/images/php.gif\">
+<p>[img=50x50]https://secure.php.net/images/php.gif[/img]<br />&nbsp;&nbsp;&nbsp;<img src=\"https://secure.php.net/images/php.gif\" width=\"50\" height=\"50\">
 <p><br />[color=red]Este texto es rojo[/color]<br />&nbsp;&nbsp;&nbsp;<span style=\"color:red\">Este texto es rojo</span>
 <p>[size=3]Este texto es de tamaño 3[/size]<br />&nbsp;&nbsp;&nbsp;<span style=\"font-size:13pt\">Este texto es de tamaño 3</span>
 <p>[font=Tahoma]Esta fuente es Tahoma[/font]<br />&nbsp;&nbsp;&nbsp;<span style=\"font-family:Tahoma\">Esta fuente es Tahoma</span>

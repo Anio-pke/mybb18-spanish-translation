@@ -209,6 +209,8 @@ $l['error_cannot_have_both_types'] = "No puedes tener un grupo con moderación e
 
 $l['success_group_created'] = "El grupo de usuarios se ha creado correctamente.";
 $l['success_group_updated'] = "El grupo de usuarios seleccionado se ha actualizado correctamente.";
+$l['success_group_created_duplicate_title'] = "El nuevo grupo de usuarios se ha creado correctamente. Por favor, recuerda que hay múltiples grupos llamados \"{1}\".";
+$l['success_group_updated_duplicate_title'] = "El grupo de usuarios se ha actualizado correctamente. Por favor, recuerda que hay múltiples grupos llamados \"{1}\".";
 $l['success_group_deleted'] = "El grupo de usuarios seleccionado se ha eliminado correctamente.";
 $l['success_groups_disporder_updated'] = "El orden de muestra de los grupos se ha actualizado correctamente.";
 $l['success_join_request_approved'] = "La petición de ingreso se ha aceptado correctamente. El usuario es ahora miembro de este grupo.";

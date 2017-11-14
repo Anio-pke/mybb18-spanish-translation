@@ -42,10 +42,11 @@ $l['report_time'] = "Fecha";
 $l['mark_read'] = "Marcar como leídos";
 $l['no_reports'] = "Actualmente no hay reportes sin leer.";
 $l['no_logs'] = "No hay acciones de moderador.";
-$l['error_noselected_reports'] = "Lo sentimos, pero no has seleccionado reporte para marcar como leído. Aunque es posible que esos mensajes hayan sido marcados como leídos por otro usuario.";
+$l['error_noselected_reports'] = "Lo sentimos, pero no has seleccionado reportes para marcar como leídos.";
 $l['error_missing_ipaddress'] = "Lo sentimos, pero no has introducido una IP para buscar.";
 $l['error_no_results'] = "Lo sentimos, pero no hay resultados con los criterios seleccionados.";
 $l['redirect_reportsmarked'] = "Los reportes seleccionados se han marcado como leídos.";
+$l['redirect_allreportsmarked'] = "Todos los reportes se han marcado como leídos.";
 $l['redirect_modnotes'] = "Las notas de moderador se han actualizado.";
 
 $l['for'] = "Para";
@@ -62,6 +63,11 @@ $l['report_info_profile'] = "Perfil de {1}";
 $l['report_info_reputation'] = "<a href=\"{1}\">Reputación</a> de {2}";
 $l['report_info_rep_profile'] = "<br /><span class=\"smalltext\">En el perfil de {1}</span>";
 $l['report_info_lastreporter'] = "{1}<br />por {2}";
+
+$l['page_selected'] = "Los <strong>{1}</strong> reportes sin leer de esta página están seleccionados.";
+$l['all_selected'] = "Los <strong>{1}</strong> reportes sin leer están seleccionados.";
+$l['select_all'] = "Seleccionar los <strong>{1}</strong> reportes sin leer.";
+$l['clear_selection'] = "Limpiar selección.";
 
 $l['moderator_notes'] = "Notas de moderador";
 $l['notes_public_all'] = "Estas notas son visibles para todos los moderadores.";
@@ -95,7 +101,6 @@ $l['action'] = "Acción";
 $l['all_moderators'] = "Todos los moderadores";
 $l['ip'] = "Dirección IP";
 $l['info_on_ip'] = "Información sobre esta dirección IP";
-$l['search_ip_sfs']  = "Buscar está IP en Stop Forum Spam";
 $l['information']  = "Información";
 $l['filter_modlogs'] = "Filtrar historial de moderación";
 $l['forum'] = "Foro";

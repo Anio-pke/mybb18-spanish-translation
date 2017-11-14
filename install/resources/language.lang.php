@@ -60,7 +60,7 @@ $l['mybb_already_installed'] = "<p>Bienvenido al asistente de instalación de My
 
 $l['mybb_incorrect_folder'] = "<div class=\"border_wrapper upgrade_note\" style=\"padding: 4px;\">
 	<h3>MyBB ha detectado que está ejecutándose desde el directorio \"Upload\".</h3>
-	<p>Esto no está mal, pero se recomienda subir el contenido del directorio \"Upload\" y no el directorio en si.<br /><br />Para más información visita <a href=\"https://docs.mybb.com/1.8/install/#uploading-files\" target=\"_blank\">MyBB Docs</a>.</p>
+	<p>Esto no está mal, pero se recomienda subir el contenido del directorio \"Upload\" y no el directorio en si.<br /><br />Para más información visita <a href=\"https://docs.mybb.com/1.8/install/#uploading-files\" target=\"_blank\" rel=\"noopener\">MyBB Docs</a>.</p>
 </div>";
 
 $l['welcome_step'] = '<p>Bienvenido al asistente de instalación de MyBB {1}. Este asistente instalará y configurará una copia de MyBB en tu servidor.</p>
@@ -76,7 +76,7 @@ $l['welcome_step'] = '<p>Bienvenido al asistente de instalación de MyBB {1}. Es
 </ul>
 <p>Después de que cada paso esté completado, pulsa "Siguiente" para continuar.</p>
 <p>Pulsa "Siguiente" para ver el acuerdo de licencia de MyBB.</p>
-<p><input type="checkbox" name="allow_anonymous_info" value="1" id="allow_anonymous" checked="checked" /> <label for="allow_anonymous"> Enviar estadísticas anónimas de las especificaciones de tu servidor al Grupo MyBB</label> (<a href="https://docs.mybb.com/1.8/install/anonymous-statistics/" style="color: #555;" target="_blank"><small>¿Qué infomación se envía?</small></a>)</p>';
+<p><input type="checkbox" name="allow_anonymous_info" value="1" id="allow_anonymous" checked="checked" /> <label for="allow_anonymous"> Enviar estadísticas anónimas de las especificaciones de tu servidor al Grupo MyBB</label> (<a href="https://docs.mybb.com/1.8/install/anonymous-statistics/" style="color: #555;" target="_blank" rel="noopener"><small>¿Qué infomación se envía?</small></a>)</p>';
 
 $l['license_step'] = '<div class="license_agreement">
 {1}
@@ -142,14 +142,14 @@ $l['req_step_span_pass'] = '<span class="pass">{1}</span>';
 $l['req_step_error_box'] = '<p><strong>{1}</strong></p>';
 $l['req_step_error_phpversion'] = 'MyBB requiere PHP 5.2.0 o posterior para ejecutarse. Actualmente tienes instalado {1}.';
 $l['req_step_error_dboptions'] = 'MyBB requiere una o más extensiones de base de datos para instalarse. El servidor avisa de que ninguna está disponible.';
-$l['req_step_error_xmlsupport'] = 'MyBB requiere PHP con soporte XML Data Handling. Por favor, visita <a href="http://www.php.net/xml" target="_blank">PHP.net</a> para más información.';
-$l['req_step_error_configdefaultfile'] = 'El archivo de configuración (inc/config.default.php) no puede ser renombrado. Por favor, renómbralo manualmente de <u>config.default.php</u> a <u>config.php</u> para permitir la escritura en él, o contacta con el <a href="https://mybb.com/support" target="_blank">soporte de MyBB.</a>';
-$l['req_step_error_configfile'] = 'El archivo de configuración (inc/config.php) no tiene permisos de escritura. Por favor, ajusta los permisos <a href="https://docs.mybb.com/1.8/administration/security/file-permissions" target="_blank">chmod</a> para permitir escribir en él.';
-$l['req_step_error_settingsfile'] = 'El archivo de opciones (inc/settings.php) no tiene permisos de escritura. Por favor, ajusta los permisos <a href="https://docs.mybb.com/1.8/administration/security/file-permissions" target="_blank">chmod</a> para permitir escribir en él.';
-$l['req_step_error_cachedir'] = 'El directorio cache (cache/) no tiene permisos de escritura. Por favor, ajusta los permisos <a href="https://docs.mybb.com/1.8/administration/security/file-permissions" target="_blank">chmod</a> para permitir escribir en él.';
-$l['req_step_error_uploaddir'] = 'El directorio de subidas (uploads/) no tiene permisos de escritura. Por favor, ajusta los permisos <a href="https://docs.mybb.com/1.8/administration/security/file-permissions" target="_blank">chmod</a> para permitir escribir en él.';
-$l['req_step_error_avatardir'] = 'El directorio de avatares (uploads/avatars/) no tiene permisos de escritura. Por favor, ajusta los permisos <a href="https://docs.mybb.com/1.8/administration/security/file-permissions" target="_blank">chmod</a> para permitir escribir en él.';
-$l['req_step_error_cssddir'] = 'El directorio css (css/) no tiene permisos de escritura. Por favor, ajusta los permisos <a href="https://docs.mybb.com/1.8/administration/security/file-permissions" target="_blank">chmod</a> para permitir escribir en él.';
+$l['req_step_error_xmlsupport'] = 'MyBB requiere PHP con soporte XML Data Handling. Por favor, visita <a href="http://www.php.net/xml" target="_blank" rel="noopener">PHP.net</a> para más información.';
+$l['req_step_error_configdefaultfile'] = 'El archivo de configuración (inc/config.default.php) no puede ser renombrado. Por favor, renómbralo manualmente de <u>config.default.php</u> a <u>config.php</u> para permitir la escritura en él, o contacta con el <a href="https://mybb.com/support" target="_blank" rel="noopener">soporte de MyBB.</a>';
+$l['req_step_error_configfile'] = 'El archivo de configuración (inc/config.php) no tiene permisos de escritura. Por favor, ajusta los permisos <a href="https://docs.mybb.com/1.8/administration/security/file-permissions" target="_blank" rel="noopener">chmod</a> para permitir escribir en él.';
+$l['req_step_error_settingsfile'] = 'El archivo de opciones (inc/settings.php) no tiene permisos de escritura. Por favor, ajusta los permisos <a href="https://docs.mybb.com/1.8/administration/security/file-permissions" target="_blank" rel="noopener">chmod</a> para permitir escribir en él.';
+$l['req_step_error_cachedir'] = 'El directorio cache (cache/) no tiene permisos de escritura. Por favor, ajusta los permisos <a href="https://docs.mybb.com/1.8/administration/security/file-permissions" target="_blank" rel="noopener">chmod</a> para permitir escribir en él.';
+$l['req_step_error_uploaddir'] = 'El directorio de subidas (uploads/) no tiene permisos de escritura. Por favor, ajusta los permisos <a href="https://docs.mybb.com/1.8/administration/security/file-permissions" target="_blank" rel="noopener">chmod</a> para permitir escribir en él.';
+$l['req_step_error_avatardir'] = 'El directorio de avatares (uploads/avatars/) no tiene permisos de escritura. Por favor, ajusta los permisos <a href="https://docs.mybb.com/1.8/administration/security/file-permissions" target="_blank" rel="noopener">chmod</a> para permitir escribir en él.';
+$l['req_step_error_cssddir'] = 'El directorio css (css/) no tiene permisos de escritura. Por favor, ajusta los permisos <a href="https://docs.mybb.com/1.8/administration/security/file-permissions" target="_blank" rel="noopener">chmod</a> para permitir escribir en él.';
 $l['req_step_error_tablelist'] = '<div class="error">
 <h3>Error</h3>
 <p>La comprobación de requisitos de MyBB ha fallado por las siguientes razones. La instalación de MyBB no puede continuar porque no cumples todos los requisitos. Por favor, corrige los errores e inténtalo de nuevo:</p>
@@ -240,7 +240,7 @@ $l['config_step_table'] = '<p>Ahora es el momento de configurar los ajustes bás
 					<td class="last alt_col"><input type="text" class="text_input" name="websiteurl" id="websiteurl" value="{4}" /></td>
 				</tr>
 				<tr>
-					<th colspan="2" class="first last">Ajustes de cookie <a title="¿Qué es esto?" target="_blank" href="https://docs.mybb.com/1.8/development/cookies">(?)</a></th>
+					<th colspan="2" class="first last">Ajustes de cookie <a title="¿Qué es esto?" target="_blank"  rel="noopener" href="https://docs.mybb.com/1.8/development/cookies">(?)</a></th>
 				</tr>
 				<tr>
 					<td class="first"><label for="cookiedomain">Dominio de cookie:</label></td>
@@ -337,10 +337,10 @@ $l['done_step_admincreated'] = '<p>Creando cuenta de administrador...';
 $l['done_step_adminoptions'] = '<p>Construyendo los permisos del administrador...';
 $l['done_step_cachebuilding'] = '<p>Construyendo la caché de los datos...';
 $l['done_step_success'] = '<p class="success">Tu copia de MyBB se ha instalado y configurado correctamente.</p>
-<p>El grupo de MyBB te agradece que hayas instalado nuestro software y esperamos que entres en los foros de la comunidad si necesitas ayuda o quieres ser parte de la <a href="https://community.mybb.com/" target="_blank">comunidad de MyBB</a>.</p>';
+<p>El grupo de MyBB te agradece que hayas instalado nuestro software y esperamos que entres en los foros de la comunidad si necesitas ayuda o quieres ser parte de la <a href="https://community.mybb.com/" target="_blank" rel="noopener">comunidad de MyBB</a>.</p>';
 $l['done_step_locked'] = '<p>El instalador se ha bloqueado. Para desbloquear el instalador elimina el archivo \'lock\' de este directorio.</p><p>Ahora puedes ver tu nueva copia de <a href="../index.php">MyBB</a> o entrar al <a href="../admin/index.php">panel de administración</a>.</p>';
 $l['done_step_dirdelete'] = '<p><strong><span style="color:red">Por favor, elimina este directorio antes de utilizar tu copia de MyBB.</span></strong></p>';
-$l['done_whats_next'] = '<div class="error"><p><strong>¿Migrando desde otro software de foros?</strong></p><p>MyBB ofrece un sistema llamado "merge system" para mezclar facilmente múltiples foros desde otros software de foros, permitiendo una conversión sencilla a MyBB. ¡Si estás interesado en cambiar a vas en la buena dirección! Revisa <a target="_blank" href="https://mybb.com/download/merge-system">Merge System</a> para más información.</p>';
+$l['done_whats_next'] = '<div class="error"><p><strong>¿Migrando desde otro software de foros?</strong></p><p>MyBB ofrece un sistema llamado "merge system" para mezclar facilmente múltiples foros desde otros software de foros, permitiendo una conversión sencilla a MyBB. ¡Si estás interesado en cambiar a vas en la buena dirección! Revisa <a target="_blank" rel="noopener" href="https://mybb.com/download/merge-system">Merge System</a> para más información.</p>';
 
 /* UPGRADE LANGUAGE VARIABLES */
 $l['upgrade'] = "Actualización";
@@ -357,7 +357,7 @@ $l['upgrade_removedir'] = 'Por favor, elimina este directorio antes de explorar 
 $l['upgrade_congrats'] = "<p>Enhorabuena, tu copia de MyBB se ha actualizado a {1}.</p>{2}<p><strong>¿Y ahora?</strong></p><ul><li>Por favor, usa la herramienta 'Buscar Actualizadas' en el panel de administración para buscar las plantillas personalizadas que se han actualizado. Edita las que contengan cambios o vuelve a las originales.</li><li>Asegúrate de que tu foro está totalmente funcional.</li></ul>";
 $l['upgrade_template_reversion'] = "Advertencia revertir plantillas";
 $l['upgrade_template_reversion_success'] = "<p>Todas las modificaciones necesarias para actualizar tu foro se han realizado correctamente.</p><p>Esta actualización necesita que las plantillas regresen a las originales contenidas en este paquete, así que por favor copia cualquier plantilla personalizada antes de continuar.";
-$l['upgrade_send_stats'] = "<p><input type=\"checkbox\" name=\"allow_anonymous_info\" value=\"1\" id=\"allow_anonymous\" checked=\"checked\" /> <label for=\"allow_anonymous\"> Enviar estadísticas anónimas de las especificaciones de tu servidor al grupo MyBB</label> (<a href=\"https://docs.mybb.com/1.8/install/anonymous-statistics/\" style=\"color: #555;\" target=\"_blank\"><small>¿Qué infomación se envía?</small></a>)</p>";
+$l['upgrade_send_stats'] = "<p><input type=\"checkbox\" name=\"allow_anonymous_info\" value=\"1\" id=\"allow_anonymous\" checked=\"checked\" /> <label for=\"allow_anonymous\"> Enviar estadísticas anónimas de las especificaciones de tu servidor al grupo MyBB</label> (<a href=\"https://docs.mybb.com/1.8/install/anonymous-statistics/\" style=\"color: #555;\" target=\"_blank\" rel=\"noopener\"><small>¿Qué infomación se envía?</small></a>)</p>";
 
 $l['please_login'] = "Por favor, inicia sesión";
 $l['login'] = "Iniciar sesión";

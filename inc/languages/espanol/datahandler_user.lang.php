@@ -16,7 +16,7 @@ $l['userdata_username_exists'] = 'El nombre de usuario que has introducido ya ex
 $l['userdata_invalid_password_length'] = 'La contraseña que has introducido tiene una longitud inválida. Por favor, introduce una contraseña entre {1} y {2} caracteres.';
 $l['userdata_no_complex_characters'] = 'La contraseña que has introducido no contiene uno o más caracteres complejos. Por favor, introduce uno o más caracteres complejos.';
 $l['userdata_passwords_dont_match'] = 'La contraseña que has introducido en la confirmación no coincide con la original. Por favor, confirma correctamente tu contraseña.';
-$l['userdata_bad_password_security'] = 'La contraseña que has introducido es igual a tu nombre de usuario o a tu email. Por favor, introduce una contraseña más segura.';
+$l['userdata_bad_password_security'] = 'La contraseña que has introducido es similar a tu nombre de usuario o a tu email. Por favor, introduce una contraseña más segura.';
 
 $l['userdata_missing_email'] = 'No has introducido una dirección de email. Por favor, introduce una.';
 $l['userdata_invalid_email_format'] = 'La dirección de email que has introducido es inválida. Por favor, introduce un email válido.';

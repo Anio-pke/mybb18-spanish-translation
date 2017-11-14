@@ -15,6 +15,7 @@ $l['prune_mod_logs_desc'] = "Aquí puedes limpiar el historial utilizando los cr
 $l['no_modlogs'] = "Actualmente no hay entradas en el historial con los criterios seleccionados.";
 
 $l['username'] = "Usuario";
+$l['na_deleted'] = "N/A - Eliminado";
 $l['date'] = "Fecha";
 $l['action'] = "Acción";
 $l['information'] = "Información";

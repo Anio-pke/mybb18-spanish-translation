@@ -74,7 +74,7 @@ $l['pm_folders'] = "Carpetas de mensajes privados";
 $l['existing_folders'] = "Carpetas existentes";
 $l['edit_folder_note'] = "Aquí puedes cambiar los nombres actuales de tus carpetas de mensajes privados. Para borrar una carpeta, borra su nombre. Algunas carpetas no se pueden borrar.<br /><strong>Nota: Borrar una carpeta también hace que se borren los mensajes en ella.</strong>";
 $l['new_folders'] = "Agregar nuevas carpetas";
-$l['add_foldes_note'] = "Aquí puedes crear nuevas carpetas. No es necesario que llenes todos los cuadros de texto.";
+$l['add_folders_note'] = "Aquí puedes crear nuevas carpetas. No es necesario que llenes todos los cuadros de texto.";
 $l['update_folders'] = "Actualizar carpetas";
 $l['cannot_be_removed'] = "No se puede eliminar";
 $l['reached_warning'] = "Cuidado. Has alcanzado tu límite máximo de mensajes.";
@@ -199,5 +199,3 @@ $l['quickreply_signature'] = "Firma";
 $l['quickreply_disable_smilies'] = "Desactivar iconos gestuales";
 $l['quickreply_save_copy'] = "Guardar una copia";
 $l['quickreply_read_receipt'] = "<strong>Solicitar recibo de lectura</strong>";
-
-?>

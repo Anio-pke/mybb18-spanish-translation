@@ -88,7 +88,7 @@ $l['agreement_4'] = "Como usuario acepta que toda la información que ingrese se
 $l['agreement_5'] = "Al registrarse usted aceptará todas estas condiciones y cualquier otra regla que el administrador disponga.";
 $l['registration'] = "Registro";
 $l['required_fields'] = "Campos requeridos";
-$l['complex_password'] = "Contraseña <acronym title=\"Una contraseña que tenga más de {1} caracteres y contenga una letra minúscula, una mayúcula y un número.\">compleja</acronym>:";
+$l['complex_password'] = "Contraseña <abbr title=\"Una contraseña que tenga más de {1} caracteres y contenga una letra minúscula, una mayúcula y un número.\">compleja</abbr>:";
 $l['confirm_email'] = "Confirmar email:";
 $l['optional_fields'] = "Campos opcionales";
 $l['website_url'] = "URL de tu sitio web:";
@@ -105,7 +105,7 @@ $l['email_notify'] = "Suscribirte automáticamente a los temas en los que partic
 $l['receive_pms'] = "Recibir mensajes privados de otros usuarios.";
 $l['pm_notice'] = "Alertarme con un aviso cuando reciba un mensaje privado.";
 $l['email_notify_newpm'] = "Notificarme por email cuando reciba un mensaje privado.";
-$l['time_offset'] = "Zona horaria (Correción <acronym title=\"Horario de verano\">DST</acronym> excluída):";
+$l['time_offset'] = "Zona horaria (Correción <abbr title=\"Horario de verano\">DST</abbr> excluída):";
 $l['time_offset_desc'] = "Si vives en una zona de horario diferente a la cual este foro esta situado, puedes seleccionarla en la lista de abajo.";
 $l['dst_correction'] = "Correción horario de verano:";
 $l['dst_correction_auto'] = "Detectar la correción DST";
@@ -113,7 +113,7 @@ $l['dst_correction_enabled'] = "Utilizar la corrección DST";
 $l['dst_correction_disabled'] = "No utilizar la corrección DST";
 $l['redirect_registered_coppa_activate'] = "Gracias por registrarte en {1}, {2}. Tu cuenta se ha creado correctamente; sin embargo, si el dueño de esta cuenta es menor de 13 años, debe tener el permiso de sus padres para utilizar esta cuenta.<br /><br />Los padres o tutores legales deben descargar, rellenar y enviar una copia de nuestro <a href=\"member.php?action=coppa_form\">fomulario de permiso COPPA</a>.<br /><br />Una vez recibamos el formulario, la cuenta se activará.";
 $l['coppa_compliance'] = "Formulario COPPA";
-$l['coppa_desc'] = "Para registrarte en estos foros, necesitamos que verifiques tu edad con <a href=\"http://coppa.org/\" title=\"Children's Online Privacy Protection Act\" target=\"_blank\">COPPA</a>. Por favor, introduce tu edad de nacimiento debajo.<br /><br />Si tienes menos de 13 años, necesitaremos el permiso de tus padres. Los padres o tutores legales deben descargar, rellenar y enviar una copia de nuestro <a href=\"member.php?action=coppa_form\">formulario de permiso COPPA</a>.";
+$l['coppa_desc'] = "Para registrarte en estos foros, necesitamos que verifiques tu edad con <a href=\"http://coppa.org/\" title=\"Children's Online Privacy Protection Act\" target=\"_blank\" rel=\"noopener\">COPPA</a>. Por favor, introduce tu edad de nacimiento debajo.<br /><br />Si tienes menos de 13 años, necesitaremos el permiso de tus padres. Los padres o tutores legales deben descargar, rellenar y enviar una copia de nuestro <a href=\"member.php?action=coppa_form\" target=\"_blank\" rel=\"noopener\">formulario de permiso COPPA</a>.";
 $l['hide_dob'] = "Podrás escoger ocultar tu edad y tu fecha de nacimiento editando tu perfil después de registrarte.";
 $l['signature'] = "Firma:";
 $l['continue_registration'] = "Continuar con el registro";
@@ -135,7 +135,7 @@ $l['phone_no'] = "Nº de teléfono:";
 $l['coppa_parent_agreement'] = "Entiendo que la información que envío es cierta, cualquier cambio en la información podrá ser modificada en un futuro introduciendo la contraseña y esta cuenta podrá ser eliminada en caso de una petición.";
 
 $l['coppa_agreement_1'] = "Los usuario menores de 13 años deben tener el permiso de sus padres o de un tutor legal para registrarse en {1}.";
-$l['coppa_agreement_2'] = "El padre o tutor legal debe descargar, rellenar y enviar una copia de nuestro <a href=\"member.php?action=coppa_form\">formulario de permiso COPPA</a> antes de confirmar tu membresía.";
+$l['coppa_agreement_2'] = "El padre o tutor legal debe descargar, rellenar y enviar una copia de nuestro <a href=\"member.php?action=coppa_form\" target=\"_blank\" rel=\"noopener\">formulario de permiso COPPA</a> antes de confirmar tu membresía.";
 $l['coppa_agreement_3'] = "Si, quieres puedes comenzar el registro, sin embargo, tu cuenta estará inaccesible mientras no se reciba el formulario con el permiso.";
 
 $l['error_invalid_birthday'] = 'La fecha de nacimiento que has introducido es inválida. Por favor, introduce una fecha correcta.';
@@ -176,8 +176,6 @@ $l['edit_usernotes'] = "Editar notas en el panel de moderación";
 $l['no_usernotes'] = "Actualmente no hay notas sobre este usuario.";
 $l['view_all_notes'] = "Ver todas las notas";
 $l['view_notes_for'] = "Ver notas de {1}";
-$l['registration_ip'] = "Registrado con la IP:";
-$l['last_known_ip'] = "Última IP conocida:";
 $l['reputation'] = "Reputación:";
 $l['reputation_vote'] = "Votar";
 $l['reputation_details'] = "Detalles";
@@ -224,6 +222,7 @@ $l['js_validator_no_security_question'] = "Debes responder a la pregunta de segu
 $l['js_validator_password_matches'] = "Las contraseñas introducidas no coinciden";
 $l['js_validator_password_complexity'] = "Las contraseñas deben contener uno o más símbolos";
 $l['js_validator_password_length'] = "Tu contraseña debe tener más de {1} caracteres";
+$l['js_validator_bad_password_security'] = 'La contraseña que has introducido es similar a tu nombre de usuario o a tu email. Por favor, introduce una contraseña más segura.';
 $l['js_validator_not_empty'] = "Debes seleccionar o introducir un valor en este campo";
 $l['js_validator_checking_username'] = "Comprobando si el usuario está disponible";
 $l['js_validator_username_length'] = "Los nombres de usuario deben tener entre {1} y {2} caracteres";

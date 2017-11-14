@@ -84,7 +84,7 @@ $l['error_cannot_edit_default'] = "Los ajustes y grupos de ajustes por defecto n
 $l['error_cannot_edit_php'] = "Este es un tipo de ajuste especial que no puede ser editado.";
 $l['error_ajax_search'] = "Ha ocurrido un error al buscar ajustes:";
 $l['error_ajax_unknown'] = "Ha ocurrido un error desconicido al buscar ajustes.";
-$l['error_chmod_settings_file'] = "El archivo de configuración \"./inc/settings.php\" no tiene permisos de escritura. Por favor configura el ajuste CHMOD a 777.<br />Para más información sobre los ajustes CHMOD, visita <a href=\"https://docs.mybb.com/1.8/administration/security/file-permissions\" target=\"_blank\">MyBB Docs</a>.";
+$l['error_chmod_settings_file'] = "El archivo de configuración \"./inc/settings.php\" no tiene permisos de escritura. Por favor configura el ajuste CHMOD a 777.<br />Para más información sobre los ajustes CHMOD, visita <a href=\"https://docs.mybb.com/1.8/administration/security/file-permissions\" target=\"_blank\" rel=\"noopener\">MyBB Docs</a>.";
 
 $l['success_setting_added'] = "El ajuste se ha creado correctamente.";
 $l['success_setting_updated'] = "El ajuste se ha actualizado correctamente.";
@@ -163,6 +163,7 @@ $l['setting_captchaimage_0'] = "Sin CAPTCHA";
 $l['setting_captchaimage_1'] = "MyBB CAPTCHA";
 $l['setting_captchaimage_2'] = "reCAPTCHA";
 $l['setting_captchaimage_4'] = "NoCAPTCHA reCAPTCHA";
+$l['setting_captchaimage_5'] = "reCAPTCHA invisible";
 $l['setting_captchapublickey'] = "Clave pública reCAPTCHA";
 $l['setting_captchapublickey_desc'] = "Tu clave pública reCAPTCHA.";
 $l['setting_captchaprivatekey'] = "Clave privada reCAPTCHA";
@@ -525,6 +526,8 @@ $l['setting_alloweditreason'] = "Permitir razón de edición";
 $l['setting_alloweditreason_desc'] = "¿Quieres permitir a tus usuarios la posibilidad de agregar una razón opcional de por qué editan sus mensajes?";
 $l['setting_soft_delete'] = "Activar borrado suave";
 $l['setting_soft_delete_desc'] = "Si lo activas, esto te permitirá restaurar los mensajes y temas eliminados por los usuarios. En otro caso, se eliminarán permanentemente.";
+$l['setting_announcementshtml'] = "Permitir HTML en los anuncios";
+$l['setting_announcementshtml_desc'] = "¿Permitir a los moderadores usar HTML en los anuncios?";
 /**************************************************************************************************************************************************/
 
 // Grupo 12 attachments
@@ -803,7 +806,7 @@ $l['setting_secure_smtp_0'] = "Sin encriptación";
 $l['setting_secure_smtp_1'] = "Encriptación SSL";
 $l['setting_secure_smtp_2'] = "Encriptación TLS";
 $l['setting_mail_parameters'] = "Parámetros adicionales para mail() de PHP";
-$l['setting_mail_parameters_desc'] = "Este ajuste te permite establecer otros parámetros para la función mail() de PHP. <br />Solo necesario si has seleccionado 'PHP mail' en tipo de envío. <a href=\"http://php.net/function.mail\" target=\"_blank\">Más información</a>";
+$l['setting_mail_parameters_desc'] = "Este ajuste te permite establecer otros parámetros para la función mail() de PHP. <br />Solo necesario si has seleccionado 'PHP mail' en tipo de envío. <a href=\"http://php.net/function.mail\" target=\"_blank\" rel=\"noopener\">Más información</a>";
 $l['setting_mail_logging'] = "Guardar envíos de correo";
 $l['setting_mail_logging_desc'] = "Este ajuste te permite almacenar todos los correos salientes enviados a través de la función 'Enviar tema a un amigo'. En muchos países es ilegal almacenar todo el contenido.";
 $l['setting_mail_logging_0'] = "Desactivar guardado";
@@ -848,7 +851,7 @@ $l['setting_purgespammerbangroup_desc'] = "Escoge el grupo de usuario en el que 
 $l['setting_purgespammerbanreason'] = "Razón de suspensión";
 $l['setting_purgespammerbanreason_desc'] = "Razón que se usará para suspender al usuario.";
 $l['setting_purgespammerapikey'] = "Clave API Stop Forum Spam";
-$l['setting_purgespammerapikey_desc'] = "Para poder enviar información sobre spammers a la base de datos Stop Forum Spam, necesitas una clave API. Puedes conseguir una <a href=\"https://www.stopforumspam.com/forum/register.php\" target=\"_blank\">aquí</a>. Cuando ya tengas la clave, pégala en la caja de abajo.";
+$l['setting_purgespammerapikey_desc'] = "Para poder enviar información sobre spammers a la base de datos Stop Forum Spam, necesitas una clave API. Puedes conseguir una <a href=\"https://www.stopforumspam.com/forum/register.php\" target=\"_blank\" rel=\"noopener\">aquí</a>. Cuando ya tengas la clave, pégala en la caja de abajo.";
 /**************************************************************************************************************************************************/
 
 //Grupo 27 stopforumspam

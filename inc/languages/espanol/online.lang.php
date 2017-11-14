@@ -79,7 +79,6 @@ $l['viewing_reputation_report2'] = "Viendo Reputación";
 $l['member_resendactivation'] = "Reenviando email de activación de cuenta";
 $l['member_lostpw'] = "Recuperando <a href=\"member.php?action=lostpw\">contraseña perdida</a>";
 $l['sending_thread'] = "Enviando tema a un amigo";
-$l['guest'] = "Invitado";
 $l['page'] = "Página";
 $l['users_online'] = "Quién esta en línea";
 $l['on_username'] = "Nombre de usuario";

@@ -133,8 +133,10 @@ $l['no_subscribe_notification'] = "Suscribir sin recibir notificaciones de las n
 $l['instant_email_subscribe'] = "Suscribir y recibir un email con las nuevas respuestas";
 $l['instant_pm_subscribe'] = "Suscribir y recibir un MP con las nuevas respuestas";
 
-$l['today'] = "<span title=\"{1}\">Hoy</span>";
-$l['yesterday'] = "<span title=\"{1}\">Ayer</span>";
+$l['today_rel'] = "<span title=\"{1}\">Hoy</span>";
+$l['yesterday_rel'] = "<span title=\"{1}\">Ayer</span>";
+$l['today'] = "Hoy";
+$l['yesterday'] = "Ayer";
 $l['error'] = "Mensaje del foro";
 
 $l['multipage_pages'] = "Páginas ({1}):";
@@ -351,7 +353,7 @@ $l['seconds_short'] = "s";
 $l['rel_in'] = "En ";
 $l['rel_ago'] = "Hace";
 $l['rel_less_than'] = "menos de ";
-$l['rel_time'] = "<span title=\"{5}{6}\">{1}{2} {3} {4}</span>";
+$l['rel_time'] = "{4} {1}{2} {3}";
 $l['rel_minutes_single'] = "minuto";
 $l['rel_minutes_plural'] = "minutos";
 $l['rel_hours_single'] = "hora";
@@ -569,6 +571,8 @@ $l['select2_searching'] = "Buscando…";
 
 $l['stopforumspam_error_decoding'] = 'Error decodificando los datos de StopForumSpam.com.';
 $l['stopforumspam_error_retrieving'] = 'Error cargando los datos de StopForumSpam.com.';
+$l['stopforumspam_invalid_email'] = 'Email inválido tras comprobar la API de StopForumSpam.com.';
+$l['stopforumspam_invalid_ip_address'] = 'IP inválida tras comprobar la API de StopForumSpam.com.';
 
 $l['sfs_error_username'] = 'Nombre de usuario';
 $l['sfs_error_ip'] = 'IP';

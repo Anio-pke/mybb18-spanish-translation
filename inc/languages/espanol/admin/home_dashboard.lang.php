@@ -37,7 +37,7 @@ $l['latest_mybb_announcements'] = "Últimos anuncios de MyBB";
 $l['no_announcements'] = "No hay noticias almacenadas. <a href=\"index.php?module=home&amp;action=version_check\">Comprobar actualizaciones</a>.";
 $l['your_version'] = "Tu versión";
 $l['latest_version'] = "Última versión";
-$l['update_forum'] = "Por favor, actualiza a la última versión de MyBB visitando la <a href=\"https://mybb.com\" target=\"_blank\">Web de MyBB</a>.";
+$l['update_forum'] = "Por favor, actualiza a la última versión de MyBB visitando la <a href=\"https://mybb.com\" target=\"_blank\" rel=\"noopener\">Web de MyBB</a>.";
 $l['read_more'] = "Leer más";
 
 $l['success_up_to_date'] = "Enhorabuena, tienes la última versión de MyBB.";
@@ -46,7 +46,7 @@ $l['error_out_of_date'] = "Tu versión de MyBB está obsoleta.";
 $l['error_communication'] = "Ha ocurrido un problema al comunicar con el servidor para comprobar la versión. Por favor, inténtalo de nuevo en unos minutos.";
 $l['error_fetch_news'] = "MyBB no ha sido capaz de cargar las últimas noticias desde la web de MyBB.";
 
-$l['news_description'] = "Las últimas noticias desde el <a href=\"https://blog.mybb.com/\" target=\"_blank\">Blog de MyBB</a>.";
+$l['news_description'] = "Las últimas noticias desde el <a href=\"https://blog.mybb.com/\" target=\"_blank\" rel=\"noopener\">Blog de MyBB</a>.";
 
 $l['admin_notes_public'] = "Estas notas son visibles para todos los administradores.";
 $l['admin_notes'] = "Notas de administrador";

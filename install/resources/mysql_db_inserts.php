@@ -111,10 +111,15 @@ $inserts[] = "INSERT INTO mybb_spiders (name,useragent) VALUES ('Alexa Internet'
 $inserts[] = "INSERT INTO mybb_spiders (name,useragent) VALUES ('Ask.com','Teoma');";
 $inserts[] = "INSERT INTO mybb_spiders (name,useragent) VALUES ('Baidu','Baiduspider');";
 $inserts[] = "INSERT INTO mybb_spiders (name,useragent) VALUES ('Yandex','YandexBot');";
-$inserts[] = "INSERT INTO mybb_spiders (name,useragent) VALUES ('Blekko','Blekkobot');";
 $inserts[] = "INSERT INTO mybb_spiders (name,useragent) VALUES ('Facebook','facebookexternalhit');";
 $inserts[] = "INSERT INTO mybb_spiders (name,useragent) VALUES ('Twitter','Twitterbot');";
 $inserts[] = "INSERT INTO mybb_spiders (name,useragent) VALUES ('Internet Archive','archive.org_bot');";
+$inserts[] = "INSERT INTO mybb_spiders (name,useragent) VALUES ('Discord','Discordbot');";
+$inserts[] = "INSERT INTO mybb_spiders (name,useragent) VALUES ('Applebot','Applebot');";
+$inserts[] = "INSERT INTO mybb_spiders (name,useragent) VALUES ('CheckHost','CheckHost');";
+$inserts[] = "INSERT INTO mybb_spiders (name,useragent) VALUES ('Pingdom','Pingdom.com_bot');";
+$inserts[] = "INSERT INTO mybb_spiders (name,useragent) VALUES ('DuckDuckGo','DuckDuckBot');";
+$inserts[] = "INSERT INTO mybb_spiders (name,useragent) VALUES ('UptimeRobot','UptimeRobot');";
 
 $inserts[] = "INSERT INTO mybb_templategroups (gid,prefix,title,isdefault) VALUES ('1','calendar','<lang:group_calendar>','1');";
 $inserts[] = "INSERT INTO mybb_templategroups (gid,prefix,title,isdefault) VALUES ('2','editpost','<lang:group_editpost>','1');";
@@ -164,4 +169,3 @@ $inserts[] = "INSERT INTO mybb_usertitles (utid, posts, title, stars, starimage)
 $inserts[] = "INSERT INTO mybb_usertitles (utid, posts, title, stars, starimage) VALUES (3, 50, 'Miembro', 3, '');";
 $inserts[] = "INSERT INTO mybb_usertitles (utid, posts, title, stars, starimage) VALUES (4, 250, 'Miembro Senior', 4, '');";
 $inserts[] = "INSERT INTO mybb_usertitles (utid, posts, title, stars, starimage) VALUES (5, 750, 'Escritor Friki', 5, '');";
-
