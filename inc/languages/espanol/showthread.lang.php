@@ -49,6 +49,7 @@ $l['you_voted'] = "* Ya has votado en esta opción.";
 $l['poll_closed'] = "Esta encuesta esta cerrada.";
 $l['poll_closes'] = "Esta encuesta se cerrará el: {1}";
 $l['already_voted'] = "Ya has votado en esta encuesta.";
+$l['no_voting_permission'] = "No tienes permiso para votar en esta encuesta.";
 $l['undo_vote'] = "Deshacer voto";
 $l['quick_reply'] = "Respuesta rápida";
 $l['message_note'] = "Escribe tu respuesta a este mensaje aquí.";
