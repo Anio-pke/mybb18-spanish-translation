@@ -17,6 +17,8 @@ $l['bad_word_desc'] = "Introduce la palabra que deseas filtrar. El '*' represent
 $l['bad_word_max'] = "Una palabra filtrada no puede superar los 100 caracteres.";
 $l['replacement'] = "Reemplazo";
 $l['replacement_desc'] = "Introduce la cadena que reemplazará a la palabra filtrada (Si se deja en blanco se mostrarán unos astericos)";
+$l['regex'] = "Expresión regular";
+$l['regex_desc'] = "Trata el campo \"Palabra\" como una expresión regular.";
 $l['replacement_word_max'] = "Una palabra de reemplazo no puede superar los 100 caracteres.";
 $l['error_replacement_word_invalid'] = "Una palabra de reemplazo no puede ser equivalente a la palabra filtrada.";
 

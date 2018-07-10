@@ -141,6 +141,8 @@ $l['setting_cookiepath'] = "Ruta de las cookies";
 $l['setting_cookiepath_desc'] = "Ruta en la que se estableceran las cookies. Recomendamos configurarlo para todos tus foros con una barra inclinada '/'.";
 $l['setting_cookieprefix'] = "Prefijo para cookie";
 $l['setting_cookieprefix_desc'] = "Añadir un prefijo a las cookies del MyBB. Esto es recomendable cuando deseas instalar múltiples copias de MyBB en un dominio o tienes otro software instalado que podría crear conflictos con los nombres de las cookies de MyBB. Si no se especifica uno, no se usará ningún prefijo.";
+$l['setting_cookiesamesiteflag'] = "Prefijo para cookie";
+$l['setting_cookiesamesiteflag_desc'] = "Las cookies de autenticación llevarán la bandera SameSite para evitar ataques CSRF. Mantenga esto deshabilitado si esperas solicitudes cross-origin POST.";
 $l['setting_cookiesecureflag'] = "Indicador de cookie segura";
 $l['setting_cookiesecureflag_desc'] = "Las cookies se pueden enviar con el indicador de cookie segura para evitar que se envíen a través de conexiones no cifradas. Debe activar esta opción sólo si su foro funciona correctamente bajo HTTPS.";
 $l['setting_showvernum'] = "Mostrar número de versión";
@@ -466,7 +468,7 @@ $l['setting_avatarresizing_disabled'] = "Desactivar esta función";
 $l['setting_avataruploadpath'] = "Ruta de avatares subidos";
 $l['setting_avataruploadpath_desc'] = "Ruta en la que se almacenarán los avatares subidos por los usuarios. Este directorio <b>debe tener chmod 777</b> (Escribible) para que las subidas funcionen.";
 $l['setting_allowremoteavatars'] = "Permitir avatares remotos";
-$l['setting_avataruploadpath_desc'] = "Activa esta opción para permitir avatares remotos. Nota: activar esta opción pude exponer la dirección IP de tu servidor.";
+$l['setting_allowremoteavatars_desc'] = "Activa esta opción para permitir avatares remotos. Nota: activar esta opción pude exponer la dirección IP de tu servidor.";
 $l['setting_customtitlemaxlength'] = "Longitud máxima para el título personalizado";
 $l['setting_customtitlemaxlength_desc'] = "Máximo número de caracteres para el título de usuario personalizado. Establecer como '0' para desactivar la limitación";
 $l['setting_allowaway'] = "¿Permitir el estado 'Ausente'?";
@@ -482,7 +484,7 @@ $l['setting_group_posting_desc'] = "Estas opciones controlan varios elementos re
 $l['setting_minmessagelength'] = "Longitud mínima de mensaje";
 $l['setting_minmessagelength_desc'] = "Número mínimo de caracteres para los mensajes.";
 $l['setting_maxmessagelength'] = "Longitud máxima de mensaje";
-$l['setting_maxmessagelength_desc'] = "Número máximo de caracteres para un mensaje. Introducir 0 permite una longitud ilimitada.<br />Esto debe configurarse según el tipo de columna de la tabla de los mensajes en la base de datos. A continuación se muestran las longitudes máximas para cada tipo de columna.<ul><li>TEXT: 65535 (por defecto)</li><li>MEDIUMTEXT: 16777215</li><li>LONGTEXT: 4294967295</li></ul>";
+$l['setting_maxmessagelength_desc'] = "Número máximo de caracteres para un mensaje. Introduce 0 para permitir la longitud máxima de tu base de datos.<br />Truco: Los usuarios de MySQL (max: 65535) pueden cambiar manualmente el tipo de campo de los mensajes de TEXT a MEDIUMTEXT (16777215) o LONGTEXT (4294967295) para obtener un límite mayor";
 $l['setting_mycodemessagelength'] = "¿Usar MyCode afecta a la longitud mínima de mensaje?";
 $l['setting_mycodemessagelength_desc'] = "¿Quieres que MyCode cuente para el límite cuando los usuarios usan MyCode en los mensajes?";
 $l['setting_postfloodcheck'] = "Comprobar envíos masivos de mensajes (Flood)";
@@ -886,8 +888,6 @@ $l['setting_group_contactdetails_desc'] = "Esta sección te permite cambiar los 
 //Ajustes
 $l['setting_allowicqfield'] = "Permitir el campo Número ICQ";
 $l['setting_allowicqfield_desc'] = "Selecciona los grupos de usuarios que tienen permitido usar el campo de contacto Número ICQ.";
-$l['setting_allowaimfield'] = "Permitir  el campo AIM";
-$l['setting_allowaimfield_desc'] = "Selecciona los grupos de usuarios que tienen permitido usar el campo de contacto AIM.";
 $l['setting_allowyahoofield'] = "Permitir  el campo Yahoo!";
 $l['setting_allowyahoofield_desc'] = "Selecciona los grupos de usuarios que tienen permitido usar el campo de contacto Yahoo!.";
 $l['setting_allowskypefield'] = "Permitir  el campo Skype";
@@ -908,3 +908,15 @@ $l['setting_statslimit'] = "Límite de estadísticas";
 $l['setting_statslimit_desc'] = "Número de temas que se mostrarán en la página de estadísticas para los de más respuestas y los más vistos. Establecer como '0' para desactivar.";
 $l['setting_statstopreferrer'] = "Mostrar top de recomendaciones en la página de estadísticas";
 $l['setting_statstopreferrer_desc'] = "Si quieres mostrar el top de recomendaciones en la página stats.php. Esto añade una consulta adicional.";
+/**************************************************************************************************************************************************/
+
+//Grupo 29 forumteam
+$l['setting_group_forumteam'] = "Equipo del foro";
+$l['setting_group_forumteam_desc'] = "Esta sección te permite controlar varios aspectos de la lista del equipo del foro (showteam.php), aspectos a considerar cuando se lista el equipo, y qué características activar o no.";
+//Ajustes
+$l['setting_enableshowteam'] = "Activar página de Equipo del foro";
+$l['setting_enableshowteam_desc'] = "Si quieres desactivar la página de Equipo del foro, establece esta opción a no.";
+$l['setting_showaddlgroups'] = "Mostrar grupos adicionales";
+$l['setting_showaddlgroups_desc'] = "Si la lista del equipo se completará teniendo en cuenta grupos adicionales.";
+$l['setting_showgroupleaders'] = "Mostrar líderes de grupo";
+$l['setting_showgroupleaders_desc'] = "Incluir líderes de grupo al mostrar la lista.";

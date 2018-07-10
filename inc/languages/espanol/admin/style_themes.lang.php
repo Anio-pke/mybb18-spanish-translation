@@ -189,6 +189,7 @@ $l['error_missing_stylesheet_name'] = "Por favor, introduce un nombre para esta 
 $l['error_missing_stylesheet_extension'] = "Esta hoja de estilo debe terminar con la extensión de archivo correcta, por ejemplo, {1}<em>.css</em>";
 $l['error_invalid_parent_theme'] = "El estilo padre no existe. Por favor, selecciona un estilo padre válido.";
 $l['error_invalid_templateset'] = "El set de plantillas no existe. Por favor, selecciona un set de plantillas válido.";
+$l['error_invalid_color'] = "El conjunto de colores definido \ "{1} \" tiene caracteres inválidos o no tiene el formato prescrito. Solo se permiten caracteres alfa-númericos para los nombres separados por '='.";
 $l['error_invalid_editortheme'] = "El editor de estilo seleccionado no existe. Por favor, selecciona un editor válido.";
 $l['error_inheriting_stylesheets'] = "No puedes eliminar este estilo porque otros estilos tienes hojas de estilo heredándolas de este.";
 $l['error_cannot_parse'] = "MyBB no puede abrir esta hoja de estilo con el editor simple. Solo se puede editar con el modo avanzado.";

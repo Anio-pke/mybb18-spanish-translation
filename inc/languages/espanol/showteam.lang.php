@@ -14,6 +14,7 @@ $l['lastvisit'] = "Última visita";
 $l['email'] = "Email";
 $l['pm'] = "MP";
 $l['mod_forums'] = "Foro(s)";
+$l['mod_groups'] = "Grupo(s)";
 $l['online'] = "En línea";
 $l['offline'] = "Desconectado";
 $l['away'] = "Ausente";
@@ -22,5 +23,5 @@ $l['group_leaders'] = "Líder(es)";
 $l['group_members'] = "Miembro(s)";
 
 $l['no_members'] = "No hay miembros en este grupo";
-
+$l['showteam_disabled'] = "La funcionalidad 'Equipo del foro' ha sido deshabilitada por el administrador.";
 $l['error_noteamstoshow'] = "No hay equipo del foro para mostrar.";

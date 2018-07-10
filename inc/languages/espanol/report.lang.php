@@ -26,7 +26,7 @@ $l['report_reason_other'] = "Otro";
 $l['success_report_voted'] = "Gracias por el reporte de este contenido.<br />Un miembro del equipo del foro lo comprobará pronto.";
 
 $l['error_report_length'] = "Por favor, proporciona una razón detallada para tu reporte.";
-$l['error_invalid_report'] = "Este contenido no existe o no puede ser reportado.";
+$l['error_invalid_report'] = "Este {1} no existe o no puede ser reportado.";
 $l['error_invalid_report_reason'] = "La razón seleccionada es inválida.";
 $l['error_comment_required'] = "Es necesario un comentario adicional para la razón seleccionada.";
 $l['error_report_duplicate'] = "Este contenido ya ha sido reportado por otro miembro.<br />También puedes reportar este contenido abajo.";

@@ -273,7 +273,7 @@ El equipo de {4}.
 Información para borrar la suscripción:
 
 Si ya no quieres recibir más notificaciones de nuevos temas en este foro, visita la siguiente dirección en tu navegador:
-{7}/usercp2.php?action=removesubscription&type=forum&fid={9}&my_post_key={10}
+{7}/usercp.php?action=removesubscription&type=forum&fid={9}&my_post_key={10}
 
 ------------------------------------------";
 
@@ -349,7 +349,7 @@ El equipo de {3}.
 Información para borrar la suscripción:
 
 Si ya no quieres recibir más notificaciones de respuestas a este tema, visita la siguiente dirección en tu navegador:
-{6}/usercp2.php?action=removesubscription&tid={8}&my_post_key={9}
+{6}/usercp.php?action=removesubscription&tid={8}&my_post_key={9}
 
 ------------------------------------------";
 $l['email_reachedpmquota'] = "{1},
@@ -494,7 +494,7 @@ Tal vez haya más respuestas a este tema pero no recibirás más notificaciones 
 Información para borrar la suscripción:
 
 Si ya no quieres recibir más notificaciones de respuestas a este tema, visita la siguiente dirección en tu navegador:
-[url]{5}/usercp2.php?action=removesubscription&tid={7}&my_post_key={8}[/url]
+[url]{5}/usercp.php?action=removesubscription&tid={7}&my_post_key={8}[/url]
 
 ------------------------------------------";
 

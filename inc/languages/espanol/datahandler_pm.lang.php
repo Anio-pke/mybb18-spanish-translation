@@ -10,6 +10,7 @@ $l['pmdata_too_long_subject'] = 'El título de tu mensaje privado es muy largo. 
 $l['pmdata_code_no_subject'] = '[sin título]';
 $l['pmdata_missing_subject'] = 'No has introducido el título del mensaje. Por favor, introduce un título.';
 $l['pmdata_missing_message'] = 'No has introducido el mensaje a enviar. Por favor, introduce un mensaje.';
+$l['pmdata_message_too_long'] = 'El mensaje es demasiado largo. Por favor, introduce un mensaje de menos de {1} caracteres (actualmente {2}).';
 $l['pmdata_invalid_recipients'] = "Uno o más de los destinatarios que has especificado no son válidos. Destinatarios inválidos: {1}";
 $l['pmdata_no_recipients'] = "No has introducido destinatarios a los que enviarle el mensaje. Debes introducir como mínimo un usuario en el campo 'Destinatario'.";
 $l['pmdata_too_many_recipients'] = "Solo puedes enviar mensajes a {1} usuarios al mismo tiempo.";

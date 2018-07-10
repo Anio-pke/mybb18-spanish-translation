@@ -9,7 +9,7 @@
 $l['boardstats'] = "Estadísticas del foro";
 $l['new_posts'] = "Foro que contiene mensajes nuevos";
 $l['no_new_posts'] = "Foro que no contiene mensajes nuevos";
-$l['forum_locked'] = "Foro cerrado";
+$l['forum_closed'] = "Foro cerrado";
 $l['forum_unapproved_posts_count'] = "Actualmente hay {1} mensajes rechazados en este foro.";
 $l['forum_unapproved_post_count'] = "Actualmente hay 1 mensaje rechazado en este foro.";
 $l['forum_unapproved_threads_count'] = "Actualmente hay {1} temas rechazados en este foro.";

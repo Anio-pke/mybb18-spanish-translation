@@ -10,23 +10,16 @@ $l['nav_helpdocs'] = "Documentos de ayuda";
 $l['nav_smilies'] = "Lista de iconos gestuales";
 $l['nav_syndication'] = "Sindicación del ultimo tema (RSS)";
 
-$l['aol_im'] = "AOL IM";
 $l['skype'] = "Skype";
 $l['yahoo_im'] = "Yahoo!";
 $l['skype_center'] = "Centro Skype";
 $l['chat_on_skype'] = "Charlar con {1} en Skype";
 $l['call_on_skype'] = "Llamada a {1} en Skype";
 $l['yahoo_center'] = "Centro Yahoo!";
-$l['send_y_message'] = "Enviar a {1} un mensaje de Yahoo!.";
-$l['view_y_profile'] = "Ver el perfil Yahoo! de {1}.";
-$l['aim_center'] = "Centro de AOL IM";
 
-$l['download_aim'] = "Descargar AIM";
-$l['aim_remote'] = "AIM Remoto";
 $l['send_me_instant'] = "Enviarme un mensaje instantáneo";
 $l['add_me_buddy_list'] = "Agregarme a tu lista de amigos";
 $l['add_remote_to_page'] = "Añadir remoto a tu página";
-$l['download_aol_im'] = "Descargar AOL instant messenger";
 
 $l['buddy_list'] = "Lista de amigos";
 $l['online'] = "En línea";

@@ -40,7 +40,6 @@ $l['search_criteria'] = "Criterios de búsqueda";
 $l['begins_with'] = "empieza por";
 $l['username_contains'] = "contiene";
 $l['search_website'] = "URL sitio web";
-$l['search_aim'] = "AIM";
 $l['search_skype'] = "Skype";
 $l['search_google'] = "Google Hangouts";
 $l['search_yahoo'] = "Yahoo! Messenger";
