@@ -8,7 +8,7 @@
 	<scheme><![CDATA[leaf=Hoja]]></scheme>
 	<scheme><![CDATA[night=Noche]]></scheme>
 	<scheme><![CDATA[sun=Sol]]></scheme>
-	<scheme><![CDATA[twilight=Crepúsculo]]></scheme>
+	<scheme><![CDATA[twilight=Crepusculo]]></scheme>
 	<scheme><![CDATA[water=Agua]]></scheme>
 	<stylesheets>
 		<stylesheet name="color_black.css" attachedto="black" version="1800"><![CDATA[a:link,
