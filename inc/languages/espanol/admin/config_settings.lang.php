@@ -69,6 +69,11 @@ $l['settings_search'] = "Buscar ajustes";
 $l['confirm_setting_group_deletion'] = "¿Estás seguro de querer eliminar este grupo de ajustes?";
 $l['confirm_setting_deletion'] = "¿Estás seguro de querer eliminar este ajuste?";
 
+$l['error_format_dimension'] = "El formato de {1} es inválido.";
+$l['error_field_postmaxavatarsize'] = "Dimensiones máximas del avatar";
+$l['error_field_useravatardims'] = "Dimensiones por defecto del avatar";
+$l['error_field_maxavatardims'] = "Dimensiones máximas del avatar";
+$l['error_field_memberlistmaxavatarsize'] = "Dimensiones máximas al mostrar el avatar";
 $l['error_missing_title'] = "No has introducido un título para este ajuste";
 $l['error_missing_group_title'] = "No has introducido un título para este grupo de ajustes";
 $l['error_invalid_gid'] = "No has seleccionado un grupo válido para este ajuste";
@@ -333,7 +338,7 @@ $l['setting_postsperpage_desc'] = "Número de mensajes que se muestran por cada 
 $l['setting_userpppoptions'] = "Opciones seleccionables de mensajes por página";
 $l['setting_userpppoptions_desc'] = "Si quieres permitir a los usuarios elegir cuántos mensajes quieren ver por página que se muestran en un tema, introduce las opciones que quieras permitir separadas con comas. Si prefires no permitir que escojan el número de mensajes por página, déjalo en blanco.";
 $l['setting_postmaxavatarsize'] = "Dimensión máxima del avatar en los mensajes";
-$l['setting_postmaxavatarsize_desc'] = "La dimensión máxima que pueden tener los avatares cuando se muestran en los mensajes. Si un avatar es muy grande se redimensionará automáticamente.";
+$l['setting_postmaxavatarsize_desc'] = "La dimensión máxima que pueden tener los avatares cuando se muestran en los mensajes (ancho y alto separados por 'x' o '|'). Si un avatar es muy grande se redimensionará automáticamente.";
 $l['setting_threadreadcut'] = "Temas leídos en la base de datos (Días)";
 $l['setting_threadreadcut_desc'] = "Número de días que quieres almacenar los temas leídos en la base de datos. Para foros grandes, se recomienda no utilizar un número muy grande o el foro se ralentizará. Introducir 0 para desactivar.";
 $l['setting_threadusenetstyle'] = "Usar modo compacto";
@@ -446,7 +451,7 @@ $l['setting_hidewebsite_desc'] = "Selecciona los grupos de usuario a los que se 
 $l['setting_useravatar'] = "Avatar por defecto";
 $l['setting_useravatar_desc'] = "Si el usuario no establece un avatar se utilizará esta imagen en su lugar. Si quieres utilizar una imagen diferente para los distintos estilos, por favor, utiliza <strong>{theme}</strong> para representar el directorio de imágenes para cada estilo.";
 $l['setting_useravatardims'] = "Dimensiones del avatar por defecto";
-$l['setting_useravatardims_desc'] = "Las dimensiones deben seguir este formato: ancho x alto (ej. 40|40).]";
+$l['setting_useravatardims_desc'] = "Las dimensiones deben seguir este formato, ancho y alto separatedos por 'x' o '|' (ej. 40|40 o 40x40).";
 $l['setting_useravatarrating'] = "Calificación de Gravatar";
 $l['setting_useravatarrating_desc'] = "Te permite establecer la calificación máxima para Gravatars si el usuario escoge uno. Si la calificación del avatar del usuario es mayor se usará el avatar por defecto. Las calificaciones son las siguientes:
 
@@ -457,7 +462,7 @@ $l['setting_useravatarrating_desc'] = "Te permite establecer la calificación m�
 <li><strong>X</strong>: pueden contener imágenes de violencia extrema o un alto contenido sexual.</li>
 </ul>";
 $l['setting_maxavatardims'] = "Dimensiones máximas de avatar";
-$l['setting_maxavatardims_desc'] = "Dimensiones máximas para un avatar, con el formato de ancho<b>x</b>alto. Si lo dejas en blanco no habrá restricciones en la dimensión.";
+$l['setting_maxavatardims_desc'] = "Dimensiones máximas para un avatar, ancho y alto separatedos por 'x' o '|'. Si lo dejas en blanco no habrá restricciones en la dimensión.";
 $l['setting_avatarsize'] = "Tamaño máximo del avatar";
 $l['setting_avatarsize_desc'] = "Tamaño máximo (En kilobytes) que se permite para subir un avatar desde el PC. Establecer como '0' para desactivar la limitación";
 $l['setting_avatarresizing'] = "Redimensionar avatar";
@@ -570,7 +575,7 @@ $l['setting_default_memberlist_order_desc'] = "Seleccionar el orden por el que s
 $l['setting_default_memberlist_order_ascending'] = "Ascendente";
 $l['setting_default_memberlist_order_descending'] = "Descendente";
 $l['setting_memberlistmaxavatarsize'] = "Máxima dimensión de avatar";
-$l['setting_memberlistmaxavatarsize_desc'] = "Aquí puedes configurar el tamaño máximo para los avatares que se mostrarán en la lista de miembros. Si un avatar es muy grande, se redimensionará automáticamente.";
+$l['setting_memberlistmaxavatarsize_desc'] = "Aquí puedes configurar el tamaño máximo para los avatares que se mostrarán en la lista de miembros, ancho y alto separados por 'x' o '|'. Si un avatar es muy grande, se redimensionará automáticamente.";
 /**************************************************************************************************************************************************/
 
 //Grupo 14 reputation

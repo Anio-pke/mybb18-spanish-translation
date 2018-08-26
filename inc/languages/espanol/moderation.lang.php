@@ -88,6 +88,7 @@ $l['opened'] = "Abierto";
 $l['closed'] = "Cerrado";
 $l['stuck'] = "Importante";
 $l['unstuck'] = "No importante";
+$l['error'] = "¡Error!";
 $l['mod_process'] = "Tema {1}";
 $l['redirects_removed'] = "Redirecciones del tema eliminadas";
 $l['thread_deleted'] = "Tema borrado permanentemente: {1}";
@@ -178,6 +179,7 @@ $l['error_delayedmoderation_unsupported_method'] = "Lo sentimos, pero no has sel
 $l['error_delayedmoderation_invalid_date_day'] = "Lo sentimos, pero no has seleccionado un día de retardo válido para esta moderación retardada.";
 $l['error_delayedmoderation_invalid_date_month'] = "Lo sentimos, pero no has seleccionado un mes de retardo válido para esta moderación retardada.";
 $l['error_delayedmoderation_invalid_date_year'] = "Lo sentimos, pero no has seleccionado un año de retardo válido para esta moderación retardada.";
+$l['error_thread_deleted'] = "El tema objetivo está borrado de forma suave. Para realizar esta acción debes restaurarlo primero.";
 
 $l['redirect_pollnotdeleted'] = "La encuesta no se ha eliminado porque no has seleccionado el cuadradito \"Borrar\".";
 $l['redirect_polldeleted'] = "Gracias, la encuesta se ha eliminado correctamente del tema.<br />Ahora serás redirigido al tema.";

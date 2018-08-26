@@ -11,6 +11,7 @@ $l['redirect_threadrated'] = "Gracias, este tema se ha calificado correctamente.
 $l['error_invalidrating'] = "Has seleccionado una calificación inválida para este tema. Por favor, regresa y vuelva a intentarlo.";
 $l['error_alreadyratedthread'] = "Lo sentimos, pero ya has calificado este tema.";
 $l['error_cannotrateownthread'] = "Lo sentimos, no puedes calificar tu propio tema.";
+$l['thread_doesnt_exist'] = "No es posible calificar un tema que no existe.";
 
 $l['rating_votes_average'] = "{1} voto(s) - Media {2} de 5";
 $l['one_star'] = "1 estrella de 5";

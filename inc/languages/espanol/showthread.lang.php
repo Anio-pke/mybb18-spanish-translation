@@ -108,4 +108,4 @@ $l['quick_delete_success'] = 'El mensaje se ha eliminado correctamente.';
 $l['quick_delete_thread_success'] = 'El tema se ha eliminado correctamente.';
 $l['quick_restore_error'] = 'Ha ocurrido un error al restaurar tu respuesta:';
 $l['quick_restore_success'] = 'El mensaje se ha restaurado correctamente.';
-
+$l['post_deleted_error'] = 'No es posible realizar esta acción a un mensaje eliminado.';
