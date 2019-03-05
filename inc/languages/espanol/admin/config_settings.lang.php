@@ -70,7 +70,7 @@ $l['confirm_setting_group_deletion'] = "¿Estás seguro de querer eliminar este 
 $l['confirm_setting_deletion'] = "¿Estás seguro de querer eliminar este ajuste?";
 
 $l['error_format_dimension'] = "El formato de {1} es inválido.";
-$l['error_field_postmaxavatarsize'] = "Dimensiones máximas del avatar";
+$l['error_field_postmaxavatarsize'] = "Dimensiones máximas del avatar. (ancho y alto separados por 'x' o '|') . Si el avatar es muy grande, este se redimensionará automáticamente.";
 $l['error_field_useravatardims'] = "Dimensiones por defecto del avatar";
 $l['error_field_maxavatardims'] = "Dimensiones máximas del avatar";
 $l['error_field_memberlistmaxavatarsize'] = "Dimensiones máximas al mostrar el avatar";
@@ -400,8 +400,10 @@ $l['setting_hiddencaptchaimage'] = "Usar CAPTCHA oculto";
 $l['setting_hiddencaptchaimage_desc'] = "¿Quieres usar un campo CAPTCHA oculto en el proceso de registro? Esto ayuda a prevenir registros de  spambots en tu foro.";
 $l['setting_hiddencaptchaimagefield'] = "Campo CAPTCHA oculto";
 $l['setting_hiddencaptchaimagefield_desc'] = "Aquí puedes elegir un nombre para tu campo CAPTCHA oculto.";
-$l['setting_usereferrals'] = "Usar recomendantes";
-$l['setting_usereferrals_desc'] = "¿Quieres que los usuarios puedan usar el sistema de recomendantes en estos foros?";
+$l['setting_usereferrals'] = "Usar recomendaciones";
+$l['setting_usereferrals_desc'] = "¿Quieres que los usuarios puedan usar el sistema de recomendaciones en estos foros?";
+$l['setting_referralsperpage'] = "Recomendaciones por página";
+$l['setting_referralsperpage_desc'] = "Número de miembros a mostrar en la página de recomendaciones.";
 $l['setting_coppa'] = "Formulario COPPA";
 $l['setting_coppa_desc'] = "Si quieres activar el soporte <a href=\"http://www.coppa.org/comply.htm\">COPPA</a> en tus foros, por favor, selecciona el tipo de registro permitido.";
 $l['setting_coppa_enabled'] = "Activada";
@@ -451,7 +453,7 @@ $l['setting_hidewebsite_desc'] = "Selecciona los grupos de usuario a los que se 
 $l['setting_useravatar'] = "Avatar por defecto";
 $l['setting_useravatar_desc'] = "Si el usuario no establece un avatar se utilizará esta imagen en su lugar. Si quieres utilizar una imagen diferente para los distintos estilos, por favor, utiliza <strong>{theme}</strong> para representar el directorio de imágenes para cada estilo.";
 $l['setting_useravatardims'] = "Dimensiones del avatar por defecto";
-$l['setting_useravatardims_desc'] = "Las dimensiones deben seguir este formato, ancho y alto separatedos por 'x' o '|' (ej. 40|40 o 40x40).";
+$l['setting_useravatardims_desc'] = "Las dimensiones deben seguir este formato, ancho y alto separados por 'x' o '|' (ej. 40|40 o 40x40).";
 $l['setting_useravatarrating'] = "Calificación de Gravatar";
 $l['setting_useravatarrating_desc'] = "Te permite establecer la calificación máxima para Gravatars si el usuario escoge uno. Si la calificación del avatar del usuario es mayor se usará el avatar por defecto. Las calificaciones son las siguientes:
 
@@ -462,7 +464,7 @@ $l['setting_useravatarrating_desc'] = "Te permite establecer la calificación m�
 <li><strong>X</strong>: pueden contener imágenes de violencia extrema o un alto contenido sexual.</li>
 </ul>";
 $l['setting_maxavatardims'] = "Dimensiones máximas de avatar";
-$l['setting_maxavatardims_desc'] = "Dimensiones máximas para un avatar, ancho y alto separatedos por 'x' o '|'. Si lo dejas en blanco no habrá restricciones en la dimensión.";
+$l['setting_maxavatardims_desc'] = "Dimensiones máximas para un avatar, ancho y alto separados por 'x' o '|'. Si lo dejas en blanco no habrá restricciones en la dimensión.";
 $l['setting_avatarsize'] = "Tamaño máximo del avatar";
 $l['setting_avatarsize_desc'] = "Tamaño máximo (En kilobytes) que se permite para subir un avatar desde el PC. Establecer como '0' para desactivar la limitación";
 $l['setting_avatarresizing'] = "Redimensionar avatar";
@@ -535,6 +537,8 @@ $l['setting_soft_delete'] = "Activar borrado suave";
 $l['setting_soft_delete_desc'] = "Si lo activas, esto te permitirá restaurar los mensajes y temas eliminados por los usuarios. En otro caso, se eliminarán permanentemente.";
 $l['setting_announcementshtml'] = "Permitir HTML en los anuncios";
 $l['setting_announcementshtml_desc'] = "¿Permitir a los moderadores usar HTML en los anuncios?";
+$l['setting_showownunapproved'] = "Ver temas/mensajes propio no aprobados";
+$l['setting_showownunapproved_desc'] = "Permitir a los usuarios ver sus propios temas y mensajes no aprobados.";
 /**************************************************************************************************************************************************/
 
 // Grupo 12 attachments

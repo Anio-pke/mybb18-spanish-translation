@@ -9,31 +9,31 @@
  * Translator: Anio_pke
  */
 
-$inserts[] = "INSERT INTO mybb_attachtypes (atid, name, mimetype, extension, maxsize, icon, enabled, `groups`,forums, avatarfile) VALUES (1, 'Archivo comprimido ZIP', 'application/zip', 'zip', 1024, 'images/attachtypes/zip.png', 1, '-1', '-1', 0);";
-$inserts[] = "INSERT INTO mybb_attachtypes (atid, name, mimetype, extension, maxsize, icon, enabled, `groups`,forums, avatarfile) VALUES (2, 'Imagen JPG', 'image/jpeg', 'jpg', 500, 'images/attachtypes/image.png', 1, '-1', '-1', 1);";
-$inserts[] = "INSERT INTO mybb_attachtypes (atid, name, mimetype, extension, maxsize, icon, enabled, `groups`,forums, avatarfile) VALUES (3, 'Documento de texto', 'text/plain', 'txt', 200, 'images/attachtypes/txt.png', 1, '-1', '-1', 0);";
-$inserts[] = "INSERT INTO mybb_attachtypes (atid, name, mimetype, extension, maxsize, icon, enabled, `groups`,forums, avatarfile) VALUES (4, 'Imagen GIF', 'image/gif', 'gif', 500, 'images/attachtypes/image.png', 1, '-1', '-1', 1);";
-$inserts[] = "INSERT INTO mybb_attachtypes (atid, name, mimetype, extension, maxsize, icon, enabled, `groups`,forums, avatarfile) VALUES (5, 'Archivo Adobe Photoshop', 'application/x-photoshop', 'psd', 1024, 'images/attachtypes/psd.png', 1, '-1', '-1', 0);";
-$inserts[] = "INSERT INTO mybb_attachtypes (atid, name, mimetype, extension, maxsize, icon, enabled, `groups`,forums, avatarfile) VALUES (6, 'Archivo PHP', 'application/x-httpd-php', 'php', 500, 'images/attachtypes/php.png', 1, '-1', '-1', 0);";
-$inserts[] = "INSERT INTO mybb_attachtypes (atid, name, mimetype, extension, maxsize, icon, enabled, `groups`,forums, avatarfile) VALUES (7, 'Imagen PNG', 'image/png', 'png', 500, 'images/attachtypes/image.png', 1, '-1', '-1', 1);";
-$inserts[] = "INSERT INTO mybb_attachtypes (atid, name, mimetype, extension, maxsize, icon, enabled, `groups`,forums, avatarfile) VALUES (8, 'Documento de Microsoft Word', 'application/msword', 'doc', 1024, 'images/attachtypes/doc.png', 1, '-1', '-1', 0);";
-$inserts[] = "INSERT INTO mybb_attachtypes (atid, name, mimetype, extension, maxsize, icon, enabled, `groups`,forums, avatarfile) VALUES (9, 'Archivo HTM', 'text/html', 'htm', 100, 'images/attachtypes/html.png', 1, '-1', '-1', 0);";
-$inserts[] = "INSERT INTO mybb_attachtypes (atid, name, mimetype, extension, maxsize, icon, enabled, `groups`,forums, avatarfile) VALUES (10, 'Archivo HTML', 'text/html', 'html', 100, 'images/attachtypes/html.png', 1, '-1', '-1', 0);";
-$inserts[] = "INSERT INTO mybb_attachtypes (atid, name, mimetype, extension, maxsize, icon, enabled, `groups`,forums, avatarfile) VALUES (11, 'Imagen JPEG', 'image/jpeg', 'jpeg', 500, 'images/attachtypes/image.png', 1, '-1', '-1', 1);";
-$inserts[] = "INSERT INTO mybb_attachtypes (atid, name, mimetype, extension, maxsize, icon, enabled, `groups`,forums, avatarfile) VALUES (12, 'Archivo comprimido GZIP', 'application/x-gzip', 'gz', 1024, 'images/attachtypes/tar.png', 1, '-1', '-1', 0);";
-$inserts[] = "INSERT INTO mybb_attachtypes (atid, name, mimetype, extension, maxsize, icon, enabled, `groups`,forums, avatarfile) VALUES (13, 'Archivo comprimido TAR', 'application/x-tar', 'tar', 1024, 'images/attachtypes/tar.png', 1, '-1', '-1', 0);";
-$inserts[] = "INSERT INTO mybb_attachtypes (atid, name, mimetype, extension, maxsize, icon, enabled, `groups`,forums, avatarfile) VALUES (14, 'Hoja de estilo CSS', 'text/css', 'css', 100, 'images/attachtypes/css.png', 1, '-1', '-1', 0);";
-$inserts[] = "INSERT INTO mybb_attachtypes (atid, name, mimetype, extension, maxsize, icon, enabled, `groups`,forums, avatarfile) VALUES (15, 'Adobe Acrobat PDF', 'application/pdf', 'pdf', 2048, 'images/attachtypes/pdf.png', 1, '-1', '-1', 0);";
-$inserts[] = "INSERT INTO mybb_attachtypes (atid, name, mimetype, extension, maxsize, icon, enabled, `groups`,forums, avatarfile) VALUES (16, 'Imagen de mapa de bits', 'image/bmp', 'bmp', 500, 'images/attachtypes/image.png', 1, '-1', '-1', 0);";
-$inserts[] = "INSERT INTO mybb_attachtypes (atid, name, mimetype, extension, maxsize, icon, enabled, `groups`,forums, avatarfile) VALUES (17, 'Documento de Microsoft Word 2007', 'application/vnd.openxmlformats-officedocument.wordprocessingml.document', 'docx', 1024, 'images/attachtypes/doc.png', 1, '-1', '-1', 0);";
-$inserts[] = "INSERT INTO mybb_attachtypes (atid, name, mimetype, extension, maxsize, icon, enabled, `groups`,forums, avatarfile) VALUES (18, 'Documento de Microsoft Excel', 'application/vnd.ms-excel', 'xls', 1024, 'images/attachtypes/xls.png', 1, '-1', '-1', 0);";
-$inserts[] = "INSERT INTO mybb_attachtypes (atid, name, mimetype, extension, maxsize, icon, enabled, `groups`,forums, avatarfile) VALUES (19, 'Documento de Microsoft Excel 2007', 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet', 'xlsx', 1024, 'images/attachtypes/xls.png', 1, '-1', '-1', 0);";
-$inserts[] = "INSERT INTO mybb_attachtypes (atid, name, mimetype, extension, maxsize, icon, enabled, `groups`,forums, avatarfile) VALUES (20, 'Documento de Microsoft PowerPoint', 'application/vnd.ms-powerpoint', 'ppt', 1024, 'images/attachtypes/ppt.png', 1, '-1', '-1', 0);";
-$inserts[] = "INSERT INTO mybb_attachtypes (atid, name, mimetype, extension, maxsize, icon, enabled, `groups`,forums, avatarfile) VALUES (21, 'Documento de Microsoft PowerPoint 2007', 'application/vnd.openxmlformats-officedocument.presentationml.presentation', 'pptx', 1024, 'images/attachtypes/ppt.png', 1, '-1', '-1', 0);";
+$inserts[] = "INSERT INTO mybb_attachtypes (atid, name, mimetype, extension, maxsize, icon, enabled, groups, forums, avatarfile) VALUES (1, 'Archivo comprimido ZIP', 'application/zip', 'zip', 1024, 'images/attachtypes/zip.png', 1, '-1', '-1', 0);";
+$inserts[] = "INSERT INTO mybb_attachtypes (atid, name, mimetype, extension, maxsize, icon, enabled, groups, forums, avatarfile) VALUES (2, 'Imagen JPG', 'image/jpeg', 'jpg', 500, 'images/attachtypes/image.png', 1, '-1', '-1', 1);";
+$inserts[] = "INSERT INTO mybb_attachtypes (atid, name, mimetype, extension, maxsize, icon, enabled, groups, forums, avatarfile) VALUES (3, 'Documento de texto', 'text/plain', 'txt', 200, 'images/attachtypes/txt.png', 1, '-1', '-1', 0);";
+$inserts[] = "INSERT INTO mybb_attachtypes (atid, name, mimetype, extension, maxsize, icon, enabled, groups, forums, avatarfile) VALUES (4, 'Imagen GIF', 'image/gif', 'gif', 500, 'images/attachtypes/image.png', 1, '-1', '-1', 1);";
+$inserts[] = "INSERT INTO mybb_attachtypes (atid, name, mimetype, extension, maxsize, icon, enabled, groups, forums, avatarfile) VALUES (5, 'Archivo Adobe Photoshop', 'application/x-photoshop', 'psd', 1024, 'images/attachtypes/psd.png', 1, '-1', '-1', 0);";
+$inserts[] = "INSERT INTO mybb_attachtypes (atid, name, mimetype, extension, maxsize, icon, enabled, groups, forums, avatarfile) VALUES (6, 'Archivo PHP', 'application/x-httpd-php', 'php', 500, 'images/attachtypes/php.png', 1, '-1', '-1', 0);";
+$inserts[] = "INSERT INTO mybb_attachtypes (atid, name, mimetype, extension, maxsize, icon, enabled, groups, forums, avatarfile) VALUES (7, 'Imagen PNG', 'image/png', 'png', 500, 'images/attachtypes/image.png', 1, '-1', '-1', 1);";
+$inserts[] = "INSERT INTO mybb_attachtypes (atid, name, mimetype, extension, maxsize, icon, enabled, groups, forums, avatarfile) VALUES (8, 'Documento de Microsoft Word', 'application/msword', 'doc', 1024, 'images/attachtypes/doc.png', 1, '-1', '-1', 0);";
+$inserts[] = "INSERT INTO mybb_attachtypes (atid, name, mimetype, extension, maxsize, icon, enabled, groups, forums, avatarfile) VALUES (9, 'Archivo HTM', 'text/html', 'htm', 100, 'images/attachtypes/html.png', 1, '-1', '-1', 0);";
+$inserts[] = "INSERT INTO mybb_attachtypes (atid, name, mimetype, extension, maxsize, icon, enabled, groups, forums, avatarfile) VALUES (10, 'Archivo HTML', 'text/html', 'html', 100, 'images/attachtypes/html.png', 1, '-1', '-1', 0);";
+$inserts[] = "INSERT INTO mybb_attachtypes (atid, name, mimetype, extension, maxsize, icon, enabled, groups, forums, avatarfile) VALUES (11, 'Imagen JPEG', 'image/jpeg', 'jpeg', 500, 'images/attachtypes/image.png', 1, '-1', '-1', 1);";
+$inserts[] = "INSERT INTO mybb_attachtypes (atid, name, mimetype, extension, maxsize, icon, enabled, groups, forums, avatarfile) VALUES (12, 'Archivo comprimido GZIP', 'application/x-gzip', 'gz', 1024, 'images/attachtypes/tar.png', 1, '-1', '-1', 0);";
+$inserts[] = "INSERT INTO mybb_attachtypes (atid, name, mimetype, extension, maxsize, icon, enabled, groups, forums, avatarfile) VALUES (13, 'Archivo comprimido TAR', 'application/x-tar', 'tar', 1024, 'images/attachtypes/tar.png', 1, '-1', '-1', 0);";
+$inserts[] = "INSERT INTO mybb_attachtypes (atid, name, mimetype, extension, maxsize, icon, enabled, groups, forums, avatarfile) VALUES (14, 'Hoja de estilo CSS', 'text/css', 'css', 100, 'images/attachtypes/css.png', 1, '-1', '-1', 0);";
+$inserts[] = "INSERT INTO mybb_attachtypes (atid, name, mimetype, extension, maxsize, icon, enabled, groups, forums, avatarfile) VALUES (15, 'Adobe Acrobat PDF', 'application/pdf', 'pdf', 2048, 'images/attachtypes/pdf.png', 1, '-1', '-1', 0);";
+$inserts[] = "INSERT INTO mybb_attachtypes (atid, name, mimetype, extension, maxsize, icon, enabled, groups, forums, avatarfile) VALUES (16, 'Imagen de mapa de bits', 'image/bmp', 'bmp', 500, 'images/attachtypes/image.png', 1, '-1', '-1', 0);";
+$inserts[] = "INSERT INTO mybb_attachtypes (atid, name, mimetype, extension, maxsize, icon, enabled, groups, forums, avatarfile) VALUES (17, 'Documento de Microsoft Word 2007', 'application/vnd.openxmlformats-officedocument.wordprocessingml.document', 'docx', 1024, 'images/attachtypes/doc.png', 1, '-1', '-1', 0);";
+$inserts[] = "INSERT INTO mybb_attachtypes (atid, name, mimetype, extension, maxsize, icon, enabled, groups, forums, avatarfile) VALUES (18, 'Documento de Microsoft Excel', 'application/vnd.ms-excel', 'xls', 1024, 'images/attachtypes/xls.png', 1, '-1', '-1', 0);";
+$inserts[] = "INSERT INTO mybb_attachtypes (atid, name, mimetype, extension, maxsize, icon, enabled, groups, forums, avatarfile) VALUES (19, 'Documento de Microsoft Excel 2007', 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet', 'xlsx', 1024, 'images/attachtypes/xls.png', 1, '-1', '-1', 0);";
+$inserts[] = "INSERT INTO mybb_attachtypes (atid, name, mimetype, extension, maxsize, icon, enabled, groups, forums, avatarfile) VALUES (20, 'Documento de Microsoft PowerPoint', 'application/vnd.ms-powerpoint', 'ppt', 1024, 'images/attachtypes/ppt.png', 1, '-1', '-1', 0);";
+$inserts[] = "INSERT INTO mybb_attachtypes (atid, name, mimetype, extension, maxsize, icon, enabled, groups, forums, avatarfile) VALUES (21, 'Documento de Microsoft PowerPoint 2007', 'application/vnd.openxmlformats-officedocument.presentationml.presentation', 'pptx', 1024, 'images/attachtypes/ppt.png', 1, '-1', '-1', 0);";
 
 $inserts[] = "INSERT INTO mybb_calendars (name,disporder,startofweek,showbirthdays,eventlimit,moderation,allowhtml,allowmycode,allowimgcode,allowvideocode,allowsmilies) VALUES ('Calendario',1,0,1,4,0,0,1,1,1,1);";
 
-$inserts[] = "INSERT INTO mybb_forums (fid, name, description, linkto, type, pid, parentlist, disporder, active, open, threads, posts, lastpost, lastposter, lastposttid, allowhtml, allowmycode, allowsmilies, allowimgcode, allowvideocode, allowpicons, allowtratings, usepostcounts, usethreadcounts, password, showinjump, style, overridestyle, rulestype, rulestitle, rules) VALUES (1, 'Mi categor铆a', '', '', 'c', 0, '1', 1, 1, 1, 0, 0, 0, '0', 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, '', 1, 0, 0, 0, '', '');";
+$inserts[] = "INSERT INTO mybb_forums (fid, name, description, linkto, type, pid, parentlist, disporder, active, open, threads, posts, lastpost, lastposter, lastposttid, allowhtml, allowmycode, allowsmilies, allowimgcode, allowvideocode, allowpicons, allowtratings, usepostcounts, usethreadcounts, password, showinjump, style, overridestyle, rulestype, rulestitle, rules) VALUES (1, 'Mi categor韆', '', '', 'c', 0, '1', 1, 1, 1, 0, 0, 0, '0', 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, '', 1, 0, 0, 0, '', '');";
 $inserts[] = "INSERT INTO mybb_forums (fid, name, description, linkto, type, pid, parentlist, disporder, active, open, threads, posts, lastpost, lastposter, lastposttid, allowhtml, allowmycode, allowsmilies, allowimgcode, allowvideocode, allowpicons, allowtratings, usepostcounts, usethreadcounts, password, showinjump, style, overridestyle, rulestype, rulestitle, rules) VALUES (2, 'Mi foro', '', '', 'f', 1, '1,2', 1, 1, 1, 0, 0, 0, '0', 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, '', 1, 0, 0, 0, '', '');";
 
 $inserts[] = "INSERT INTO mybb_helpdocs (hid, sid, name, description, document, usetranslation, enabled, disporder) VALUES (1, 1, 'User Registration', 'Perks and privileges to user registration.', 'Some parts of this forum may require you to be logged in and registered. Registration is free and takes a few minutes to complete.<br />\r\n<br />\r\nYou are encouraged to register; once you register you will be able to post messages, set your own preferences, and maintain a profile.<br />\r\n<br />\r\nSome of the features that generally require registration are subscriptions, changing of styles, accessing of your Personal Pad (simple notepad) and emailing forum members.', 1, 1, 1);";
@@ -48,19 +48,19 @@ $inserts[] = "INSERT INTO mybb_helpsections (sid, name, description, usetranslat
 $inserts[] = "INSERT INTO mybb_helpsections (sid, name, description, usetranslation, enabled, disporder) VALUES (2, 'Posting', 'Posting, replying, and basic usage of forum.', 1, 1, 2);";
 
 $inserts[] = "INSERT INTO mybb_icons (iid, name, path) VALUES(1, 'Bug', 'images/icons/bug.png');";
-$inserts[] = "INSERT INTO mybb_icons (iid, name, path) VALUES(2, 'Exclamaci贸n', 'images/icons/exclamation.png');";
+$inserts[] = "INSERT INTO mybb_icons (iid, name, path) VALUES(2, 'Exclamaci髇', 'images/icons/exclamation.png');";
 $inserts[] = "INSERT INTO mybb_icons (iid, name, path) VALUES(3, 'Pregunta', 'images/icons/question.png');";
 $inserts[] = "INSERT INTO mybb_icons (iid, name, path) VALUES(4, 'Sonrisa', 'images/icons/smile.png');";
 $inserts[] = "INSERT INTO mybb_icons (iid, name, path) VALUES(5, 'Triste', 'images/icons/sad.png');";
-$inserts[] = "INSERT INTO mybb_icons (iid, name, path) VALUES(6, 'Gui帽o', 'images/icons/wink.png');";
+$inserts[] = "INSERT INTO mybb_icons (iid, name, path) VALUES(6, 'Gui駉', 'images/icons/wink.png');";
 $inserts[] = "INSERT INTO mybb_icons (iid, name, path) VALUES(7, 'Gran sonrisa', 'images/icons/biggrin.png');";
 $inserts[] = "INSERT INTO mybb_icons (iid, name, path) VALUES(8, 'Lengua', 'images/icons/tongue.png');";
 $inserts[] = "INSERT INTO mybb_icons (iid, name, path) VALUES(9, 'Ladrillo', 'images/icons/brick.png');";
-$inserts[] = "INSERT INTO mybb_icons (iid, name, path) VALUES(10, 'Coraz贸n', 'images/icons/heart.png');";
-$inserts[] = "INSERT INTO mybb_icons (iid, name, path) VALUES(11, 'Informaci贸n', 'images/icons/information.png');";
+$inserts[] = "INSERT INTO mybb_icons (iid, name, path) VALUES(10, 'Coraz髇', 'images/icons/heart.png');";
+$inserts[] = "INSERT INTO mybb_icons (iid, name, path) VALUES(11, 'Informaci髇', 'images/icons/information.png');";
 $inserts[] = "INSERT INTO mybb_icons (iid, name, path) VALUES(12, 'Bombilla', 'images/icons/lightbulb.png');";
-$inserts[] = "INSERT INTO mybb_icons (iid, name, path) VALUES(13, 'M煤sica', 'images/icons/music.png');";
-$inserts[] = "INSERT INTO mybb_icons (iid, name, path) VALUES(14, 'Fotograf铆a', 'images/icons/photo.png');";
+$inserts[] = "INSERT INTO mybb_icons (iid, name, path) VALUES(13, 'M鷖ica', 'images/icons/music.png');";
+$inserts[] = "INSERT INTO mybb_icons (iid, name, path) VALUES(14, 'Fotograf韆', 'images/icons/photo.png');";
 $inserts[] = "INSERT INTO mybb_icons (iid, name, path) VALUES(15, 'Arcoiris', 'images/icons/rainbow.png');";
 $inserts[] = "INSERT INTO mybb_icons (iid, name, path) VALUES(16, 'Sorprendido', 'images/icons/shocked.png');";
 $inserts[] = "INSERT INTO mybb_icons (iid, name, path) VALUES(17, 'Estrella', 'images/icons/star.png');";
@@ -68,11 +68,11 @@ $inserts[] = "INSERT INTO mybb_icons (iid, name, path) VALUES(18, 'Dedo abajo', 
 $inserts[] = "INSERT INTO mybb_icons (iid, name, path) VALUES(19, 'Dedo arriba', 'images/icons/thumbsup.png');";
 $inserts[] = "INSERT INTO mybb_icons (iid, name, path) VALUES(20, 'Video', 'images/icons/video.png');";
 
-$inserts[] = "INSERT INTO mybb_profilefields (fid, name, description, disporder, type, regex, length, maxlength, required, registration, profile, postbit, viewableby, editableby, postnum) VALUES (1, 'Localizaci贸n', '驴En que parte del mundo vives?', 1, 'text', '', 0, 255, 0, 0, 1, 0, -1, -1, 0);";
-$inserts[] = "INSERT INTO mybb_profilefields (fid, name, description, disporder, type, regex, length, maxlength, required, registration, profile, postbit, viewableby, editableby, postnum) VALUES (2, 'Biograf铆a', 'Introduce una breve descripci贸n sobre ti, la historia de tu vida etc.', 2, 'textarea', '', 0, 0, 0, 0, 1, 0, -1, -1, 0);";
+$inserts[] = "INSERT INTO mybb_profilefields (fid, name, description, disporder, type, regex, length, maxlength, required, registration, profile, postbit, viewableby, editableby, postnum) VALUES (1, 'Localizaci髇', '縀n que parte del mundo vives?', 1, 'text', '', 0, 255, 0, 0, 1, 0, -1, -1, 0);";
+$inserts[] = "INSERT INTO mybb_profilefields (fid, name, description, disporder, type, regex, length, maxlength, required, registration, profile, postbit, viewableby, editableby, postnum) VALUES (2, 'Biograf韆', 'Introduce una breve descripci髇 sobre ti, la historia de tu vida etc.', 2, 'textarea', '', 0, 0, 0, 0, 1, 0, -1, -1, 0);";
 $inserts[] = "INSERT INTO mybb_profilefields (fid, name, description, disporder, type, regex, length, maxlength, required, registration, profile, postbit, viewableby, editableby, postnum) VALUES (3, 'Sexo', 'Por favor selecciona tu sexo de la lista de abajo.', 3, 'select\nSin seleccionar\nHombre\nMujer\nOtro', '', 0, 0, 0, 0, 1, 0, -1, -1, 0);";
 
-$inserts[] = "INSERT INTO mybb_questions (qid, question, answer, shown, correct, incorrect, active) VALUES(1, '驴Cu谩nto son 2 + 2?', '4\nCuatro', 0, 0, 0, 1);";
+$inserts[] = "INSERT INTO mybb_questions (qid, question, answer, shown, correct, incorrect, active) VALUES(1, '緾u醤to son 2 + 2?', '4\nCuatro', 0, 0, 0, 1);";
 
 $inserts[] = "INSERT INTO mybb_reportreasons (rid, title, appliesto, extra, disporder) VALUES(1, '<lang:report_reason_other>', 'all', 1, 99);";
 $inserts[] = "INSERT INTO mybb_reportreasons (rid, title, appliesto, extra, disporder) VALUES(2, '<lang:report_reason_rules>', 'all', 0, 1);";
@@ -81,21 +81,21 @@ $inserts[] = "INSERT INTO mybb_reportreasons (rid, title, appliesto, extra, disp
 $inserts[] = "INSERT INTO mybb_reportreasons (rid, title, appliesto, extra, disporder) VALUES(5, '<lang:report_reason_wrong>', 'post', 0, 4);";
 
 $inserts[] = "INSERT INTO mybb_smilies (sid, name, find, image, disporder, showclickable) VALUES(1, 'Sonrisa', ':)', 'images/smilies/smile.png', 1, 1);";
-$inserts[] = "INSERT INTO mybb_smilies (sid, name, find, image, disporder, showclickable) VALUES(2, 'Gui帽o', ';)', 'images/smilies/wink.png', 2, 1);";
+$inserts[] = "INSERT INTO mybb_smilies (sid, name, find, image, disporder, showclickable) VALUES(2, 'Gui駉', ';)', 'images/smilies/wink.png', 2, 1);";
 $inserts[] = "INSERT INTO mybb_smilies (sid, name, find, image, disporder, showclickable) VALUES(3, 'Interesante', ':cool:', 'images/smilies/cool.png', 3, 1);";
 $inserts[] = "INSERT INTO mybb_smilies (sid, name, find, image, disporder, showclickable) VALUES(4, 'Gran sonrisa', ':D', 'images/smilies/biggrin.png', 4, 1);";
 $inserts[] = "INSERT INTO mybb_smilies (sid, name, find, image, disporder, showclickable) VALUES(5, 'Lengua', ':P', 'images/smilies/tongue.png', 5, 1);";
 $inserts[] = "INSERT INTO mybb_smilies (sid, name, find, image, disporder, showclickable) VALUES(6, 'Rodar ojos', ':rolleyes:', 'images/smilies/rolleyes.png', 6, 1);";
-$inserts[] = "INSERT INTO mybb_smilies (sid, name, find, image, disporder, showclickable) VALUES(7, 'T铆mido', ':shy:', 'images/smilies/shy.png', 7, 1);";
+$inserts[] = "INSERT INTO mybb_smilies (sid, name, find, image, disporder, showclickable) VALUES(7, 'T韒ido', ':shy:', 'images/smilies/shy.png', 7, 1);";
 $inserts[] = "INSERT INTO mybb_smilies (sid, name, find, image, disporder, showclickable) VALUES(8, 'Triste', ':(', 'images/smilies/sad.png', 8, 1);";
 $inserts[] = "INSERT INTO mybb_smilies (sid, name, find, image, disporder, showclickable) VALUES(9, 'Arroba', ':at:', 'images/smilies/at.png', 9, 1);";
-$inserts[] = "INSERT INTO mybb_smilies (sid, name, find, image, disporder, showclickable) VALUES(10, '脕ngel', ':angel:', 'images/smilies/angel.png', 10, 1);";
+$inserts[] = "INSERT INTO mybb_smilies (sid, name, find, image, disporder, showclickable) VALUES(10, '羘gel', ':angel:', 'images/smilies/angel.png', 10, 1);";
 $inserts[] = "INSERT INTO mybb_smilies (sid, name, find, image, disporder, showclickable) VALUES(11, 'Enfadado', ':@', 'images/smilies/angry.png', 11, 1);";
 $inserts[] = "INSERT INTO mybb_smilies (sid, name, find, image, disporder, showclickable) VALUES(12, 'Sonrojado', ':blush:', 'images/smilies/blush.png', 12, 1);";
 $inserts[] = "INSERT INTO mybb_smilies (sid, name, find, image, disporder, showclickable) VALUES(13, 'Confundido', ':s', 'images/smilies/confused.png', 13, 1);";
 $inserts[] = "INSERT INTO mybb_smilies (sid, name, find, image, disporder, showclickable) VALUES(14, 'Astuto', ':dodgy:', 'images/smilies/dodgy.png', 14, 1);";
-$inserts[] = "INSERT INTO mybb_smilies (sid, name, find, image, disporder, showclickable) VALUES(15, 'Exclamaci贸n', ':exclamation:', 'images/smilies/exclamation.png', 15, 1);";
-$inserts[] = "INSERT INTO mybb_smilies (sid, name, find, image, disporder, showclickable) VALUES(16, 'Coraz贸n', ':heart:', 'images/smilies/heart.png', 16, 1);";
+$inserts[] = "INSERT INTO mybb_smilies (sid, name, find, image, disporder, showclickable) VALUES(15, 'Exclamaci髇', ':exclamation:', 'images/smilies/exclamation.png', 15, 1);";
+$inserts[] = "INSERT INTO mybb_smilies (sid, name, find, image, disporder, showclickable) VALUES(16, 'Coraz髇', ':heart:', 'images/smilies/heart.png', 16, 1);";
 $inserts[] = "INSERT INTO mybb_smilies (sid, name, find, image, disporder, showclickable) VALUES(17, 'Huh', ':huh:', 'images/smilies/huh.png', 17, 1);";
 $inserts[] = "INSERT INTO mybb_smilies (sid, name, find, image, disporder, showclickable) VALUES(18, 'Idea', ':idea:', 'images/smilies/lightbulb.png', 18, 1);";
 $inserts[] = "INSERT INTO mybb_smilies (sid, name, find, image, disporder, showclickable) VALUES(19, 'Cansado', ':sleepy:', 'images/smilies/sleepy.png', 19, 1);";

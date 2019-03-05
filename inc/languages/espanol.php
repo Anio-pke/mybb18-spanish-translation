@@ -16,7 +16,7 @@ $langinfo['author'] = "Anio_pke";
 $langinfo['website'] = "https://github.com/Anio-pke/mybb18-spanish-translation";
 
 // Compatible version of MyBB
-$langinfo['version'] = "1817";
+$langinfo['version'] = "1820";
 
 // Sets if the translation includes the Admin CP (1 = yes, 0 = no)
 $langinfo['admin'] = 1;

@@ -157,7 +157,7 @@ $l['purgespammer_delete'] = "eliminar";
 $l['purgespammer_submit'] = "Expulsar spammer";
 $l['purgespammer_success'] = "Las acciones seleccionadas se han realizado correctamente.";
 $l['purgespammer_invalid_user'] = "Has especificado un usuario inválido.";
-$l['purgespammer_modlog'] = "Expulsado el spammer {1}.";
+$l['purgespammer_modlog'] = "Spammer expulsado.";
 
 $l['error_invalidpm'] = "MP inválido";
 $l['error_nomergeposts'] = "Necesitas escoger uno o más mensajes para poder combinarlos.";

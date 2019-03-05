@@ -14,7 +14,6 @@ $l['forum_unapproved_posts_count'] = "Actualmente hay {1} mensajes rechazados en
 $l['forum_unapproved_post_count'] = "Actualmente hay 1 mensaje rechazado en este foro.";
 $l['forum_unapproved_threads_count'] = "Actualmente hay {1} temas rechazados en este foro.";
 $l['forum_unapproved_thread_count'] = "Actualmente hay 1 tema rechazado en este foro.";
-$l['forumteam'] = "Equipo del foro";
 $l['forumstats'] = "Estadísticas del foro";
 $l['todays_birthdays'] = "Cumpleaños de hoy";
 $l['birthdayhidden'] = "Oculto";
