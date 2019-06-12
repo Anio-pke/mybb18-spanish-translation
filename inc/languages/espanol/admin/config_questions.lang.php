@@ -12,8 +12,10 @@ $l['add_new_question'] = "Agregar nueva pregunta";
 $l['add_new_question_desc'] = "Agrega una pregunta de seguridad que debe ser respondida cuando sea usada durante el registro.";
 $l['edit_question'] = "Editar pregunta";
 $l['edit_question_desc'] = "Aquí puedes editar una pregunta de seguridad.";
+$l['preview_question'] = "Previsualizar pregunta";
 
 $l['options'] = "Opciones";
+$l['shown'] = "Mostrar";
 $l['correct'] = "Correctas";
 $l['incorrect'] = "Incorrectas";
 $l['disable_question'] = "Desactivar pregunta";

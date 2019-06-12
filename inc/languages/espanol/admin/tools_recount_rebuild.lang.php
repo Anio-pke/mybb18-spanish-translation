@@ -49,5 +49,5 @@ $l['success_rebuilt_referral'] = "Las recomendaciones de los usuarios se han rec
 $l['success_rebuilt_thread_ratings'] = "Las puntuaciones de los temas se han reconstruido correctamente.";
 
 $l['confirm_proceed_rebuild'] = "Haz clic en \"Proceder\" para continuar el proceso de recontar y reconstruir.";
-$l['automatically_redirecting'] = "Redireccionando automáticamente ...";
+$l['automatically_redirecting'] = "Redireccionando automáticamente&hellip;";
 

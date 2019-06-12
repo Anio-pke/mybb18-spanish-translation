@@ -337,7 +337,7 @@ $l['show_attachments'] = "Mostrar adjuntos";
 $l['table_view'] = "Tabla";
 $l['card_view'] = "Tarjeta";
 
-$l['find_users_where'] = "Buscar usuarios...";
+$l['find_users_where'] = "Buscar usuarios&hellip;";
 $l['username_contains'] = "El nombre de usuario contiene";
 $l['email_address_contains'] = "El email contiene";
 $l['is_member_of_groups'] = "Es miembro de uno o más de estos grupos";
@@ -356,7 +356,7 @@ $l['thread_count_is'] = "El número de temas es";
 $l['reg_ip_matches'] = "La IP de registro coincide con";
 $l['wildcard'] = "Para buscar por rangos de direcciones IP usa * (Ex: 127.0.0.*) o notación CIDR (Ex: 127.0.0.0/8)";
 $l['posted_with_ip'] = "Ha escrito desde la IP que coincide con";
-$l['custom_profile_fields_match'] = "El campo personalizado coincide...";
+$l['custom_profile_fields_match'] = "El campo personalizado coincide&hellip;";
 $l['is_not_blank'] = " no está vacío";
 $l['or'] = "o";
 $l['reg_in_x_days'] = "Registrado en los últimos";

@@ -7,7 +7,7 @@
  */
 
 $l['attachment_types'] = "Tipos de adjuntos";
-$l['attachment_types_desc'] = "Aquí puedes crear y configurar los tipos de archivos adjuntos que los usuarios pueden adjuntar a sus mensajes.";
+$l['attachment_types_desc'] = "Aquí puedes crear y configurar los tipos de archivos adjuntos que los usuarios pueden adjuntar a sus mensajes. Nota: Desactivar un tipo de adjunto hará que los adjuntos de ese tipo queden inaccesibles.";
 $l['add_new_attachment_type'] = "Nuevo tipo de adjunto";
 $l['add_attachment_type'] = "Agregar tipo de adjunto";
 $l['add_attachment_type_desc'] = "Agregar un nuevo tipo de archivos adjuntos permitirá a los miembros adjuntar archivos de este tipo en sus mensajes. Tienes la posibilidad de configurar la extensión, clases MIME, máximo tamaño y mostrar un pequeño icono para cada tipo de adjunto.";

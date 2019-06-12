@@ -178,7 +178,7 @@ $l['access_denied_desc'] = "No tienes permiso para acceder a esta parte del pane
 $l['cannot_perform_action_super_admin_general'] = "Lo sentimos, pero no puedes realizar esta acción porque no eres un super administrador.<br /><br />Para poder realizar esta acción, necesitas agregar tu ID de usuario a la lista de super administradores en inc/config.php.";
 
 // AJAX
-$l['loading_text'] = "Cargando<br />Por favor, espere..";
+$l['loading_text'] = "Cargando<br />Por favor, espere&hellip;";
 
 // Time zone selection boxes
 $l['timezone_gmt_minus_1200'] = "(GMT -12:00) Howland and Baker Islands";

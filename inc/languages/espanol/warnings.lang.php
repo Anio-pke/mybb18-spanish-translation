@@ -11,7 +11,7 @@ $l['nav_warning_log'] = "Historial de advertencias";
 $l['nav_add_warning'] = "Advertir usuario";
 $l['nav_view_warning'] = "Detalles de la advertencia";
 
-$l['warning_for_post'] = ".. Mensaje:";
+$l['warning_for_post'] = "&hellip; Mensaje:";
 $l['already_expired'] = "Caducada";
 $l['details_username'] = "Nombre de usuario";
 $l['warning_active'] = "Activa";

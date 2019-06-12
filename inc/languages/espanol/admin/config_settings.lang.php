@@ -89,7 +89,7 @@ $l['error_cannot_edit_default'] = "Los ajustes y grupos de ajustes por defecto n
 $l['error_cannot_edit_php'] = "Este es un tipo de ajuste especial que no puede ser editado.";
 $l['error_ajax_search'] = "Ha ocurrido un error al buscar ajustes:";
 $l['error_ajax_unknown'] = "Ha ocurrido un error desconicido al buscar ajustes.";
-$l['error_chmod_settings_file'] = "El archivo de configuración \"./inc/settings.php\" no tiene permisos de escritura. Por favor configura el ajuste CHMOD a 777.<br />Para más información sobre los ajustes CHMOD, visita <a href=\"https://docs.mybb.com/1.8/administration/security/file-permissions\" target=\"_blank\" rel=\"noopener\">MyBB Docs</a>.";
+$l['error_chmod_settings_file'] = "El archivo de configuración \"./inc/settings.php\" no tiene permisos de escritura. Por favor configura el ajuste CHMOD a 666.<br />Para más información sobre los ajustes CHMOD, visita <a href=\"https://docs.mybb.com/1.8/administration/security/file-permissions\" target=\"_blank\" rel=\"noopener\">MyBB Docs</a>.";
 
 $l['success_setting_added'] = "El ajuste se ha creado correctamente.";
 $l['success_setting_updated'] = "El ajuste se ha actualizado correctamente.";
@@ -105,7 +105,7 @@ $l['success_setting_group_updated'] = "El grupo de ajustes se ha actulizado corr
 $l['success_setting_group_deleted'] = "El grupo de ajustes se ha eliminado correctamente.";
 $l['success_duplicate_settings_deleted'] = "Todos los grupos de ajustes duplicados se han eliminado correctamente.";
 
-$l['searching'] = 'Buscando...';
+$l['searching'] = 'Buscando&hellip;';
 $l['search_error'] = 'Ha ocurrido un error al cargar los resultados de la búsqueda:';
 $l['search_done'] = '¡Listo!';
 

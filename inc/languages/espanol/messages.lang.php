@@ -99,7 +99,7 @@ $l['emailsubject_newpm'] = "Mensaje privado nuevo en {1} - {2}";
 $l['emailsubject_newjoinrequest'] = "Nueva petición de ingreso en {1}";
 $l['emailsubject_sendtofriend'] = "Una discusión interesante en {1}";
 $l['emailsubject_changepassword'] = "Cambio de contraseña en {1}";
-$l['emailbit_viewthread'] = "... (visita el tema para leer más...)";
+$l['emailbit_viewthread'] = "&hellip; (visita el tema para leer más&hellip;)";
 
 $l['email_lostpw'] = "{1},
 
@@ -252,7 +252,7 @@ El equipo de {2}.
 
 $l['email_forumsubscription'] = "{1},
 
-{2} ha iniciado un nuevo tema en {3}. Este es un foro al que estas suscito en {4}.
+{2} ha iniciado un nuevo tema en {3}. Este es un foro al que estas suscrito en {4}.
 
 El tema está titulado {5}
 

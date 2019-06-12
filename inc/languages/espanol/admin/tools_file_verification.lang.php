@@ -7,7 +7,7 @@
  */
 
 $l['file_verification'] = "Verificación de archivos";
-$l['checking'] = "Verificando...";
+$l['checking'] = "Verificando&hellip;";
 $l['file_verification_message'] = "Este proceso comprobará todos los archivos predeterminados de MyBB para comprobar su validación. Presiona 'Sí' para continuar.<br /><small>Por favor, recuerda que este proceso no distingue diferencias entres modificaciones personales y archivos corruptos. Por lo tanto ten cuidado al reparar ficheros marcados como \"corrupto\".</small>";
 
 $l['error_communication'] = "Ha ocurrido un problema de comunicación con el servidor de MyBB. Por favor, inténtalo en unos minutos.";

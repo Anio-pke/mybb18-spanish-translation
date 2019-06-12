@@ -73,11 +73,11 @@ $l['step2of2'] = "Paso 2 de 2 - Escaneando base de datos";
 $l['step1of2_line1'] = "Por favor, espere, el sistema de ficheros está siendo escaneado buscando adjuntos huérfanos.";
 $l['step2of2_line1'] = "Por favor, espere, la base de datos está siendo escaneada buscando adjuntos huérfanos.";
 $l['step_line2'] = "Cuando el proceso se complete se saltará al siguiente paso automáticamente.";
-$l['scanning'] = 'Escaneando...';
+$l['scanning'] = 'Escaneando&hellip;';
 
 // = Attachments / Index
 $l['index_find_attachments'] = "Adjuntos - Buscar adjuntos";
-$l['find_where'] = "Buscar adjuntos aquí...";
+$l['find_where'] = "Buscar adjuntos aquí&hellip;";
 $l['name_contains'] = "El nombre del archivo contiene";
 $l['name_contains_desc'] = "Para buscar con una sustitución introducir *.[extensión]. Ejemplo: *.zip.";
 $l['type_contains'] = "El tipo de archivo contiene";

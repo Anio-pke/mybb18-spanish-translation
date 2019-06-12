@@ -147,8 +147,8 @@ $l['multipage_last'] = "Ultima";
 $l['multipage_first'] = "Primera";
 $l['multipage_next'] = "Siguiente";
 $l['multipage_previous'] = "Anterior";
-$l['multipage_link_start'] = " ...";
-$l['multipage_link_end'] = "... ";
+$l['multipage_link_start'] = " &hellip;";
+$l['multipage_link_end'] = "&hellip; ";
 $l['multipage_jump'] = "Salto de página";
 
 $l['editor_bold'] = "Negrita";
@@ -434,8 +434,8 @@ $l['error_database_repair'] = "MyBB está reparando automaticamente una tabla co
 $l['unknown_user_trigger'] = "Ha ocurrido un error desconocido.";
 $l['warnings'] = "Han ocurrido los siguientes errores:";
 
-$l['ajax_loading'] = "Cargando<br />Por favor, espere..";
-$l['saving_changes'] = "Guardando cambios..";
+$l['ajax_loading'] = "Cargando. <br />Por favor, espere&hellip;";
+$l['saving_changes'] = "Guardando cambios&hellip;";
 $l['refresh'] = "Actualizar";
 $l['select_language'] = "Seleccion de idioma rápido";
 $l['select_theme'] = "Estilo rápido";
@@ -578,8 +578,8 @@ $l['select2_inputtoolong_single'] = "Por favor, elimina un caracter";
 $l['select2_inputtoolong_plural'] = "Por favor, elimina {1} caracteres";
 $l['select2_selectiontoobig_single'] = "Solo puedes seleccionar un elemento";
 $l['select2_selectiontoobig_plural'] = "Solo puedes seleccionar {1} elementos";
-$l['select2_loadmore'] = "Cargando más resultados…";
-$l['select2_searching'] = "Buscando…";
+$l['select2_loadmore'] = "Cargando más resultados&hellip;";
+$l['select2_searching'] = "Buscando&hellip;";
 
 $l['stopforumspam_error_decoding'] = 'Error decodificando los datos de StopForumSpam.com.';
 $l['stopforumspam_error_retrieving'] = 'Error cargando los datos de StopForumSpam.com.';

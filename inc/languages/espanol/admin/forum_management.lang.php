@@ -277,4 +277,4 @@ $l['polls_field_canvotepolls'] = "¿Puede votar en las encuestas?";
 $l['misc_field_cansearch'] = "¿Puede buscar en el foro?";
 
 $l['confirm_proceed_deletion'] = "Haz clic en \"Proceder\" para continuar con la eliminación del foro.";
-$l['automatically_redirecting'] = "Redirección automática...";
+$l['automatically_redirecting'] = "Redirección automática&hellip;";
