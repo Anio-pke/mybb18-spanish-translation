@@ -40,6 +40,7 @@ $l['group_selection_box'] = "Caja de selección de grupo";
 $l['group_selection_single'] = "Caja de selección de grupo simple";
 $l['adminlanguage'] = "Caja de selección de idioma de administración";
 $l['cpstyle'] = "Caja de selección de estilo del panel de control";
+$l['prefix_selection_box'] = "Caja de selección de prefijo";
 $l['php'] = "PHP";
 $l['type'] = "Tipo";
 $l['extra'] = "Extra";

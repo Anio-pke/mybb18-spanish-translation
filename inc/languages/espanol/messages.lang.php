@@ -83,6 +83,7 @@ $l['failed_login_wait'] = "Ya has fallado el número de intentos requeridos para
 $l['failed_login_again'] = "<br/>Tienes <strong>{1}</strong> intentos de inicio de sesión más.";
 $l['error_max_emails_day'] = "No puedes usar 'Enviar tema a un amigo' o 'Enviar email' porque ya has utilizado tu cuota de {1} mensajes en las últimas 24 horas.";
 $l['attachments_disabled'] = "No puedes usar el sistema de adjuntos por haber sido deshabilitado por el Administrador.";
+$l['error_attach_filename_length'] = "El nombre del fichero '{1}' excede la longitud máxima para el nombre ({2}). Por favor, sube un fichero con un nombre mas corto.";
 
 $l['emailsubject_lostpw'] = "Contraseña reiniciada {1}";
 $l['emailsubject_passwordreset'] = "Nueva contraseña en {1}";

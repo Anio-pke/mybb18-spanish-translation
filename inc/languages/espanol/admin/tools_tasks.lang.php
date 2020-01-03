@@ -13,7 +13,7 @@ $l['edit_task'] = "Editar tarea";
 $l['edit_task_desc'] = "Abajo puedes editar varios ajustes de esta tarea programada.";
 $l['task_logs'] = "Historial de tareas";
 $l['view_task_logs'] = "Ver historial de tareas";
-$l['view_task_logs_desc'] = "Cuando una tarea se ejecuta y el historial está activado, cualquier resultado o error se mostrarán abajo. Las entradas de más de 30 días se eliminan automáticamente.";
+$l['view_task_logs_desc'] = "Cuando una tarea es ejecutada y el historial está activado, cualquier resultado o error se mostrarán abajo. Las entradas de más de 30 días se eliminan automáticamente.";
 $l['scheduled_tasks'] = "Tareas programadas";
 $l['scheduled_tasks_desc'] = "Aquí puedes configurar las tareas que se ejecutarán automáticamente en tu foro. Para ejecutar una tarea haz clic en el icono de la derecha (despertador) en la tarea.";
 

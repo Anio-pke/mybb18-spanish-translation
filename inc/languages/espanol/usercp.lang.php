@@ -210,7 +210,6 @@ $l['profile_optional'] = "Campos opcionales";
 $l['website_url'] = "URL de tu sitio web:";
 $l['birthdate'] = "Cumpleaños:";
 $l['contact_field_icq'] = "Número ICQ:";
-$l['contact_field_yahoo'] = "Yahoo!:";
 $l['contact_field_skype'] = "Skype:";
 $l['contact_field_google'] = "Google Hangouts:";
 $l['additional_information'] = "Información adicional";

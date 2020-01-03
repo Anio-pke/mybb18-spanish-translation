@@ -11,11 +11,9 @@ $l['nav_smilies'] = "Lista de iconos gestuales";
 $l['nav_syndication'] = "Sindicación del ultimo tema (RSS)";
 
 $l['skype'] = "Skype";
-$l['yahoo_im'] = "Yahoo!";
 $l['skype_center'] = "Centro Skype";
 $l['chat_on_skype'] = "Charlar con {1} en Skype";
 $l['call_on_skype'] = "Llamada a {1} en Skype";
-$l['yahoo_center'] = "Centro Yahoo!";
 
 $l['send_me_instant'] = "Enviarme un mensaje instantáneo";
 $l['add_me_buddy_list'] = "Agregarme a tu lista de amigos";

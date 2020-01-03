@@ -65,7 +65,6 @@ $l['homepage'] = "Página web:";
 $l['pm'] = "Mensaje privado:";
 $l['send_pm'] = "Envíale un mensaje privado a {1}.";
 $l['icq_number'] = "Número ICQ:";
-$l['yahoo_id'] = "Yahoo! Messenger:";
 $l['skype_id'] = "Skype:";
 $l['google_id'] = "Google Hangouts:";
 $l['avatar']  = "Avatar:";

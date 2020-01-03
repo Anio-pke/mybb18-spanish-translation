@@ -134,7 +134,6 @@ $l['profile_optional'] = "Campos opcionales";
 $l['website_url'] = "URL del sitio web:";
 $l['birthdate'] = "Cumpleaños:";
 $l['icq_number'] = "Número ICQ:";
-$l['yahoo_id'] = "Yahoo!:";
 $l['skype_id'] = "Skype:";
 $l['google_id'] = "Google Hangouts:";
 $l['away_notice'] = "Esta opción te permite selecionar si estás ausente o no";
