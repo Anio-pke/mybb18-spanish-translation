@@ -44,4 +44,4 @@ $l['success_perms_deleted'] = 'Los permisos de administrador se han restablecido
 
 $l['confirm_perms_deletion'] = "¿Estás seguro de querer restablecer estos permisos de administrador?";
 $l['confirm_perms_deletion2'] = "¿Estás seguro de querer restablecer los permisos de administrador a este usuario?";
-
+$l['confirm_perms_deletion3'] = "¿Estás seguro de querer restablecer los permisos de administrador a este grupo?";

@@ -10,15 +10,6 @@ $l['nav_helpdocs'] = "Documentos de ayuda";
 $l['nav_smilies'] = "Lista de iconos gestuales";
 $l['nav_syndication'] = "Sindicación del ultimo tema (RSS)";
 
-$l['skype'] = "Skype";
-$l['skype_center'] = "Centro Skype";
-$l['chat_on_skype'] = "Charlar con {1} en Skype";
-$l['call_on_skype'] = "Llamada a {1} en Skype";
-
-$l['send_me_instant'] = "Enviarme un mensaje instantáneo";
-$l['add_me_buddy_list'] = "Agregarme a tu lista de amigos";
-$l['add_remote_to_page'] = "Añadir remoto a tu página";
-
 $l['buddy_list'] = "Lista de amigos";
 $l['online'] = "En línea";
 $l['online_none'] = "<em>No tienes amigos conectados</em>";
@@ -84,7 +75,6 @@ $l['redirect_cookiescleared'] = "Todas las cookies se han eliminado.";
 
 $l['error_invalidforum'] = "Foro inválido";
 $l['error_invalidhelpdoc'] = "El documento de ayuda especificado parece que no existe.";
-$l['error_invalidimtype'] = "Este usuario no tiene este tipo de cuenta de mensajería instántanea especificada en su perfil.";
 $l['error_invalidsearch'] = "Se ha especificado una búsqueda inválida.  Por favor, regresa e inténtalo de nuevo.";
 $l['error_no_search_support'] = "Este sistema base de datos no soporta búsqueda.";
 $l['error_searchflooding'] = "Lo siento, pero solo puedes realizar una búsqueda cada {1} segundos. Por favor, espera otros {2} segundos antes de buscar de nuevo.";

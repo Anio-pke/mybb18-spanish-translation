@@ -10,7 +10,7 @@ $l['forum_announcements'] = "Anuncios del foro";
 $l['forum_announcements_desc'] = "Aquí puedes ver los anuncios de tu foro. Los anuncios globales se ven en todos los foros, mientras que los demás se muestran en un foro o subforo en concreto.";
 $l['add_announcement'] = "Agregar anuncio";
 $l['add_announcement_desc'] = "Aquí puedes agregar un anuncio a un solo foro o a todos los foros.";
-$l['update_announcement'] = "Guardar anuncio";
+$l['update_announcement'] = "Actualizar anuncio";
 $l['preview_announcement'] = "Vista previa del anuncio";
 $l['update_announcement_desc'] = "Aquí puedes actualizar los detalles del anuncio.";
 

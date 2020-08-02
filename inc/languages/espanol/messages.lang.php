@@ -52,7 +52,7 @@ $l['error_invalidusername'] = "El nombre de usuario que escribiste parece ser no
 $l['error_invalidpassword'] = "La contraseña que escribiste es incorrecta. Si la olvidaste, haz click <a href=\"member.php?action=lostpw\">aquí</a>, o regresa e intenta de nuevo.";
 $l['error_postflooding'] = "Lo sentimos pero no podemos procesar tu mensaje. El administrador ha especificado que puedes enviar mensajes cada {1} segundos.";
 $l['error_nopermission_guest_1'] = "No iniciaste sesión o no tienes permiso para ver esta página. Esto puede ser por una de las siguientes razones:";
-$l['error_nopermission_guest_2'] = "No iniciaste sesión o no estás registrado. Usa el formulario al final de esta página para iniciar sesión.";
+$l['error_nopermission_guest_2'] = "No iniciaste sesión o no estás registrado. Por favor, iniciar sesión y reintenta esta acción.";
 $l['error_nopermission_guest_3'] = "No tienes permiso para acceder a esta página. ¿Estás tratando de entrar en páginas administrativas en las cuales no deberías de estar? Revisa las reglas del foro para ver si te está permitido realizar esta acción.";
 $l['error_nopermission_guest_4'] = "Tu cuenta pudo haber sido desactivada por un administrador, o puede que estés esperando activación.";
 $l['error_nopermission_guest_5'] = "Has accedido a esta página directamente en vez de usar los formularios o enlaces adecuados.";
@@ -274,7 +274,7 @@ El equipo de {4}.
 Información para borrar la suscripción:
 
 Si ya no quieres recibir más notificaciones de nuevos temas en este foro, visita la siguiente dirección en tu navegador:
-{7}/usercp.php?action=removesubscription&type=forum&fid={9}&my_post_key={10}
+{7}/usercp.php?action=removesubscription&type=forum&fid={9}
 
 ------------------------------------------";
 
@@ -350,7 +350,7 @@ El equipo de {3}.
 Información para borrar la suscripción:
 
 Si ya no quieres recibir más notificaciones de respuestas a este tema, visita la siguiente dirección en tu navegador:
-{6}/usercp.php?action=removesubscription&tid={8}&my_post_key={9}
+{6}/usercp.php?action=removesubscription&tid={8}
 
 ------------------------------------------";
 $l['email_reachedpmquota'] = "{1},
@@ -495,7 +495,7 @@ Tal vez haya más respuestas a este tema pero no recibirás más notificaciones 
 Información para borrar la suscripción:
 
 Si ya no quieres recibir más notificaciones de respuestas a este tema, visita la siguiente dirección en tu navegador:
-[url]{5}/usercp.php?action=removesubscription&tid={7}&my_post_key={8}[/url]
+[url]{5}/usercp.php?action=removesubscription&tid={7}[/url]
 
 ------------------------------------------";
 

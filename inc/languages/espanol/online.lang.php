@@ -107,7 +107,6 @@ $l['members_were_online_today'] = "<strong>{1}</strong> miembros estuvieron en l
 $l['member_online_hidden'] = " ({1} miembro invisible)";
 $l['members_online_hidden'] = " ({1} miembros invisibles)";
 $l['rating_thread'] = "Calificar tema";
-$l['viewing_imcenter'] = "Viendo centro IM";
 $l['managing_favorites'] = "Usando temas favoritos";
 $l['managing_subscriptions'] = "Usando temas suscritos";
 $l['managing_group'] = "Configurando grupos de usuario";

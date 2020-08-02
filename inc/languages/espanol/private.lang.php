@@ -165,6 +165,7 @@ $l['error_nopmsarchive'] = "Lo sentimos, pero no existe ningún mensaje privado 
 $l['error_invalidpmfoldername'] = "Lo sentimos, pero el nombre que le diste a la carpeta contiene caracteres que no están permitidos.";
 $l['error_emptypmfoldername'] = "Lo sentimos, pero el nombre de carpeta introducido no contiene ningún texto. Por favor, introduce un nombre o déjelo en blanco para eliminar la carpeta.";
 $l['error_invalidpmrecipient'] = "El destinatario que escribiste es incorrecto o no existe. Regresa y escríbelo de nuevo.";
+$l['error_invalidmovefid'] = "La carpeta a la que intentas mover tu(s) mensaje(s) es inválida. Por favor, regresa e inténtalo de nuevo.";
 $l['error_invalidpm'] = "MP inválido";
 $l['error_pmrecipientreachedquota'] = "No le puedes enviar un mensaje privado a {1} porque el/ella ha alcanzado su cuota máxima de mensajes privados. El destinatario no puede recibir ningún mensaje hasta que borre algunos sus mensajes. Se le envió un mensaje a este usuario acerca de esta situación. Por favor trata de enviar tu mensaje después.";
 $l['error_recipientpmturnedoff'] = "{1} ha escogido no recibir mensajes privados ó tu no puedes estar permitido para enviarlos. Por lo cuál no podrás enviarle un mensaje privado a este usuario.";

@@ -9,7 +9,7 @@
 $l['nav_newthread'] = "Nuevo tema";
 $l['newthread_in'] = "Nuevo tema en {1}";
 $l['post_new_thread'] = "Enviar un nuevo tema";
-$l['thread_subject'] = "Título del tema";
+$l['thread_subject'] = "Título del tema:";
 $l['your_message'] = "Tu mensaje:";
 $l['post_options'] = "Opciones de envío:";
 $l['options_sig'] = "<b>Firma:</b> Incluye tu firma. (Solo usuarios registrados)";

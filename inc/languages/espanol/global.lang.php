@@ -312,6 +312,7 @@ $l['forumjump_home'] = "Índice";
 $l['redirect'] = "Ahora serás redireccionado";
 $l['unknown_error'] = "Ha ocurrido un error desconocido.";
 $l['post_fetch_error'] = 'Ha ocurrido un problema al recuperar los mensajes.';
+$l['ratings_update_error'] = 'Ha ocurrido un problema al actualizar la calificación.';
 
 $l['smilieinsert'] = "Iconos gestuales";
 $l['smilieinsert_getmore'] = "aquí hay más";
@@ -442,13 +443,16 @@ $l['select_theme'] = "Estilo rápido";
 
 $l['invalid_post_code'] = "El código de autorización no coincide. ¿Estás accediendo correctamente a esta función? Por favor, vuelve atrás e inténtalo de nuevo.";
 $l['invalid_nocaptcha'] = "Por favor, resuelve el reCAPTCHA para verificar que no eres un robot.";
+$l['invalid_hcaptcha'] = "Por favor, resuelve el hCaptcha para verificar que no eres un robot.";
 $l['invalid_captcha_verify'] = "El código de imagen de verificación que has introducido es incorrecto. Por favor, introduce el código exactamente como aparece en la imagen.";
 $l['image_verification'] = "Verificación de la imagen";
 $l['human_verification'] = "Verificación humana";
 $l['verification_note'] = "Escribe el texto que aparece en la imagen, en el campo que está abajo. Este proceso se usa para evitar mensajes automáticos.";
 $l['verification_note_nocaptcha'] = "Por favor, haz clic en la caja de selección que ves abajo. Este proceso se usa para evitar mensajes automáticos.";
+$l['verification_note_hcaptcha'] = "Por favor, haz clic en la caja de selección que ves abajo. Este proceso se usa para evitar mensajes automáticos.";
 $l['verification_subnote'] = "(no distingue MAYÚSC/minúsc)";
-$l['invalid_nocaptcha_transmit'] = "Ha ocurrido un error con la verificación humana. Por favor, inténtalo de nuevo.";
+$l['invalid_nocaptcha_transmit'] = "Ha ocurrido un error con la verificación humana reCAPTCHA. Por favor, inténtalo de nuevo.";
+$l['invalid_hcaptcha_transmit'] = "Ha ocurrido un error con la verificación humana hCaptcha. Por favor, inténtalo de nuevo.";
 $l['captcha_fetch_failure'] = 'Ha ocurrido un error al cargar un nuevo captcha.';
 $l['question_fetch_failure'] = 'Ha ocurrido un error al cargar una nueva pregunta.';
 

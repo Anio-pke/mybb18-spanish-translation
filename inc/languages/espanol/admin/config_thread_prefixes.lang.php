@@ -7,6 +7,7 @@
  */
 
 $l['thread_prefixes'] = "Prefijos de tema";
+$l['thread_prefixes_in'] = "Prefijos de tema en \"{1}\"";
 $l['thread_prefixes_desc'] = "Los prefijos de tema te permiten definir prefijos que tus usuarios pueden asignar a sus temas. Los temas se pueden filtrar por prefijo.";
 
 $l['add_new_thread_prefix'] = "Agregar prefijo de tema";
@@ -21,13 +22,14 @@ $l['prefix_options'] = "Opciones de prefijo";
 $l['save_thread_prefix'] = "Guardar prefijo";
 
 $l['prefix'] = "Prefijo";
+$l['forums'] = "Disponible en los foros";
 $l['prefix_desc'] = "Versión en texto plano del prefijo que se mostrará en los menús de selección.";
 $l['display_style'] = "Estilo de muestra";
 $l['display_style_desc'] = "Este es el prefijo que se muestra al lado del título del tema. Puedes introducir HTML o simplemente usar lo mismo que en la versión de texto plano.";
 $l['available_in_forums'] = "Disponible en los foros";
 $l['available_to_groups'] = "Disponible para los grupos";
 
-$l['no_thread_prefixes'] = "Actualmente no hay prefijos configurados en tu foro.";
+$l['no_thread_prefixes'] = "Actualmente no hay prefijos configurados.";
 
 $l['confirm_thread_prefix_deletion'] = "¿Estás seguro de querer eliminar este prefijo? Nota: Debes recordar que tienes que actualizar cualquier herramienta de moderación que use este prefijo antes de eliminarlo.";
 
