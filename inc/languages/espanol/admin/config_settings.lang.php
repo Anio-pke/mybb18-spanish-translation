@@ -422,7 +422,7 @@ $l['setting_usereferrals_desc'] = "¿Quieres que los usuarios puedan usar el sis
 $l['setting_referralsperpage'] = "Recomendaciones por página";
 $l['setting_referralsperpage_desc'] = "Número de miembros a mostrar en la página de recomendaciones.";
 $l['setting_coppa'] = "Formulario COPPA";
-$l['setting_coppa_desc'] = "Si quieres activar el soporte <a href="https://www.ftc.gov/enforcement/rules/rulemaking-regulatory-reform-proceedings/childrens-online-privacy-protection-rule">COPPA</a> en tus foros, por favor, selecciona el tipo de registro permitido.";
+$l['setting_coppa_desc'] = 'Si quieres activar el soporte <a href="https://www.ftc.gov/enforcement/rules/rulemaking-regulatory-reform-proceedings/childrens-online-privacy-protection-rule">COPPA</a> en tus foros, por favor, selecciona el tipo de registro permitido.';
 $l['setting_coppa_enabled'] = "Activada";
 $l['setting_coppa_deny'] = "Denegar registros a menores de 13 años";
 $l['setting_coppa_disabled'] = "Desactivar esta función";
