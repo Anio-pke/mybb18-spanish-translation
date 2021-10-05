@@ -21,6 +21,7 @@ $l['save_calendar_orders'] = "Guardar orden de muestra";
 
 $l['name'] = "Nombre";
 $l['display_order'] = "Orden";
+$l['display_order_desc'] = "El orden en el que se muestran los calendarios en la selección de calendario. El calendario con orden 1 se mostrará en la página del calendario por defecto.";
 $l['week_start'] = "Inicio de la semana";
 $l['week_start_desc'] = "Aquí puedes seleccionar en que día empieza la semana.";
 $l['sunday'] = "Domingo";

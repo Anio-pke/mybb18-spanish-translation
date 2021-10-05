@@ -8,7 +8,7 @@
 
 $l['file_verification'] = "Verificación de archivos";
 $l['checking'] = "Verificando&hellip;";
-$l['file_verification_message'] = "Este proceso comprobará todos los archivos predeterminados de MyBB para comprobar su validación. Presiona 'Sí' para continuar.<br /><small>Por favor, recuerda que este proceso no distingue diferencias entres modificaciones personales y archivos corruptos. Por lo tanto ten cuidado al reparar ficheros marcados como \"corrupto\".</small>";
+$l['file_verification_message'] = "Este proceso comprobará todos los archivos predeterminados de MyBB para comprobar su validación. Presiona 'Sí' para continuar.<br /><small>Por favor, recuerda que este proceso no distingue diferencias entres modificaciones personales y archivos corruptos. Por lo tanto ten cuidado al reparar ficheros marcados como \"corrupto\". Los archivos ausentes o corruptos se pueden reemplazar copiando del <a href=\"https://mybb.com/download\" target=\"_blank\" rel=\"noopener\">paquete original MyBB</a>.</small>";
 
 $l['error_communication'] = "Ha ocurrido un problema de comunicación con el servidor de MyBB. Por favor, inténtalo en unos minutos.";
 $l['file'] = "Archivo";

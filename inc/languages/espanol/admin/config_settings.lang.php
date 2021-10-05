@@ -70,7 +70,10 @@ $l['settings_search'] = "Buscar ajustes";
 $l['confirm_setting_group_deletion'] = "¿Estás seguro de querer eliminar este grupo de ajustes?";
 $l['confirm_setting_deletion'] = "¿Estás seguro de querer eliminar este ajuste?";
 
-$l['error_format_dimension'] = "El formato de {1} es inválido.";
+$l['error_format_dimension'] = "El formato {1} es inválido.";
+$l['error_field_minnamelength'] = "La longitud mínima del nombre no puede ser mayor que la longitud máxima del nombre";
+$l['error_field_minpasswordlength'] = "La longitud mínima de la contraseña no puede ser mayor que la longitud máxima de la contraseña";
+$l['error_field_minpasswordlength_complex'] = "La longitud mínima de la contraseña no puede ser inferior a 3 cuando se utilizan contraseñas complejas";
 $l['error_field_postmaxavatarsize'] = "Dimensiones máximas del avatar. (ancho y alto separados por 'x' o '|') . Si el avatar es muy grande, este se redimensionará automáticamente.";
 $l['error_field_useravatardims'] = "Dimensiones por defecto del avatar";
 $l['error_field_maxavatardims'] = "Dimensiones máximas del avatar";
@@ -98,6 +101,7 @@ $l['success_setting_updated'] = "El ajuste se ha actualizado correctamente.";
 $l['success_setting_deleted'] = "El ajuste se ha eliminado correctamente.";
 $l['success_settings_updated'] = "Los ajustes se han actualizado correctamente.";
 $l['success_settings_updated_hiddencaptchaimage'] = '<div class="smalltext" style="font-weight: normal;">Por favor, ten en cuenta que los ajustes del campo <strong>CAPTCHA oculto</strong> se han revertido a <strong>{1}</strong> por un conflicto con el campo <strong>{2}</strong> en el formulario de registro.</div>';
+$l['success_settings_updated_username_method_conflict'] = '<div class="smalltext" style="font-weight: normal;">Tenga en cuenta que la configuración de <b>Métodos de inicio de sesión permitidos</b> no se ha actualizado debido a que actualmente está permitido actualmente registarse múltiples veces con un email.</div>';
 $l['success_settings_updated_username_method'] = '<div class="smalltext" style="font-weight: normal;">Por favor, ten en cuenta que el ajuste <b>Métodos de inicio de sesión permitidos</b> no se ha actualizado debido a que varios usuarios están usando el mismo email en este momento.</div>';
 $l['success_settings_updated_allowmultipleemails'] = '<div class="smalltext" style="font-weight: normal;">Por favor, ten en cuenta que el ajuste <b>¿Permitir usar el mismo email varias veces?</b> no se puede activar porque el ajuste <b>Métodos de inicio de sesión permitidos</b> permite a los usuarios iniciar sesión con el email.</div>';
 $l['success_settings_updated_captchaimage'] = '<div class="smalltext" style="font-weight: normal;">Por favor, ten en cuenta que el ajuste <strong>Imágenes CAPTCHA para registros y publicaciones</strong> se ha revertido a <strong>MyBB Captcha</strong> debido a la falta de la(s) clave(s) pública/privada.</div>';
@@ -245,9 +249,9 @@ $l['setting_use_xmlhttprequest_desc'] = "Este ajuste activará o desactivará la
 $l['setting_extraadmininfo'] = "Estadísticas avanzadas / Información debug";
 $l['setting_extraadmininfo_desc'] = "Mostrar carga del servidor, tiempo de análisis, tiempo de generación, compresión Gzip, etc al final de todas las páginas de la raíz del foro. Esta información solo podrán verla los administradores.";
 $l['setting_uploadspath'] = "Ruta de subidas";
-$l['setting_uploadspath_desc'] = "Ruta que usa el foro para las subidas. Es <b>necesario chmod 777</b> (en servidores Unix).";
+$l['setting_uploadspath_desc'] = "Ruta que usa el foro para las subidas. Es <b>necesario chmod 777</b> (en servidores Unix). Si es una ruta relativa, se considera que es relativa al directorio raíz de MyBB. Valor predeterminado: './uploads' (ruta relativa)";
 $l['setting_useerrorhandling'] = "Usar sistema de guardado de errores";
-$l['setting_useerrorhandling_desc'] = "Si no quieres usar el sistema de guardado de errores de MyBB, debes desactivar esta opción. De todas formas, es recomendable activarlo";
+$l['setting_useerrorhandling_desc'] = "Si no quieres usar el sistema de guardado de errores de MyBB, debes desactivar esta opción. De todas formas, es recomendable activarlo.";
 $l['setting_errorlogmedium'] = "Guardar errores";
 $l['setting_errorlogmedium_desc'] = "Tipo de guardado de errores.";
 $l['setting_errorlogmedium_none'] = "Ninguno";
@@ -376,6 +380,12 @@ $l['setting_browsingthisthread'] = "Usuarios navegando por este tema";
 $l['setting_browsingthisthread_desc'] = "Aquí puedes desactivar la opción 'usuarios navegando por este tema'.";
 $l['setting_delayedthreadviews'] = "Actualizar número de vistas con Retraso";
 $l['setting_delayedthreadviews_desc'] = "Si este ajuste está activado, el número de veces que se ha visto un tema se actualizará en segundo plano por el sistema de tareas. Si no está activa, se actualizará instantáneamente.";
+$l['setting_threadviews_countspiders'] = "¿Incrementar el recuento de vistas con las arañas?";
+$l['setting_threadviews_countspiders_desc'] = "Aquí puedes incluir las vistas de arañas en el contador de vistas de los temas.";
+$l['setting_threadviews_countguests'] = "¿Incrementar el recuento de vistas con los invitados?";
+$l['setting_threadviews_countguests_desc'] = "Aquí puedes incluir las vistas de los invitados en el contador de vistas de los temas.";
+$l['setting_threadviews_countthreadauthor'] = "¿Incrementar el recuento de vistas con el autor del tema?";
+$l['setting_threadviews_countthreadauthor_desc'] = "Aquí puedes incluir las vistas de los autores de los temas en el contador de vistas de los temas.";
 /**************************************************************************************************************************************************/
 
 //Grupo 9 member
@@ -539,7 +549,7 @@ $l['setting_maxpostvideos_desc'] = "Introduce el número máximo de vídeos que 
 $l['setting_subscribeexcerpt'] = "Número de caracteres para las vistas previas de las suscripciones";
 $l['setting_subscribeexcerpt_desc'] = "¿Cuantos caracteres de un mensaje quieres que se envíen en las notificaciones por email en una nueva respuesta?.";
 $l['setting_maxquotedepth'] = "Nivel máximo de citas";
-$l['setting_maxquotedepth_desc'] = "Nivel máximo en las citas. Cuando citas un mensaje, todas las citas antiguas que superen este valor de nivel se eliminarán automáticamente. Este valor solo afecta cuando se cita con el botón ya que siempre esrá posible exceder este límite citando a mano, este valor no afecta a los mensajes enviados con anterioridad. 0 para deshabilitar.";
+$l['setting_maxquotedepth_desc'] = "Nivel máximo en las citas. Cuando citas un mensaje, todas las citas antiguas que superen este valor de nivel se eliminarán automáticamente. Este valor solo afecta cuando se cita con el botón ya que siempre esrá posible exceder este límite citando a mano, este valor no afecta a los mensajes enviados con anterioridad. 0 para deshabilitar el límite.";
 $l['setting_polloptionlimit'] = "Longitud de una opción de una encuesta";
 $l['setting_polloptionlimit_desc'] = "Longitud máxima permitida para una opción de una encuesta. Establecer como '0' para deshabilitar.";
 $l['setting_maxpolloptions'] = "Número de opciones para una encuesta";
@@ -665,7 +675,7 @@ $l['setting_showpmip_no'] = "No mostrar IP";
 $l['setting_showpmip_hide'] = "Mostrar a administradores y moderadores";
 $l['setting_showpmip_show'] = "Mostrar a todos los usuarios";
 $l['setting_maxpmquotedepth'] = "Máximas etiquetas de cita";
-$l['setting_maxpmquotedepth_desc'] = "El nivel máximo de profundidad para las citas. Cuando responden con una cita en los MP, todas las citas que excedan el límite se eliminarán automaticamente. Ten en cuenta que este límite solo funciona al citar, con lo que es posible exceder este límite citando manualmente. Esto no afecta a los MPs ya enviados. Establece a 0 para desactivar.";
+$l['setting_maxpmquotedepth_desc'] = "El nivel máximo de profundidad para las citas. Cuando responden con una cita en los MP, todas las citas que excedan el límite se eliminarán automaticamente. Ten en cuenta que este límite solo funciona al citar, con lo que es posible exceder este límite citando manualmente. Esto no afecta a los MPs ya enviados. Establece a 0 para desactivar el límite.";
 /**************************************************************************************************************************************************/
 
 // Grupo 17 calendar
@@ -688,6 +698,10 @@ $l['setting_wolorder_username'] = "Ordenar por nombre de usuario (ASC)";
 $l['setting_wolorder_activity'] = "Ordenar por última actividad (DESC)";
 $l['setting_refreshwol'] = "Actualizar quién está en línea (Minutos)";
 $l['setting_refreshwol_desc'] = "Tiempo entre actualizaciones de la página \"Quién está en línea\", en minutos. 0 para desactivar.";
+$l['setting_wolusersperpage'] = "Usuarios por página";
+$l['setting_wolusersperpage_desc'] = "Número de usuarios que se muestran por página. 0 para usar valor por defecto.";
+$l['setting_woldisplayspiders'] = "¿Quién está en línea muestra las arañas (spiders)?";
+$l['setting_woldisplayspiders_desc'] = "Muestra arañas en Quién está en línea. Nota: Esta configuración solo tiene efecto en el portal y en el índice.";
 /**************************************************************************************************************************************************/
 
 //Grupo 19 userpruning
@@ -782,6 +796,8 @@ $l['setting_allowfontmycode'] = "Permitir MyCode fuente (font)";
 $l['setting_allowfontmycode_desc'] = "Establecer 'Sí' permite a los usuarios usar el MyCode para el tipo de letra.";
 $l['setting_allowlinkmycode'] = "Permitir MyCode enlace (link)";
 $l['setting_allowlinkmycode_desc'] = "Establecer 'Sí' permite a los usuarios usar el MyCode para insertar enlaces.";
+$l['setting_allowautourl'] = "Convertir automáticamente URLs en enlaces ";
+$l['setting_allowautourl_desc'] = "Establecer 'Sí' convertirá las URLs en enlaces.";
 $l['setting_allowemailmycode'] = "Permitir MyCode email";
 $l['setting_allowemailmycode_desc'] = "Establecer 'Sí' permite a los usuarios usar el MyCode para insertar emails.";
 $l['setting_allowalignmycode'] = "Permitir MyCode alineación (align)";
@@ -842,6 +858,8 @@ $l['setting_mail_logging_1'] = "Almacenar correos sin contenido";
 $l['setting_mail_logging_2'] = "Almacenar siempre";
 $l['setting_mail_message_id'] = "Agregar un ID al mensaje en las cabeceras del email";
 $l['setting_mail_message_id_desc'] = "Desactivando esta opción en muchos servidores compartidos resuelve problemas con los emails del foro que son marcados como spam.";
+$l['setting_mail_queue_limit'] = "Mensajes a enviar desde la cola de correo ";
+$l['setting_mail_queue_limit_desc'] = "Número de mensajes que se enviarán desde la cola de correo cada vez que se ejecute la tarea Enviar correo en cola.";
 /**************************************************************************************************************************************************/
 
 //Grupo 25 contactsettings
@@ -880,6 +898,8 @@ $l['setting_purgespammerbanreason'] = "Razón de suspensión";
 $l['setting_purgespammerbanreason_desc'] = "Razón que se usará para suspender al usuario.";
 $l['setting_purgespammerapikey'] = "Clave API Stop Forum Spam";
 $l['setting_purgespammerapikey_desc'] = "Para poder enviar información sobre spammers a la base de datos Stop Forum Spam, necesitas una clave API. Puedes conseguir una <a href=\"https://www.stopforumspam.com/forum/register.php\" target=\"_blank\" rel=\"noopener\">aquí</a>. Cuando ya tengas la clave, pégala en la caja de abajo.";
+$l['setting_purgespammerbanip'] = "Agregar filtro de IPs suspendidas";
+$l['setting_purgespammerbanip_desc'] = "¿Quieres suspender la IP del spammer usando esta herramienta? Si a otro usuario se le asigna la misma IP, no podrá usar los foros. ";
 /**************************************************************************************************************************************************/
 
 //Grupo 27 stopforumspam

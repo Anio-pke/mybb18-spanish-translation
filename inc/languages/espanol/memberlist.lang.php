@@ -11,7 +11,7 @@ $l['nav_memberlist'] = "Lista de miembros";
 $l['memberlist_disabled'] = "La lista de miembros ha sido desactivada por un administrador.";
 
 $l['member_list'] = "Lista de miembros";
-$l['avatar']  ="Avatar";
+$l['avatar']  = "Avatar";
 $l['username'] = "Nombre de usuario";
 $l['joined'] ="Ingresó";
 $l['lastvisit'] = "Última visita";

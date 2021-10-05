@@ -31,6 +31,7 @@ $l['userdata_invalid_birthday'] = 'El cumpleaños que has introducido es inváli
 $l['userdata_invalid_birthday_coppa'] = 'Para verificar tu edad, introduce el año en que naciste. Puedes ocultar tu edad y fecha de nacimiento en las opciones de tu perfil.';
 $l['userdata_invalid_birthday_coppa2'] = 'Debes tener más de 13 años para ser miembro de este foro. Por favor, contacta con un administrador.';
 $l['userdata_invalid_birthday_privacy'] = 'Por favor, elige una opción de privacidad válida para tu cumpleaños.';
+$l['userdata_conflicted_birthday_privacy'] = 'Debes especificar ru año de nacimiento si eliges mostrar solo la edad en la privacidad de la fecha de nacimiento.';
 $l['userdata_invalid_referrer'] = 'El recomendante que has introducido no existe. Por favor, introduce uno existente o déjalo en blanco.';
 $l['userdata_invalid_language'] = 'El idioma que has seleccionado no existe. Por favor, selecciona un idioma existente.';
 $l['userdata_invalid_style'] = 'El estilo seleccionado es inválido. Por favor, selecciona un estilo válido.';

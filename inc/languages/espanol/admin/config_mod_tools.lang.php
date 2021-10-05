@@ -87,12 +87,15 @@ $l['remove_subscriptions'] = "¿Eliminar suscripciones?";
 $l['recount_rebuild'] = "¿Recontar y reconstruir?";
 $l['apply_thread_prefix'] = "¿Aplicar prefijo al tema?";
 $l['new_subject'] = "¿Nuevo título?";
-$l['new_subject_desc'] = "{subject} representa el título original. {username} representa el nombre de usuario del moderador.";
+$l['new_subject_desc'] = "Introduce el nuevo título del tema.";
+
+$l['subject_message_replacements'] = "Reemplazos disponibles";
+$l['subject_message_replacements_desc'] = "{subject} representa el título original. {username} representa el nombre de usuario del moderador. {author} representa el nombre de usuario del autor del tema.";
 
 $l['add_new_reply'] = "Agregar respuesta";
 $l['add_new_reply_desc'] = "Dejar en blanco para no enviar una respuesta.";
 $l['reply_subject'] = "Título de la respuesta";
-$l['reply_subject_desc'] = "Solo se usará si se introduce una respuesta.<br />{subject} representa el título original. {username} representa el nombre de usuario del moderador.";
+$l['reply_subject_desc'] = "Solo se usará si se introduce una respuesta.";
 
 $l['success_mod_tool_created'] = "La herramienta de moderación se ha creado correctamente.";
 $l['success_mod_tool_updated'] = "La herramienta de moderación se ha actualizado correctamente.";
@@ -113,7 +116,7 @@ $l['stick_split_thread'] = "¿Marcar como importante el tema dividido?";
 $l['unapprove_split_thread'] = "¿Rechazar el tema dividido?";
 $l['split_thread_prefix'] = "Prefijo del tema dividido";
 $l['split_thread_subject'] = "Título del tema dividido";
-$l['split_thread_subject_desc'] = "{subject} representa el título original. Solo se necesita si se dividen mensajes.";
+$l['split_thread_subject_desc'] = "Solo se necesita si se dividen mensajes.";
 $l['add_new_split_reply'] = "Agregar una respuesta el tema dividido";
 $l['add_new_split_reply_desc'] = "Dejar en blanco para no enviar una respuesta.";
 $l['split_reply_subject'] = "Título de la respuesta";

@@ -47,6 +47,8 @@ $l['success_activated_attachment_type'] = 'El tipo de archivo adjunto selecciona
 $l['success_deactivated_attachment_type'] = 'El tipo de archivo adjunto seleccionado se ha desactivado correctamente.';
 
 $l['enabled'] = "¿Activar?";
+$l['forcedownload'] = "Forzar descarga";
+$l['forcedownload_desc'] = "Habilitar esto forzará siempre la descarga del adjunto como un archivo.";
 $l['avatar_file'] = 'Archivo para avatar';
 $l['avatar_file_desc'] = '¿Quieres permitir este tipo de archivo adjunto se use para avatares?';
 

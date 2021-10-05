@@ -46,25 +46,130 @@ $l['d6_document'] = "Mientras estés en los foros, te encontrarás con temas a l
 // Help Document 7
 $l['d7_name'] = "MyCode";
 $l['d7_desc'] = "Aprende cómo mejorar tus mensajes con MyCode.";
-$l['d7_document'] = "En tus posts puedes usar MyCode, una variante simplificada del HTML, para crear ciertos efectos:
-<p><br />[b]Este texto está en negrita[/b]<br />&nbsp;&nbsp;&nbsp;<b>Este texto está en negrita</b>
-<p>[i]Este texto está en cursiva[/i]<br />&nbsp;&nbsp;&nbsp;<i>Este texto está en cursiva</i>
-<p>[u]Este texto está subrayado[/u]<br />&nbsp;&nbsp;&nbsp;<u>Este texto está subrayado</u>
-<p>[s]Este texto está tachado[/s]<br />&nbsp;&nbsp;&nbsp;<del>Este texto está tachado</del>
-<p><br />[url]http://www.example.com/[/url]<br />&nbsp;&nbsp;&nbsp;<a href=\"http://www.example.com/\">http://www.example.com/</a>
-<p>[url=http://www.example.com/]Example.com[/url]<br />&nbsp;&nbsp;&nbsp;<a href=\"http://www.example.com/\">Example.com</a>
-<p>[email]example@example.com[/email]<br />&nbsp;&nbsp;&nbsp;<a href=\"mailto:example@example.com\">example@example.com</a>
-<p>[email=example@example.com]¡Mándame un email![/email]<br />&nbsp;&nbsp;&nbsp;<a href=\"mailto:example@example.com\">¡Mándame un email!</a>
-<p>[email=example@example.com?subject=spam]Email con tema[/email]<br />&nbsp;&nbsp;&nbsp;<a href=\"mailto:example@example.com?subject=spam\">Email con tema</a>
-<p><br />[quote]El texto citado irá aquí[/quote]<br />&nbsp;&nbsp;&nbsp;<blockquote>El texto citado irá aquí</blockquote>
-<p>[code]Texto formateado[/code]<br />&nbsp;&nbsp;&nbsp;<code>Texto formateado</code>
-<p><br />[img]https://secure.php.net/images/php.gif[/img]<br />&nbsp;&nbsp;&nbsp;<img src=\"https://secure.php.net/images/php.gif\">
-<p>[img=50x50]https://secure.php.net/images/php.gif[/img]<br />&nbsp;&nbsp;&nbsp;<img src=\"https://secure.php.net/images/php.gif\" width=\"50\" height=\"50\">
-<p><br />[color=red]Este texto es rojo[/color]<br />&nbsp;&nbsp;&nbsp;<span style=\"color:red\">Este texto es rojo</span>
-<p>[size=3]Este texto es de tamaño 3[/size]<br />&nbsp;&nbsp;&nbsp;<span style=\"font-size:13pt\">Este texto es de tamaño 3</span>
-<p>[font=Tahoma]Esta fuente es Tahoma[/font]<br />&nbsp;&nbsp;&nbsp;<span style=\"font-family:Tahoma\">Esta fuente es Tahoma</span>
-<p><br />[align=center]Esto está centrado[/align]<div style=\"text-align:center\">Esto está centrado</div>
-<p>[align=right]Esto está alineado a la derecha[/align]<div style=\"text-align:right\">Esto está alineado a la derecha</div>
-<p><br />[list]<br />[*]Objeto de lista #1<br />[*]Objeto de lista #2<br />[*]Objeto de lista #3<br />[/list]<br /><ul><li>Objeto de lista #1</li><li>Objeto de lista #2</li><li>Objeto de lista #3</li>
-</ul>
-<p>Para listas ordenadas, usa [list=1] para lista numerada o [list=a] para lista alfabética.</p>";
+$l['d7_document'] = "Puedes usar MyCode, también conocido como BB Codes para agregar efectos o formato a tus mensajes. MyCodes es una versión simplificada de HTML y usa un formato similar a las etiquetas HTML con las que quizás ya esté familiarizado.
+<br /><br /> La siguiente tabla es una guía rápida de los MyCodes disponibles:
+<br /><br />
+<table class=\"tborder\" cellspacing=\"0\" cellpadding=\"5\" border=\"0\" style=\"width:90%\">
+<tbody>
+<tr>
+<td class=\"tcat\" style=\"width:55%\"><span class=\"smalltext\"><strong>Entrada</strong></span></td>
+<td class=\"tcat\" style=\"width:35%\"><span class=\"smalltext\"><strong>Salida</strong></span></td>
+<td class=\"tcat\" style=\"width:10%\"><span class=\"smalltext\"><strong>Motas</strong></span></td>
+</tr>
+<tr>
+<td class=\"trow1\"><span style=\"font-weight: bold; color: #ff0000;\">[b]</span>Este texto está en negrita<span style=\"font-weight: bold; color: #ff0000;\">[/b]</span></td>
+<td class=\"trow1\"><span style=\"font-weight: bold;\" class=\"mycode_b\">Este texto está en negrita</span></td>
+<td class=\"trow1\"></td>
+</tr>
+<tr>
+<td class=\"trow2\"><span style=\"font-weight: bold; color: #ff0000;\">[i]</span>Este texto está en cursiva<span style=\"font-weight: bold; color: #ff0000;\">[/i]</span></td>
+<td class=\"trow2\"><span style=\"font-style: italic;\" class=\"mycode_i\">Este texto está en cursiva</span></td>
+<td class=\"trow2\"></td>
+</tr>
+<tr>
+<td class=\"trow1\"><span style=\"font-weight: bold; color: #ff0000;\">[u]</span>Este texto está subrayado<span style=\"font-weight: bold; color: #ff0000;\">[/u]</span></td>
+<td class=\"trow1\"><span style=\"text-decoration: underline;\" class=\"mycode_u\">Este texto está subrayado</span></td>
+<td class=\"trow1\"></td>
+</tr>
+<tr>
+<td class=\"trow2\"><span style=\"font-weight: bold; color: #ff0000;\">[s]</span>Este texto está tachado<span style=\"font-weight: bold; color: #ff0000;\">[/s]</span></td>
+<td class=\"trow2\"><span style=\"text-decoration: line-through;\" class=\"mycode_s\">Este texto está tachado</span></td>
+<td class=\"trow2\"></td>
+</tr>
+<tr>
+<td class=\"trow1\"><span style=\"font-weight: bold; color: #ff0000;\">[url]</span>http://www.ejemplo.com/<span style=\"font-weight: bold; color: #ff0000;\">[/url]</span></td>
+<td class=\"trow1\"><a href=\"http://www.ejemplo.com/\" class=\"mycode_url\" rel=\"nofollow\">http://www.ejemplo.com/</a></td>
+<td class=\"trow1\">Las URL se enlazarán automáticamente si se incluye el protocolo adecuado (los protocolos válidos son http, https, ftp, news, irc, ircs e irc6).</td>
+</tr>
+<tr>
+<td class=\"trow2\"><span style=\"font-weight: bold; color: #ff0000;\">[url=http://www.ejemplo.com/]</span>Ejemplo.com<span style=\"font-weight: bold; color: #ff0000;\">[/url]</span></td>
+<td class=\"trow2\"><a href=\"http://www.ejemplo.com/\" class=\"mycode_url\" rel=\"nofollow\">Ejemplo.com</a></td>
+<td class=\"trow2\"></td>
+</tr>
+<tr>
+<td class=\"trow1\"><span style=\"font-weight: bold; color: #ff0000;\">[email]</span>ejemplo@ejemplo.com<span style=\"font-weight: bold; color: #ff0000;\">[/email]</span></td>
+<td class=\"trow1\"><a href=\"mailto:ejemplo@ejemplo.com\" class=\"mycode_email\">ejemplo@ejemplo.com</a></td>
+<td class=\"trow1\"></td>
+</tr>
+<tr>
+<td class=\"trow2\"><span style=\"font-weight: bold; color: #ff0000;\">[email=ejemplo@ejemplo.com]</span>¡Mándame un email!<span style=\"font-weight: bold; color: #ff0000;\">[/email]</span></td>
+<td class=\"trow2\"><a href=\"mailto:ejemplo@ejemplo.com\" class=\"mycode_email\">¡Mándame un email!</a></td>
+<td class=\"trow2\">Se puede incluir un asunto agregando <strong>?subject=Asunto aquí</strong> después de la dirección de correo electrónico.</td>
+</tr>
+<tr>
+<td class=\"trow1\"><span style=\"font-weight: bold; color: #ff0000;\">[quote]</span>El texto citado irá aquí<span style=\"font-weight: bold; color: #ff0000;\">[/quote]</span></td>
+<td class=\"trow1\"><blockquote class=\"mycode_quote\"><cite>Cita:</cite>El texto citado irá aquí</blockquote></td>
+<td class=\"trow1\"></td>
+</tr>
+<tr>
+<td class=\"trow2\"><span style=\"font-weight: bold; color: #ff0000;\">[quote='Admin' pid='1' dateline='946684800']</span>El texto citado irá aquí<span style=\"font-weight: bold; color: #ff0000;\">[/quote]</span></td>
+<td class=\"trow2\"><blockquote class=\"mycode_quote\"><cite><span> (01-01-2000, 12:00 AM)</span>Admin escribió:  <a href=\"http://www.ejemplo.com/showthread.php?pid=1#pid1\" class=\"quick_jump\" rel=\"nofollow\"></a></cite>El texto citado irá aquí</blockquote></td>
+<td class=\"trow2\">Este formato se utiliza al citar publicaciones. <strong>pid</strong> enlaces a un mensaje, <strong>dateline</strong> es una  <a href=\"https://www.unixtimestamp.com/\">marca de tiempo UNIX</a>.</td>
+</tr>
+<tr>
+<td class=\"trow1\"><span style=\"font-weight: bold; color: #ff0000;\">[code]</span>Texto formateado<span style=\"font-weight: bold; color: #ff0000;\">[/code]</span></td>
+<td class=\"trow1\"><div class=\"codeblock\"><div class=\"title\">Code:</div><div class=\"body\" dir=\"ltr\"><code>Texto formateado</code></div></div></td>
+<td class=\"trow1\"></td>
+</tr>
+<tr>
+<td class=\"trow2\"><span style=\"font-weight: bold; color: #ff0000;\">[php]</span>&lt;?php echo \"¡Hola mundo!\";?&gt;<span style=\"font-weight: bold; color: #ff0000;\">[/php]</span></td>
+<td class=\"trow2\"><div class=\"codeblock phpcodeblock\"><div class=\"title\">Código PHP:</div><div class=\"body\"><div dir=\"ltr\"><code><span style=\"color: #0000BB\">&lt;?php&nbsp;</span><span style=\"color: #007700\">echo&nbsp;</span><span style=\"color: #DD0000\">\"¡Hola&nbsp;mundo!\"</span><span style=\"color: #007700\">;</span><span style=\"color: #0000BB\">?&gt;</span></code></div></div></div></div></td>
+<td class=\"trow2\"></td>
+</tr>
+<tr>
+<td class=\"trow1\"><span style=\"font-weight: bold; color: #ff0000;\">[img]</span>https://secure.php.net/images/php.gif<span style=\"font-weight: bold; color: #ff0000;\">[/img]</span></td>
+<td class=\"trow1\"><img src=\"https://secure.php.net/images/php.gif\" class=\"mycode_img\"></td>
+<td class=\"trow1\"></td>
+</tr>
+<tr>
+<td class=\"trow2\"><span style=\"font-weight: bold; color: #ff0000;\">[img=50x50]</span>https://secure.php.net/images/php.gif<span style=\"font-weight: bold; color: #ff0000;\">[/img]</span></td>
+<td class=\"trow2\"><img src=\"https://secure.php.net/images/php.gif\" width=\"50\" height=\"50\" class=\"mycode_img\"></td>
+<td class=\"trow2\">El formato es ancho x alto </td>
+</tr>
+<tr>
+<td class=\"trow1\"><span style=\"font-weight: bold; color: #ff0000;\">[color=red]</span>Este texto es rojo<span style=\"font-weight: bold; color: #ff0000;\">[/color]</span></td>
+<td class=\"trow1\"><span style=\"color: red;\" class=\"mycode_color\">Este texto es rojo</span></td>
+<td class=\"trow1\">Puedes usar <a href=\"https://www.w3schools.com/cssref/css_colors.asp\">nombre de color CSS</a> o código HEX.</td>
+</tr>
+<tr>
+<td class=\"trow2\"><span style=\"font-weight: bold; color: #ff0000;\">[size=large]</span>Este texto es de tamaño grande<span style=\"font-weight: bold; color: #ff0000;\">[/size]</span></td>
+<td class=\"trow2\"><span style=\"font-size: large\" class=\"mycode_size\">Este texto es de tamaño grande</span></td>
+<td class=\"trow2\">Acepta valores: xx-small, x-small, small, medium, large, x-large, xx-large</td>
+</tr>
+<tr>
+<td class=\"trow1\"><span style=\"font-weight: bold; color: #ff0000;\">[size=30]</span>Este texto es de tamaño 30px<span style=\"font-weight: bold; color: #ff0000;\">[/size]</span></td>
+<td class=\"trow1\"><span style=\"font-size: 30px\" class=\"mycode_size\">Este texto es de tamaño 30px</span></td>
+<td class=\"trow1\">Acepta un número de 1 a 50</td>
+</tr>
+<tr>
+<td class=\"trow2\"><span style=\"font-weight: bold; color: #ff0000;\">[font=Impact]</span>Esta fuente es Impact<span style=\"font-weight: bold; color: #ff0000;\">[/font]</span></td>
+<td class=\"trow2\"><span style=\"font-family: Impact;\" class=\"mycode_font\">Esta fuente es Impact</span></td>
+<td class=\"trow2\">La fuente debe estar instalada en su computadora</td>
+</tr>
+<tr>
+<td class=\"trow1\"><span style=\"font-weight: bold; color: #ff0000;\">[align=center]</span>Esto está centrado<span style=\"font-weight: bold; color: #ff0000;\">[/align]</span></td>
+<td class=\"trow1\"><div style=\"text-align: center;\" class=\"mycode_align\">Esto está centrado</div></td>
+<td class=\"trow1\">Acepta valores: left, center, right, justify</td>
+</tr>
+<tr>
+<td class=\"trow2\"><span style=\"font-weight: bold; color: #ff0000;\">[list]</span><br />[*]Objeto de lista #1<br />[*]Objeto de lista #2<br />[*]Objeto de lista #3<br /><span style=\"font-weight: bold; color: #ff0000;\">[/list]</span></td>
+<td class=\"trow2\"><ul class=\"mycode_list\"><li>Objeto de lista #1</li><li>Objeto de lista #2</li><li>Objeto de lista #3</li></ul></td>
+<td class=\"trow2\"></td>
+</tr>
+<tr>
+<td class=\"trow1\"><span style=\"font-weight: bold; color: #ff0000;\">[list=1]</span><br />[*]Objeto de lista #1<br />[*]Objeto de lista #2<br />[*]Objeto de lista #3<br /><span style=\"font-weight: bold; color: #ff0000;\">[/list]</span></td>
+<td class=\"trow1\"><ol class=\"mycode_list\" type=\"1\"><li>Objeto de lista #1</li><li>Objeto de lista #2</li><li>Objeto de lista #3</li></ol></td>
+<td class=\"trow1\"><strong>1</strong> se puede utilizar para una lista numerada, <strong>a</strong> se puede utilizar para una lista alfabética, <strong>i</strong> para una lista de números romanos.</td>
+</tr>
+<tr>
+<td class=\"trow2\">Una línea que <span style=\"font-weight: bold; color: #ff0000;\">[hr]</span>divide</td>
+<td class=\"trow2\">Una línea que <hr class=\"mycode_hr\">divide</td>
+<td class=\"trow2\"></td>
+</tr>
+<tr>
+<td class=\"trow1\"><span style=\"font-weight: bold; color: #ff0000;\">[video=youtube]</span>https://www.youtube.com/watch?v=dQw4w9WgXcQ<span style=\"font-weight: bold; color: #ff0000;\">[/video]</span></td>
+<td class=\"trow1\"><iframe src=\"//www.youtube.com/embed/dQw4w9WgXcQ\" allowfullscreen=\"\" width=\"460\" height=\"255\" frameborder=\"0\"></iframe></td>
+<td class=\"trow1\">Actualmente acepta Dailymotion, Facebook, LiveLeak, Metacafe, Mixer, MySpace TV, Twitch, Vimeo, Yahoo Videos y YouTube.</td>
+</tr>
+</tbody></table>
+<br /><br />Además, los administradores pueden haber creado más MyCodes para su uso. Ponte en contacto con un administrador para averiguar si hay alguno y cómo utilizarlo.";

@@ -12,7 +12,7 @@ $l['nav_group_memberships'] = "Membresías a grupos";
 
 $l['not_leader_of_this_group'] = "Lo sentimos, pero no eres el líder de este grupo de usuarios.";
 $l['invalid_group'] = "Este grupo de usuarios no existe.";
-$l['pending_requests'] ="Solicitudes de ingreso pendientes";
+$l['pending_requests'] = "Solicitudes de ingreso pendientes";
 $l['num_requests_pending'] = "Actualmente hay <strong>{1}</strong> solicitudes de ingreso pendientes para este grupo de usuarios.";
 $l['group_management'] = "Configuración del grupo";
 $l['members_of'] = "Miembros en \"{1}\"";
@@ -28,7 +28,7 @@ $l['invite_member_submit'] = "Invitar miembro a un grupo";
 $l['join_requests'] = "Solicitudes de ingreso";
 $l['join_requests_title'] = "Solicitudes de ingreso a \"{1}\"";
 $l['leader'] = "(Líder)";
-$l['reason'] ="Razón";
+$l['reason'] = "Razón";
 $l['accept'] = "Aceptar";
 $l['ignore'] = "Ignorar";
 $l['decline'] = "Declinar";

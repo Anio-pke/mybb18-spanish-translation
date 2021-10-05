@@ -344,6 +344,7 @@ $l['done_whats_next'] = '<div class="error"><p><strong>¿Migrando desde otro sof
 
 /* UPGRADE LANGUAGE VARIABLES */
 $l['upgrade'] = "Actualización";
+$l['upgrade_not_needed'] = '<p>El proceso de actualización no es necesario para esta versión.</p><p>Si crees que esto puede ser un error, puedes <a href="upgrade.php?force=1">forzar la actualización</a>. De lo contrario, presiona Siguiente para bloquear el instalador. </p> '; 
 $l['upgrade_welcome'] = "<p>Bienvenido al asistente de actualización de {1}.</p><p>Antes de continuar, asegúrate que conoces la versión que estás ejecutando de MyBB ya que necesitas seleccionarla abajo.</p><p><strong>Es altamente recomendado realizar una copia de seguridad completa de la base de datos y de los archivos antes de intentar actualizar</strong> para que si ocurriese algún problema, puedas regresar a la versión anterior. Además, espera a que se completen estos procesos antes de proceder.</p><p>Asegúrate de pulsar solo UNA VEZ en siguiente por cada paso de la actualización. Puede tardar en actualizarse dependiendo del tamaño de tu foro.</p><p>Si ya estás preparado, selecciona tu versión actual de MyBB y pulsa Siguiente para continuar.</p>";
 $l['upgrade_templates_reverted'] = 'Plantillas actualizadas';
 $l['upgrade_templates_reverted_success'] = "<p>Todas las plantillas se han actualizado correctamente con las nuevas contenidas en esta actualización. Por favor, pulsa siguiente para continuar con la actualización.</p>";

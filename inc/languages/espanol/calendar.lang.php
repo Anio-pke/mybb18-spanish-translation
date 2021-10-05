@@ -34,7 +34,7 @@ $l['add_public_event'] = "Agregar evento público";
 
 $l['calendar'] = "Calendario";
 
-$l['jump_month'] ="Ir al mes:";
+$l['jump_month'] = "Ir al mes:";
 
 $l['birthdays_on_day'] = "Cumpleaños en {1}";
 $l['birthdayhidden'] = "Oculto";

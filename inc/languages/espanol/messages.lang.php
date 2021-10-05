@@ -10,13 +10,14 @@ $l['click_no_wait'] = "Haz clic aquí si no quieres esperar más.";
 $l['redirect_return_forum'] = "<br /><br />Alternativamente, <a href=\"{1}\">volver al foro</a>.";
 $l['redirect_emailsent'] = "Tu mensaje de email se ha enviado correctamente.";
 $l['redirect_loggedin'] = "Has iniciado sesión correctamente.<br />Ahora regresarás a la página de donde venías.";
-
+$l['update_confirm'] = "Los siguientes archivos ya están adjuntos y serán actualizados / reemplazados por los seleccionados. {1} ¿Está seguro?";
 $l['error_invalidpworusername'] = "Has introducido una combinación de usuario/contraseña inválida. <br /><br />Si has olvidado tu contraseña por favor <a href=\"member.php?action=lostpw\">pide una nueva</a>.";
 $l['error_invalidpworusername1'] = "Has introducido una combinación de email/contraseña inválida. <br /><br />Si has olvidado tu contraseña por favor <a href=\"member.php?action=lostpw\">pide una nueva</a>.";
 $l['error_invalidpworusername2'] = "Has introducido una combinación de usuario/contraseña o email/contraseña inválida. <br /><br />Si has olvidado tu contraseña por favor <a href=\"member.php?action=lostpw\">pide una nueva</a>.";
 $l['error_incompletefields'] = "Parece que tienes algún campo en blanco. Por favor, regresa y rellena los campos necesarios.";
 $l['error_alreadyuploaded'] = "Este mensaje ya contiene un archivo adjunto con el nombre \"{1}\". Por favor cambia el nombre del archivo e intenta adjuntarlo nuevamente. Alternativamente, puedes hacer clic en el botón \"Actualizar archivo\".";
 $l['error_alreadyuploaded_perm'] = "Este mensaje ya contiene un archivo adjunto con el mismo nombre. Por favor borra el archivo existente o cambia el nombre del archivo e intenta adjuntarlo nuevamente.";
+$l['error_updatefailed'] = "El archivo \"{1}\" aún no está adjunto y no se puede actualizar."; 
 $l['error_nomessage'] = "Lo sentimos, no se puede proceder porque no has introducido un mensaje válido. Por favor, regresa e inténtalo de nuevo.";
 $l['error_invalidemail'] = "No has introducido una dirección de email válida.";
 $l['error_nomember'] = "El miembro que especificaste es inválido o no existe.";
@@ -100,7 +101,7 @@ $l['emailsubject_newpm'] = "Mensaje privado nuevo en {1} - {2}";
 $l['emailsubject_newjoinrequest'] = "Nueva petición de ingreso en {1}";
 $l['emailsubject_sendtofriend'] = "Una discusión interesante en {1}";
 $l['emailsubject_changepassword'] = "Cambio de contraseña en {1}";
-$l['emailbit_viewthread'] = "&hellip; (visita el tema para leer más&hellip;)";
+$l['emailbit_viewthread'] = "... (visita el tema para leer más...)";
 
 $l['email_lostpw'] = "{1},
 

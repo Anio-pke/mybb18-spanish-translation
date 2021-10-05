@@ -7,14 +7,14 @@
  */
 
 
-$l['spam_logs']       = 'Historial de spam';
-$l['spam_logs_desc']  = 'Esta sección te permite ver el historial de usuarios bloqueados por los filtros de spam.';
-$l['prune_spam_logs']       = 'Limpiar historial de spam';
-$l['prune_spam_logs_desc']  = 'Aquí puedes limpiar el historial utilizando los criterios que especifiques.';
-$l['spam_username']   = 'Usuario';
-$l['spam_email']      = 'Email';
-$l['spam_ip']         = 'IP';
-$l['spam_date']       = 'Fecha';
+$l['spam_logs'] = 'Historial de spam';
+$l['spam_logs_desc'] = 'Esta sección te permite ver el historial de usuarios bloqueados por los filtros de spam.';
+$l['prune_spam_logs'] = 'Limpiar historial de spam';
+$l['prune_spam_logs_desc'] = 'Aquí puedes limpiar el historial utilizando los criterios que especifiques.';
+$l['spam_username'] = 'Usuario';
+$l['spam_email'] = 'Email';
+$l['spam_ip'] = 'IP';
+$l['spam_date'] = 'Fecha';
 $l['spam_confidence'] = 'Confianza';
 $l['no_spam_logs'] = 'Actualmente no hay usuarios bloqueados por los filtros de spam.';
 $l['success_pruned_spam_logs'] = 'El historial se ha limpiado correctamente.';
@@ -26,6 +26,8 @@ $l['days'] = "días";
 $l['filter_spam_logs'] = 'Filtrar historial de spam';
 $l['asc'] = "Ascendente";
 $l['desc'] = "Descendente";
+$l['search_ip_on_sfs'] = "Buscar esta IP en Stop Forum Spam";
+$l['search'] = "Buscar";
 
 $l['in'] = "en orden";
 $l['order'] = "";

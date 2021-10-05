@@ -25,6 +25,7 @@ $l['error_replacement_word_invalid'] = "Una palabra de reemplazo no puede ser eq
 $l['save_bad_word'] = "Guardar filtro";
 $l['no_bad_words'] = "Actualmente no existe ningún filtro de palabras.";
 $l['add_bad_word'] = "Agregar filtro";
+$l['add_bad_word_desc'] = "Aquí puedes agregar un filtro de palabras y su reemplazo.";
 
 $l['error_missing_bad_word'] = "No has introducido la palabra a filtrar.";
 $l['error_invalid_regex'] = "La expresión regular especificada es inválida.";

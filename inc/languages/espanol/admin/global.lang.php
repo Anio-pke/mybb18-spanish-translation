@@ -329,6 +329,7 @@ $l['task_massmail_ran_errors'] = "Han ocurrido uno o más errores al enviar a \"
 $l['task_versioncheck_ran'] = "La comprovación de versión se ha ejecutado correctamente.";
 $l['task_versioncheck_ran_errors'] = "No se ha podido conectar con MyBB para comprobar la versión.";
 $l['task_recachestylesheets_ran'] = 'Reconstruída la cache de {1} hojas de estilo.';
+$l['task_sendmailqueue_ran'] = 'La tarea de enviar correo en cola, envió {1} mensajes.';
 
 $l['massmail_username'] = "Nombre de usuario";
 $l['email_addr'] = "Email";

@@ -123,8 +123,12 @@ $l['insert_attachment_post'] = "Insertar al mensaje";
 $l['new_attachment'] = "Nuevo archivo adjunto:";
 $l['add_attachment'] = "Agregar archivo";
 $l['update_attachment'] = "Actualizar archivo";
+$l['attachment_missing'] = "Selecciona uno o más archivos antes de intentar la subida .";
 $l['attachment_too_many_files'] = "El límite de ficheros que se pueden subir es de {1} a la vez.";
+$l['attachment_max_allowed_files'] = "Puedes subir {1} archivo(s) más a este mensaje.";
 $l['attachment_too_big_upload'] = "El límite de bytes que se pueden subir es de {1} a la vez.";
+$l['drop_files'] = "Haz clic o arrastra y suelta archivos aquí para subirlos... ";
+$l['upload_initiate'] = "Arrastra y suelta para iniciar la subida ...";
 $l['post_preview'] = "Vista previa";
 $l['change_user'] = "cambiar usuario";
 $l['post_icon'] = "Usar icono";
@@ -309,6 +313,7 @@ $l['forumjump_wol'] = "Quién esta en línea";
 $l['forumjump_search'] = "Búsqueda";
 $l['forumjump_home'] = "Índice";
 
+$l['confirm_title'] = "Por favor, confirma";
 $l['redirect'] = "Ahora serás redireccionado";
 $l['unknown_error'] = "Ha ocurrido un error desconocido.";
 $l['post_fetch_error'] = 'Ha ocurrido un problema al recuperar los mensajes.';
@@ -328,8 +333,9 @@ $l['unapproved_attachment'] = "1 adjunto sin aprobar";
 $l['unapproved_attachments'] = "{1} adjuntos sin aprobar";
 $l['unread_report'] = "1 reporte sin leer.";
 $l['unread_reports'] = "{1} reportes sin leer.";
-$l['pending_joinrequest'] = "Aviso líder de grupo: Tienes 1 solicitud de ingreso a un grupo pendiente.";
-$l['pending_joinrequests'] = "Aviso líder de grupo: Tienes {1} solicitudes de ingreso a un grupo pendientes.";
+$l['groupleader_notice'] = "Aviso líder de grupo:";
+$l['pending_joinrequest'] = "Tienes 1 solicitud de ingreso a un grupo pendiente.";
+$l['pending_joinrequests'] = "Tienes {1} solicitudes de ingreso a un grupo pendientes.";
 
 $l['search_user'] = "Buscar usuario";
 
@@ -352,13 +358,13 @@ $l['days_short'] = "d";
 $l['hour'] = "Hora";
 $l['hour_short'] = "h";
 $l['hours'] = "Horas";
-$l['hours_short'] ="h";
+$l['hours_short'] = "h";
 $l['minute'] = "Minuto";
-$l['minute_short'] ="m";
+$l['minute_short'] = "m";
 $l['minutes'] = "Minutos";
 $l['minutes_short'] = "m";
 $l['second'] = "Segundo";
-$l['second_short'] ="s";
+$l['second_short'] = "s";
 $l['seconds'] = "Segundos";
 $l['seconds_short'] = "s";
 
@@ -518,6 +524,7 @@ $l['task_massmail_ran_errors'] = "Han ocurrido uno o más errores al enviar a \"
 $l['task_versioncheck_ran'] = "La comprobación de versión se ha ejecutado correctamente.";
 $l['task_versioncheck_ran_errors'] = "No se ha podido conectar con MyBB para comprobar la versión.";
 $l['task_recachestylesheets_ran'] = 'Reconstruída la cache de {1} hojas de estilo.';
+$l['task_sendmailqueue_ran'] = 'La tarea de enviar correo en cola envió {1} mensajes.';
 
 $l['dismiss_notice'] = "Borrar este aviso";
 
@@ -595,4 +602,9 @@ $l['sfs_error_ip'] = 'IP';
 $l['sfs_error_email'] = 'email';
 $l['sfs_error_or'] = 'o';
 
+$l['expcol_collapse'] = '[-]';
+$l['expcol_expand'] = '[+]';
+
 $l['boardclosed_reason'] = 'Estos foros están cerrados por mantenimiento. Por favor, regresa más tarde';
+
+$l['use_default'] = "Usar por defecto";
