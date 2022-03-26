@@ -28,7 +28,7 @@ $langinfo['support_link'] = "https://community.mybb.com/thread-158393.html";
 //$langinfo['additional_name'] = " ";
 
 // Compatible version of MyBB
-$langinfo['version'] = "1827";
+$langinfo['version'] = "1830";
 
 // Sets if the translation includes the Admin CP (1 = yes, 0 = no)
 $langinfo['admin'] = 1;

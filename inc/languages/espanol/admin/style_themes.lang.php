@@ -164,6 +164,7 @@ $l['search_for_themes'] = "Buscar estilos";
 $l['search'] = "Búsqueda";
 $l['download'] = "Descargar";
 $l['created_by'] = "Creado por";
+$l['theme_thumbnail'] = "Miniatura del estilo";
 
 $l['error_invalid_stylesheet'] = "La hoja de estilo seleccionada es inválida.";
 $l['error_invalid_theme'] = "El estilo seleccionado es inválido.";

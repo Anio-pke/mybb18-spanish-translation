@@ -52,6 +52,7 @@ $l['set_custom_perms'] = "Ajustar permisos personalizados";
 
 $l['permissions_use_group_default'] = "Por defecto";
 $l['permissions_group'] = "Grupo";
+$l['permissions_user'] = "Usuario";
 $l['permissions_canview'] = "¿Puede ver?";
 $l['permissions_canpostthreads'] = "¿Puede crear temas?";
 $l['permissions_canpostreplys'] = "¿Puede enviar respuestas?";
