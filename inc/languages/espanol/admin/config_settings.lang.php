@@ -504,7 +504,7 @@ $l['setting_avataruploadpath_desc'] = "Ruta en la que se almacenarán los avatar
 $l['setting_allowremoteavatars'] = "Permitir avatares remotos";
 $l['setting_allowremoteavatars_desc'] = "Activa esta opción para permitir avatares remotos. Nota: activar esta opción pude exponer la dirección IP de tu servidor.";
 $l['setting_customtitlemaxlength'] = "Longitud máxima para el título personalizado";
-$l['setting_customtitlemaxlength_desc'] = "Máximo número de caracteres para el título de usuario personalizado. Establecer como '0' para desactivar la limitación";
+$l['setting_customtitlemaxlength_desc'] = "Máximo número de caracteres para el título de usuario personalizado. No se pueden exceder los 250 caracteres.";
 $l['setting_allowaway'] = "¿Permitir el estado 'Ausente'?";
 $l['setting_allowaway_desc'] = "¿Permitir que los usuarios puedan establecer su estado como 'Ausente' con una razón y una fecha de regreso?";
 $l['setting_allowbuddyonly'] = "¿Permitir mensajes privados solo entre amigos?";
@@ -850,7 +850,7 @@ $l['setting_secure_smtp_0'] = "Sin encriptación";
 $l['setting_secure_smtp_1'] = "Encriptación SSL";
 $l['setting_secure_smtp_2'] = "Encriptación TLS";
 $l['setting_mail_parameters'] = "Parámetros adicionales para mail() de PHP";
-$l['setting_mail_parameters_desc'] = "Este ajuste te permite establecer otros parámetros para la función mail() de PHP. <br />Solo necesario si has seleccionado 'PHP mail' en tipo de envío. <a href=\"http://php.net/function.mail\" target=\"_blank\" rel=\"noopener\">Más información</a>";
+$l['setting_mail_parameters_desc'] = "<strong>No soportado.</strong> Los parámetros adicionales se pueden establecer en el <a href=\"https://docs.mybb.com/1.8/faq/mail/#additional-parameters-for-phps-mail\">archivo de configuración</a>.";
 $l['setting_mail_logging'] = "Guardar envíos de correo";
 $l['setting_mail_logging_desc'] = "Este ajuste te permite almacenar todos los correos salientes enviados a través de la función 'Enviar tema a un amigo'. En muchos países es ilegal almacenar todo el contenido.";
 $l['setting_mail_logging_0'] = "Desactivar guardado";

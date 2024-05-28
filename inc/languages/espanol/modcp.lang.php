@@ -136,6 +136,7 @@ $l['birthdate'] = "Cumpleaños:";
 $l['icq_number'] = "Número ICQ:";
 $l['skype_id'] = "Skype:";
 $l['google_id'] = "Google Hangouts:";
+$l['away_notice_away'] = "Has estado marcado desde {1}";
 $l['away_notice'] = "Esta opción te permite selecionar si estás ausente o no";
 $l['additional_information'] = "Información adicional";
 $l['update_profile'] = "Actualizar perfil";

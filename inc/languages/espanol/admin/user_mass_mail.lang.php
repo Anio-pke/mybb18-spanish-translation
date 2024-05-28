@@ -62,6 +62,7 @@ $l['ago'] = "";
 $l['user_last_active'] = "Última actividad";
 $l['user_registered'] = "Fecha de registro";
 $l['save_mass_mail'] = "Guardar email masivo";
+$l['additional_user_groups_desc'] = "Utilice CTRL para seleccionar varios grupos";
 
 $l['step_four'] = "Paso 4";
 $l['delivery_method'] = "Método de envío";

@@ -9,6 +9,7 @@
 $l['nav_search'] = "Búsqueda";
 $l['nav_results'] = "Resultados";
 
+$l['pages'] = "Páginas:";
 $l['pages_last'] = "última";
 $l['search'] = "Búsqueda";
 $l['search_keyword'] = "Buscar por palabra clave";

@@ -53,6 +53,7 @@ $l['error_admin_session_expired'] = "Tu sesión de administración ha caducado."
 $l['error_invalid_ip'] = "Tu IP no es válida para esta sesión.";
 $l['error_mybb_admin_lockedout'] = "Esta cuenta ha sido bloqueada.";
 $l['error_mybb_admin_lockedout_message'] = "Tu cuenta está bloqueada tras fallar {1} veces el inicio de sesión. Se te ha enviado un email con las instrucciones para desbloquear tu cuenta.";
+$l['error_mybb_not_admin_account'] = "No tienes permiso para acceder al panel de control de administración.";
 
 $l['error_invalid_username'] = "El nombre de usuario introducido es inválido.";
 $l['error_invalid_uid'] = "El id de usuario introducido es inválido.";

@@ -374,3 +374,4 @@ $l['no_permision'] = "No tienes permisos para ejecutar este proceso. Necesitas p
 $l['no_theme_functions_file'] = 'No se ha encontrado el archivo de funciones del estilo. Asegúrate que todos los ficheros se han subido correctamente.';
 
 $l['task_versioncheck_ran'] = "La tarea de comprobación de la versión se ejecutó correctamente.";
+$l['task_versioncheck_ran_errors'] = "No se pudo conectar a MyBB para verificar la versión.";

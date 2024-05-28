@@ -96,8 +96,9 @@ $l['all_selected'] = "Se han seleccionado los <strong>{1}</strong> temas de este
 $l['select_all'] = "Seleccionar los <strong>{1}</strong> temas de este foro.";
 $l['clear_selection'] = "Limpiar selección.";
 $l['deleted_thread'] = "Tema eliminado";
-
+$l['select_a_tool'] = "Seleccione una herramienta";
 $l['error_containsnoforums'] = "Lo sentimos, pero el foro que estás viendo no contiene ningún subforo.";
-
+$l['inline_no_tool_selected'] = "Seleccione una herramienta para realizar la acción de moderación.";
+$l['inline_no_post_selected'] = "Debes seleccionar una o más publicaciones para realizar la acción de moderación.";
 $l['inline_edit_description'] = '(Click y mantén para editar)';
 

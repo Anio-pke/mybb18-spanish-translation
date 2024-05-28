@@ -199,4 +199,5 @@ $l['send_reply'] = "Enviar respuesta";
 $l['quickreply_signature'] = "Firma";
 $l['quickreply_disable_smilies'] = "Desactivar iconos gestuales";
 $l['quickreply_save_copy'] = "Guardar una copia";
-$l['quickreply_read_receipt'] = "<strong>Solicitar recibo de lectura</strong>";
+$l['quickreply_read_receipt'] = "Solicitar recibo de lectura";
+

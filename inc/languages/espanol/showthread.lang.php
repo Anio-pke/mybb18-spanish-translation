@@ -7,8 +7,10 @@
  */
 
 $l['delete_poll'] = "Borrar encuesta";
+$l['open_thread'] = "Abrir tema";
 $l['close_thread'] = "Cerrar tema";
 $l['stick_thread'] = "Tema importante";
+$l['unstick_thread'] = "Tema no importante";
 
 $l['author'] = "Autor";
 $l['message'] = "Mensaje";
@@ -22,9 +24,9 @@ $l['subscribe_thread'] = "Suscribirse a este tema";
 $l['unsubscribe_thread'] = "Quitar suscripción de este tema";
 $l['add_poll_to_thread'] = "Añadir una encuesta a este tema";
 $l['moderation_options'] = "Opciones de moderación:";
+$l['select_a_tool'] = "Seleccionar una herramienta";
 $l['delayed_moderation'] = "Moderación retardada";
 $l['thread_notes'] = "Editar / Ver las notas del tema";
-$l['open_close_thread'] = "Abrir / Cerrar tema";
 $l['approve_thread'] = "Aceptar tema";
 $l['unapprove_thread'] = "Rechazar tema";
 $l['soft_delete_thread'] = "Borrar tema de forma suave";
@@ -32,7 +34,6 @@ $l['restore_thread'] = "Restaurar tema";
 $l['delete_thread'] = "Borrar tema permanentemente";
 $l['delete_posts'] = "Borrar mensajes seleccionados";
 $l['move_thread'] = "Mover / Copiar tema";
-$l['stick_unstick_thread'] = "Tema importante / no importante";
 $l['split_thread'] = "Dividir tema";
 $l['merge_threads'] = "Combinar temas";
 $l['remove_redirects'] = "Limpiar redirecciones";
@@ -83,6 +84,8 @@ $l['inline_move_posts'] = "Mover mensajes";
 $l['inline_approve_posts'] = "Aceptar mensajes";
 $l['inline_unapprove_posts'] = "Rechazar mensajes";
 $l['inline_post_moderation'] = "Moderación de mensajes:";
+$l['inline_no_tool_selected'] = "Seleccione una herramienta para realizar la acción de moderación.";
+$l['inline_no_post_selected'] = "Debes seleccionar una o más publicaciones para realizar la acción de moderación.";
 $l['inline_go'] = "Ir";
 $l['clear'] = "Limpiar";
 $l['thread_closed'] = "Tema cerrado";
