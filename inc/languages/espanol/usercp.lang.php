@@ -209,11 +209,9 @@ $l['change_email_notice'] = "Para cambiar tu dirección de email, haz <a href=\"
 $l['profile_optional'] = "Campos opcionales";
 $l['website_url'] = "URL de tu sitio web:";
 $l['birthdate'] = "Cumpleaños:";
-$l['contact_field_icq'] = "Número ICQ:";
 $l['contact_field_skype'] = "Skype:";
 $l['contact_field_google'] = "Google Hangouts:";
 $l['contact_field_error'] = "Lo sentimos, pero no puedes cambiar tu infomación de contacto por ser muy larga. Google Hangouts y Skype solo permiten 75 caracteres.";
-$l['contact_field_icqerror'] = "Lo sentimos, pero no puedes cambiar tu número ICQ por ser muy largo. Los números ICQ solo permiten 10 caracteres.";
 $l['additional_information'] = "Información adicional";
 $l['update_profile'] = "Actualizar perfil";
 $l['away_information'] = "Información de ausencia";

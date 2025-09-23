@@ -133,7 +133,6 @@ $l['remove_avatar'] = "¿Eliminar el avatar del usuario?";
 $l['profile_optional'] = "Campos opcionales";
 $l['website_url'] = "URL del sitio web:";
 $l['birthdate'] = "Cumpleaños:";
-$l['icq_number'] = "Número ICQ:";
 $l['skype_id'] = "Skype:";
 $l['google_id'] = "Google Hangouts:";
 $l['away_notice_away'] = "Has estado marcado desde {1}";
