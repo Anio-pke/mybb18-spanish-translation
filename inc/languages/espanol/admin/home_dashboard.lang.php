@@ -24,6 +24,7 @@ $l['active_users'] = "Usuarios activos";
 $l['registrations_today'] = "Registros hoy";
 $l['awaiting_activation'] = "Esperando activación";
 $l['server_load'] = "Carga de servidor";
+$l['server_software'] = "Software del servidor";
 $l['attachments'] = "Archivos adjuntos";
 $l['used'] = "Utilizado";
 $l['reported_posts'] = "Mensajes reportados";

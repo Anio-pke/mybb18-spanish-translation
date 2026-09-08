@@ -79,5 +79,6 @@ $l['error_invalidsearch'] = "Se ha especificado una búsqueda inválida.  Por fa
 $l['error_no_search_support'] = "Este sistema base de datos no soporta búsqueda.";
 $l['error_searchflooding'] = "Lo siento, pero solo puedes realizar una búsqueda cada {1} segundos. Por favor, espera otros {2} segundos antes de buscar de nuevo.";
 $l['error_searchflooding_1'] = "Lo siento, pero solo puedes realizar una búsqueda cada {1} segundos. Por favor, espera un segundo antes de buscar de nuevo.";
+$l['error_minsearchlength'] = "Uno o más de tus términos de búsqueda eran más cortos que la longitud mínima permitida. La longitud mínima de un término de búsqueda es de {1} caracteres.<br /><br />Si estás intentando buscar una frase completa, escríbela entre comillas dobles. Por ejemplo, \"El veloz zorro marrón salta sobre el perro perezoso\".";
 
 $l['dst_settings_updated'] = "Tu horario de verano se ha configurado automáticamente.<br /><br />Ahora regresarás a la página de inicio";

@@ -205,6 +205,7 @@ $l['error_already_leader'] = "El usuario ya es el líder de este grupo de usuari
 $l['error_invalid_group_leader'] = "Has especificado un líder de grupo inválido.";
 $l['error_missing_namestyle_username'] = "El estilo del nombre de usuario debe contener {username}";
 $l['error_disallowed_namestyle_username'] = "No puedes usar script, meta o tags en el estilo del nombre de usuario.";
+$l['error_disallowed_starimage_path'] = "No puedes utilizar etiquetas script, meta o base en la ruta de la imagen de las estrellas.";
 $l['error_default_group_delete'] = "Los grupos predefinidos no se pueden eliminar";
 $l['error_cannot_have_both_types'] = "No puedes tener un grupo con moderación e invitación a la vez. Por favor, escoge uno u otro.";
 

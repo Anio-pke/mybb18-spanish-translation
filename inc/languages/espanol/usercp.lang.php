@@ -38,7 +38,6 @@ $l['user_id'] = "ID de usuario:";
 $l['title'] = "Título de usuario:";
 $l['postnum'] = "Mensajes:";
 $l['posts_day'] = "({1} por día | {2} &#37; del total)";
-$l['additional_contact_details'] = "Información adicional de contacto";
 $l['email'] = "Email:";
 $l['reputation'] = "Reputación:";
 $l['website'] = "Sitio web:";
@@ -209,9 +208,6 @@ $l['change_email_notice'] = "Para cambiar tu dirección de email, haz <a href=\"
 $l['profile_optional'] = "Campos opcionales";
 $l['website_url'] = "URL de tu sitio web:";
 $l['birthdate'] = "Cumpleaños:";
-$l['contact_field_skype'] = "Skype:";
-$l['contact_field_google'] = "Google Hangouts:";
-$l['contact_field_error'] = "Lo sentimos, pero no puedes cambiar tu infomación de contacto por ser muy larga. Google Hangouts y Skype solo permiten 75 caracteres.";
 $l['additional_information'] = "Información adicional";
 $l['update_profile'] = "Actualizar perfil";
 $l['away_information'] = "Información de ausencia";

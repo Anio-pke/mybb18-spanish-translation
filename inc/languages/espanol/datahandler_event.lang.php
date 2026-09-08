@@ -30,6 +30,6 @@ $l['eventdata_invalid_repeat_week_interval'] = "Has introducido un intevalo de r
 $l['eventdata_invalid_repeat_weekly_days'] = "No has seleccionado ningún día para que este evento se repita.";
 $l['eventdata_invalid_repeat_month_interval'] = "Has introducido un intevalo de repetición mensual inválido.";
 $l['eventdata_invalid_repeat_year_interval'] = "Has introducido un intevalo de repetición anual inválido.";
-$l['eventdata_event_wont_occur'] = "Si usas una hora de inicio y finalización posterior a la del evento, el evento no ocurrirá.";
+$l['eventdata_event_wont_occur'] = "Por favor, ajusta las fechas de inicio y finalización para garantizar una correcta planificación del evento.";
 
 $l['eventdata_no_permission_private_event'] = "No tienes permisos para crear eventos privados.";

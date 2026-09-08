@@ -35,7 +35,8 @@ $l['ip_address_desc'] = "Nota: Para suspender un rango de direcciones IP usa * (
 $l['ban_ip_address'] = "Suspender IP";
 
 $l['error_missing_ban_input'] = "No has introducido un valor correcto para suspender.";
-$l['error_invalid_filter'] =" El filtro especificado no existe.";
+$l['error_invalid_filter'] =" El filtro especificado no es válido.";
+$l['error_filter_not_found'] = "El filtro especificado no existe.";
 $l['error_filter_already_banned'] = "El filtro que has introducido ya está suspendido.";
 
 $l['success_ip_banned'] = "La dirección IP se ha suspendido correctamente.";
